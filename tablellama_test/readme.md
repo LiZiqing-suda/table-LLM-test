@@ -12,4 +12,34 @@ inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码�
 
 使用原数据集前30个样例中预测正确的数据进行实验。tabfact_1.json是对原始数据进行列对换得到的数据，没有进行行对换。tabfact_2.json是在tabfact_1.json基础上进行行对换，而不进行列对换。（防止大模型同时做行列对换出错）
 
-实验发现，使用初始数据预测正确的23个实例，进行随机列对换仅1个实例预测错，再进行行对换仅2个实例预测错。
+实验发现，使用初始数据预测正确的23个实例。
+
+进行随机列对换仅2个实例预测错。其中有一个是大模型生成的数据出了错误，本来标签是正确的，被大模型修改成错误的了，但是该模型仍然预测他为正确，被我检查出来了。
+
+{
+  "idx": 12,
+  "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+  "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | conv | player | span | start | tries | pens | drop [SEP] | 0 | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 | [SEP] | 0 | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | [SEP] | 0 | todd clever | 2003 - | 51 | 11 | 0 | 0 | [SEP] | 0 | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | [SEP] | 0 | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | [SEP] | 14 | chris wyles | 2007 - | 35 | 10 | 22 | 1 | [SEP] | 0 | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | [SEP] | 90 | mike hercus | 2002 - 2009 | 45 | 9 | 76 | 4 | [SEP] | 0 | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 |",
+  "question": "The statement is:  <riann van zyl have the shortest time span on the united state national rugby union team and tie with 3 others for the smallest number of tries>. Is it entailed or refuted by the table above?",
+  "output": "entailed",
+  "predict": "entailed"
+}
+
+豆包和智谱清言认为该样例是错误。
+
+再进行行对换仅1个实例预测错。
+
+还是出现了大模型修改数据出现错误的情况。
+
+{
+  "idx": 12,
+  "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+  "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | conv | player | span | start | tries | pens | drop [SEP] | 0 | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 | [SEP] | 0 | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | [SEP] | 0 | todd clever | 2003 - | 51 | 11 | 0 | 0 | [SEP] | 0 | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | [SEP] | 0 | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | [SEP] | 14 | chris wyles | 2007 - | 35 | 10 | 22 | 1 | [SEP] | 0 | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | [SEP] | 90 | mike hercus | 2002 - 2009 | 45 | 9 | 76 | 4 | [SEP] | 0 | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 |",
+  "question": "The statement is:  <riann van zyl have the shortest time span on the united state national rugby union team and tie with 3 others for the smallest number of tries>. Is it entailed or refuted by the table above?",
+  "output": "entailed",
+  "predict": "refuted"
+}
+
+这个给大模型再次检查发现就是refuted。
+
+证明即使是参数量巨大的大模型，在处理表格理解问题时仍然存在不足。
