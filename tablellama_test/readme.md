@@ -18,17 +18,17 @@ inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码�
 
 ···
 
-  "idx": 12,
-  
-  "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
-  
-  "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | conv | player | span | start | tries | pens | drop [SEP] | 0 | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 | [SEP] | 0 | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | [SEP] | 0 | todd clever | 2003 - | 51 | 11 | 0 | 0 | [SEP] | 0 | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | [SEP] | 0 | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | [SEP] | 14 | chris wyles | 2007 - | 35 | 10 | 22 | 1 | [SEP] | 0 | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | [SEP] | 90 | mike hercus | 2002 - 2009 | 45 | 9 | 76 | 4 | [SEP] | 0 | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 |",
-  
-  "question": "The statement is:  <riann van zyl have the shortest time span on the united state national rugby union team and tie with 3 others for the smallest number of tries>. Is it entailed or refuted by the table above?",
-  
-  "output": "entailed",
-  
-  "predict": "entailed",
+    "idx": 12,
+    
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    
+    "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | conv | player | span | start | tries | pens | drop [SEP] | 0 | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 | [SEP] | 0 | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | [SEP] | 0 | todd clever | 2003 - | 51 | 11 | 0 | 0 | [SEP] | 0 | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | [SEP] | 0 | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | [SEP] | 14 | chris wyles | 2007 - | 35 | 10 | 22 | 1 | [SEP] | 0 | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | [SEP] | 90 | mike hercus | 2002 - 2009 | 45 | 9 | 76 | 4 | [SEP] | 0 | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 |",
+    
+    "question": "The statement is:  <riann van zyl have the shortest time span on the united state national rugby union team and tie with 3 others for the smallest number of tries>. Is it entailed or refuted by the table above?",
+    
+    "output": "entailed",
+    
+    "predict": "entailed",
   
 ···
 
@@ -38,17 +38,17 @@ inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码�
 
 ···
 
-  "idx": 12,
-  
-  "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
-  
-  "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | conv | player | span | start | tries | pens | drop [SEP] | 0 | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 | [SEP] | 0 | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | [SEP] | 0 | todd clever | 2003 - | 51 | 11 | 0 | 0 | [SEP] | 0 | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | [SEP] | 0 | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | [SEP] | 14 | chris wyles | 2007 - | 35 | 10 | 22 | 1 | [SEP] | 0 | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | [SEP] | 90 | mike hercus | 2002 - 2009 | 45 | 9 | 76 | 4 | [SEP] | 0 | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 |",
-  
-  "question": "The statement is:  <riann van zyl have the shortest time span on the united state national rugby union team and tie with 3 others for the smallest number of tries>. Is it entailed or refuted by the table above?",
-  
-  "output": "entailed",
-  
-  "predict": "refuted",
+    "idx": 12,
+    
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    
+    "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | conv | player | span | start | tries | pens | drop [SEP] | 0 | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 | [SEP] | 0 | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | [SEP] | 0 | todd clever | 2003 - | 51 | 11 | 0 | 0 | [SEP] | 0 | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | [SEP] | 0 | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | [SEP] | 14 | chris wyles | 2007 - | 35 | 10 | 22 | 1 | [SEP] | 0 | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | [SEP] | 90 | mike hercus | 2002 - 2009 | 45 | 9 | 76 | 4 | [SEP] | 0 | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 |",
+    
+    "question": "The statement is:  <riann van zyl have the shortest time span on the united state national rugby union team and tie with 3 others for the smallest number of tries>. Is it entailed or refuted by the table above?",
+    
+    "output": "entailed",
+    
+    "predict": "refuted",
   
 ···
 
@@ -58,11 +58,11 @@ inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码�
 
 ···
 
-    "input": "[TLE] The table caption is about united states national rugby union team. [TAB] | player | span | start | tries | conv | pens | drop [SEP] | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 | 0 | [SEP] | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | 0 | [SEP] | todd clever | 2003 - | 51 | 11 | 0 | 0 | 0 | [SEP] | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | 0 | [SEP] | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | 0 | [SEP] | chris wyles | 2007 - | 35 | 10 | 14 | 22 | 1 | [SEP] | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | 0 | [SEP] | mike hercus | 2002 - 2009 | 45 | 9 | 90 | 76 | 4 | [SEP] | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 | 0 |",
-
-    "question": "The statement is:  <riann van zyl have the shortest time span on the united state national rugby union team and tie with 3 others for the smallest number of tries>. Is it entailed or refuted by the table above?",
-
-    "output": "entailed",
+      "input": "[TLE] The table caption is about united states national rugby union team. [TAB] | player | span | start | tries | conv | pens | drop [SEP] | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 | 0 | [SEP] | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | 0 | [SEP] | todd clever | 2003 - | 51 | 11 | 0 | 0 | 0 | [SEP] | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | 0 | [SEP] | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | 0 | [SEP] | chris wyles | 2007 - | 35 | 10 | 14 | 22 | 1 | [SEP] | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | 0 | [SEP] | mike hercus | 2002 - 2009 | 45 | 9 | 90 | 76 | 4 | [SEP] | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 | 0 |",
+  
+      "question": "The statement is:  <riann van zyl have the shortest time span on the united state national rugby union team and tie with 3 others for the smallest number of tries>. Is it entailed or refuted by the table above?",
+  
+      "output": "entailed",
     
 ···
 
