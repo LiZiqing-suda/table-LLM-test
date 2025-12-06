@@ -16,7 +16,7 @@ inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码�
 
 （1）tabfact_1.json。进行随机列对换仅2个实例预测错。 **其中有一个验证了一下发现是原始数据标注错了。** 所以实际上就是一个预测错。
 
-{
+
   "idx": 12,
   
   "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
@@ -28,13 +28,13 @@ inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码�
   "output": "entailed",
   
   "predict": "entailed"
-}
+
 
 豆包和智谱清言（使用了深度思考的，可信度较高）认为该样例是错误。
 
 （2）tabfact_2.json。再进行行对换仅1个实例预测错。
 
-{
+
   "idx": 12,
   
   "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
@@ -46,7 +46,7 @@ inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码�
   "output": "entailed",
   
   "predict": "refuted"
-}
+
 
 这个给大模型再次检查发现就是refuted。
 
