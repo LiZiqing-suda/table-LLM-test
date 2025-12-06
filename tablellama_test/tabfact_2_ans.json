@@ -1,0 +1,186 @@
+[
+  {
+    "idx": 0,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about tony lema. [TAB] | cuts made | wins | top - 5 | top - 10 | top - 25 | events | tournament [SEP] | 3 | 1 | 2 | 2 | 2 | 3 | the open championship [SEP] | 5 | 0 | 2 | 3 | 4 | 6 | us open [SEP] | 4 | 0 | 1 | 2 | 4 | 4 | masters tournament [SEP] | 4 | 0 | 0 | 1 | 2 | 5 | pga championship [SEP] | 16 | 1 | 5 | 8 | 12 | 18 | totals |",
+    "question": "The statement is: <tony lema be in the top 5 for the master tournament , the us open , and the open championship>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 1,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about tony lema. [TAB] | top - 10 | wins | top - 5 | tournament | top - 25 | events | cuts made [SEP] | 1 | 0 | 0 | pga championship | 2 | 5 | 4 | [SEP] | 3 | 0 | 2 | us open | 4 | 6 | 5 | [SEP] | 2 | 0 | 1 | masters tournament | 4 | 4 | 4 | [SEP] | 2 | 1 | 2 | the open championship | 2 | 3 | 3 | [SEP] | 8 | 1 | 5 | totals | 12 | 18 | 16 |",
+    "question": "The statement is: <tournament that tony lema have participate in include the master tournament, the us open, the pga championship and the open championship>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 2,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about tony lema. [TAB] | cuts made | top - 25 | top - 10 | top - 5 | wins | tournament | events [SEP] | 4 | 5 | 1 | 0 | 0 | pga championship | 5 | [SEP] | 5 | 4 | 3 | 2 | 0 | us open | 6 | [SEP] | 4 | 4 | 2 | 1 | 0 | masters tournament | 4 | [SEP] | 3 | 2 | 2 | 2 | 1 | the open championship | 3 | [SEP] | 16 | 12 | 8 | 5 | 1 | totals | 18 |",
+    "question": "The statement is:  <the only tournament that tony lema win in be the open championship>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 3,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about tony lema. [TAB] | top - 25 | wins | tournament | top - 5 | top - 10 | events | cuts made [SEP] | 5 | 0 | pga championship | 0 | 1 | 5 | 4 | [SEP] | 4 | 0 | us open | 2 | 3 | 6 | 5 | [SEP] | 4 | 0 | masters tournament | 1 | 2 | 4 | 4 | [SEP] | 2 | 1 | the open championship | 2 | 2 | 3 | 3 | [SEP] | 12 | 1 | totals | 5 | 8 | 18 | 16 |",
+    "question": "The statement is:  <tony lema do not win in the us open>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 4,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about tony lema. [TAB] | wins | top - 25 | tournament | top - 10 | top - 5 | events | cuts made [SEP] | 0 | 5 | pga championship | 1 | 0 | 5 | 4 | [SEP] | 0 | 4 | us open | 3 | 2 | 6 | 5 | [SEP] | 0 | 4 | masters tournament | 2 | 1 | 4 | 4 | [SEP] | 1 | 2 | the open championship | 2 | 2 | 3 | 3 | [SEP] | 1 | 12 | totals | 8 | 5 | 18 | 16 |",
+    "question": "The statement is: <tony lema make it to the top 10 in the pga championship , but do not continue on>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 5,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about tony lema. [TAB] | top - 5 | events | top - 10 | top - 25 | wins | cuts made | tournament [SEP] | 0 | 5 | 1 | 5 | 0 | 4 | pga championship [SEP] | 2 | 6 | 3 | 4 | 0 | 5 | us open [SEP] | 1 | 4 | 2 | 4 | 0 | 4 | masters tournament [SEP] | 2 | 3 | 2 | 2 | 1 | 3 | the open championship [SEP] | 5 | 18 | 8 | 12 | 1 | 16 | totals |",
+    "question": "The statement is:  <tournament that tony lema have not participate in include the master tournament , the us open , the pga championship and the open championship>. Is it entailed or refuted by the table above?",
+    "output": "refuted",
+    "predict": "refuted"
+  },
+  {
+    "idx": 6,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about tony lema. [TAB] | cuts made | top - 10 | top - 25 | tournament | top - 5 | wins | events [SEP] | 4 | 1 | 5 | pga championship | 0 | 0 | 5 | [SEP] | 5 | 3 | 4 | us open | 2 | 0 | 6 | [SEP] | 4 | 2 | 4 | masters tournament | 1 | 0 | 4 | [SEP] | 3 | 2 | 2 | the open championship | 2 | 1 | 3 | [SEP] | 16 | 8 | 12 | totals | 5 | 1 | 18 |",
+    "question": "The statement is:  <tournament that tony lema won in be pga championship>. Is it entailed or refuted by the table above?",
+    "output": "refuted",
+    "predict": "refuted"
+  },
+  {
+    "idx": 7,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about tony lema. [TAB] | top - 5 | cuts made | top - 25 | tournament | wins | top - 10 | events [SEP] | 0 | 4 | 5 | pga championship | 0 | 1 | 5 | [SEP] | 2 | 5 | 4 | us open | 0 | 3 | 6 | [SEP] | 1 | 4 | 4 | masters tournament | 0 | 2 | 4 | [SEP] | 2 | 3 | 2 | the open championship | 1 | 2 | 3 | [SEP] | 5 | 16 | 12 | totals | 1 | 8 | 18 |",
+    "question": "The statement is:  <tony lema make it to the top 10 in the us open , but do not continue on>. Is it entailed or refuted by the table above?",
+    "output": "refuted",
+    "predict": "entailed"
+  },
+  {
+    "idx": 8,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | pens | span | start | tries | conv | drop | player [SEP] | 0 | 2003 - | 51 | 11 | 0 | 0 | todd clever [SEP] | 0 | 2003 - 2012 | 49 | 17 | 0 | 0 | paul emerick [SEP] | 0 | 1992 - 2000 | 44 | 26 | 0 | 0 | vaea anitoni [SEP] | 0 | 2000 - 2007 | 34 | 10 | 0 | 0 | philip eloff [SEP] | 0 | 2007 - | 27 | 10 | 0 | 0 | takudzwa ngwenya [SEP] | 22 | 2007 - | 35 | 10 | 14 | 1 | chris wyles [SEP] | 0 | 2002 - 2005 | 28 | 9 | 0 | 0 | david fee [SEP] | 76 | 2002 - 2009 | 45 | 9 | 90 | 4 | mike hercus [SEP] | 0 | 2003 - 2004 | 12 | 9 | 0 | 0 | riaan van zyl",
+    "question": "The statement is:  <paul emerick do not have the greatest number of tries out of the 9 total player>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 9,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | drop | player | span | start | tries | conv | pens [SEP] | 4 | mike hercus | 2002 - 2009 | 45 | 9 | 90 | 76 | [SEP] | 0 | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | [SEP] | 0 | todd clever | 2003 - | 51 | 11 | 0 | 0 | [SEP] | 0 | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | [SEP] | 0 | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | [SEP] | 1 | chris wyles | 2007 - | 35 | 10 | 14 | 22 | [SEP] | 0 | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | [SEP] | 0 | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 | [SEP] | 0 | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 |",
+    "question": "The statement is:  <the greatest number of drop from 1 player happen over the span of 8 year>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 10,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | conv | tries | player | span | start | pens | drop [SEP] | 14 | 10 | chris wyles | 2007 - | 35 | 22 | 1 | [SEP] | 0 | 17 | paul emerick | 2003 - 2012 | 49 | 0 | 0 | [SEP] | 0 | 11 | todd clever | 2003 - | 51 | 0 | 0 | [SEP] | 0 | 10 | philip eloff | 2000 - 2007 | 34 | 0 | 0 | [SEP] | 0 | 10 | takudzwa ngwenya | 2007 - | 27 | 0 | 0 | [SEP] | 0 | 26 | vaea anitoni | 1992 - 2000 | 44 | 0 | 0 | [SEP] | 0 | 9 | david fee | 2002 - 2005 | 28 | 0 | 0 | [SEP] | 90 | 9 | mike hercus | 2002 - 2009 | 45 | 76 | 4 | [SEP] | 0 | 9 | riaan van zyl | 2003 - 2004 | 12 | 0 | 0 |",
+    "question": "The statement is:  <3 of the 9 player have not yet finish their span of play on the united state national rugby union team>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 11,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | drop | player | span | start | tries | conv | pens [SEP] | 4 | mike hercus | 2002 - 2009 | 45 | 9 | 90 | 76 | [SEP] | 0 | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | [SEP] | 0 | todd clever | 2003 - | 51 | 11 | 0 | 0 | [SEP] | 0 | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | [SEP] | 0 | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | [SEP] | 1 | chris wyles | 2007 - | 35 | 10 | 14 | 22 | [SEP] | 0 | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | [SEP] | 0 | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 | [SEP] | 0 | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 |",
+    "question": "The statement is:  <chris wyles be 1 of the 2 player with drop during their time on the rugby team>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 12,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | conv | player | span | start | tries | pens | drop [SEP] | 0 | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 | [SEP] | 0 | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | [SEP] | 0 | todd clever | 2003 - | 51 | 11 | 0 | 0 | [SEP] | 0 | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | [SEP] | 0 | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | [SEP] | 14 | chris wyles | 2007 - | 35 | 10 | 22 | 1 | [SEP] | 0 | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | [SEP] | 90 | mike hercus | 2002 - 2009 | 45 | 9 | 76 | 4 | [SEP] | 0 | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 |",
+    "question": "The statement is:  <riann van zyl have the shortest time span on the united state national rugby union team and tie with 3 others for the smallest number of tries>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "refuted"
+  },
+  {
+    "idx": 13,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about united states national rugby union team. [TAB] | drop | player | span | start | tries | conv | pens [SEP] | 4 | mike hercus | 2002 - 2009 | 45 | 9 | 90 | 76 | [SEP] | 0 | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | [SEP] | 0 | todd clever | 2003 - | 51 | 11 | 0 | 0 | [SEP] | 0 | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | [SEP] | 0 | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | [SEP] | 1 | chris wyles | 2007 - | 35 | 10 | 14 | 22 | [SEP] | 0 | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | [SEP] | 0 | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 | [SEP] | 0 | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 |",
+    "question": "The statement is:  <riann van zyl have the longest time span on the united state national rugby union team and tie with only 1 other player for the greatest number of tries>. Is it entailed or refuted by the table above?",
+    "output": "refuted",
+    "predict": "refuted"
+  },
+  {
+    "idx": 14,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about merlin (series 2). [TAB] | written by | no for series | title | directed by | no overall | original air date | uk viewers (million) [SEP] | jake michie | 7 | the witchfinder | jeremy webb | 20 | 7 november 2009 | 5.62 | [SEP] | howard overman | 2 | the once and future queen | jeremy webb | 15 | 26 september 2009 | 5.94 | [SEP] | ben vanstone | 3 | the nightmare begins | jeremy webb | 16 | 3 october 2009 | 6.09 | [SEP] | howard overman | 4 | lancelot and guinevere | david moore | 17 | 10 october 2009 | 5.69 | [SEP] | jake michie | 5 | beauty and the beast (part 1) | david moore | 18 | 24 october 2009 | 5.53 | [SEP] | ben vanstone | 6 | beauty and the beast (part 2) | metin huseyin | 19 | 31 october 2009 | 6.14 | [SEP] | julian jones | 1 | the curse of cornelius sigan | david moore | 14 | 19 september 2009 | 5.77 | [SEP] | howard overman | 8 | the sins of the father | metin huseyin | 21 | 14 november 2009 | 6.16 | [SEP] | julian jones | 9 | the lady of the lake | metin huseyin | 22 | 21 november 2009 | 6.30 | [SEP] | lucy watkins | 10 | sweet dreams | alice troughton | 23 | 28 november 2009 | 6.02 | [SEP] | jake michie | 11 | the witch 's quickening | alice troughton | 24 | 5 december 2009 | 6.01 | [SEP] | julian jones | 12 | the fires of idirsholas | jeremy webb | 25 | 12 december 2009 | 6.01 |",
+    "question": "The statement is:  <the sweet dream episode happen later in the series than the witchfinder>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 15,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about merlin (series 2). [TAB] | uk viewers (million) | no for series | title | directed by | written by | original air date | no overall [SEP] | 6.30 | 9 | the lady of the lake | metin huseyin | julian jones | 21 november 2009 | 22 | [SEP] | 5.94 | 2 | the once and future queen | jeremy webb | howard overman | 26 september 2009 | 15 | [SEP] | 6.09 | 3 | the nightmare begins | jeremy webb | ben vanstone | 3 october 2009 | 16 | [SEP] | 5.69 | 4 | lancelot and guinevere | david moore | howard overman | 10 october 2009 | 17 | [SEP] | 5.53 | 5 | beauty and the beast (part 1) | david moore | jake michie | 24 october 2009 | 18 | [SEP] | 6.14 | 6 | beauty and the beast (part 2) | metin huseyin | ben vanstone | 31 october 2009 | 19 | [SEP] | 5.62 | 7 | the witchfinder | jeremy webb | jake michie | 7 november 2009 | 20 | [SEP] | 6.16 | 8 | the sins of the father | metin huseyin | howard overman | 14 november 2009 | 21 | [SEP] | 5.77 | 1 | the curse of cornelius sigan | david moore | julian jones | 19 september 2009 | 14 | [SEP] | 6.02 | 10 | sweet dreams | alice troughton | lucy watkins | 28 november 2009 | 23 | [SEP] | 6.01 | 11 | the witch 's quickening | alice troughton | jake michie | 5 december 2009 | 24 | [SEP] | 6.01 | 12 | the fires of idirsholas | jeremy webb | julian jones | 12 december 2009 | 25 |",
+    "question": "The statement is:  <david moore direct 3 episode of series 2 of merlin>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 16,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about merlin (series 2). [TAB] | uk viewers (million) | no for series | title | directed by | written by | original air date | no overall [SEP] | 6.01 | 12 | the fires of idirsholas | jeremy webb | julian jones | 12 december 2009 | 25 | [SEP] | 5.94 | 2 | the once and future queen | jeremy webb | howard overman | 26 september 2009 | 15 | [SEP] | 6.09 | 3 | the nightmare begins | jeremy webb | ben vanstone | 3 october 2009 | 16 | [SEP] | 5.69 | 4 | lancelot and guinevere | david moore | howard overman | 10 october 2009 | 17 | [SEP] | 5.53 | 5 | beauty and the beast (part 1) | david moore | jake michie | 24 october 2009 | 18 | [SEP] | 6.14 | 6 | beauty and the beast (part 2) | metin huseyin | ben vanstone | 31 october 2009 | 19 | [SEP] | 5.62 | 7 | the witchfinder | jeremy webb | jake michie | 7 november 2009 | 20 | [SEP] | 6.16 | 8 | the sins of the father | metin huseyin | howard overman | 14 november 2009 | 21 | [SEP] | 6.30 | 9 | the lady of the lake | metin huseyin | julian jones | 21 november 2009 | 22 | [SEP] | 6.02 | 10 | sweet dreams | alice troughton | lucy watkins | 28 november 2009 | 23 | [SEP] | 6.01 | 11 | the witch 's quickening | alice troughton | jake michie | 5 december 2009 | 24 | [SEP] | 5.77 | 1 | the curse of cornelius sigan | david moore | julian jones | 19 september 2009 | 14 |",
+    "question": "The statement is:  <the lady of the lake episode have the most uk viewer>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 17,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about merlin (series 2). [TAB] | written by | no for series | title | directed by | no overall | original air date | uk viewers (million) [SEP] | jake michie | 11 | the witch 's quickening | alice troughton | 24 | 5 december 2009 | 6.01 | [SEP] | howard overman | 2 | the once and future queen | jeremy webb | 15 | 26 september 2009 | 5.94 | [SEP] | ben vanstone | 3 | the nightmare begins | jeremy webb | 16 | 3 october 2009 | 6.09 | [SEP] | howard overman | 4 | lancelot and guinevere | david moore | 17 | 10 october 2009 | 5.69 | [SEP] | jake michie | 5 | beauty and the beast (part 1) | david moore | 18 | 24 october 2009 | 5.53 | [SEP] | ben vanstone | 6 | beauty and the beast (part 2) | metin huseyin | 19 | 31 october 2009 | 6.14 | [SEP] | jake michie | 7 | the witchfinder | jeremy webb | 20 | 7 november 2009 | 5.62 | [SEP] | howard overman | 8 | the sins of the father | metin huseyin | 21 | 14 november 2009 | 6.16 | [SEP] | julian jones | 9 | the lady of the lake | metin huseyin | 22 | 21 november 2009 | 6.30 | [SEP] | lucy watkins | 10 | sweet dreams | alice troughton | 23 | 28 november 2009 | 6.02 | [SEP] | julian jones | 1 | the curse of cornelius sigan | david moore | 14 | 19 september 2009 | 5.77 | [SEP] | julian jones | 12 | the fires of idirsholas | jeremy webb | 25 | 12 december 2009 | 6.01 |",
+    "question": "The statement is:  <lucy watkins only write 1 episode of series 2>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 18,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about merlin (series 2). [TAB] | original air date | no for series | title | directed by | written by | no overall | uk viewers (million) [SEP] | 12 december 2009 | 12 | the fires of idirsholas | jeremy webb | julian jones | 25 | 6.01 | [SEP] | 26 september 2009 | 2 | the once and future queen | jeremy webb | howard overman | 15 | 5.94 | [SEP] | 3 october 2009 | 3 | the nightmare begins | jeremy webb | ben vanstone | 16 | 6.09 | [SEP] | 10 october 2009 | 4 | lancelot and guinevere | david moore | howard overman | 17 | 5.69 | [SEP] | 24 october 2009 | 5 | beauty and the beast (part 1) | david moore | jake michie | 18 | 5.53 | [SEP] | 31 october 2009 | 6 | beauty and the beast (part 2) | metin huseyin | ben vanstone | 19 | 6.14 | [SEP] | 7 november 2009 | 7 | the witchfinder | jeremy webb | jake michie | 20 | 5.62 | [SEP] | 14 november 2009 | 8 | the sins of the father | metin huseyin | howard overman | 21 | 6.16 | [SEP] | 21 november 2009 | 9 | the lady of the lake | metin huseyin | julian jones | 22 | 6.30 | [SEP] | 28 november 2009 | 10 | sweet dreams | alice troughton | lucy watkins | 23 | 6.02 | [SEP] | 5 december 2009 | 11 | the witch 's quickening | alice troughton | jake michie | 24 | 6.01 | [SEP] | 19 september 2009 | 1 | the curse of cornelius sigan | david moore | julian jones | 14 | 5.77 |",
+    "question": "The statement is:  <beauty and the beast (part 2) have more uk viewer than beauty and the beast (part 1)>. Is it entailed or refuted by the table above?",
+    "output": "entailed",
+    "predict": "entailed"
+  },
+  {
+    "idx": 19,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about merlin (series 2). [TAB] | no for series | written by | title | directed by | no overall | original air date | uk viewers (million) [SEP] | 11 | jake michie | the witch 's quickening | alice troughton | 24 | 5 december 2009 | 6.01 | [SEP] | 2 | howard overman | the once and future queen | jeremy webb | 15 | 26 september 2009 | 5.94 | [SEP] | 3 | ben vanstone | the nightmare begins | jeremy webb | 16 | 3 october 2009 | 6.09 | [SEP] | 4 | howard overman | lancelot and guinevere | david moore | 17 | 10 october 2009 | 5.69 | [SEP] | 5 | jake michie | beauty and the beast (part 1) | david moore | 18 | 24 october 2009 | 5.53 | [SEP] | 6 | ben vanstone | beauty and the beast (part 2) | metin huseyin | 19 | 31 october 2009 | 6.14 | [SEP] | 7 | jake michie | the witchfinder | jeremy webb | 20 | 7 november 2009 | 5.62 | [SEP] | 8 | howard overman | the sins of the father | metin huseyin | 21 | 14 november 2009 | 6.16 | [SEP] | 9 | julian jones | the lady of the lake | metin huseyin | 22 | 21 november 2009 | 6.30 | [SEP] | 10 | lucy watkins | sweet dreams | alice troughton | 23 | 28 november 2009 | 6.02 | [SEP] | 1 | julian jones | the curse of cornelius sigan | david moore | 14 | 19 september 2009 | 5.77 | [SEP] | 12 | julian jones | the fires of idirsholas | jeremy webb | 25 | 12 december 2009 | 6.01 |",
+    "question": "The statement is:  <the sweet dream episode happen earlier in the series than the witchfinder>. Is it entailed or refuted by the table above?",
+    "output": "refuted",
+    "predict": "refuted"
+  },
+  {
+    "idx": 20,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about merlin (series 2). [TAB] | uk viewers (million) | no for series | title | directed by | written by | original air date | no overall [SEP] | 6.01 | 12 | the fires of idirsholas | jeremy webb | julian jones | 12 december 2009 | 25 | [SEP] | 5.94 | 2 | the once and future queen | jeremy webb | howard overman | 26 september 2009 | 15 | [SEP] | 6.09 | 3 | the nightmare begins | jeremy webb | ben vanstone | 3 october 2009 | 16 | [SEP] | 5.69 | 4 | lancelot and guinevere | david moore | howard overman | 10 october 2009 | 17 | [SEP] | 5.53 | 5 | beauty and the beast (part 1) | david moore | jake michie | 24 october 2009 | 18 | [SEP] | 6.14 | 6 | beauty and the beast (part 2) | metin huseyin | ben vanstone | 31 october 2009 | 19 | [SEP] | 5.62 | 7 | the witchfinder | jeremy webb | jake michie | 7 november 2009 | 20 | [SEP] | 6.16 | 8 | the sins of the father | metin huseyin | howard overman | 14 november 2009 | 21 | [SEP] | 6.30 | 9 | the lady of the lake | metin huseyin | julian jones | 21 november 2009 | 22 | [SEP] | 6.02 | 10 | sweet dreams | alice troughton | lucy watkins | 28 november 2009 | 23 | [SEP] | 6.01 | 11 | the witch 's quickening | alice troughton | jake michie | 5 december 2009 | 24 | [SEP] | 5.77 | 1 | the curse of cornelius sigan | david moore | julian jones | 19 september 2009 | 14 |",
+    "question": "The statement is:  <the lady of the lake episode have the least uk viewer>. Is it entailed or refuted by the table above?",
+    "output": "refuted",
+    "predict": "refuted"
+  },
+  {
+    "idx": 21,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about merlin (series 2). [TAB] | written by | no for series | title | directed by | no overall | original air date | uk viewers (million) [SEP] | jake michie | 11 | the witch 's quickening | alice troughton | 24 | 5 december 2009 | 6.01 | [SEP] | howard overman | 2 | the once and future queen | jeremy webb | 15 | 26 september 2009 | 5.94 | [SEP] | ben vanstone | 3 | the nightmare begins | jeremy webb | 16 | 3 october 2009 | 6.09 | [SEP] | howard overman | 4 | lancelot and guinevere | david moore | 17 | 10 october 2009 | 5.69 | [SEP] | jake michie | 5 | beauty and the beast (part 1) | david moore | 18 | 24 october 2009 | 5.53 | [SEP] | ben vanstone | 6 | beauty and the beast (part 2) | metin huseyin | 19 | 31 october 2009 | 6.14 | [SEP] | jake michie | 7 | the witchfinder | jeremy webb | 20 | 7 november 2009 | 5.62 | [SEP] | howard overman | 8 | the sins of the father | metin huseyin | 21 | 14 november 2009 | 6.16 | [SEP] | julian jones | 9 | the lady of the lake | metin huseyin | 22 | 21 november 2009 | 6.30 | [SEP] | lucy watkins | 10 | sweet dreams | alice troughton | 23 | 28 november 2009 | 6.02 | [SEP] | julian jones | 1 | the curse of cornelius sigan | david moore | 14 | 19 september 2009 | 5.77 | [SEP] | julian jones | 12 | the fires of idirsholas | jeremy webb | 25 | 12 december 2009 | 6.01 |",
+    "question": "The statement is:  <lucy watkins only write 6 episode of series 2>. Is it entailed or refuted by the table above?",
+    "output": "refuted",
+    "predict": "refuted"
+  },
+  {
+    "idx": 22,
+    "instruction": "This is a table fact verification task. The goal of this task is to distinguish whether the given statement is entailed or refuted by the given table.",
+    "input_seg": "[TLE] The table caption is about merlin (series 2). [TAB] | original air date | no for series | title | directed by | written by | no overall | uk viewers (million) [SEP] | 12 december 2009 | 12 | the fires of idirsholas | jeremy webb | julian jones | 25 | 6.01 | [SEP] | 26 september 2009 | 2 | the once and future queen | jeremy webb | howard overman | 15 | 5.94 | [SEP] | 3 october 2009 | 3 | the nightmare begins | jeremy webb | ben vanstone | 16 | 6.09 | [SEP] | 10 october 2009 | 4 | lancelot and guinevere | david moore | howard overman | 17 | 5.69 | [SEP] | 24 october 2009 | 5 | beauty and the beast (part 1) | david moore | jake michie | 18 | 5.53 | [SEP] | 31 october 2009 | 6 | beauty and the beast (part 2) | metin huseyin | ben vanstone | 19 | 6.14 | [SEP] | 7 november 2009 | 7 | the witchfinder | jeremy webb | jake michie | 20 | 5.62 | [SEP] | 14 november 2009 | 8 | the sins of the father | metin huseyin | howard overman | 21 | 6.16 | [SEP] | 21 november 2009 | 9 | the lady of the lake | metin huseyin | julian jones | 22 | 6.30 | [SEP] | 28 november 2009 | 10 | sweet dreams | alice troughton | lucy watkins | 23 | 6.02 | [SEP] | 5 december 2009 | 11 | the witch 's quickening | alice troughton | jake michie | 24 | 6.01 | [SEP] | 19 september 2009 | 1 | the curse of cornelius sigan | david moore | julian jones | 14 | 5.77 |",
+    "question": "The statement is:  <beauty and the beast (part 2) have less uk viewer than beauty and the beast (part 1)>. Is it entailed or refuted by the table above?",
+    "output": "refuted",
+    "predict": "refuted"
+  }
+]
