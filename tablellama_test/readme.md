@@ -5,3 +5,5 @@
 观察数据集发现，其QA大多都是有固定答案的问题，类似提取式回答，部分涉及数值计算但是答案也是固定的。通过本实验发现只要是模型预测正确的表格QA数据，对其进行行列调整和少量数据修改不影响结果，甚至使用严格判等的方法判断是否预测正确也是一样的。
 
 这里对他原来的推理代码进行了一定修改，比如删除了使用flash_attn的代码（服务器用不了），out = tokenizer.decode(output[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)，他原来两个False，现在改成True。两个False的话用严格判等正确率为0，不懂什么情况。
+
+inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码的脚本。
