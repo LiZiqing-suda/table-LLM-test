@@ -10,3 +10,4 @@ inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码�
 
 第二部分是针对tabfact数据集进行的实验。
 
+使用原数据集前30个样例中预测正确的数据进行实验。tabfact_1.json是对原始数据进行列对换得到的数据，没有进行行对换。tabfact_2.json是在tabfact_1.json基础上进行行对换，而不进行列对换。（防止大模型同时做行列对换出错）
