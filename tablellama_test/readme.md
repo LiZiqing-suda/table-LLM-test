@@ -27,7 +27,7 @@ inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码�
   
   "output": "entailed",
   
-  "predict": "entailed"
+  "predict": "entailed",
 
 
 豆包和智谱清言（使用了深度思考的，可信度较高）认为该样例是错误。
@@ -45,7 +45,7 @@ inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码�
   
   "output": "entailed",
   
-  "predict": "refuted"
+  "predict": "refuted",
 
 
 这个给大模型再次检查发现就是refuted。
