@@ -16,11 +16,9 @@
 
 deepseek-ai/DeepSeek-V3.1-Terminus写，Qwen/Qwen2.5-72B-Instruct判断（main1.py）：
 
-    相同76
-    
-    不同2
-    
-    相同的比例0.9743589743589743
+    right:285
+    wrong:5
+    0.9827586206896551
 
 Qwen/Qwen2.5-72B-Instruct写，deepseek-ai/DeepSeek-V3.1-Terminus判断（main2.py）：
 
