@@ -1,6 +1,6 @@
 测试市面上的大模型理解表格的能力，开源闭源都测一下。数据集为fetaqa数据集，是复杂问题数据集，每个问题没有固定答案（语义是固定的但是回答形式可以多样）。由于人工查输出答案对不对太慢了，直接让大模型自己检查。这里所有的测试都关闭了大模型的深度思考，因为后面对大模型进行微调等任务均用不了深度思考。
 
-（1）使用nvidia的deepseekV3.1的api进行了实验。先实验自己输出的答案自己会不会反驳掉。实验代码为main.py。实验思路就是把表格和指令输入到该大模型，得到一个输出，再将表格、指令和输出再次输入到大模型让他判断上次的输出对不对。没有跑全部的数据，跑到api免费额度用完了为止。main.py最后的三行没执行到额度就没了，手动又写了一个代码计算准确率。
+（1）使用nvidia的deepseekV3.1的api进行了实验。先实验自己输出的答案自己会不会反驳掉。实验代码为main.py。实验思路就是把表格和指令输入到该大模型，得到一个输出，再将表格、指令和输出再次输入到大模型让他判断上次的输出对不对。（两次均不提供标准答案output，让模型自己判断）没有跑全部的数据，跑到api免费额度用完了为止。main.py最后的三行没执行到额度就没了，手动又写了一个代码计算准确率。
 
 结果如下：
 
@@ -12,9 +12,9 @@
 
 也就是自己生成的答案再给同样的模型判断答案是否正确，92.77%的情况第二次模型认为第一次的输出是正确的。也就是两次调用大模型（仅修改了T，第一次0.2第二次0.01，但是其实都差不多，0.2已经很小了），同样的数据有7%多的情况两次预测结果本质不同（至少有一个是错的）。
 
-（2）再进行交叉的实验。a模型生成输出让b模型判断，同时b模型生成输出让a模型判断。nvidia的免费额度用完了，这次换硅基流动的，测试deepseek-ai/DeepSeek-V3.2-Exp（DeepSeek-V3.2-Exp 为 685B 参数 MoE 模型）和Qwen/Qwen2.5-72B-Instruct。硅基流动的这两个模型额度只能跑这么多。
+（2）再进行交叉的实验。a模型生成输出让b模型判断，同时b模型生成输出让a模型判断。nvidia的免费额度用完了，这次换硅基流动的，测试deepseek-ai/DeepSeek-V3.1-Terminus（685B MoE 模型）和Qwen/Qwen2.5-72B-Instruct。
 
-deepseek-ai/DeepSeek-V3.2-Exp写，Qwen/Qwen2.5-72B-Instruct判断（main1.py）：
+deepseek-ai/DeepSeek-V3.1-Terminus写，Qwen/Qwen2.5-72B-Instruct判断（main1.py）：
 
     相同76
     
@@ -22,7 +22,7 @@ deepseek-ai/DeepSeek-V3.2-Exp写，Qwen/Qwen2.5-72B-Instruct判断（main1.py）
     
     相同的比例0.9743589743589743
 
-Qwen/Qwen2.5-72B-Instruct写，deepseek-ai/DeepSeek-V3.2-Exp判断（main2.py）：
+Qwen/Qwen2.5-72B-Instruct写，deepseek-ai/DeepSeek-V3.1-Terminus判断（main2.py）：
 
     相同29
     
