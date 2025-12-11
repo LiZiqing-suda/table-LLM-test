@@ -7,7 +7,7 @@ with open(r"D:\论文\eval_data_initial\in_domain_test\fetaqa_test.json","r",enc
 
 client = OpenAI(
     base_url="https://api.siliconflow.cn/v1",
-    api_key="sk-sqmqfqiwnvrujozxhpudfnencxbtsogitpxojwktieniihlm"
+    api_key="?????"
 )
 
 right = 0
@@ -62,4 +62,5 @@ finally:
     print()
     print("wrong:", end=str(w))
     print()
+
     print(right / (w + right))
