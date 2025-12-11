@@ -14,7 +14,7 @@
 
 （2）再进行交叉的实验。a模型生成输出让b模型判断，同时b模型生成输出让a模型判断。nvidia的免费额度用完了，这次换硅基流动的，测试deepseek-ai/DeepSeek-V3.2-Exp（DeepSeek-V3.2-Exp 为 685B 参数 MoE 模型）和Qwen/Qwen2.5-72B-Instruct。硅基流动的这两个模型额度只能跑这么多。
 
-deepseek-ai/DeepSeek-V3.2-Exp写，Qwen/Qwen2.5-72B-Instruct判断：
+deepseek-ai/DeepSeek-V3.2-Exp写，Qwen/Qwen2.5-72B-Instruct判断（main1.py）：
 
     相同76
     
@@ -22,7 +22,7 @@ deepseek-ai/DeepSeek-V3.2-Exp写，Qwen/Qwen2.5-72B-Instruct判断：
     
     相同的比例0.9743589743589743
 
-Qwen/Qwen2.5-72B-Instruct写，deepseek-ai/DeepSeek-V3.2-Exp判断：
+Qwen/Qwen2.5-72B-Instruct写，deepseek-ai/DeepSeek-V3.2-Exp判断（main2.py）：
 
     相同29
     
