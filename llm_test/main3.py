@@ -30,10 +30,11 @@ try:
             time.sleep(0.3)
             res = completion.choices[0].message.content
             c = "instruction:"+d[i]["instruction"]+" "+"input_seg:"+d[i]["input_seg"]+"question:"+d[i]["question"]+" "
-            c="根据以下信息，判断下面的回答是否正确（answer部分）。你认为正确输出1，错误输出0。仅可以输出1或者0，且不要有多余输出，禁止输出任何中间推导过程。"+c
-            c+="answer:"+res
+            c="根据以下信息，判断下面的回答是否正确（answer部分）。这里提供了标准答案，你的任务是根据标准答案（output部分），结合表格判断answer部分回答是否正确。你认为正确输出1，错误输出0。仅可以输出1或者0，且不要有多余输出，禁止输出任何中间推导过程。"+c
+            c+="answer:"+res+" "
+            c+="output:"+d[i]["output"]
             completion = client.chat.completions.create(
-                model="Qwen/Qwen2.5-72B-Instruct",
+                model="deepseek-ai/DeepSeek-V3.1-Terminus",
                 messages=[{"role": "user", "content": c}],
                 temperature=0.01,
                 top_p=0.9,
@@ -43,19 +44,19 @@ try:
             )
             time.sleep(0.3)
             res1 = completion.choices[0].message.content
-            if res1=="1":
-                right+=1
-            elif res1=="0":
-                w+=1
+            if res1 == "1":
+                right += 1
+            elif res1 == "0":
+                w += 1
             print(res1)
         except:
             pass
 except:
-    print("right:",end = str(right))
+    print("right:", end=str(right))
     print()
     print("wrong:", end=str(w))
     print()
-    print(right/(w+right))
+    print(right / (w + right))
 finally:
     print("right:", end=str(right))
     print()
