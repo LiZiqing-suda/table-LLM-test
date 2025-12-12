@@ -7,7 +7,7 @@ with open(r"D:\论文\eval_data_initial\in_domain_test\hitab_test.json","r",enco
 
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
-    api_key="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"
+    api_key="?????"
 )
 
 right = 0
@@ -65,4 +65,5 @@ finally:
     print()
     print("wrong:", end=str(w))
     print()
+
     print(right / (w + right))
