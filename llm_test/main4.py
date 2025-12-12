@@ -14,8 +14,6 @@ right = 0
 w = 0
 try:
     for i in range(len(d)):
-        if i!=1:
-            continue
         try:
             content = "instruction:"+d[i]["instruction"]+" "+"input_seg:"+d[i]["input_seg"]+"question:"+d[i]["question"]
             content1="请根据这些信息，自行解读表格结构，用英文或数字回答问题，其中input_seg是表格。仅需要输出最终回答的答案，不要保留推断内容、依据等中间过程。答案应该是确定性的，且尽量简短，仅包含必要信息。请不要在数值答案前面加-，除非真的是负数"
@@ -67,3 +65,4 @@ finally:
     print()
 
     print(right / (w + right))
+
