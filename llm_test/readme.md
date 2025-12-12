@@ -12,7 +12,7 @@
 
 也就是自己生成的答案再给同样的模型判断答案是否正确，92.77%的情况第二次模型认为第一次的输出是正确的。也就是两次调用大模型（仅修改了T，第一次0.2第二次0.01，但是其实都差不多，0.2已经很小了），同样的数据有7%多的情况两次预测结果本质不同（至少有一个是错的）。
 
-（2）再进行交叉的实验。a模型生成输出让b模型判断，同时b模型生成输出让a模型判断。nvidia的免费额度用完了，这次换硅基流动的api，测试deepseek-ai/DeepSeek-V3.1-Terminus（685B MoE 模型）和Qwen/Qwen2.5-72B-Instruct。总共2003个样本，但是他这个api调用不稳定，加了time.sleep(0.3)还是出现大量调用失败的情况。
+（2）再进行交叉的实验。a模型生成输出让b模型判断，同时b模型生成输出让a模型判断。这次换硅基流动的api，测试deepseek-ai/DeepSeek-V3.1-Terminus（685B MoE 模型）和Qwen/Qwen2.5-72B-Instruct。总共2003个样本，但是他这个api调用不稳定，加了time.sleep(0.3)还是出现大量调用失败的情况。
 
 deepseek-ai/DeepSeek-V3.1-Terminus写，Qwen/Qwen2.5-72B-Instruct判断（main1.py）：
 
