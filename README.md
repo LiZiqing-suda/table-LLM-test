@@ -15,7 +15,7 @@ tablellama模型性能测试。
 
 而在tabfact数据集上实现了82%的准确率。与论文说的82.55%的准确率一样。
 
-# (2)LLM
+# （2）LLM
 llm表格理解能力测试。
 
 具体见/llm_test/readme.md。
