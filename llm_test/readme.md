@@ -34,4 +34,9 @@ Qwen/Qwen2.5-72B-Instruct写，deepseek-ai/DeepSeek-V3.1-Terminus判断（main2.
 
 （4）补充测试一下简单的数据集。hitab_test数据集，看看tablellama号称的SOTA准确率和大模型相比如何。
 
+        right:1057
+        wrong:526
+        0.6677195198989261
+
+大概在这个附近，让大模型判断标准output和预测答案也有少量出错的情况。
 
