@@ -28,6 +28,6 @@ Qwen/Qwen2.5-72B-Instruct写，deepseek-ai/DeepSeek-V3.1-Terminus判断（main2.
 
 （3）这次将数据集的标准output输入进去。具体是第一次调用不输入output，而是输入表格、指令和问题，让模型自己预测一个结果，第二次把表格、指令、问题、第一次的输出和标准output全部输入，让模型判断第一次的输出是否正确，其实就是代替人工检查大模型的输出对不对。由于有标准output数据，加上大模型自己的能力，这个第二次的判断我们可以认为是一定准确的。用deepseek-ai/DeepSeek-V3.1-Terminus。
 
-        right:734
-        wrong:139
-        0.8407789232531501
+    right:734
+    wrong:139
+    0.8407789232531501
