@@ -70,3 +70,5 @@ T=0.01,top_p=0.9。回答2.8，答案是18.8。
         "question": "among men, what is the percentage for those whose country of ancestry is in the caribbean and latin america?",
 
 T=0.01,top_p=0.9。回答59.5，答案18.4。
+
+
