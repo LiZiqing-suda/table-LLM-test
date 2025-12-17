@@ -62,13 +62,6 @@ T=0.01,top_p=0.9。回答31.3，答案是15.5。
 
 T=0.01,top_p=0.9。回答2.8，答案是18.8。
 
-**错误实例三：**
-
-        请根据这些信息，自行解读表格结构，用英文或数字回答问题，其中input_seg是表格。仅需要输出最终回答的答案，不要保留推断内容、依据等中间过程。答案应该是确定性的，且尽量简短，仅包含必要信息。请不要在数值答案前面加-，除非真的是负数
-        "instruction": "This is a hierarchical table question answering task. The goal for this task is to answer the given question based on the given table. The table might be hierarchical.",
-        "input": " [TLE] The table caption is percentage of canadian-born black immigrants aged 25 to 59 with a postsecondary diploma, by sex and region or country of ancestry, 2016. [TAB] | region or country of ancestry | women | women | men | men | [SEP] | region or country of ancestry | non-university or university postsecondary diploma | university degree only | non-university or university postsecondary diploma | university degree only | [SEP] | region of ancestry | percent | percent | percent | percent | [SEP] | caribbean and latin america | 78.1 | 34.8 | 59.5 | 18.4 | [SEP] | africa | 79.6 | 50.8 | 63.6 | 35.3 | [SEP] | other regions | 59.8 | 19.1 | 46.8 | 14.1 | [SEP] | country of ancestry | | | | | [SEP] | jamaica | 75.5 | 31.3 | 54.6 | 15.8 | [SEP] | haiti | 84.5 | 37.1 | 65.8 | 18.3 | [SEP] | trinidad and tobago | 76.1 | 36.5 | 61.4 | 20.4 | [SEP] | barbados | 79.4 | 39.2 | 64.4 | 22.8 | [SEP] | guyana | 74.8 | 32.5 | 57.6 | 20.6 | [SEP] | saint vincent and the grenadines | 76.1 | 35.0 | 58.3 | 17.5 | [SEP] | grenada | 78.0 | 34.3 | 62.0 | 21.4 | [SEP] | ghana | 81.7 | 49.8 | 65.7 | 31.4 | [SEP] | nigeria | 86.4 | 63.3 | 75.3 | 51.5 | [SEP] | united states | 63.9 | 23.2 | 49.2 | 17.7 | [SEP] | united kingdom | 71.9 | 32.0 | 53.9 | 22.1 | [SEP] | canada | 56.5 | 16.0 | 44.8 | 11.8 |",
-        "question": "among men, what is the percentage for those whose country of ancestry is in the caribbean and latin america?",
-
-T=0.01,top_p=0.9。回答59.5，答案18.4。（数据集的问题，提问写的不对）
+以上两个错误实例，在闭源的主流大模型上（国内的豆包、国外的gpt等）都能在不深度思考情况下回答正确。
 
 
