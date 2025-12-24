@@ -22,4 +22,4 @@ llm表格理解能力测试。
 
 # （3）测试tablellama以及其所依赖的llama是否存在“抄答案”情况和对高亮单元格的依赖程度
 
-具体见tablellama/reademe.md。
+具体见tablellama_test/reademe.md。
