@@ -1,3 +1,5 @@
+# 一、实验模型对于翻转行列之后的表格问题是否还能正确回答
+
 第一部分是针对hitabQA数据集中前50个样例中原本模型预测正确的样例进行的实验。随机种子设置为333。
 
 前50个样例都是一些小表格和简单问题。其中hitab_test_changed.json是从hitabQA数据集前50条中提取的预测正确的原始数据。hitab_test_changed_1.json是根据hitab_test_changed.json进行了简单修改的数据集（使用豆包大模型进行的修改，人工抽查发现修改的没问题），这个数据集仅对hitab_test_changed.json的原数据进行一次行或列的对换。hitab_test_changed_2.json是在hitab_test_changed_1.json的基础上又进行了修改，这次修改力度较大，对换的行列数较多，同时由于豆包大模型本身对于表格理解的不足，出现了改变表格本质的修改，即检索同样的表头，单元格的值出现了不同（但是与问题有关的单元格没有发生变化）。后缀为answer.json的是对应的推理结果。所有预测结果均正确，即原来能够预测正确的数据，进行行列变化甚至是改变某些无关单元格的值均不影响结果。实验发现该模型在小数据上对于数据的变换造成的扰动能够很好适应，不仅适应行列的对换，还能适应某些单元格值的变化。
@@ -49,9 +51,16 @@ inference_hitab_tabfact_fetaqa.py是推理代码，mytest.sh是运行该代码�
 这个数据对应的原始数据如下（在原始的tabfact_test.json内，对应tabfact_0.json第13条，从1开始数）：
 
       "input": "[TLE] The table caption is about united states national rugby union team. [TAB] | player | span | start | tries | conv | pens | drop [SEP] | vaea anitoni | 1992 - 2000 | 44 | 26 | 0 | 0 | 0 | [SEP] | paul emerick | 2003 - 2012 | 49 | 17 | 0 | 0 | 0 | [SEP] | todd clever | 2003 - | 51 | 11 | 0 | 0 | 0 | [SEP] | philip eloff | 2000 - 2007 | 34 | 10 | 0 | 0 | 0 | [SEP] | takudzwa ngwenya | 2007 - | 27 | 10 | 0 | 0 | 0 | [SEP] | chris wyles | 2007 - | 35 | 10 | 14 | 22 | 1 | [SEP] | david fee | 2002 - 2005 | 28 | 9 | 0 | 0 | 0 | [SEP] | mike hercus | 2002 - 2009 | 45 | 9 | 90 | 76 | 4 | [SEP] | riaan van zyl | 2003 - 2004 | 12 | 9 | 0 | 0 | 0 |",
-  
+
       "question": "The statement is:  <riann van zyl have the shortest time span on the united state national rugby union team and tie with 3 others for the smallest number of tries>. Is it entailed or refuted by the table above?",
   
       "output": "entailed",
     
 应该是refuted。
+
+# 二、测试模型是否“作弊”
+
+（1）先测试他训练好的tablellama模型。
+
+主要对数据集进行如下调整：人工找到目标单元格，对数据进行替换，问题不变；人工找到目标单元格所在的行或列，对整行整列数据进行替换，问题不变；同步修改表头和问题，单元格不变。
+
