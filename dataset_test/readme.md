@@ -415,6 +415,18 @@
             ]
           }
 
+
+        {
+    "table_id": "tdE2zGcU",
+    "question_id": "tdE2zGcU_4",
+    "file_name": "混杂表格_136",
+    "chinese_question": "过滤器的过滤精度是多少？",
+    "english_question": "What is the filter precision?",
+    "answer_cell_list": [
+      16
+    ],
+    "question_type": "single_cell"
+  }
 ## （9）LongTableBench（EMNLP2025）
 
 **任务类型：** 长上下文表格推理。
