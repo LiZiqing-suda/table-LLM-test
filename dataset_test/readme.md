@@ -426,7 +426,7 @@
               16
             ],
             "question_type": "single_cell"
-          }
+        }
 
 ## （9）LongTableBench（EMNLP2025）
 
