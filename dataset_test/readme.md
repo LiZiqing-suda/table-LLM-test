@@ -16,6 +16,83 @@
 
 **存在的问题：** 全是金融领域问题，泛化能力弱。
 
+    {
+        "table": {
+          "uid": "c4b92833-5c85-4bf4-b493-bc7741d759df",
+          "table": [
+            [
+              "",
+              "Year Ended",
+              "Year Ended"
+            ],
+            [
+              "Stock-Based Compensation by Type of Award",
+              "December 31, 2019",
+              "December 31, 2018"
+            ],
+            [
+              "Stock options",
+              "$2,756",
+              "$2,926"
+            ],
+            [
+              "RSUs",
+              "955",
+              "1,129"
+            ],
+            [
+              "Total stock-based compensation expense",
+              "$3,711",
+              "$4,055"
+            ]
+          ]
+        },
+        "paragraphs": [
+          {
+            "uid": "04bfbe1d-235b-4036-95c2-e49983eb9cef",
+            "order": 1,
+            "text": "Stock-based compensation expense is included in general and administrative expense for each period as follows:"
+          },
+          {
+            "uid": "0b5304d0-849b-46ea-936a-2b9d73be07f3",
+            "order": 2,
+            "text": "As of December 31, 2019, there was $4,801 of unrecognized stock-based compensation expense related to unvested employee stock options and $1,882 of unrecognized stock-based compensation expense related to unvested RSUs. These costs are expected to be recognized over a weighted-average period of 2.13 and 2.33 years, respectively."
+          }
+        ],
+        "questions": [
+          {
+            "uid": "7c884c23-7774-4414-b817-d41dd797319b",
+            "order": 1,
+            "question": "What was the amount of unrecognized stock-based compensation expense related to unvested employee stock options in 2019?"
+          },
+          {
+            "uid": "53f1517b-bdd8-4165-8adb-0aafadbf0588",
+            "order": 2,
+            "question": "What was the total stock-based compensation expense amount in 2018?"
+          },
+          {
+            "uid": "65c5aed2-6ce6-4ac7-ad25-713d2bf3ead4",
+            "order": 3,
+            "question": "How long is it expected to take for the unrecognized stock-based compensation expense related to unvested RSUs to be recognized?"
+          },
+          {
+            "uid": "15cfd097-55b4-4e9f-847e-bc78e8e35136",
+            "order": 4,
+            "question": "What is the total stock-based compensation expense and unrecognized stock-based compensation expense in 2019?"
+          },
+          {
+            "uid": "a4dfd2d1-4fa0-4fd7-a1d3-889bb36489a4",
+            "order": 5,
+            "question": "What was the change in the amount of stock options in 2019 from 2018?"
+          },
+          {
+            "uid": "208f5e40-e37c-4aaa-b9d7-74d148f39c75",
+            "order": 6,
+            "question": "What was the percentage change in the amount of RSUs in 2019 from 2018?"
+          }
+        ]
+      }
+
 ## （3）SEM-TAB-FACTS（2021）
 
 **任务类型：** 科学文档表格事实验证和证据定位。
