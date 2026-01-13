@@ -316,6 +316,9 @@
 
 **存在的问题：** 简单表格为主，缺乏层级表格和合并单元格。**我认为结果的这三种分类是不恰当的，对于跨模态信息冲突，应该使用第四种结果，也就是“矛盾”，而不是强行让模型学习一种强行解释的逻辑。** 因为很多矛盾的情况都是使用者写错了，可能是表格写错了也可能是文本写错了，没有一个固定逻辑。
 
+        {"evidence": [{"content": ["Mukaradeeb_sentence_1", "Mukaradeeb_cell_0_3_1", "Mukaradeeb_cell_0_2_1"], "context": {"Mukaradeeb_sentence_1": ["Mukaradeeb_title"], "Mukaradeeb_cell_0_3_1": ["Mukaradeeb_title", "Mukaradeeb_header_cell_0_3_0", "Mukaradeeb_header_cell_0_0_0"], "Mukaradeeb_cell_0_2_1": ["Mukaradeeb_title", "Mukaradeeb_header_cell_0_2_0", "Mukaradeeb_header_cell_0_0_0"]}}], "id": 71874, "claim": "Mukaradeeb('Wolf's Den') is a city in Iraq near the Syrian border, in the district of Al-Qa'im, province of Al-Anbar.", "label": "SUPPORTS", "annotator_operations": [{"operation": "start", "value": "start", "time": "0"}, {"operation": "Now on", "value": "?search=", "time": "0.962"}, {"operation": "search", "value": "Mukaradeeb", "time": "9.524"}, {"operation": "Now on", "value": "Mukaradeeb", "time": "10.752"}, {"operation": "Highlighting", "value": "Mukaradeeb_sentence_1", "time": "13.998"}, {"operation": "Highlighting", "value": "Mukaradeeb_cell_0_3_1", "time": "28.724"}, {"operation": "Highlighting", "value": "Mukaradeeb_cell_0_2_1", "time": "32.485"}, {"operation": "finish", "value": "finish", "time": "146.465"}], "challenge": "Combining Tables and Text"}
+
+
 ## （7）HiTabQA（ACL2022）
 
 **任务类型：** 层次化表格QA。
