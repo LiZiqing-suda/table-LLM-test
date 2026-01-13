@@ -347,6 +347,74 @@
 
 **存在的问题：** 数值计算难度较低，数据集规模较小，只有中文没有英文，而且复杂表格情况较少。
 
+        {
+            "table_id": "2Hi9vmdU",
+            "table_type": "vertical",
+            "file_name": "垂直表格_31",
+            "cell_ID_matrix": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                3,
+                4,
+                5
+              ],
+              [
+                6,
+                7,
+                8
+              ],
+              [
+                9,
+                10,
+                11
+              ]
+            ],
+            "chinese_cell_value_list": [
+              "项目",
+              "本期金额/比例",
+              "上期金额/比例",
+              "研发支出金额",
+              "4,172,343.06",
+              "3,351,561.68",
+              "研发支出占营业收入的比例",
+              "1.56%",
+              "3.7%",
+              "研发支出中资本化的比例",
+              "-",
+              "-"
+            ],
+            "english_cell_value_list": [
+              "project",
+              "Current amount/proportion",
+              "Amount/proportion of the previous period",
+              "R&D expenditure amount",
+              "4,172,343.06",
+              "3,351,561.68",
+              "Proportion of R&D expenditure in operating income",
+              "1.56%",
+              "3.7%",
+              "Capitalized proportion of R&D expenditure",
+              "-",
+              "-"
+            ],
+            "column_attribute": [
+              0,
+              1,
+              2
+            ],
+            "row_attribute": [],
+            "column_index": [],
+            "row_index": [
+              3,
+              6,
+              9
+            ]
+          }
+
 ## （9）LongTableBench（EMNLP2025）
 
 **任务类型：** 长上下文表格推理。
