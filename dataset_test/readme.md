@@ -135,13 +135,25 @@
 
 **存在的问题：** 简单表格为主，缺乏层级表格和合并单元格。**我认为结果的这三种分类是不恰当的，对于跨模态信息冲突，应该使用第四种结果，也就是“矛盾”，而不是强行让模型学习一种强行解释的逻辑。** 因为很多矛盾的情况都是使用者写错了，可能是表格写错了也可能是文本写错了，没有一个固定逻辑。
 
-## （7）HiTab（ACL2022）
+## （7）HiTabQA（ACL2022）
 
 **任务类型：** 层次化表格QA。
 
 **核心特色和解决的问题：** 10,686 个 QA 对与3,597 个表格，很多层次化表格，数据来自真实场景。解决传统表格QA无法处理的层次结构理解问题。
 
 **存在的问题：** 表格过于复杂，标注难度很大，存在一些标注错误情况。
+
+                {
+                  "table_id": "100",
+                  "instruction": "This is a hierarchical table question answering task. The goal for this task is to answer the given question based on the given table. The table might be hierarchical.",
+                  "input": " [TLE] The table caption is agri-food industry sub-groups for workers aged 15 years and over, two agricultural regions of ontario, 2011. [TAB] | sub-groups of the agri-food industry | eastern ontario | eastern ontario | northern ontario | northern ontario | [SEP] | sub-groups of the agri-food industry | french-language workers | other workers | french-language workers | other workers | [SEP] | sub-groups of the agri-food industry | percent | percent | percent | percent | [SEP] | input and service supply | 2.9 | 2.1 | 2.9 | 1.3 | [SEP] | food, beverage, and tobacco processing | 9.7 | 6.0 | 3.0 | 3.3 | [SEP] | food retail and wholesale | 35.3 | 31.3 | 39.1 | 37.3 | [SEP] | food service | 52.1 | 60.6 | 55.0 | 58.1 |",
+                  "question": "in eastern ontario, what percent of french-language workers have worked in the restaurant and food services sector?",
+                  "output": "52.1",
+                  "raw_answer": [
+                    52.1
+                  ],
+                  "input_seg": " [TLE] The table caption is agri-food industry sub-groups for workers aged 15 years and over, two agricultural regions of ontario, 2011. [TAB] | sub-groups of the agri-food industry | eastern ontario | eastern ontario | northern ontario | northern ontario | [SEP] | sub-groups of the agri-food industry | french-language workers | other workers | french-language workers | other workers | [SEP] | sub-groups of the agri-food industry | percent | percent | percent | percent | [SEP] | input and service supply | 2.9 | 2.1 | 2.9 | 1.3 | [SEP] | food, beverage, and tobacco processing | 9.7 | 6.0 | 3.0 | 3.3 | [SEP] | food retail and wholesale | 35.3 | 31.3 | 39.1 | 37.3 | [SEP] | food service | 52.1 | 60.6 | 55.0 | 58.1 |"
+                }
 
 ## （8）IM-TQA（ACL2023）
 
