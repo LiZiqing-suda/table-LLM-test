@@ -143,17 +143,17 @@
 
 **存在的问题：** 表格过于复杂，标注难度很大，存在一些标注错误情况。
 
-                {
-                  "table_id": "100",
-                  "instruction": "This is a hierarchical table question answering task. The goal for this task is to answer the given question based on the given table. The table might be hierarchical.",
-                  "input": " [TLE] The table caption is agri-food industry sub-groups for workers aged 15 years and over, two agricultural regions of ontario, 2011. [TAB] | sub-groups of the agri-food industry | eastern ontario | eastern ontario | northern ontario | northern ontario | [SEP] | sub-groups of the agri-food industry | french-language workers | other workers | french-language workers | other workers | [SEP] | sub-groups of the agri-food industry | percent | percent | percent | percent | [SEP] | input and service supply | 2.9 | 2.1 | 2.9 | 1.3 | [SEP] | food, beverage, and tobacco processing | 9.7 | 6.0 | 3.0 | 3.3 | [SEP] | food retail and wholesale | 35.3 | 31.3 | 39.1 | 37.3 | [SEP] | food service | 52.1 | 60.6 | 55.0 | 58.1 |",
-                  "question": "in eastern ontario, what percent of french-language workers have worked in the restaurant and food services sector?",
-                  "output": "52.1",
-                  "raw_answer": [
-                    52.1
-                  ],
-                  "input_seg": " [TLE] The table caption is agri-food industry sub-groups for workers aged 15 years and over, two agricultural regions of ontario, 2011. [TAB] | sub-groups of the agri-food industry | eastern ontario | eastern ontario | northern ontario | northern ontario | [SEP] | sub-groups of the agri-food industry | french-language workers | other workers | french-language workers | other workers | [SEP] | sub-groups of the agri-food industry | percent | percent | percent | percent | [SEP] | input and service supply | 2.9 | 2.1 | 2.9 | 1.3 | [SEP] | food, beverage, and tobacco processing | 9.7 | 6.0 | 3.0 | 3.3 | [SEP] | food retail and wholesale | 35.3 | 31.3 | 39.1 | 37.3 | [SEP] | food service | 52.1 | 60.6 | 55.0 | 58.1 |"
-                }
+        {
+          "table_id": "100",
+          "instruction": "This is a hierarchical table question answering task. The goal for this task is to answer the given question based on the given table. The table might be hierarchical.",
+          "input": " [TLE] The table caption is agri-food industry sub-groups for workers aged 15 years and over, two agricultural regions of ontario, 2011. [TAB] | sub-groups of the agri-food industry | eastern ontario | eastern ontario | northern ontario | northern ontario | [SEP] | sub-groups of the agri-food industry | french-language workers | other workers | french-language workers | other workers | [SEP] | sub-groups of the agri-food industry | percent | percent | percent | percent | [SEP] | input and service supply | 2.9 | 2.1 | 2.9 | 1.3 | [SEP] | food, beverage, and tobacco processing | 9.7 | 6.0 | 3.0 | 3.3 | [SEP] | food retail and wholesale | 35.3 | 31.3 | 39.1 | 37.3 | [SEP] | food service | 52.1 | 60.6 | 55.0 | 58.1 |",
+          "question": "in eastern ontario, what percent of french-language workers have worked in the restaurant and food services sector?",
+          "output": "52.1",
+          "raw_answer": [
+            52.1
+          ],
+          "input_seg": " [TLE] The table caption is agri-food industry sub-groups for workers aged 15 years and over, two agricultural regions of ontario, 2011. [TAB] | sub-groups of the agri-food industry | eastern ontario | eastern ontario | northern ontario | northern ontario | [SEP] | sub-groups of the agri-food industry | french-language workers | other workers | french-language workers | other workers | [SEP] | sub-groups of the agri-food industry | percent | percent | percent | percent | [SEP] | input and service supply | 2.9 | 2.1 | 2.9 | 1.3 | [SEP] | food, beverage, and tobacco processing | 9.7 | 6.0 | 3.0 | 3.3 | [SEP] | food retail and wholesale | 35.3 | 31.3 | 39.1 | 37.3 | [SEP] | food service | 52.1 | 60.6 | 55.0 | 58.1 |"
+        }
 
 ## （8）IM-TQA（ACL2023）
 
