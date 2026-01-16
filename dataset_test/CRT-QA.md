@@ -46,6 +46,19 @@
 
 # **数据集格式**
 
+step1	操作类 - 索引，针对rank字段	第一步操作：定位表格中的rank（排名）列，为后续筛选做准备
+
+step2	操作类 - 筛选，针对rank字段	第二步操作：根据rank列筛选出排名前 5的郡数据（这一步隐含了 “top 5” 的约束，是回答问题的前提）
+
+step3	推理类 - 聚合，计算AVG（均值），时间范围 1960-2040	第三步推理：针对筛选后的前 5 个郡，提取它们 1960 到 2040 年的人口变化百分比数据
+
+step4	推理类 - 聚合，计算AVG（均值），目标为人口变化百分比	第四步推理：对前 5 个郡的人口变化百分比数据，计算最终的平均值
+
+Directness	Explicit	问题属于显性问题，意味着答案可以通过对表格数据的操作和计算直接得到，不需要额外的外部知识补充
+
+Composition Type	Bridging	问题属于桥接型推理，需要先完成 “筛选前 5 郡” 的步骤，再基于该结果进行 “计算均值” 的步骤，两步之间存在依赖桥接关系，无法跳过前序步骤直接计算
+
+
     "2-1064198-3.html.csv": [
         {
             "Question name": "What is the average percentage change in population for the top 5 ranked Norwegian counties between 1960 and 2040?",
