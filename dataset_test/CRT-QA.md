@@ -43,3 +43,140 @@
 # **ARC方法**
 
 该论文还提出了ARC方法，也就是使用代码进行计算。具体就是让模型根据用户的自然语言描述先生成python代码再运行代码来推理结果，避免因为大模型数值计算能力差导致错误。
+
+# **数据集格式**
+
+    "2-1064198-3.html.csv": [
+        {
+            "Question name": "What is the average percentage change in population for the top 5 ranked Norwegian counties between 1960 and 2040?",
+            "Tittle": "ranked list of norwegian counties",
+            "step1": {
+                "type": "Operation",
+                "name": "Indexing",
+                "detail": "rank"
+            },
+            "step2": {
+                "type": "Operation",
+                "name": "Filter",
+                "detail": "rank"
+            },
+            "step3": {
+                "type": "Reasoning",
+                "name": "Aggregating",
+                "detail": [
+                    "AVG",
+                    "between 1960 and 2040"
+                ]
+            },
+            "step4": {
+                "type": "Reasoning",
+                "name": "Aggregating",
+                "detail": [
+                    "AVG",
+                    "average percentage change"
+                ]
+            },
+            "Answer": "9.173",
+            "Directness": "Explicit",
+            "Composition Type": "Bridging"
+        },
+        {
+            "Question name": "Which county has had the most consistent percentage change in population over the three time periods?",
+            "Tittle": "ranked list of norwegian counties",
+            "step1": {
+                "type": "Reasoning",
+                "name": "Other Commonsense Reasoning",
+                "detail": "consistent percentage change"
+            },
+            "step2": {
+                "type": "Reasoning",
+                "name": "Aggregating",
+                "detail": [
+                    "STD",
+                    "percentage change"
+                ]
+            },
+            "step3": {
+                "type": "Reasoning",
+                "name": "Aggregating",
+                "detail": [
+                    "MIN",
+                    "percentage change"
+                ]
+            },
+            "step4": {
+                "type": "Operation",
+                "name": "Indexing",
+                "detail": "county"
+            },
+            "Answer": "norway",
+            "Directness": "Explicit",
+            "Composition Type": "Bridging"
+        },
+        {
+            "Question name": "Which county has had the fastest rate of population growth between 1960 and 2040, in terms of percentage change per decade?",
+            "Tittle": "ranked list of norwegian counties",
+            "step1": {
+                "type": "Reasoning",
+                "name": "Arithmetic",
+                "detail": [
+                    "-",
+                    "1960 and 2040"
+                ]
+            },
+            "step2": {
+                "type": "Reasoning",
+                "name": "Other Commonsense Reasoning",
+                "detail": "fastest"
+            },
+            "step3": {
+                "type": "Reasoning",
+                "name": "Aggregating",
+                "detail": [
+                    "MAX",
+                    "rate of population growth"
+                ]
+            },
+            "step4": {
+                "type": "Operation",
+                "name": "Indexing",
+                "detail": "county"
+            },
+            "Answer": "akershus",
+            "Directness": "Explicit",
+            "Composition Type": "Bridging"
+        },
+        {
+            "Question name": "What is the percentage change in population for the county with the smallest population in 2040, relative to its population in 2000?",
+            "Tittle": "ranked list of norwegian counties",
+            "step1": {
+                "type": "Operation",
+                "name": "Indexing",
+                "detail": "% (2040)"
+            },
+            "step2": {
+                "type": "Reasoning",
+                "name": "Aggregating",
+                "detail": [
+                    "MIN",
+                    "% (2040)"
+                ]
+            },
+            "step3": {
+                "type": "Operation",
+                "name": "Indexing",
+                "detail": "county"
+            },
+            "step4": {
+                "type": "Reasoning",
+                "name": "Arithmetic",
+                "detail": [
+                    "-",
+                    "2040, relative to its population in 2000"
+                ]
+            },
+            "Answer": "0.4%",
+            "Directness": "Explicit",
+            "Composition Type": "Comparison"
+        }
+    ]
