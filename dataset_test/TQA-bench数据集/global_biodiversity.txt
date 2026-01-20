@@ -1,0 +1,810 @@
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/global_biodiversity/0.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: global_biod_species_extinction_risks
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'parkpct', 'popden', 'eezpct', 'popshadow', 'totfishing', 'natfishing', 'popgroupmax', 'pthreat', 'd_assignedrisk', 'lcat']
+表内容:
+  第 1 行: ('Carpinus orientalis', 0.19252549210114, '1735.51628961134', None, None, None, None, 6, 5, 1, 'Land_Coast')
+  第 2 行: ('Chronopappus bifrons', 0.114418604651163, '318.416984696694', None, None, None, None, 4, 57, 0, 'Land')
+  第 3 行: ('Cordia lomatoloba', 0.421285123019296, '248.71301238045', None, None, None, None, 3, 2, 1, 'Land_Coast')
+  第 4 行: ('Dohrniphora porrasae', 0.177891733776317, '1580.60701563837', None, None, None, None, 6, 36, 0, 'Land_Coast')
+  第 5 行: ('Dyscerus gigas', 0.0465116279069767, '4289.12996196747', 0.0, 3892.4462890625, 0, 0, 8, 88, 0, 'Coast')
+  第 6 行: ('Eremophila fallax', 0.258942065491184, '5.62343757979434', None, None, None, None, 2, 13, 0, 'Land_Coast')
+  第 7 行: ('Erichansenia epithallina', 0.144288683033356, '381.715052854435', None, None, None, None, 3, 5, 0, 'Land')
+  第 8 行: ('Eriocampa juglandis', 0.0411041915274463, '1315.7383181743', None, None, None, None, 6, 36, 0, 'Land_Coast')
+  第 9 行: ('Gnathonemus petersii', 0.199698832460085, '1732.55731747344', None, None, None, None, 6, 2, 1, 'Land_Coast')
+  第 10 行: ('Hemiramphus brasiliensis', 0.0873468071382498, None, 0.869548318806543, 2048.55284139233, 69.776297493478, 0.0928299726230836, 8, 3, 1, 'Ocean_Coast')
+  第 11 行: ('Hermannia concinnifolia', 0.105413105413105, '210.857091929269', 0.270655270655271, 235.217162813459, 68.045177877619, 0.016090020382156, 4, 71, 0, 'Coast')
+  第 12 行: ('Homalium deplanchei', 0.305732484076433, '246.976207795498', 0.599363057324841, 165.739302590489, 61.2521818277922, 0.0103797574487484, 5, 45, 0, 'Coast')
+  第 13 行: ('Inga micradenia', 0.574199288256228, '152.782497901951', None, None, None, None, 3, 13, 0, 'Land_Coast')
+  第 14 行: ('Inocybe alberichiana', 0.210435902941808, '307.387844483857', None, None, None, None, 4, 77, 0, 'Land_Coast')
+  第 15 行: ('Megalophaedusa hakonensis', 0.358255451713396, '25245.5591608919', None, None, None, None, 8, 35, 0, 'Land_Coast')
+  第 16 行: ('Metrosideros cordata', 0.167921440261866, '771.357795587683', None, None, None, None, 6, 37, 0, 'Land_Coast')
+  第 17 行: ('Mikroconchoecia stigmatica', 0, None, 0.032446694715824, 84.4936343698739, 12.9675372333304, 0.00128327089687656, None, 18, 0, 'Ocean')
+  第 18 行: ('Monarthropalpus flavus', 0.179805066565882, '1896.87339980425', None, None, None, None, 6, 59, 0, 'Land_Coast')
+  第 19 行: ('Nemoura nankinensis', 0, '52488.1293658088', None, None, None, None, 11, 70, 0, 'Land')
+  第 20 行: ('Oscularia deltoides', 0.21832144816237, '2585.51904956441', None, None, None, None, 4, 38, 0, 'Land_Coast')
+  第 21 行: ('Peltigera isidiophora', 0.183558756367469, '851.89462205299', None, None, None, None, 6, 83, 0, 'Land_Coast')
+  第 22 行: ('Phragmanthera kamerunensis', 0.20607846177702, '1063.77061685158', None, None, None, None, 4, 38, 0, 'Land_Coast')
+  第 23 行: ('Polyrhachis danum', 1, '744.350250244141', 0.0, 867.07421875, 0, 0, 7, 74, 0, 'Coast')
+  第 24 行: ('Rapala arata', 0.180044636996193, '5201.39865514554', None, None, None, None, 8, 7, 0, 'Land_Coast')
+  第 25 行: ('Rhynchosia luteola', 0.369629120020014, '970.035428251212', None, None, None, None, 6, 13, 0, 'Land_Coast')
+  第 26 行: ('Stalagmostethus fuscatus', 0.17196040012375, '1197.52666611749', None, None, None, None, 6, 54, 0, 'Land')
+  第 27 行: ('Tetragonisca angustula', 0.283269268785556, '617.045988138777', None, None, None, None, 4, 64, 0, 'Land_Coast')
+  第 28 行: ('Tilia endochrysea', 0.0330268343028711, '3968.61977375391', None, None, None, None, 8, 15, 1, 'Land_Coast')
+  第 29 行: ('Trichobranchus torulosus', 0.219506825187142, None, 0.70035226772347, 756.071167315656, 41.4939211983557, 0.0246939457487951, 2, 33, 0, 'Ocean_Coast')
+  第 30 行: ('Trichoscypha smythei', 0.142869957838711, '4156.53678200037', None, None, None, None, 8, 18, 1, 'Land_Coast')
+  第 31 行: ('Tubercularia ulmea', 0.0403225806451613, '112.523657629849', None, None, None, None, 3, 96, 0, 'Land')
+  第 32 行: ('Viola veronicifolia', 0.24390243902439, '2657.13686120865', None, None, None, None, 8, 71, 0, 'Land')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: global_biod_species_occ_endemism_and_small_range
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'grp', 'lcat', 'area', 'd_smallrange25', 'd_smallrange100', 'd_endemic100', 'd_endemic095', 'd_endemic090', 'max_sh_spp', 'WB_ISO', 'ISO_A3', 'WB_DATANAM', 'type']
+表内容:
+  第 1 行: ('Carpinus orientalis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fagales', 'Betulaceae', 'Carpinus', 'Plants_Other', 'Land_Coast', 4551995.21685608, 0, 0, 0, 0, 0, 0.161948833527962, 'TUR', 'TUR', 'Turkey', 'land-eez')
+  第 2 行: ('Chronopappus bifrons', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Chronopappus', 'Plants_Asterales', 'Land', 31328.7391799636, 0, 0, 1, 1, 1, 1, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 3 行: ('Cordia lomatoloba', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Boraginales', 'Cordiaceae', 'Cordia', 'Plants_Other', 'Land_Coast', 5600472.30065028, 0, 0, 0, 0, 0, 0.725587607914717, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 4 行: ('Dohrniphora porrasae', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Phoridae', 'Dohrniphora', 'Arthropods_Diptera', 'Land_Coast', 844915.695928732, 0, 0, 0, 0, 0, 0.661207519417102, 'COL', 'COL', 'Colombia', 'land-eez')
+  第 5 行: ('Dyscerus gigas', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Curculionidae', 'Dyscerus', 'Arthropods_Coleoptera', 'Coast', 1161.59312497754, 0, 0, 1, 1, 1, 1, 'JPN', 'JPN', 'Japan', 'land-eez')
+  第 6 行: ('Eremophila fallax', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Lamiales', 'Scrophulariaceae', 'Eremophila', 'Plants_Lamiales', 'Land_Coast', 263038.725334868, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 7 行: ('Erichansenia epithallina', 'Fungi', 'Ascomycota', 'Lecanoromycetes', 'Teloschistales', 'Teloschistaceae', 'Erichansenia', 'Fungi', 'Land', 3797684.72693157, 0, 0, 0, 0, 0, 0.783599751377346, 'USA', 'USA', 'United States', 'land-eez')
+  第 8 行: ('Eriocampa juglandis', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Tenthredinidae', 'Eriocampa', 'Arthropods_Hymenoptera', 'Land_Coast', 2585447.28312969, 0, 0, 0, 1, 1, 0.958110040404267, 'USA', 'USA', 'United States', 'land-eez')
+  第 9 行: ('Gnathonemus petersii', 'Animalia', 'Chordata', None, 'Osteoglossiformes', 'Mormyridae', 'Gnathonemus', 'Fish', 'Land_Coast', 2974622.2537432, 0, 0, 0, 0, 0, 0.4305459161411, 'COD', 'COD', 'Congo, Dem. Rep.', 'land-eez')
+  第 10 行: ('Hemiramphus brasiliensis', 'Animalia', 'Chordata', None, 'Beloniformes', 'Hemiramphidae', 'Hemiramphus', 'Fish', 'Ocean_Coast', 6934788.36648795, 0, 0, 0, 0, 0, 0.205111787696673, 'USA', 'USA', 'United States', 'land-eez')
+  第 11 行: ('Hermannia concinnifolia', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Malvales', 'Malvaceae', 'Hermannia', 'Plants_Other', 'Coast', 9000.09512606047, 0, 0, 1, 1, 1, 1, 'ZAF', 'ZAF', 'South Africa', 'land-eez')
+  第 12 行: ('Homalium deplanchei', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Malpighiales', 'Salicaceae', 'Homalium', 'Plants_Malpighiales', 'Coast', 45115.5535921244, 0, 0, 1, 1, 1, 1, 'NCL', 'NCL', 'New Caledonia', 'land-eez')
+  第 13 行: ('Inga micradenia', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fabales', 'Fabaceae', 'Inga', 'Plants_Fabales', 'Land_Coast', 517666.64422361, 0, 0, 0, 0, 0, 0.824815291612742, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 14 行: ('Inocybe alberichiana', 'Fungi', 'Basidiomycota', 'Agaricomycetes', 'Agaricales', 'Inocybaceae', 'Inocybe', 'Fungi', 'Land_Coast', 77165.8977804863, 0, 0, 0, 0, 0, 0.643049100520079, 'EST', 'EST', 'Estonia', 'land-eez')
+  第 15 行: ('Megalophaedusa hakonensis', 'Animalia', 'Mollusca', 'Gastropoda', 'Stylommatophora', 'Clausiliidae', 'Megalophaedusa', 'Animals_Other', 'Land_Coast', 8074.88642592627, 0, 0, 1, 1, 1, 1, 'JPN', 'JPN', 'Japan', 'land-eez')
+  第 16 行: ('Metrosideros cordata', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Myrtales', 'Myrtaceae', 'Metrosideros', 'Plants_Myrtales', 'Land_Coast', 186913.609962606, 0, 0, 0, 0, 0, 0.642165350809658, 'PNG', 'PNG', 'Papua New Guinea', 'land-eez')
+  第 17 行: ('Mikroconchoecia stigmatica', 'Animalia', 'Arthropoda', 'Ostracoda', 'Halocyprida', 'Halocyprididae', 'Mikroconchoecia', 'Arthropods_Other', 'Ocean', 305739.85892085, 0, 0, 0, 1, 1, 0.965048931257854, '-99', '-98', 'ocean', 'ocean')
+  第 18 行: ('Monarthropalpus flavus', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Cecidomyiidae', 'Monarthropalpus', 'Arthropods_Diptera', 'Land_Coast', 0.00046963699203456, 0, 0, 0, 0, 0, 0.515682262619532, 'USA', 'USA', 'United States', 'land-eez')
+  第 19 行: ('Nemoura nankinensis', 'Animalia', 'Arthropoda', 'Insecta', 'Plecoptera', 'Nemouridae', 'Nemoura', 'Arthropods_Other', 'Land', 297.34473207203, 0, 0, 1, 1, 1, 1, 'CHN', 'CHN', 'China', 'land-eez')
+  第 20 行: ('Oscularia deltoides', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Caryophyllales', 'Aizoaceae', 'Oscularia', 'Plants_Caryophyllales', 'Land_Coast', 46244.6175228117, 0, 0, 0, 1, 1, 0.965465628719523, 'ZAF', 'ZAF', 'South Africa', 'land-eez')
+  第 21 行: ('Peltigera isidiophora', 'Fungi', 'Ascomycota', 'Lecanoromycetes', 'Peltigerales', 'Peltigeraceae', 'Peltigera', 'Fungi', 'Land_Coast', 1099959.00126413, 0, 0, 0, 0, 0, 0.282879526618597, 'SWE', 'SWE', 'Sweden', 'land-eez')
+  第 22 行: ('Phragmanthera kamerunensis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Santalales', 'Loranthaceae', 'Phragmanthera', 'Plants_Other', 'Land_Coast', 198201.937092699, 0, 0, 0, 0, 0, 0.494010002404832, 'GAB', 'GAB', 'Gabon', 'land-eez')
+  第 23 行: ('Polyrhachis danum', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Formicidae', 'Polyrhachis', 'Arthropods_Hymenoptera', 'Coast', 0.346218373047283, 1, 1, 1, 1, 1, 1, 'MYS', 'MYS', 'Malaysia', 'land-eez')
+  第 24 行: ('Rapala arata', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Lycaenidae', 'Rapala', 'Arthropods_Lepidoptera', 'Land_Coast', 919343.221859718, 0, 0, 0, 0, 0, 0.658789969571465, 'JPN', 'JPN', 'Japan', 'land-eez')
+  第 25 行: ('Rhynchosia luteola', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fabales', 'Fabaceae', 'Rhynchosia', 'Plants_Fabales', 'Land_Coast', 970267.668263514, 0, 0, 0, 0, 0, 0.475647632301268, 'TZA', 'TZA', 'Tanzania', 'land-eez')
+  第 26 行: ('Stalagmostethus fuscatus', 'Animalia', 'Arthropoda', 'Insecta', 'Hemiptera', 'Lygaeidae', 'Stalagmostethus', 'Arthropods_Hemiptera', 'Land', 1129254.90927963, 0, 0, 0, 0, 0, 0.307616005295991, 'MOZ', 'MOZ', 'Mozambique', 'land-eez')
+  第 27 行: ('Tetragonisca angustula', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Apidae', 'Tetragonisca', 'Arthropods_Hymenoptera', 'Land_Coast', 0.001138190965337, 0, 0, 0, 0, 0, 0.614267516983994, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 28 行: ('Tilia endochrysea', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Malvales', 'Malvaceae', 'Tilia', 'Plants_Other', 'Land_Coast', 1802716.59472004, 0, 0, 0, 0, 0, 0.771724393817297, 'CHN', 'CHN', 'China', 'land-eez')
+  第 29 行: ('Trichobranchus torulosus', 'Animalia', 'Annelida', 'Polychaeta', None, 'Trichobranchidae', 'Trichobranchus', 'Animals_Other', 'Ocean_Coast', 134678.778257226, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 30 行: ('Trichoscypha smythei', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Sapindales', 'Anacardiaceae', 'Trichoscypha', 'Plants_Other', 'Land_Coast', 1022798.65751434, 0, 0, 0, 0, 0, 0.219883971408019, 'NGA', 'NGA', 'Nigeria', 'land-eez')
+  第 31 行: ('Tubercularia ulmea', 'Fungi', 'Ascomycota', 'Sordariomycetes', 'Hypocreales', 'Nectriaceae', 'Tubercularia', 'Fungi', 'Land', 111663.324744564, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 32 行: ('Viola veronicifolia', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Malpighiales', 'Violaceae', 'Viola', 'Plants_Malpighiales', 'Land', 4980.09155296741, 0, 0, 1, 1, 1, 1, 'COL', 'COL', 'Colombia', 'land-eez')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/global_biodiversity/1.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: global_biod_species_extinction_risks
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'parkpct', 'popden', 'eezpct', 'popshadow', 'totfishing', 'natfishing', 'popgroupmax', 'pthreat', 'd_assignedrisk', 'lcat']
+表内容:
+  第 1 行: ('Aelurillus lucasi', 0.293606945540647, '4560.21409279207', 0.818468823993686, 2674.82098598106, 182.871149161372, 0.0649858489299991, 8, 52, 0, 'Coast')
+  第 2 行: ('Anopheles jamesii', 0.177655972916331, '2609.98735720748', None, None, None, None, 8, 42, 0, 'Land_Coast')
+  第 3 行: ('Anthoxanthum ovatum', 0.261030047868966, '1939.7569410556', None, None, None, None, 6, 5, 0, 'Land_Coast')
+  第 4 行: ('Aplectoides condita', 0.0938282324586851, '501.15151612839', None, None, None, None, 1, 2, 0, 'Land_Coast')
+  第 5 行: ('Apollonias barbujana', 0.256011315417256, '4704.51217474242', 0.912305516265912, 2291.90526222321, 312.025622063526, 0.0622472902545812, 8, 53, 1, 'Coast')
+  第 6 行: ('Arceuthobium nigrum', 0.10388303936691, '2683.07951652715', None, None, None, None, 6, 25, 0, 'Land')
+  第 7 行: ('Argentina tugitakensis', 0.74468085106383, '145.700257422219', 0.0, 142.812797546387, 0, 0.0407838225364685, 6, 64, 0, 'Coast')
+  第 8 行: ('Bourreria domingensis', 0.245974955277281, '7765.94566980839', 0.467799642218247, 9586.62156820443, 1.15249498108382, 0.0287450558894003, 8, 67, 0, 'Coast')
+  第 9 行: ('Dictyosporium elegans', 0.349745698517476, '5277.06740710317', None, None, None, None, 6, 48, 0, 'Land_Coast')
+  第 10 行: ('Draconopteris draconoptera', 0.292914009361257, '618.916063785032', None, None, None, None, 4, 14, 0, 'Land_Coast')
+  第 11 行: ('Duthiastrum linifolium', 0.0399527186761229, '984.84720066849', None, None, None, None, 4, 42, 0, 'Land')
+  第 12 行: ('Echeveria humilis', 0.32089552238806, '308.916785468064', None, None, None, None, 6, 53, 0, 'Land')
+  第 13 行: ('Encentrum hofsteni', 0, '8728.33374023438', None, None, None, None, 8, 57, 0, 'Land')
+  第 14 行: ('Hydriastele lurida', 0.237395879000438, '420.156419399925', None, None, None, None, 4, 44, 1, 'Land_Coast')
+  第 15 行: ('Laeviphitus desbruyeresi', 1, None, 1.0, 370.455749511719, 101.526537150145, 0.00546365918125957, None, 53, 1, 'Ocean')
+  第 16 行: ('Leptinaria monodon', 0.172131147540984, '5824.19864275202', 0.0286885245901639, 5050.16975097656, 0, 0.0278112281646047, 8, 42, 0, 'Coast')
+  第 17 行: ('Litoria meiriana', 0.285099561255484, '1.57358454529839', None, None, None, None, 2, 1, 1, 'Land_Coast')
+  第 18 行: ('Lonchaea limatula', 0.106617754097883, '214.455541816374', None, None, None, None, 6, 42, 0, 'Land_Coast')
+  第 19 行: ('Magelona tehuanensis', 0.0722269991401548, '1758.69001647164', 0.807394668959587, 739.700927304287, 9.13943305465213, 0.517398984501294, 6, 46, 0, 'Coast')
+  第 20 行: ('Markea spruceana', 0.123595505617978, '974.402409897622', None, None, None, None, 6, 48, 1, 'Land')
+  第 21 行: ('Megaselia fenestralis', 0.257142857142857, '4096.49805056258', 0.142857142857143, 4522.58721923828, 0.485177766945627, 0.0686696469783783, 8, 84, 0, 'Coast')
+  第 22 行: ('Otiophora multicaulis', 0, '379.069097900391', None, None, None, None, 6, 88, 0, 'Land')
+  第 23 行: ('Paramicrolaimus hohonucola', 0.0257195345988977, None, 0.650336803429271, 192.283861896821, 95.0571431455862, 0.0312611280773442, 4, 70, 0, 'Ocean_Coast')
+  第 24 行: ('Pelochrista agassizii', 0.0114795008912656, '170.770620138327', None, None, None, None, 3, 11, 0, 'Land')
+  第 25 行: ('Psathyrella orbitarum', 0.290070661275171, '2131.739606317', None, None, None, None, 6, 41, 0, 'Land_Coast')
+  第 26 行: ('Simulium annulum', 0.157061809495372, '106.69889222829', None, None, None, None, 3, 63, 0, 'Land_Coast')
+  第 27 行: ('Stylaster polystomos', 0.971875, None, 1.0, 134.271368173453, 2.94760631364358, 0, 3, 59, 0, 'Ocean_Coast')
+  第 28 行: ('Symphyotrichum graminifolium', 0.0720124013528749, '492.209256501074', None, None, None, None, 6, 20, 0, 'Land_Coast')
+  第 29 行: ('Thecotheus pelletieri', 0.242224015346437, '1822.58552697338', None, None, None, None, 6, 35, 0, 'Land_Coast')
+  第 30 行: ('Tricholoma acre', 0.160738714090287, '1736.01460303319', None, None, None, None, 6, 77, 0, 'Land_Coast')
+  第 31 行: ('Trichopria wasmanni', 0.284780800760366, '5352.68209385994', None, None, None, None, 8, 66, 0, 'Land_Coast')
+  第 32 行: ('Wigandia pruritiva', 0.287990196078431, '5721.46297985967', None, None, None, None, 8, 51, 0, 'Land_Coast')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: global_biod_species_occ_endemism_and_small_range
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'grp', 'lcat', 'area', 'd_smallrange25', 'd_smallrange100', 'd_endemic100', 'd_endemic095', 'd_endemic090', 'max_sh_spp', 'WB_ISO', 'ISO_A3', 'WB_DATANAM', 'type']
+表内容:
+  第 1 行: ('Aelurillus lucasi', 'Animalia', 'Arthropoda', 'Arachnida', 'Araneae', 'Salticidae', 'Aelurillus', 'Arthropods_Araneae', 'Coast', 34423.1064812923, 0, 0, 1, 1, 1, 1, 'ESP', 'ESP', 'Spain', 'land-eez')
+  第 2 行: ('Anopheles jamesii', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Culicidae', 'Anopheles', 'Arthropods_Diptera', 'Land_Coast', 554911.597506572, 0, 0, 0, 0, 0, 0.779577388145619, 'THA', 'THA', 'Thailand', 'land-eez')
+  第 3 行: ('Anthoxanthum ovatum', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Poales', 'Poaceae', 'Anthoxanthum', 'Plants_Poales', 'Land_Coast', 2005701.94696819, 0, 0, 0, 0, 0, 0.291761709278302, 'ESP', 'ESP', 'Spain', 'land-eez')
+  第 4 行: ('Aplectoides condita', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Noctuidae', 'Aplectoides', 'Arthropods_Lepidoptera', 'Land_Coast', 5028765.1685483, 0, 0, 0, 0, 0, 0.592310855703186, 'CAN', 'CAN', 'Canada', 'land-eez')
+  第 5 行: ('Apollonias barbujana', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Laurales', 'Lauraceae', 'Apollonias', 'Plants_Other', 'Coast', 56915.5229609925, 0, 0, 0, 0, 0, 0.623138075775106, 'ESP', 'ESP', 'Spain', 'land-eez')
+  第 6 行: ('Arceuthobium nigrum', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Santalales', 'Viscaceae', 'Arceuthobium', 'Plants_Other', 'Land', 423698.012023591, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 7 行: ('Argentina tugitakensis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Rosales', 'Rosaceae', 'Argentina', 'Plants_Other', 'Coast', 1402.66713080635, 0, 0, 1, 1, 1, 1, 'CHN', 'CHN', 'China', 'land-eez')
+  第 8 行: ('Bourreria domingensis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Boraginales', 'Ehretiaceae', 'Bourreria', 'Plants_Other', 'Coast', 32780.692283935, 0, 0, 0, 0, 0, 0.701298851715741, 'DOM', 'DOM', 'Dominican Republic', 'land-eez')
+  第 9 行: ('Dictyosporium elegans', 'Fungi', 'Ascomycota', 'Dothideomycetes', 'Pleosporales', 'Dictyosporiaceae', 'Dictyosporium', 'Fungi', 'Land_Coast', 193359.351606754, 0, 0, 0, 0, 0, 0.539960412487747, 'GBR', 'GBR', 'United Kingdom', 'land-eez')
+  第 10 行: ('Draconopteris draconoptera', 'Plantae', 'Tracheophyta', 'Polypodiopsida', 'Polypodiales', 'Tectariaceae', 'Draconopteris', 'Plants_Other', 'Land_Coast', 2157450.273858, 0, 0, 0, 0, 0, 0.335343708184466, 'PER', 'PER', 'Peru', 'land-eez')
+  第 11 行: ('Duthiastrum linifolium', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Asparagales', 'Iridaceae', 'Duthiastrum', 'Plants_Asparagales', 'Land', 115083.599103879, 0, 0, 1, 1, 1, 1, 'ZAF', 'ZAF', 'South Africa', 'land-eez')
+  第 12 行: ('Echeveria humilis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Saxifragales', 'Crassulaceae', 'Echeveria', 'Plants_Other', 'Land', 7665.26785563224, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 13 行: ('Encentrum hofsteni', 'Animalia', 'Rotifera', 'Eurotatoria', 'Ploima', 'Dicranophoridae', 'Encentrum', 'Animals_Other', 'Land', 35.154050117064, 0, 1, 1, 1, 1, 1, 'ITA', 'ITA', 'Italy', 'land-eez')
+  第 14 行: ('Hydriastele lurida', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Arecales', 'Arecaceae', 'Hydriastele', 'Plants_Other', 'Land_Coast', 140717.876047594, 0, 0, 0, 1, 1, 0.961672312327656, 'IDN', 'IDN', 'Indonesia', 'land-eez')
+  第 15 行: ('Laeviphitus desbruyeresi', 'Animalia', 'Mollusca', 'Gastropoda', 'Littorinimorpha', 'Elachisinidae', 'Laeviphitus', 'Animals_Other', 'Ocean', 932.900947474576, 0, 0, 1, 1, 1, 1, 'PRT', 'PRT', 'Portugal', 'land-eez')
+  第 16 行: ('Leptinaria monodon', 'Animalia', 'Mollusca', 'Gastropoda', 'Stylommatophora', 'Achatinidae', 'Leptinaria', 'Animals_Other', 'Coast', 7239.34617657459, 0, 0, 1, 1, 1, 1, 'JAM', 'JAM', 'Jamaica', 'land-eez')
+  第 17 行: ('Litoria meiriana', 'Animalia', 'Chordata', 'Amphibia', 'Anura', 'Pelodryadidae', 'Litoria', 'Amphibians', 'Land_Coast', 702663.415112906, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 18 行: ('Lonchaea limatula', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Lonchaeidae', 'Lonchaea', 'Arthropods_Diptera', 'Land_Coast', 478852.540881873, 0, 0, 0, 0, 0, 0.64502949694006, 'FIN', 'FIN', 'Finland', 'land-eez')
+  第 19 行: ('Magelona tehuanensis', 'Animalia', 'Annelida', 'Polychaeta', None, 'Magelonidae', 'Magelona', 'Animals_Other', 'Coast', 32743.8749607622, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 20 行: ('Markea spruceana', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Solanales', 'Solanaceae', 'Markea', 'Plants_Other', 'Land', 1.12344076431765e-06, 0, 0, 0, 1, 1, 0.963014316918725, 'ECU', 'ECU', 'Ecuador', 'land-eez')
+  第 21 行: ('Megaselia fenestralis', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Phoridae', 'Megaselia', 'Arthropods_Diptera', 'Coast', 548.75233761584, 0, 0, 1, 1, 1, 1, 'SWE', 'SWE', 'Sweden', 'land-eez')
+  第 22 行: ('Otiophora multicaulis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Gentianales', 'Rubiaceae', 'Otiophora', 'Plants_Gentianales', 'Land', 112.629671198877, 0, 0, 1, 1, 1, 1, 'ZMB', 'ZMB', 'Zambia', 'land')
+  第 23 行: ('Paramicrolaimus hohonucola', 'Animalia', 'Nematoda', 'Chromadorea', 'Plectida', 'Paramicrolaimidae', 'Paramicrolaimus', 'Animals_Other', 'Ocean_Coast', 4.03603812901611e-06, 0, 0, 1, 1, 1, 1, 'NZL', 'NZL', 'New Zealand', 'land-eez')
+  第 24 行: ('Pelochrista agassizii', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Tortricidae', 'Pelochrista', 'Arthropods_Lepidoptera', 'Land', 701598.725709334, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 25 行: ('Psathyrella orbitarum', 'Fungi', 'Basidiomycota', 'Agaricomycetes', 'Agaricales', 'Psathyrellaceae', 'Psathyrella', 'Fungi', 'Land_Coast', 2368172.75711874, 0, 0, 0, 0, 0, 0.206462519413257, 'FRA', 'FRA', 'France', 'land-eez')
+  第 26 行: ('Simulium annulum', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Simuliidae', 'Simulium', 'Arthropods_Diptera', 'Land_Coast', 43144.703776409, 0, 0, 0, 0, 0, 0.518598043190938, 'SWE', 'SWE', 'Sweden', 'land-eez')
+  第 27 行: ('Stylaster polystomos', 'Animalia', 'Cnidaria', 'Hydrozoa', 'Anthoathecata', 'Stylasteridae', 'Stylaster', 'Animals_Other', 'Ocean_Coast', 9094.34322399677, 0, 0, 1, 1, 1, 1, 'NCL', 'NCL', 'New Caledonia', 'land-eez')
+  第 28 行: ('Symphyotrichum graminifolium', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Symphyotrichum', 'Plants_Asterales', 'Land_Coast', 569103.068489833, 0, 0, 0, 0, 0, 0.451700614300859, 'ARG', 'ARG', 'Argentina', 'land-eez')
+  第 29 行: ('Thecotheus pelletieri', 'Fungi', 'Ascomycota', 'Pezizomycetes', 'Pezizales', 'Ascobolaceae', 'Thecotheus', 'Fungi', 'Land_Coast', 2364020.11510175, 0, 0, 0, 0, 0, 0.187727323240447, 'FRA', 'FRA', 'France', 'land-eez')
+  第 30 行: ('Tricholoma acre', 'Fungi', 'Basidiomycota', 'Agaricomycetes', 'Agaricales', 'Tricholomataceae', 'Tricholoma', 'Fungi', 'Land_Coast', 99373.2240751672, 0, 0, 0, 1, 1, 0.958994249323615, 'USA', 'USA', 'United States', 'land-eez')
+  第 31 行: ('Trichopria wasmanni', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Diapriidae', 'Trichopria', 'Arthropods_Hymenoptera', 'Land_Coast', 161644.618859232, 0, 0, 0, 0, 0, 0.678820038043978, 'GBR', 'GBR', 'United Kingdom', 'land-eez')
+  第 32 行: ('Wigandia pruritiva', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Boraginales', 'Namaceae', 'Wigandia', 'Plants_Other', 'Land_Coast', 2.04897370945434e-06, 0, 0, 0, 0, 0, 0.58142055067658, 'DOM', 'DOM', 'Dominican Republic', 'land-eez')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/global_biodiversity/2.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: global_biod_species_extinction_risks
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'parkpct', 'popden', 'eezpct', 'popshadow', 'totfishing', 'natfishing', 'popgroupmax', 'pthreat', 'd_assignedrisk', 'lcat']
+表内容:
+  第 1 行: ('Astropanax monophyllus', 0.294806716126513, '912.25710025412', None, None, None, None, 7, 27, 1, 'Land_Coast')
+  第 2 行: ('Bactrocera passiflorae', 0.101849737382964, '560.652009147084', 0.602877369262389, 462.34307373798, 76.0379497142925, 0.0568435608318092, 4, 50, 0, 'Coast')
+  第 3 行: ('Biophytum soukupii', 0.322468902535034, '111.417791608466', None, None, None, None, 4, 11, 0, 'Land')
+  第 4 行: ('Bulbophyllum bifurcatoflorens', 0.339869281045752, '2751.53270047813', None, None, None, None, 6, 70, 0, 'Land_Coast')
+  第 5 行: ('Canthigaster flavoreticulata', 0.440443213296399, None, 0.986149584487535, 26.1345444048888, 141.378290682192, 0.0224448041214297, 2, 5, 0, 'Ocean_Coast')
+  第 6 行: ('Cuphea paucipetala', 0.154114713216958, '4602.9905927199', None, None, None, None, 6, 62, 0, 'Land')
+  第 7 行: ('Encentrum hofsteni', 0, '8728.33374023438', None, None, None, None, 8, 57, 0, 'Land')
+  第 8 行: ('Ficus pertusa', 0.262804742433833, '703.680402736419', None, None, None, None, 4, 1, 1, 'Land_Coast')
+  第 9 行: ('Frutioidia bisignata', 0.310883744191377, '2376.50069512452', None, None, None, None, 6, 56, 0, 'Land_Coast')
+  第 10 行: ('Heteropsis croatii', 0.209158679446219, '138.791902338459', None, None, None, None, 4, 30, 0, 'Land')
+  第 11 行: ('Isotomurus retardatus', 0.290523842320626, '2377.37041861228', None, None, None, None, 6, 14, 0, 'Land_Coast')
+  第 12 行: ('Lyctus carbonarius', 0.200804479848569, '1424.44149088817', None, None, None, None, 1, 16, 0, 'Land_Coast')
+  第 13 行: ('Malthinus seriepunctatus', 0.280962719114587, '2079.62934159419', None, None, None, None, 6, 5, 0, 'Land_Coast')
+  第 14 行: ('Medinilla fuchsioides', 0, '9146.7966003418', None, None, None, None, 8, 88, 0, 'Land')
+  第 15 行: ('Melanthia alaudaria', 0.381241997439181, '1044.49520808512', None, None, None, None, 6, 16, 0, 'Land')
+  第 16 行: ('Mirachelus clinocnemus', 0, None, 0.926039119804401, 2938.29289627075, 14.3365177910665, 0.0785592825475305, None, 93, 0, 'Ocean')
+  第 17 行: ('Nectopsyche ortizi', 0.0583670169765562, '1262.91793103216', None, None, None, None, 4, 18, 0, 'Land_Coast')
+  第 18 行: ('Neurobasis luzoniensis', 0.0844692737430168, '13154.2042492218', None, None, None, None, 8, 13, 1, 'Land_Coast')
+  第 19 行: ('Nezumia convergens', 0.169011632507715, None, 0.722576560892617, 1033.82708340279, 38.945190727052, 0.0290090529584454, 6, 3, 0, 'Ocean_Coast')
+  第 20 行: ('Nylanderia deyrupi', 0.158897750160316, '1094.80706189311', None, None, None, None, 6, 28, 0, 'Land_Coast')
+  第 21 行: ('Olibrus corticalis', 0.275521014163751, '2192.50448584751', None, None, None, None, 6, 6, 0, 'Land_Coast')
+  第 22 行: ('Oscularia deltoides', 0.21832144816237, '2585.51904956441', None, None, None, None, 4, 38, 0, 'Land_Coast')
+  第 23 行: ('Pachnodella marginella', 0.131944444444444, '1137.97715755614', None, None, None, None, 6, 31, 0, 'Land')
+  第 24 行: ('Petrolisthes coccineus', 0.229591836734694, '4131.93605045057', 0.637755102040816, 2637.74482210945, 4.18932132311958, 0.0624755508906674, 3, 31, 0, 'Coast')
+  第 25 行: ('Philocaenus clairae', 0.1625, '855.352140966009', 0.0, 653.433878580729, 0, 0.00288410924258642, 6, 57, 0, 'Coast')
+  第 26 行: ('Physcia cinerea', 0.116749467707594, '359.5269577333', None, None, None, None, 4, 91, 0, 'Land_Coast')
+  第 27 行: ('Polycyrtus neglectus', 0.0542265722362382, '2085.02129171376', None, None, None, None, 6, 50, 0, 'Land_Coast')
+  第 28 行: ('Pseudocercospora platensis', 0.103603603603604, '226.766813431474', None, None, None, None, 4, 45, 0, 'Land_Coast')
+  第 29 行: ('Siphona pallida', 0.13169164882227, '310.792363289384', None, None, None, None, 5, 74, 0, 'Land_Coast')
+  第 30 行: ('Stiphrosoma hirtum', 0.138662467580585, '160.23351150527', None, None, None, None, 3, 50, 0, 'Land')
+  第 31 行: ('Takifugu snyderi', 0.185794338112219, '8763.13645703623', 0.475656793537588, 7036.92282897429, 918.534081680815, 0.770200295031125, 8, 12, 1, 'Coast')
+  第 32 行: ('Tropidia saprophytica', 0.319702602230483, '1808.53855577532', None, None, None, None, 8, 58, 1, 'Land_Coast')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: global_biod_species_occ_endemism_and_small_range
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'grp', 'lcat', 'area', 'd_smallrange25', 'd_smallrange100', 'd_endemic100', 'd_endemic095', 'd_endemic090', 'max_sh_spp', 'WB_ISO', 'ISO_A3', 'WB_DATANAM', 'type']
+表内容:
+  第 1 行: ('Astropanax monophyllus', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Apiales', 'Araliaceae', 'Astropanax', 'Plants_Other', 'Land_Coast', 149832.774636542, 0, 0, 1, 1, 1, 1, 'MDG', 'MDG', 'Madagascar', 'land-eez')
+  第 2 行: ('Bactrocera passiflorae', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Tephritidae', 'Bactrocera', 'Arthropods_Diptera', 'Coast', 220196.33441169, 0, 0, 0, 0, 0, 0.79671103906163, 'NZL', 'NZL', 'New Zealand', 'land-eez')
+  第 3 行: ('Biophytum soukupii', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Oxalidales', 'Oxalidaceae', 'Biophytum', 'Plants_Other', 'Land', 385968.480579089, 0, 0, 0, 0, 0, 0.896364019454265, 'PER', 'PER', 'Peru', 'land-eez')
+  第 4 行: ('Bulbophyllum bifurcatoflorens', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Asparagales', 'Orchidaceae', 'Bulbophyllum', 'Plants_Asparagales', 'Land_Coast', 13006.7166327783, 0, 0, 1, 1, 1, 1, 'CHN', 'CHN', 'China', 'land-eez')
+  第 5 行: ('Canthigaster flavoreticulata', 'Animalia', 'Chordata', None, 'Tetraodontiformes', 'Tetraodontidae', 'Canthigaster', 'Fish', 'Ocean_Coast', 20951.1200182258, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 6 行: ('Cuphea paucipetala', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Myrtales', 'Lythraceae', 'Cuphea', 'Plants_Myrtales', 'Land', 58208.9686777069, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 7 行: ('Encentrum hofsteni', 'Animalia', 'Rotifera', 'Eurotatoria', 'Ploima', 'Dicranophoridae', 'Encentrum', 'Animals_Other', 'Land', 35.154050117064, 0, 1, 1, 1, 1, 1, 'ITA', 'ITA', 'Italy', 'land-eez')
+  第 8 行: ('Ficus pertusa', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Rosales', 'Moraceae', 'Ficus', 'Plants_Other', 'Land_Coast', 17416457.0488871, 0, 0, 0, 0, 0, 0.506466773485657, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 9 行: ('Frutioidia bisignata', 'Animalia', 'Arthropoda', 'Insecta', 'Hemiptera', 'Cicadellidae', 'Frutioidia', 'Arthropods_Hemiptera', 'Land_Coast', 1024416.49367014, 0, 0, 0, 0, 0, 0.440666842841675, 'FRA', 'FRA', 'France', 'land-eez')
+  第 10 行: ('Heteropsis croatii', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Alismatales', 'Araceae', 'Heteropsis', 'Plants_Other', 'Land', 139827.580835493, 0, 0, 0, 0, 0, 0.884360368869676, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 11 行: ('Isotomurus retardatus', 'Animalia', 'Arthropoda', 'Collembola', 'Entomobryomorpha', 'Isotomidae', 'Isotomurus', 'Arthropods_Other', 'Land_Coast', 726925.246309795, 0, 0, 0, 0, 0, 0.438521285839412, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 12 行: ('Lyctus carbonarius', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Bostrichidae', 'Lyctus', 'Arthropods_Coleoptera', 'Land_Coast', 318171.172217336, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 13 行: ('Malthinus seriepunctatus', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Cantharidae', 'Malthinus', 'Arthropods_Coleoptera', 'Land_Coast', 3089205.56687216, 0, 0, 0, 0, 0, 0.21805562193499, 'FRA', 'FRA', 'France', 'land-eez')
+  第 14 行: ('Medinilla fuchsioides', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Myrtales', 'Melastomataceae', 'Medinilla', 'Plants_Myrtales', 'Land', 97.0533875158601, 0, 1, 1, 1, 1, 1, 'LKA', 'LKA', 'Sri Lanka', 'land-eez')
+  第 15 行: ('Melanthia alaudaria', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Geometridae', 'Melanthia', 'Arthropods_Lepidoptera', 'Land', 65876.5801044369, 0, 0, 0, 0, 0, 0.635392015406915, 'AUT', 'AUT', 'Austria', 'land')
+  第 16 行: ('Mirachelus clinocnemus', 'Animalia', 'Mollusca', 'Gastropoda', 'Seguenziida', 'Chilodontaidae', 'Mirachelus', 'Animals_Other', 'Ocean', 46083.2862407044, 0, 0, 0, 0, 0, 0.634579576137224, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 17 行: ('Nectopsyche ortizi', 'Animalia', 'Arthropoda', 'Insecta', 'Trichoptera', 'Leptoceridae', 'Nectopsyche', 'Arthropods_Other', 'Land_Coast', 535051.889890496, 0, 0, 1, 1, 1, 1, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 18 行: ('Neurobasis luzoniensis', 'Animalia', 'Arthropoda', 'Insecta', 'Odonata', 'Calopterygidae', 'Neurobasis', 'Arthropods_Other', 'Land_Coast', 133597.873792389, 0, 0, 1, 1, 1, 1, 'PHL', 'PHL', 'Philippines', 'land-eez')
+  第 19 行: ('Nezumia convergens', 'Animalia', 'Chordata', None, 'Gadiformes', 'Macrouridae', 'Nezumia', 'Fish', 'Ocean_Coast', 1788420.34275236, 0, 0, 0, 0, 0, 0.471871954049431, 'CHL', 'CHL', 'Chile', 'land-eez')
+  第 20 行: ('Nylanderia deyrupi', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Formicidae', 'Nylanderia', 'Arthropods_Hymenoptera', 'Land_Coast', 3062334.15768464, 0, 0, 0, 0, 0, 0.371532579644895, 'USA', 'USA', 'United States', 'land-eez')
+  第 21 行: ('Olibrus corticalis', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Phalacridae', 'Olibrus', 'Arthropods_Coleoptera', 'Land_Coast', 2153867.27210959, 0, 0, 0, 0, 0, 0.277819905491729, 'FRA', 'FRA', 'France', 'land-eez')
+  第 22 行: ('Oscularia deltoides', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Caryophyllales', 'Aizoaceae', 'Oscularia', 'Plants_Caryophyllales', 'Land_Coast', 46244.6175228117, 0, 0, 0, 1, 1, 0.965465628719523, 'ZAF', 'ZAF', 'South Africa', 'land-eez')
+  第 23 行: ('Pachnodella marginella', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Scarabaeidae', 'Marmylida', 'Arthropods_Coleoptera', 'Land', 17603.1379548495, 0, 0, 0, 0, 0, 0.76133267284886, 'COD', 'COD', 'Congo, Dem. Rep.', 'land-eez')
+  第 24 行: ('Petrolisthes coccineus', 'Animalia', 'Arthropoda', 'Malacostraca', 'Decapoda', 'Porcellanidae', 'Petrolisthes', 'Arthropods_Other', 'Coast', 11380.7832523543, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 25 行: ('Philocaenus clairae', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Agaonidae', 'Philocaenus', 'Arthropods_Hymenoptera', 'Coast', 2268.31914945857, 0, 0, 1, 1, 1, 1, 'ZAF', 'ZAF', 'South Africa', 'land-eez')
+  第 26 行: ('Physcia cinerea', 'Fungi', 'Ascomycota', 'Lecanoromycetes', 'Caliciales', 'Physciaceae', 'Physcia', 'Fungi', 'Land_Coast', 77614.2319935181, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 27 行: ('Polycyrtus neglectus', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Ichneumonidae', 'Polycyrtus', 'Arthropods_Hymenoptera', 'Land_Coast', 818739.616383849, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 28 行: ('Pseudocercospora platensis', 'Fungi', 'Ascomycota', 'Dothideomycetes', 'Mycosphaerellales', 'Mycosphaerellaceae', 'Pseudocercospora', 'Fungi', 'Land_Coast', 10637.2416733196, 0, 0, 1, 1, 1, 1, 'NZL', 'NZL', 'New Zealand', 'land-eez')
+  第 29 行: ('Siphona pallida', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Tachinidae', 'Siphona', 'Arthropods_Diptera', 'Land_Coast', 14091.2866931507, 0, 0, 0, 1, 1, 0.962964188009284, 'NOR', 'NOR', 'Norway', 'land-eez')
+  第 30 行: ('Stiphrosoma hirtum', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Anthomyzidae', 'Stiphrosoma', 'Arthropods_Diptera', 'Land', 210027.419547772, 0, 0, 0, 0, 0, 0.852299430077699, 'CAN', 'CAN', 'Canada', 'land-eez')
+  第 31 行: ('Takifugu snyderi', 'Animalia', 'Chordata', None, 'Tetraodontiformes', 'Tetraodontidae', 'Takifugu', 'Fish', 'Coast', 350525.908809412, 0, 0, 0, 0, 0, 0.897463873459034, 'JPN', 'JPN', 'Japan', 'land-eez')
+  第 32 行: ('Tropidia saprophytica', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Asparagales', 'Orchidaceae', 'Tropidia', 'Plants_Asparagales', 'Land_Coast', 33553.1157530167, 0, 0, 0, 0, 0, 0.636446146417396, 'MYS', 'MYS', 'Malaysia', 'land-eez')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/global_biodiversity/3.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: global_biod_species_extinction_risks
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'parkpct', 'popden', 'eezpct', 'popshadow', 'totfishing', 'natfishing', 'popgroupmax', 'pthreat', 'd_assignedrisk', 'lcat']
+表内容:
+  第 1 行: ('Aloiampelos striatula', 0.216090425531915, '1414.59719293307', None, None, None, None, 4, 25, 0, 'Land_Coast')
+  第 2 行: ('Anemia tenera', 0.062595689553645, '737.808028398667', None, None, None, None, 4, 0, 0, 'Land')
+  第 3 行: ('Apollonias barbujana', 0.256011315417256, '4704.51217474242', 0.912305516265912, 2291.90526222321, 312.025622063526, 0.0622472902545812, 8, 53, 1, 'Coast')
+  第 4 行: ('Ataenius fattigi', 0.0774779588565322, '2063.85504207173', None, None, None, None, 6, 26, 0, 'Land_Coast')
+  第 5 行: ('Begonia espiritosantensis', 0.0612244897959184, '981.105359077454', None, None, None, None, 6, 88, 0, 'Land_Coast')
+  第 6 行: ('Bipolaris victoriae', 0.0861552790898809, '189.405182556429', None, None, None, None, 2, 20, 0, 'Land_Coast')
+  第 7 行: ('Calliphona gomerensis', 0.625, '897.425570011139', 0.3125, 528.918502807617, 55.1307609558105, 0.123554228246212, 7, 65, 1, 'Coast')
+  第 8 行: ('Copelatus mysorensis', 0, '7802.9612678079', None, None, None, None, 9, 52, 0, 'Land_Coast')
+  第 9 行: ('Crassomicrodus fulvescens', 0.11357423543482, '481.175247399769', None, None, None, None, 1, 49, 0, 'Land_Coast')
+  第 10 行: ('Deltophora peltosema', 0.0940899735371949, '64.2975202995454', None, None, None, None, 2, 5, 0, 'Land_Coast')
+  第 11 行: ('Euphylidorea lineola', 0.219378480957436, '2017.15031299871', None, None, None, None, 6, 32, 0, 'Land_Coast')
+  第 12 行: ('Funkotriplogynium iagobadius', 0.0998487140695915, '706.888689000786', None, None, None, None, 4, 40, 0, 'Land_Coast')
+  第 13 行: ('Garrulax annamensis', 0.0697674418604651, '4595.69524080791', None, None, None, None, 8, 57, 1, 'Land')
+  第 14 行: ('Hesionura laubieri', 0, '177.211608886719', 1.0, 1914.55004882812, 266.161956787109, 0.181436441838741, 6, 73, 0, 'Coast')
+  第 15 行: ('Ipomoea holubii', 0.311793830138378, '391.475386085836', None, None, None, None, 4, 8, 0, 'Land')
+  第 16 行: ('Lonchocarpus retifer', 0.193612774451098, '2245.70880954329', None, None, None, None, 8, 33, 1, 'Land_Coast')
+  第 17 行: ('Naemacyclus fimbriatus', 0.286900641442123, '1972.64450304725', None, None, None, None, 8, 10, 0, 'Land_Coast')
+  第 18 行: ('Neurobasis luzoniensis', 0.0844692737430168, '13154.2042492218', None, None, None, None, 8, 13, 1, 'Land_Coast')
+  第 19 行: ('Niceforonia brunnea', 0.153846153846154, '1700.67643515847', None, None, None, None, 8, 78, 1, 'Land')
+  第 20 行: ('Palimmeces amaura', 0.312169312169312, '569.666832229457', None, None, None, None, 3, 28, 0, 'Land')
+  第 21 行: ('Phyllonorycter muelleriella', 0.319900870506893, '3294.11905420348', None, None, None, None, 8, 6, 0, 'Land_Coast')
+  第 22 行: ('Prunus szechuanica', 0.0231983921906403, '4623.49707656139', None, None, None, None, 8, 18, 0, 'Land')
+  第 23 行: ('Pseudoanthidium truncatum', 0.220590233430256, '2178.15504266733', None, None, None, None, 8, 33, 0, 'Land_Coast')
+  第 24 行: ('Pseudodipsas cephenes', 0.168296733714708, '511.057895240175', None, None, None, None, 3, 12, 1, 'Land_Coast')
+  第 25 行: ('Pseudophegopteris rectangularis', 0.00219849246231156, '4840.9835418007', None, None, None, None, 8, 62, 0, 'Land')
+  第 26 行: ('Puccinia leucanthemi-vernae', 0.539772727272727, '1461.80337003959', None, None, None, None, 6, 44, 0, 'Land')
+  第 27 行: ('Sminthurinus minutus', 0, '29241.3597828258', 0.03125, 38008.2734375, 0, 0, 11, 70, 0, 'Coast')
+  第 28 行: ('Sphagnophylax meiops', 0, '0.123495454222805', None, None, None, None, 1, 86, 0, 'Land_Coast')
+  第 29 行: ('Sphenospora mera', 0.273066926575699, '5754.02134662763', 0.833495776478233, 3865.22718919217, 5.69012035849304, 0.0391671700842779, 8, 35, 0, 'Coast')
+  第 30 行: ('Tropisternus lateralis', 0.168915482601815, '801.264113193221', None, None, None, None, 6, 2, 0, 'Land_Coast')
+  第 31 行: ('Tulipa agenensis', 0.197573114568157, '2469.67978653634', None, None, None, None, 6, 9, 0, 'Land_Coast')
+  第 32 行: ('Zoothera lunulata', 0.135701088072264, '209.148351259946', None, None, None, None, 2, 7, 1, 'Land_Coast')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: global_biod_species_occ_endemism_and_small_range
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'grp', 'lcat', 'area', 'd_smallrange25', 'd_smallrange100', 'd_endemic100', 'd_endemic095', 'd_endemic090', 'max_sh_spp', 'WB_ISO', 'ISO_A3', 'WB_DATANAM', 'type']
+表内容:
+  第 1 行: ('Aloiampelos striatula', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Asparagales', 'Asphodelaceae', 'Aloiampelos', 'Plants_Asparagales', 'Land_Coast', 306252.824091982, 0, 0, 0, 0, 0, 0.636700139219146, 'ZAF', 'ZAF', 'South Africa', 'land-eez')
+  第 2 行: ('Anemia tenera', 'Plantae', 'Tracheophyta', 'Polypodiopsida', 'Schizaeales', 'Anemiaceae', 'Anemia', 'Plants_Other', 'Land', 997632.637193754, 0, 0, 1, 1, 1, 1, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 3 行: ('Apollonias barbujana', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Laurales', 'Lauraceae', 'Apollonias', 'Plants_Other', 'Coast', 56915.5229609925, 0, 0, 0, 0, 0, 0.623138075775106, 'ESP', 'ESP', 'Spain', 'land-eez')
+  第 4 行: ('Ataenius fattigi', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Scarabaeidae', 'Ataenius', 'Arthropods_Coleoptera', 'Land_Coast', 99165.0632872499, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 5 行: ('Begonia espiritosantensis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Cucurbitales', 'Begoniaceae', 'Begonia', 'Plants_Other', 'Land_Coast', 1439.47482015017, 0, 0, 1, 1, 1, 1, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 6 行: ('Bipolaris victoriae', 'Fungi', 'Ascomycota', 'Dothideomycetes', 'Pleosporales', 'Pleosporaceae', 'Bipolaris', 'Fungi', 'Land_Coast', 1197411.14614393, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 7 行: ('Calliphona gomerensis', 'Animalia', 'Arthropoda', 'Insecta', 'Orthoptera', 'Tettigoniidae', 'Calliphona', 'Arthropods_Other', 'Coast', 4.13331209934995e-08, 0, 0, 1, 1, 1, 1, 'ESP', 'ESP', 'Spain', 'land-eez')
+  第 8 行: ('Copelatus mysorensis', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Dytiscidae', 'Copelatus', 'Arthropods_Coleoptera', 'Land_Coast', 3121.20159734169, 0, 0, 1, 1, 1, 1, 'IND', 'IND', 'India', 'land-eez')
+  第 9 行: ('Crassomicrodus fulvescens', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Braconidae', 'Crassomicrodus', 'Arthropods_Hymenoptera', 'Land_Coast', 613832.562586213, 0, 0, 0, 0, 0, 0.616418277491271, 'USA', 'USA', 'United States', 'land-eez')
+  第 10 行: ('Deltophora peltosema', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Gelechiidae', 'Deltophora', 'Arthropods_Lepidoptera', 'Land_Coast', 999917.552963241, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 11 行: ('Euphylidorea lineola', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Limoniidae', 'Euphylidorea', 'Arthropods_Diptera', 'Land_Coast', 1203611.62749997, 0, 0, 0, 0, 0, 0.337211469262757, 'GBR', 'GBR', 'United Kingdom', 'land-eez')
+  第 12 行: ('Funkotriplogynium iagobadius', 'Animalia', 'Arthropoda', 'Arachnida', 'Mesostigmata', 'Triplogyniidae', 'Funkotriplogynium', 'Arthropods_Other', 'Land_Coast', 18166.3224250469, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 13 行: ('Garrulax annamensis', 'Animalia', 'Chordata', 'Aves', 'Passeriformes', 'Leiothrichidae', 'Garrulax', 'Birds', 'Land', 1294.79978883006, 0, 0, 1, 1, 1, 1, 'VNM', 'VNM', 'Vietnam', 'land-eez')
+  第 14 行: ('Hesionura laubieri', 'Animalia', 'Annelida', 'Polychaeta', 'Phyllodocida', 'Phyllodocidae', 'Hesionura', 'Animals_Other', 'Coast', 21.6750025495623, 1, 1, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 15 行: ('Ipomoea holubii', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Solanales', 'Convolvulaceae', 'Ipomoea', 'Plants_Other', 'Land', 1136503.68318364, 0, 0, 0, 0, 0, 0.330918593092961, 'BWA', 'BWA', 'Botswana', 'land')
+  第 16 行: ('Lonchocarpus retifer', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fabales', 'Fabaceae', 'Lonchocarpus', 'Plants_Fabales', 'Land_Coast', 165134.591777552, 0, 0, 0, 0, 0, 0.489861412804967, 'NIC', 'NIC', 'Nicaragua', 'land-eez')
+  第 17 行: ('Naemacyclus fimbriatus', 'Fungi', 'Ascomycota', 'Leotiomycetes', 'Chaetomellales', 'Marthamycetaceae', 'Naemacyclus', 'Fungi', 'Land_Coast', 1617010.9634119, 0, 0, 0, 0, 0, 0.207581328541202, 'FRA', 'FRA', 'France', 'land-eez')
+  第 18 行: ('Neurobasis luzoniensis', 'Animalia', 'Arthropoda', 'Insecta', 'Odonata', 'Calopterygidae', 'Neurobasis', 'Arthropods_Other', 'Land_Coast', 133597.873792389, 0, 0, 1, 1, 1, 1, 'PHL', 'PHL', 'Philippines', 'land-eez')
+  第 19 行: ('Niceforonia brunnea', 'Animalia', 'Chordata', 'Amphibia', 'Anura', 'Craugastoridae', 'Niceforonia', 'Amphibians', 'Land', 1145.19308024013, 0, 0, 0, 0, 0, 0.794809842051751, 'COL', 'COL', 'Colombia', 'land-eez')
+  第 20 行: ('Palimmeces amaura', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Oecophoridae', 'Palimmeces', 'Arthropods_Lepidoptera', 'Land', 9627.17907126994, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 21 行: ('Phyllonorycter muelleriella', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Gracillariidae', 'Phyllonorycter', 'Arthropods_Lepidoptera', 'Land_Coast', 946476.414082995, 0, 0, 0, 0, 0, 0.363115091161184, 'DEU', 'DEU', 'Germany', 'land-eez')
+  第 22 行: ('Prunus szechuanica', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Rosales', 'Rosaceae', 'Prunus', 'Plants_Other', 'Land', 450346.104540451, 0, 0, 1, 1, 1, 1, 'CHN', 'CHN', 'China', 'land-eez')
+  第 23 行: ('Pseudoanthidium truncatum', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Megachilidae', 'Pseudoanthidium', 'Arthropods_Hymenoptera', 'Land_Coast', 2196801.48765598, 0, 0, 0, 0, 0, 0.3054254005005, 'TZA', 'TZA', 'Tanzania', 'land-eez')
+  第 24 行: ('Pseudodipsas cephenes', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Lycaenidae', 'Pseudodipsas', 'Arthropods_Lepidoptera', 'Land_Coast', 152959.858321982, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 25 行: ('Pseudophegopteris rectangularis', 'Plantae', 'Tracheophyta', 'Polypodiopsida', 'Polypodiales', 'Thelypteridaceae', 'Pseudophegopteris', 'Plants_Other', 'Land', 87077.2273650779, 0, 0, 1, 1, 1, 1, 'CHN', 'CHN', 'China', 'land-eez')
+  第 26 行: ('Puccinia leucanthemi-vernae', 'Fungi', 'Basidiomycota', 'Pucciniomycetes', 'Pucciniales', 'Pucciniaceae', 'Puccinia', 'Fungi', 'Land', 3382.05212671236, 0, 0, 1, 1, 1, 1, 'DEU', 'DEU', 'Germany', 'land-eez')
+  第 27 行: ('Sminthurinus minutus', 'Animalia', 'Arthropoda', 'Collembola', 'Symphypleona', 'Katiannidae', 'Sminthurinus', 'Arthropods_Other', 'Coast', 783.409841473502, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 28 行: ('Sphagnophylax meiops', 'Animalia', 'Arthropoda', 'Insecta', 'Trichoptera', 'Limnephilidae', 'Sphagnophylax', 'Arthropods_Other', 'Land_Coast', 4.20811430637877e-06, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 29 行: ('Sphenospora mera', 'Fungi', 'Basidiomycota', 'Pucciniomycetes', 'Pucciniales', 'Pucciniaceae', 'Sphenospora', 'Fungi', 'Coast', 182347.077921107, 0, 0, 0, 0, 0, 0.191573055465613, 'DOM', 'DOM', 'Dominican Republic', 'land-eez')
+  第 30 行: ('Tropisternus lateralis', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Hydrophilidae', 'Tropisternus', 'Arthropods_Coleoptera', 'Land_Coast', 17867187.149157, 0, 0, 0, 0, 0, 0.441360866622042, 'USA', 'USA', 'United States', 'land-eez')
+  第 31 行: ('Tulipa agenensis', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Liliales', 'Liliaceae', 'Tulipa', 'Plants_Other', 'Land_Coast', 2349334.99390468, 0, 0, 0, 0, 0, 0.237226491250414, 'FRA', 'FRA', 'France', 'land-eez')
+  第 32 行: ('Zoothera lunulata', 'Animalia', 'Chordata', 'Aves', 'Passeriformes', 'Turdidae', 'Zoothera', 'Birds', 'Land_Coast', 2297086.57974754, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/global_biodiversity/4.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: global_biod_species_extinction_risks
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'parkpct', 'popden', 'eezpct', 'popshadow', 'totfishing', 'natfishing', 'popgroupmax', 'pthreat', 'd_assignedrisk', 'lcat']
+表内容:
+  第 1 行: ('Aerangis hariotiana', 0.322404371584699, '4888.07173012723', 0.836065573770492, 2375.44157191685, 0.10234783006751, 0.00609835287156914, 8, 56, 0, 'Coast')
+  第 2 行: ('Amerodectes hribari', 0.0390837508947745, '1205.42032672402', None, None, None, None, 6, 15, 0, 'Land')
+  第 3 行: ('Bajacalia moranii', 1, '0.353059343621135', 0.0, 0.232636690139771, 0, 0, 2, 77, 0, 'Coast')
+  第 4 行: ('Bembidion tepaki', 0.125, '65.9336592189015', 0.34375, 72.3616943359375, 94.0729109048843, 0.0978158004581928, 4, 82, 0, 'Coast')
+  第 5 行: ('Bryophila felina', 0.256760686246002, '1968.83322441508', None, None, None, None, 8, 15, 0, 'Land')
+  第 6 行: ('Bungarus caeruleus', 0.03132058424936, '9379.61182826505', None, None, None, None, 8, 5, 1, 'Land_Coast')
+  第 7 行: ('Callipogon relictus', 0.0960884353741497, '1001.46714031058', None, None, None, None, 6, 24, 0, 'Land_Coast')
+  第 8 行: ('Campylomyza flavipes', 0.177089923914278, '1060.33818283272', None, None, None, None, 6, 65, 0, 'Land_Coast')
+  第 9 行: ('Chaetoceros eibenii', 0.140885269594894, None, 0.783625730994152, 3010.2193852479, 616.616854499698, 0.256048951335225, 8, 12, 0, 'Ocean_Coast')
+  第 10 行: ('Cicadulina gerhardi', 0.150120918984281, '123.779452419877', None, None, None, None, 4, 66, 0, 'Land')
+  第 11 行: ('Cryptothecia darwiniana', 1, '145.664281110006', 0.872093023255814, 89.8581985272411, 24.9112988417951, 0.0140789720120237, 4, 43, 0, 'Coast')
+  第 12 行: ('Cucullia gnaphalii', 0.215313230840807, '1481.688087467', None, None, None, None, 6, 2, 0, 'Land_Coast')
+  第 13 行: ('Cyclogramma pandama', 0.116845948879897, '2575.89395774626', None, None, None, None, 6, 6, 0, 'Land_Coast')
+  第 14 行: ('Delphinium himalayae', 0.414772727272727, '331.751950229299', None, None, None, None, 4, 63, 0, 'Land')
+  第 15 行: ('Dendropsophus delarivai', 0, '174.422744750977', None, None, None, None, 6, 44, 1, 'Land')
+  第 16 行: ('Dianthera cayennensis', 0.509851033157136, '80.1531849013514', None, None, None, None, 3, 16, 0, 'Land_Coast')
+  第 17 行: ('Emarginea combusta', 0.261269354753475, '521.536236528892', None, None, None, None, 4, 7, 0, 'Land_Coast')
+  第 18 行: ('Epicaerus sulcatus', 0.052098178939034, '56.0767348991431', None, None, None, None, 3, 19, 0, 'Land')
+  第 19 行: ('Ficus abelii', 0.0784424170791165, '3198.36638202701', None, None, None, None, 8, 5, 1, 'Land_Coast')
+  第 20 行: ('Homoranthus decasetus', 0.133286810886253, '1.68244754544265', None, None, None, None, 2, 40, 0, 'Land')
+  第 21 行: ('Nylanderia deyrupi', 0.158897750160316, '1094.80706189311', None, None, None, None, 6, 28, 0, 'Land_Coast')
+  第 22 行: ('Omobranchus loxozonus', 0.118456196581197, '3069.22743409915', 0.747061965811966, 2208.31587131086, 149.747152100096, 0.337979198476349, 8, 7, 1, 'Coast')
+  第 23 行: ('Ouratea roraimae', 0.549814689719387, '35.2587630977548', None, None, None, None, 3, 4, 1, 'Land')
+  第 24 行: ('Protenor tropicalis', 0.181314330958036, '8635.10223788602', None, None, None, None, 6, 81, 0, 'Land')
+  第 25 行: ('Ptychococcus paradoxus', 0.0960682492581602, '420.002615773947', None, None, None, None, 6, 29, 1, 'Land_Coast')
+  第 26 行: ('Rouxia isopolica', 0, None, 1.0, 0.0, 2.22546501755714, None, None, 59, 0, 'Ocean')
+  第 27 行: ('Salvia sigchosica', 0.222222222222222, '257.761033821106', None, None, None, None, 6, 77, 0, 'Land')
+  第 28 行: ('Tournefortia caracasana', 0.125, '5801.50343687991', 0.0, 4884.34875488281, 0, 0, 6, 82, 0, 'Coast')
+  第 29 行: ('Tricalysia achoundongiana', 0.168096054888508, '4695.92383057731', None, None, None, None, 6, 68, 1, 'Land_Coast')
+  第 30 行: ('Trox niger', 0.373082580374028, '2581.43685650697', None, None, None, None, 6, 17, 0, 'Land_Coast')
+  第 31 行: ('Tylosurus fodiator', 0.238078417520311, '1233.12425056336', 0.637878252678677, 1192.77761845124, 4.20148570130186, 0.0863686857672827, 6, 4, 0, 'Coast')
+  第 32 行: ('Xenorhina oxycephala', 0.227272727272727, '80.6785874239994', None, None, None, None, 4, 42, 1, 'Land_Coast')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: global_biod_species_occ_endemism_and_small_range
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'grp', 'lcat', 'area', 'd_smallrange25', 'd_smallrange100', 'd_endemic100', 'd_endemic095', 'd_endemic090', 'max_sh_spp', 'WB_ISO', 'ISO_A3', 'WB_DATANAM', 'type']
+表内容:
+  第 1 行: ('Aerangis hariotiana', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Asparagales', 'Orchidaceae', 'Aerangis', 'Plants_Asparagales', 'Coast', 5515.36509543328, 0, 0, 0, 0, 0, 0.692676008959472, 'COM', 'COM', 'Comoros', 'land-eez')
+  第 2 行: ('Amerodectes hribari', 'Animalia', 'Arthropoda', 'Arachnida', 'Sarcoptiformes', 'Proctophyllodidae', 'Amerodectes', 'Arthropods_Other', 'Land', 849483.191942406, 0, 0, 0, 1, 1, 0.969066967962411, 'USA', 'USA', 'United States', 'land-eez')
+  第 3 行: ('Bajacalia moranii', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Bajacalia', 'Plants_Asterales', 'Coast', 347.233117502013, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 4 行: ('Bembidion tepaki', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Carabidae', 'Bembidion', 'Arthropods_Coleoptera', 'Coast', 823.209901440737, 0, 0, 1, 1, 1, 1, 'NZL', 'NZL', 'New Zealand', 'land-eez')
+  第 5 行: ('Bryophila felina', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Noctuidae', 'Bryophila', 'Arthropods_Lepidoptera', 'Land', 73715.5420368555, 0, 0, 0, 0, 0, 0.34130756705592, 'AUT', 'AUT', 'Austria', 'land')
+  第 6 行: ('Bungarus caeruleus', 'Animalia', 'Chordata', 'Squamata', None, 'Elapidae', 'Bungarus', 'Reptiles', 'Land_Coast', 3581059.96168338, 0, 0, 0, 0, 0, 0.817218456612146, 'IND', 'IND', 'India', 'land-eez')
+  第 7 行: ('Callipogon relictus', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Cerambycidae', 'Callipogon', 'Arthropods_Coleoptera', 'Land_Coast', 76863.153322072, 0, 0, 0, 0, 0, 0.600675301274239, 'CHN', 'CHN', 'China', 'land-eez')
+  第 8 行: ('Campylomyza flavipes', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Cecidomyiidae', 'Campylomyza', 'Arthropods_Diptera', 'Land_Coast', 0.000308195334721087, 0, 0, 0, 0, 0, 0.230222320154562, 'SWE', 'SWE', 'Sweden', 'land-eez')
+  第 9 行: ('Chaetoceros eibenii', 'Chromista', 'Ochrophyta', 'Bacillariophyceae', 'Chaetocerotales', 'Chaetocerotaceae', 'Chaetoceros', 'Kingdoms_Other', 'Ocean_Coast', 4176777.5378737, 0, 0, 0, 0, 0, 0.318313317928831, 'JPN', 'JPN', 'Japan', 'land-eez')
+  第 10 行: ('Cicadulina gerhardi', 'Animalia', 'Arthropoda', 'Insecta', 'Hemiptera', 'Cicadellidae', 'Cicadulina', 'Arthropods_Hemiptera', 'Land', 447533.623833566, 0, 0, 0, 0, 0, 0.471689947015755, 'NAM', 'NAM', 'Namibia', 'land-eez')
+  第 11 行: ('Cryptothecia darwiniana', 'Fungi', 'Ascomycota', 'Arthoniomycetes', 'Arthoniales', 'Arthoniaceae', 'Cryptothecia', 'Fungi', 'Coast', 13236.1452922549, 0, 0, 1, 1, 1, 1, 'ECU', 'ECU', 'Ecuador', 'land-eez')
+  第 12 行: ('Cucullia gnaphalii', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Noctuidae', 'Cucullia', 'Arthropods_Lepidoptera', 'Land_Coast', 4459603.04532189, 0, 0, 0, 0, 0, 0.152489819400471, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+  第 13 行: ('Cyclogramma pandama', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Nymphalidae', 'Cyclogramma', 'Arthropods_Lepidoptera', 'Land_Coast', 880347.430883516, 0, 0, 0, 1, 1, 0.967183664284037, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 14 行: ('Delphinium himalayae', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Ranunculales', 'Ranunculaceae', 'Delphinium', 'Plants_Other', 'Land', 28637.5346240978, 0, 0, 0, 0, 0, 0.574344583844846, 'NPL', 'NPL', 'Nepal', 'land')
+  第 15 行: ('Dendropsophus delarivai', 'Animalia', 'Chordata', 'Amphibia', 'Anura', 'Hylidae', 'Dendropsophus', 'Amphibians', 'Land', 0.343596147611594, 1, 1, 1, 1, 1, 1, 'BOL', 'BOL', 'Bolivia', 'land')
+  第 16 行: ('Dianthera cayennensis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Lamiales', 'Acanthaceae', 'Dianthera', 'Plants_Lamiales', 'Land_Coast', 384066.879526558, 0, 0, 0, 0, 0, 0.700324874599659, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 17 行: ('Emarginea combusta', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Noctuidae', 'Emarginea', 'Arthropods_Lepidoptera', 'Land_Coast', 579547.081267718, 0, 0, 0, 0, 0, 0.398658217490151, 'PER', 'PER', 'Peru', 'land-eez')
+  第 18 行: ('Epicaerus sulcatus', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Curculionidae', 'Epicaerus', 'Arthropods_Coleoptera', 'Land', 159296.092427683, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 19 行: ('Ficus abelii', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Rosales', 'Moraceae', 'Ficus', 'Plants_Other', 'Land_Coast', 3070061.99989432, 0, 0, 0, 0, 0, 0.583130013534468, 'CHN', 'CHN', 'China', 'land-eez')
+  第 20 行: ('Homoranthus decasetus', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Myrtales', 'Myrtaceae', 'Homoranthus', 'Plants_Myrtales', 'Land', 40255.7977591335, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 21 行: ('Nylanderia deyrupi', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Formicidae', 'Nylanderia', 'Arthropods_Hymenoptera', 'Land_Coast', 3062334.15768464, 0, 0, 0, 0, 0, 0.371532579644895, 'USA', 'USA', 'United States', 'land-eez')
+  第 22 行: ('Omobranchus loxozonus', 'Animalia', 'Chordata', None, 'Perciformes', 'Blenniidae', 'Omobranchus', 'Fish', 'Coast', 198333.348048081, 0, 0, 0, 1, 1, 0.992440879904077, 'JPN', 'JPN', 'Japan', 'land-eez')
+  第 23 行: ('Ouratea roraimae', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Malpighiales', 'Ochnaceae', 'Ouratea', 'Plants_Malpighiales', 'Land', 1682706.17076552, 0, 0, 0, 0, 0, 0.46579907024373, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 24 行: ('Protenor tropicalis', 'Animalia', 'Arthropoda', 'Insecta', 'Hemiptera', 'Alydidae', 'Protenor', 'Arthropods_Hemiptera', 'Land', 74123.8031165623, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 25 行: ('Ptychococcus paradoxus', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Arecales', 'Arecaceae', 'Ptychococcus', 'Plants_Other', 'Land_Coast', 330163.005661871, 0, 0, 0, 0, 0, 0.727090086325527, 'PNG', 'PNG', 'Papua New Guinea', 'land-eez')
+  第 26 行: ('Rouxia isopolica', 'Chromista', 'Ochrophyta', 'Bacillariophyceae', None, None, 'Rouxia', 'Kingdoms_Other', 'Ocean', 1099.92077997237, 0, 0, 1, 1, 1, 1, '-99', 'ATA', 'Antarctica', 'land')
+  第 27 行: ('Salvia sigchosica', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Lamiales', 'Lamiaceae', 'Salvia', 'Plants_Lamiales', 'Land', 838.784373020835, 0, 0, 1, 1, 1, 1, 'ECU', 'ECU', 'Ecuador', 'land-eez')
+  第 28 行: ('Tournefortia caracasana', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Boraginales', 'Heliotropiaceae', 'Tournefortia', 'Plants_Other', 'Coast', 1872.44603914913, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 29 行: ('Tricalysia achoundongiana', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Gentianales', 'Rubiaceae', 'Tricalysia', 'Plants_Gentianales', 'Land_Coast', 17988.5125995113, 0, 0, 0, 1, 1, 0.983055546707576, 'CMR', 'CMR', 'Cameroon', 'land-eez')
+  第 30 行: ('Trox niger', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Trogidae', 'Trox', 'Arthropods_Coleoptera', 'Land_Coast', 209468.47210564, 0, 0, 0, 0, 0, 0.483099441987771, 'FRA', 'FRA', 'France', 'land-eez')
+  第 31 行: ('Tylosurus fodiator', 'Animalia', 'Chordata', None, 'Beloniformes', 'Belonidae', 'Tylosurus', 'Fish', 'Coast', 505437.990562389, 0, 0, 0, 0, 0, 0.430904861863902, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 32 行: ('Xenorhina oxycephala', 'Animalia', 'Chordata', 'Amphibia', 'Anura', 'Microhylidae', 'Xenorhina', 'Amphibians', 'Land_Coast', 10352.2082684591, 0, 0, 1, 1, 1, 1, 'IDN', 'IDN', 'Indonesia', 'land-eez')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/global_biodiversity/5.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: global_biod_species_extinction_risks
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'parkpct', 'popden', 'eezpct', 'popshadow', 'totfishing', 'natfishing', 'popgroupmax', 'pthreat', 'd_assignedrisk', 'lcat']
+表内容:
+  第 1 行: ('Acanthurus lineatus', 0.150248212799314, None, 0.83528707232252, 1516.6152841187, 110.482574549555, 0.0787003514226517, 8, 3, 1, 'Ocean_Coast')
+  第 2 行: ('Bacillus cytotoxicus', 0.320474777448071, '8157.41238970521', 0.0222551928783383, 9010.9951335362, 0, 0.00820959889297855, 8, 51, 0, 'Coast')
+  第 3 行: ('Bupleurum smithii', 0.0158972063207826, '4151.17309081532', None, None, None, None, 8, 4, 0, 'Land')
+  第 4 行: ('Cladia moniliformis', 0.721271393643032, '7.60587637030365', None, None, None, None, 2, 82, 0, 'Land_Coast')
+  第 5 行: ('Cocytius lucifer', 0.239750366250303, '710.400621270724', None, None, None, None, 4, 1, 0, 'Land_Coast')
+  第 6 行: ('Cullen praeruptorum', 0.75, '0.0741994023323059', None, None, None, None, 2, 59, 0, 'Land')
+  第 7 行: ('Eudontomyzon vladykovi', 0.168766404199475, '1373.30600293044', None, None, None, None, 6, 24, 1, 'Land_Coast')
+  第 8 行: ('Ficedula tricolor', 0.0524168046152746, '4498.23312141673', None, None, None, None, 8, 6, 1, 'Land')
+  第 9 行: ('Fonscochlea aquatica', 0.0391822827938671, '0.064158246541281', None, None, None, None, 2, 67, 1, 'Land')
+  第 10 行: ('Funkotriplogynium iagobadius', 0.0998487140695915, '706.888689000786', None, None, None, None, 4, 40, 0, 'Land_Coast')
+  第 11 行: ('Gonatophragmium lichenophilum', 0.365566533529535, '4629.82276972998', None, None, None, None, 8, 27, 0, 'Land_Coast')
+  第 12 行: ('Hakea marginata', 0.175888177052999, '187.648848605334', None, None, None, None, 3, 25, 1, 'Land_Coast')
+  第 13 行: ('Inocybe woglindeana', 0.269129820310923, '310.018594777235', None, None, None, None, 6, 73, 0, 'Land_Coast')
+  第 14 行: ('Juncus longistylis', 0.112149342384387, '183.377539432681', None, None, None, None, 1, 1, 0, 'Land')
+  第 15 行: ('Lindackeria poggei', 0.355650994575045, '564.720265301832', None, None, None, None, 6, 14, 0, 'Land')
+  第 16 行: ('Lispinus granadensis', 0.208983050847458, '2424.58390008917', None, None, None, None, 8, 12, 0, 'Land_Coast')
+  第 17 行: ('Magelona tehuanensis', 0.0722269991401548, '1758.69001647164', 0.807394668959587, 739.700927304287, 9.13943305465213, 0.517398984501294, 6, 46, 0, 'Coast')
+  第 18 行: ('Monteverdia dasyclados', 0.0945980542754736, '1422.88122728347', None, None, None, None, 4, 10, 0, 'Land_Coast')
+  第 19 行: ('Neoleprea papilla', 0.0454545454545455, '760.691205481914', 0.863636363636364, 1935.68481445312, 6.39387998580933, 0.144831463694572, 3, 69, 0, 'Coast')
+  第 20 行: ('Omobranchus punctatus', 0.257334271467466, '6138.68403247353', 0.544127994126465, 4616.31199500349, 3593.84859171884, 0.861629895758689, 2, 18, 1, 'Coast')
+  第 21 行: ('Phanocloidea muricata', 0.313364055299539, '68.2262281106809', None, None, None, None, 4, 10, 0, 'Land_Coast')
+  第 22 行: ('Phyllota gracilis', 0.0815450643776824, '686.779049442612', None, None, None, None, 3, 49, 0, 'Land_Coast')
+  第 23 行: ('Plagiochila bantamensis', 0.175136825645035, '318.241972983551', None, None, None, None, 6, 19, 0, 'Land_Coast')
+  第 24 行: ('Plesionika richardi', 0.0343590563660457, None, 0.331647957432376, 810.528822890127, 62.3934575880374, 0.0272169719418553, 8, 1, 0, 'Ocean_Coast')
+  第 25 行: ('Podabrus alpinus', 0.190478887598765, '1043.82519363435', None, None, None, None, 6, 3, 0, 'Land_Coast')
+  第 26 行: ('Pristimantis ardalonychus', 0.75, '2395.46500078837', None, None, None, None, 6, 86, 1, 'Land')
+  第 27 行: ('Rhodiola dumulosa', 0.023081855097243, '2417.72904510699', None, None, None, None, 8, 2, 0, 'Land')
+  第 28 行: ('Schistostephium heptalobum', 0.284277679027977, '939.577783582441', None, None, None, None, 6, 12, 0, 'Land_Coast')
+  第 29 行: ('Sphenostylis erecta', 0.325749460116649, '1082.35270507028', None, None, None, None, 6, 9, 0, 'Land')
+  第 30 行: ('Thecotheus pelletieri', 0.242224015346437, '1822.58552697338', None, None, None, None, 6, 35, 0, 'Land_Coast')
+  第 31 行: ('Tremella xanthomendozae', 0.0152329749103943, '647.103854337769', None, None, None, None, 4, 47, 0, 'Land')
+  第 32 行: ('Vitis acerifolia', 0.0284165768355492, '452.625572891282', None, None, None, None, 3, 32, 0, 'Land')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: global_biod_species_occ_endemism_and_small_range
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'grp', 'lcat', 'area', 'd_smallrange25', 'd_smallrange100', 'd_endemic100', 'd_endemic095', 'd_endemic090', 'max_sh_spp', 'WB_ISO', 'ISO_A3', 'WB_DATANAM', 'type']
+表内容:
+  第 1 行: ('Acanthurus lineatus', 'Animalia', 'Chordata', None, 'Perciformes', 'Acanthuridae', 'Acanthurus', 'Fish', 'Ocean_Coast', 56785678.8791169, 0, 0, 0, 0, 0, 0.121792133082218, 'IDN', 'IDN', 'Indonesia', 'land-eez')
+  第 2 行: ('Bacillus cytotoxicus', 'Bacteria', 'Firmicutes', 'Bacilli', 'Bacillales', 'Bacillaceae', 'Bacillus', 'Kingdoms_Other', 'Coast', 20539.7974368215, 0, 0, 1, 1, 1, 1, 'LKA', 'LKA', 'Sri Lanka', 'land-eez')
+  第 3 行: ('Bupleurum smithii', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Apiales', 'Apiaceae', 'Bupleurum', 'Plants_Other', 'Land', 2725803.24392238, 0, 0, 1, 1, 1, 1, 'CHN', 'CHN', 'China', 'land-eez')
+  第 4 行: ('Cladia moniliformis', 'Fungi', 'Ascomycota', 'Lecanoromycetes', 'Lecanorales', 'Cladoniaceae', 'Cladia', 'Fungi', 'Land_Coast', 28058.3069741588, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 5 行: ('Cocytius lucifer', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Sphingidae', 'Cocytius', 'Arthropods_Lepidoptera', 'Land_Coast', 9741084.26498893, 0, 0, 0, 0, 0, 0.599732284142881, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 6 行: ('Cullen praeruptorum', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fabales', 'Fabaceae', 'Cullen', 'Plants_Fabales', 'Land', 31.5035518115273, 0, 1, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 7 行: ('Eudontomyzon vladykovi', 'Animalia', 'Chordata', 'Petromyzonti', 'Petromyzontiformes', 'Petromyzontidae', 'Eudontomyzon', 'Fish', 'Land_Coast', 169906.963218779, 0, 0, 0, 0, 0, 0.26505353945392, 'BIH', 'BIH', 'Bosnia and Herzegovina', 'land')
+  第 8 行: ('Ficedula tricolor', 'Animalia', 'Chordata', 'Aves', 'Passeriformes', 'Muscicapidae', 'Ficedula', 'Birds', 'Land', 4934380.41309741, 0, 0, 0, 0, 0, 0.56090328144103, 'CHN', 'CHN', 'China', 'land-eez')
+  第 9 行: ('Fonscochlea aquatica', 'Animalia', 'Mollusca', 'Gastropoda', 'Littorinimorpha', 'Tateidae', 'Fonscochlea', 'Animals_Other', 'Land', 15964.1134254188, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 10 行: ('Funkotriplogynium iagobadius', 'Animalia', 'Arthropoda', 'Arachnida', 'Mesostigmata', 'Triplogyniidae', 'Funkotriplogynium', 'Arthropods_Other', 'Land_Coast', 18166.3224250469, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 11 行: ('Gonatophragmium lichenophilum', 'Fungi', 'Ascomycota', 'Dothideomycetes', 'Acrospermales', 'Acrospermaceae', 'Gonatophragmium', 'Fungi', 'Land_Coast', 92305.0204887022, 0, 0, 0, 0, 0, 0.592775402329529, 'DEU', 'DEU', 'Germany', 'land-eez')
+  第 12 行: ('Hakea marginata', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Proteales', 'Proteaceae', 'Hakea', 'Plants_Other', 'Land_Coast', 267881.6681669, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 13 行: ('Inocybe woglindeana', 'Fungi', 'Basidiomycota', 'Agaricomycetes', 'Agaricales', 'Inocybaceae', 'Inocybe', 'Fungi', 'Land_Coast', 80546.0187001166, 0, 0, 0, 0, 0, 0.690522086936854, 'EST', 'EST', 'Estonia', 'land-eez')
+  第 14 行: ('Juncus longistylis', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Poales', 'Juncaceae', 'Juncus', 'Plants_Poales', 'Land', 6282923.52697473, 0, 0, 0, 0, 0, 0.584202385570221, 'USA', 'USA', 'United States', 'land-eez')
+  第 15 行: ('Lindackeria poggei', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Malpighiales', 'Achariaceae', 'Lindackeria', 'Plants_Malpighiales', 'Land', 680746.968304753, 0, 0, 0, 0, 0, 0.588358027776524, 'COD', 'COD', 'Congo, Dem. Rep.', 'land-eez')
+  第 16 行: ('Lispinus granadensis', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Staphylinidae', 'Lispinus', 'Arthropods_Coleoptera', 'Land_Coast', 528065.81433896, 0, 0, 0, 0, 0, 0.302156329099197, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 17 行: ('Magelona tehuanensis', 'Animalia', 'Annelida', 'Polychaeta', None, 'Magelonidae', 'Magelona', 'Animals_Other', 'Coast', 32743.8749607622, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 18 行: ('Monteverdia dasyclados', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Celastrales', 'Celastraceae', 'Monteverdia', 'Plants_Other', 'Land_Coast', 1548083.00037973, 0, 0, 0, 1, 1, 0.968805972334207, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 19 行: ('Neoleprea papilla', 'Animalia', 'Annelida', 'Polychaeta', None, 'Terebellidae', 'Neoleprea', 'Animals_Other', 'Coast', 537.883416126528, 0, 0, 1, 1, 1, 1, 'NZL', 'NZL', 'New Zealand', 'land-eez')
+  第 20 行: ('Omobranchus punctatus', 'Animalia', 'Chordata', None, 'Perciformes', 'Blenniidae', 'Omobranchus', 'Fish', 'Coast', 1860466.8683224, 0, 0, 0, 0, 0, 0.50019763899735, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 21 行: ('Phanocloidea muricata', 'Animalia', 'Arthropoda', 'Insecta', 'Phasmida', 'Diapheromeridae', 'Phanocloidea', 'Arthropods_Other', 'Land_Coast', 26983.6367241682, 0, 0, 0, 0, 0, 0.89732192239709, 'FRA', 'FRA', 'France', 'land-eez')
+  第 22 行: ('Phyllota gracilis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fabales', 'Fabaceae', 'Phyllota', 'Plants_Fabales', 'Land_Coast', 42283.9569312461, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 23 行: ('Plagiochila bantamensis', 'Plantae', 'Marchantiophyta', 'Jungermanniopsida', 'Jungermanniales', 'Plagiochilaceae', 'Plagiochila', 'Plants_Other', 'Land_Coast', 734490.983414177, 0, 0, 0, 0, 0, 0.699289147541177, 'PNG', 'PNG', 'Papua New Guinea', 'land-eez')
+  第 24 行: ('Plesionika richardi', 'Animalia', 'Arthropoda', 'Malacostraca', 'Decapoda', 'Pandalidae', 'Plesionika', 'Arthropods_Other', 'Ocean_Coast', 26890307.1721995, 0, 0, 0, 0, 0, 0.651820832804754, '-99', '-98', 'ocean', 'ocean')
+  第 25 行: ('Podabrus alpinus', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Cantharidae', 'Podabrus', 'Arthropods_Coleoptera', 'Land_Coast', 5969963.49143353, 0, 0, 0, 0, 0, 0.211112548438444, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+  第 26 行: ('Pristimantis ardalonychus', 'Animalia', 'Chordata', 'Amphibia', 'Anura', 'Craugastoridae', 'Pristimantis', 'Amphibians', 'Land', 207.92819141309, 0, 0, 1, 1, 1, 1, 'PER', 'PER', 'Peru', 'land-eez')
+  第 27 行: ('Rhodiola dumulosa', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Saxifragales', 'Crassulaceae', 'Rhodiola', 'Plants_Other', 'Land', 3471668.57703038, 0, 0, 0, 1, 1, 0.980133240210511, 'CHN', 'CHN', 'China', 'land-eez')
+  第 28 行: ('Schistostephium heptalobum', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Schistostephium', 'Plants_Asterales', 'Land_Coast', 1203299.24165853, 0, 0, 0, 0, 0, 0.402426349978997, 'ZMB', 'ZMB', 'Zambia', 'land')
+  第 29 行: ('Sphenostylis erecta', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fabales', 'Fabaceae', 'Sphenostylis', 'Plants_Fabales', 'Land', 1769717.04583664, 0, 0, 0, 0, 0, 0.245666136030667, 'TZA', 'TZA', 'Tanzania', 'land-eez')
+  第 30 行: ('Thecotheus pelletieri', 'Fungi', 'Ascomycota', 'Pezizomycetes', 'Pezizales', 'Ascobolaceae', 'Thecotheus', 'Fungi', 'Land_Coast', 2364020.11510175, 0, 0, 0, 0, 0, 0.187727323240447, 'FRA', 'FRA', 'France', 'land-eez')
+  第 31 行: ('Tremella xanthomendozae', 'Fungi', 'Basidiomycota', 'Tremellomycetes', 'Tremellales', 'Tremellaceae', 'Tremella', 'Fungi', 'Land', 27079.582916175, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 32 行: ('Vitis acerifolia', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Vitales', 'Vitaceae', 'Vitis', 'Plants_Other', 'Land', 838477.757433182, 0, 0, 0, 1, 1, 0.954694642496283, 'USA', 'USA', 'United States', 'land-eez')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/global_biodiversity/6.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: global_biod_species_extinction_risks
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'parkpct', 'popden', 'eezpct', 'popshadow', 'totfishing', 'natfishing', 'popgroupmax', 'pthreat', 'd_assignedrisk', 'lcat']
+表内容:
+  第 1 行: ('Agama spinosa', 0.161256323777403, '1435.37344178582', None, None, None, None, 6, 15, 1, 'Land_Coast')
+  第 2 行: ('Artemisia transiliensis', 0.0758470122099135, '839.024555532572', None, None, None, None, 6, 30, 0, 'Land')
+  第 3 行: ('Aster hunanensis', 0.00323974082073434, '4128.13084748062', None, None, None, None, 8, 63, 0, 'Land')
+  第 4 行: ('Begonia pilgeriana', 0.120967741935484, '4075.25301426345', None, None, None, None, 6, 82, 0, 'Land_Coast')
+  第 5 行: ('Ceriagrion sakejii', 0, '731.818420410156', None, None, None, None, 7, 17, 1, 'Land')
+  第 6 行: ('Clarkia jolonensis', 0, '57.323770815684', 0.0, 91.9797552108765, 0, 0, 4, 78, 0, 'Coast')
+  第 7 行: ('Coenonympha arcanioides', 0.0707485226526592, '3290.20655022742', None, None, None, None, 8, 15, 1, 'Land_Coast')
+  第 8 行: ('Cyrtodactylus saiyok', 1, '339.324615478516', None, None, None, None, 8, 50, 1, 'Land')
+  第 9 行: ('Draconopteris draconoptera', 0.292914009361257, '618.916063785032', None, None, None, None, 4, 14, 0, 'Land_Coast')
+  第 10 行: ('Hevea benthamiana', 0.502387974006316, '69.7476687295632', None, None, None, None, 3, 43, 1, 'Land')
+  第 11 行: ('Hieracium erioneurum', 0.0411449016100179, '330.871058130159', None, None, None, None, 6, 72, 0, 'Land_Coast')
+  第 12 行: ('Ipidia binotata', 0.195932459634609, '1131.13738935357', None, None, None, None, 6, 4, 0, 'Land_Coast')
+  第 13 行: ('Iris aphylla', 0.129888472037721, '828.889026880656', None, None, None, None, 6, 3, 0, 'Land')
+  第 14 行: ('Isotomurus retardatus', 0.290523842320626, '2377.37041861228', None, None, None, None, 6, 14, 0, 'Land_Coast')
+  第 15 行: ('Lebia quadricolor', 0.110941863417111, '2624.05333287647', None, None, None, None, 8, 18, 0, 'Land_Coast')
+  第 16 行: ('Macrosamanea discolor', 0.551102951722555, '97.3084142780798', None, None, None, None, 3, 7, 1, 'Land')
+  第 17 行: ('Microphorella vockerothi', 0, '3.06141686439514', 0.0, 0.730340182781219, 0, 0, 3, 91, 0, 'Coast')
+  第 18 行: ('Ommatoiulus caspius', 0, '2692.04046094914', 0.970099667774086, 3814.08902587891, 0, 0, 8, 60, 0, 'Coast')
+  第 19 行: ('Panulirus inflatus', 0.25138469284995, '633.272039019126', 0.576409869083585, 549.669201808331, 6.78119917476032, 0.153848692791903, 3, 10, 1, 'Coast')
+  第 20 行: ('Pelargonium antidysentericum', 0.12043795620438, '48.8210765678992', None, None, None, None, 3, 61, 0, 'Land')
+  第 21 行: ('Philophyllia venosa', 0.1334262323637, '4069.28392758676', None, None, None, None, 6, 23, 0, 'Land_Coast')
+  第 22 行: ('Piezogaster vates', 0.294520547945205, '2839.55443573274', None, None, None, None, 8, 89, 0, 'Land_Coast')
+  第 23 行: ('Pseudocryptochirus viridis', 0, '421.7846006006', 1.0, 1598.13098144531, 0, 0.12245844801267, 8, 49, 0, 'Coast')
+  第 24 行: ('Resinicium grandisporum', 0.318732855499513, '1119.88161693792', None, None, None, None, 6, 33, 0, 'Land_Coast')
+  第 25 行: ('Sargochromis mellandi', 0.337631301061524, '311.143953377796', None, None, None, None, 6, 7, 1, 'Land')
+  第 26 行: ('Sphenostylis erecta', 0.325749460116649, '1082.35270507028', None, None, None, None, 6, 9, 0, 'Land')
+  第 27 行: ('Syzygium quadrangulare', 0.258278145695364, '271.169428511902', 0.0198675496688742, 213.356849125453, 0.0292675688460067, 0.00601080233334667, 5, 62, 1, 'Coast')
+  第 28 行: ('Tchatkalophantes lingulatis', 0.266949152542373, '1071.31355591824', None, None, None, None, 8, 58, 0, 'Land')
+  第 29 行: ('Tillandsia roland-gosselinii', 0.0246305418719212, '1297.55488411259', 0.18336070060208, 1287.42639287313, 0.0713406182809118, 0.0126691874588879, 6, 36, 0, 'Coast')
+  第 30 行: ('Veronica anagalloides', 0.158350630832265, '1471.93086449212', None, None, None, None, 6, 1, 1, 'Land_Coast')
+  第 31 行: ('Viola chelmea', 0.312974203338391, '721.975896253008', None, None, None, None, 6, 45, 0, 'Land_Coast')
+  第 32 行: ('Xenomelanophila miranda', 0.118437510022129, '262.633965758565', None, None, None, None, 1, 8, 0, 'Land_Coast')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: global_biod_species_occ_endemism_and_small_range
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'grp', 'lcat', 'area', 'd_smallrange25', 'd_smallrange100', 'd_endemic100', 'd_endemic095', 'd_endemic090', 'max_sh_spp', 'WB_ISO', 'ISO_A3', 'WB_DATANAM', 'type']
+表内容:
+  第 1 行: ('Agama spinosa', 'Animalia', 'Chordata', 'Squamata', None, 'Agamidae', 'Agama', 'Reptiles', 'Land_Coast', 143427.6778859, 0, 0, 0, 0, 0, 0.770560644857685, 'ETH', 'ETH', 'Ethiopia', 'land')
+  第 2 行: ('Artemisia transiliensis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Artemisia', 'Plants_Asterales', 'Land', 277405.752399375, 0, 0, 0, 0, 0, 0.635461510763567, 'CHN', 'CHN', 'China', 'land-eez')
+  第 3 行: ('Aster hunanensis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Aster', 'Plants_Asterales', 'Land', 25302.4296167132, 0, 0, 1, 1, 1, 1, 'CHN', 'CHN', 'China', 'land-eez')
+  第 4 行: ('Begonia pilgeriana', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Cucurbitales', 'Begoniaceae', 'Begonia', 'Plants_Other', 'Land_Coast', 6753.90942609003, 0, 0, 1, 1, 1, 1, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 5 行: ('Ceriagrion sakejii', 'Animalia', 'Arthropoda', 'Insecta', 'Odonata', 'Coenagrionidae', 'Ceriagrion', 'Arthropods_Other', 'Land', 1.9834095573259e-09, 1, 1, 0, 1, 1, 0.966750029041397, 'AGO', 'AGO', 'Angola', 'land-eez')
+  第 6 行: ('Clarkia jolonensis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Myrtales', 'Onagraceae', 'Clarkia', 'Plants_Myrtales', 'Coast', 392.412257223272, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 7 行: ('Coenonympha arcanioides', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Nymphalidae', 'Coenonympha', 'Arthropods_Lepidoptera', 'Land_Coast', 152116.955011053, 0, 0, 0, 0, 0, 0.425776573512326, 'MAR', 'MAR', 'Morocco', 'land-eez')
+  第 8 行: ('Cyrtodactylus saiyok', 'Animalia', 'Chordata', 'Squamata', None, 'Gekkonidae', 'Cyrtodactylus', 'Reptiles', 'Land', 25.90425149137, 0, 1, 1, 1, 1, 1, 'THA', 'THA', 'Thailand', 'land-eez')
+  第 9 行: ('Draconopteris draconoptera', 'Plantae', 'Tracheophyta', 'Polypodiopsida', 'Polypodiales', 'Tectariaceae', 'Draconopteris', 'Plants_Other', 'Land_Coast', 2157450.273858, 0, 0, 0, 0, 0, 0.335343708184466, 'PER', 'PER', 'Peru', 'land-eez')
+  第 10 行: ('Hevea benthamiana', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Malpighiales', 'Euphorbiaceae', 'Hevea', 'Plants_Malpighiales', 'Land', 0.000191588559713218, 0, 0, 0, 0, 0, 0.638299874020065, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 11 行: ('Hieracium erioneurum', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Hieracium', 'Plants_Asterales', 'Land_Coast', 9292.18328270315, 0, 0, 1, 1, 1, 1, 'SWE', 'SWE', 'Sweden', 'land-eez')
+  第 12 行: ('Ipidia binotata', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Nitidulidae', 'Ipidia', 'Arthropods_Coleoptera', 'Land_Coast', 4170082.10292403, 0, 0, 0, 0, 0, 0.247513762049412, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+  第 13 行: ('Iris aphylla', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Asparagales', 'Iridaceae', 'Iris', 'Plants_Asparagales', 'Land', 5113117.4392009, 0, 0, 0, 0, 0, 0.482095957322323, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+  第 14 行: ('Isotomurus retardatus', 'Animalia', 'Arthropoda', 'Collembola', 'Entomobryomorpha', 'Isotomidae', 'Isotomurus', 'Arthropods_Other', 'Land_Coast', 726925.246309795, 0, 0, 0, 0, 0, 0.438521285839412, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 15 行: ('Lebia quadricolor', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Carabidae', 'Lebia', 'Arthropods_Coleoptera', 'Land_Coast', 232016.098979555, 0, 0, 0, 0, 0, 0.782318293661693, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 16 行: ('Macrosamanea discolor', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fabales', 'Fabaceae', 'Macrosamanea', 'Plants_Fabales', 'Land', 1069511.61048113, 0, 0, 0, 0, 0, 0.829403378262901, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 17 行: ('Microphorella vockerothi', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Dolichopodidae', 'Microphorella', 'Arthropods_Diptera', 'Coast', 1.53114786287875, 1, 1, 1, 1, 1, 1, 'CAN', 'CAN', 'Canada', 'land-eez')
+  第 18 行: ('Ommatoiulus caspius', 'Animalia', 'Arthropoda', 'Diplopoda', 'Julida', 'Julidae', 'Ommatoiulus', 'Arthropods_Other', 'Coast', 6872.90758872246, 0, 0, 0, 1, 1, 0.959695923777456, 'IRN', 'IRN', 'Iran, Islamic Rep.', 'land-eez')
+  第 19 行: ('Panulirus inflatus', 'Animalia', 'Arthropoda', 'Malacostraca', 'Decapoda', 'Palinuridae', 'Panulirus', 'Arthropods_Other', 'Coast', 446898.795381144, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 20 行: ('Pelargonium antidysentericum', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Geraniales', 'Geraniaceae', 'Pelargonium', 'Plants_Other', 'Land', 21898.1006090689, 0, 0, 0, 1, 1, 0.955652395407398, 'ZAF', 'ZAF', 'South Africa', 'land-eez')
+  第 21 行: ('Philophyllia venosa', 'Animalia', 'Arthropoda', 'Insecta', 'Orthoptera', 'Tettigoniidae', 'Philophyllia', 'Arthropods_Other', 'Land_Coast', 165248.728698427, 0, 0, 1, 1, 1, 1, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 22 行: ('Piezogaster vates', 'Animalia', 'Arthropoda', 'Insecta', 'Hemiptera', 'Coreidae', 'Piezogaster', 'Arthropods_Hemiptera', 'Land_Coast', 4407.6074070772, 0, 0, 0, 0, 0, 0.664215266630268, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 23 行: ('Pseudocryptochirus viridis', 'Animalia', 'Arthropoda', 'Malacostraca', 'Decapoda', 'Cryptochiridae', 'Pseudocryptochirus', 'Arthropods_Other', 'Coast', 143.716893940612, 0, 0, 1, 1, 1, 1, 'PHL', 'PHL', 'Philippines', 'land-eez')
+  第 24 行: ('Resinicium grandisporum', 'Fungi', 'Basidiomycota', 'Agaricomycetes', 'Hymenochaetales', 'Rickenellaceae', 'Resinicium', 'Fungi', 'Land_Coast', 348268.760650058, 0, 0, 0, 0, 0, 0.898491551152243, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 25 行: ('Sargochromis mellandi', 'Animalia', 'Chordata', None, 'Perciformes', 'Cichlidae', 'Sargochromis', 'Fish', 'Land', 539391.620463974, 0, 0, 0, 0, 0, 0.487868243518961, 'ZMB', 'ZMB', 'Zambia', 'land')
+  第 26 行: ('Sphenostylis erecta', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fabales', 'Fabaceae', 'Sphenostylis', 'Plants_Fabales', 'Land', 1769717.04583664, 0, 0, 0, 0, 0, 0.245666136030667, 'TZA', 'TZA', 'Tanzania', 'land-eez')
+  第 27 行: ('Syzygium quadrangulare', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Myrtales', 'Myrtaceae', 'Syzygium', 'Plants_Myrtales', 'Coast', 4257.60894953543, 0, 0, 1, 1, 1, 1, 'NCL', 'NCL', 'New Caledonia', 'land-eez')
+  第 28 行: ('Tchatkalophantes lingulatis', 'Animalia', 'Arthropoda', 'Arachnida', 'Araneae', 'Linyphiidae', 'Tchatkalophantes', 'Arthropods_Araneae', 'Land', 13094.6748477428, 0, 0, 0, 0, 0, 0.606918087075939, 'CHN', 'CHN', 'China', 'land-eez')
+  第 29 行: ('Tillandsia roland-gosselinii', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Poales', 'Bromeliaceae', 'Tillandsia', 'Plants_Poales', 'Coast', 53694.545619434, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 30 行: ('Veronica anagalloides', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Lamiales', 'Plantaginaceae', 'Veronica', 'Plants_Lamiales', 'Land_Coast', 12151342.5356285, 0, 0, 0, 0, 0, 0.12910578412408, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+  第 31 行: ('Viola chelmea', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Malpighiales', 'Violaceae', 'Viola', 'Plants_Malpighiales', 'Land_Coast', 62541.074161949, 0, 0, 0, 0, 0, 0.711896298930821, 'GRC', 'GRC', 'Greece', 'land-eez')
+  第 32 行: ('Xenomelanophila miranda', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Buprestidae', 'Xenomelanophila', 'Arthropods_Coleoptera', 'Land_Coast', 720654.989047617, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/global_biodiversity/7.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: global_biod_species_extinction_risks
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'parkpct', 'popden', 'eezpct', 'popshadow', 'totfishing', 'natfishing', 'popgroupmax', 'pthreat', 'd_assignedrisk', 'lcat']
+表内容:
+  第 1 行: ('Agaricus parviniveus', 0.0228571428571429, '18501.1828647737', None, None, None, None, 10, 89, 0, 'Land')
+  第 2 行: ('Aniba perutilis', 0.238994433966604, '685.715388184401', None, None, None, None, 4, 12, 1, 'Land')
+  第 3 行: ('Ataenius fattigi', 0.0774779588565322, '2063.85504207173', None, None, None, None, 6, 26, 0, 'Land_Coast')
+  第 4 行: ('Avicenna auricornis', 0.481028938906752, '202.265909401249', None, None, None, None, 3, 70, 0, 'Land_Coast')
+  第 5 行: ('Carpinus orientalis', 0.19252549210114, '1735.51628961134', None, None, None, None, 6, 5, 1, 'Land_Coast')
+  第 6 行: ('Combretum microphyllum', 0.306261896627459, '925.950061585882', None, None, None, None, 6, 7, 0, 'Land_Coast')
+  第 7 行: ('Docalidia spatulata', 0, '50.1903656005859', None, None, None, None, 5, 97, 0, 'Land')
+  第 8 行: ('Drupa elegans', 0, '150.263580072696', 0.972027972027972, 141.977201894883, 7.1413230637238, 0.00408384701641241, 4, 9, 0, 'Coast')
+  第 9 行: ('Galerina cerina', 0.172057638049174, '1204.1636152513', None, None, None, None, 6, 31, 0, 'Land_Coast')
+  第 10 行: ('Jasione sessiliflora', 0.282404055032585, '1579.58822119565', None, None, None, None, 6, 41, 0, 'Land_Coast')
+  第 11 行: ('Machaerium isadelphum', 0.304514284274124, '645.158168225634', None, None, None, None, 4, 1, 1, 'Land_Coast')
+  第 12 行: ('Melese asana', 0.539130434782609, '779.187926845706', None, None, None, None, 6, 15, 0, 'Land_Coast')
+  第 13 行: ('Paepalanthus falcifolius', 0.233628318584071, '377.055510037459', None, None, None, None, 4, 46, 0, 'Land')
+  第 14 行: ('Pancheria alaternoides', 0.327759197324415, '290.606738714367', 0.0769230769230769, 341.906291325887, 2.24137765855381, 0.00682035754046713, 5, 39, 1, 'Coast')
+  第 15 行: ('Paramolgus centor', 0.0280612244897959, '710.205573526214', 0.743622448979592, 554.044328283555, 0.0608830473908823, 0.0622663441387451, 6, 39, 0, 'Coast')
+  第 16 行: ('Peperomia cotyledon', 0, '48.2827415466309', None, None, None, None, 4, 83, 0, 'Land')
+  第 17 行: ('Phygadeuon lapponicus', 0.075850563069773, '154.65077526366', None, None, None, None, 4, 61, 0, 'Land_Coast')
+  第 18 行: ('Platoma gelatinosum', 0, None, 0.888888888888889, 1995.01639811198, 0.775650024414062, 0.0111735382427772, 8, 70, 0, 'Ocean_Coast')
+  第 19 行: ('Poliaenus californicus', 0.248756218905473, '855.902649458801', None, None, None, None, 1, 44, 0, 'Land')
+  第 20 行: ('Pomatoschistus montenegrensis', 0.166666666666667, '2137.13753255208', 0.0, 1572.68688964844, 0, 0, 8, 49, 0, 'Coast')
+  第 21 行: ('Pseudocercospora smilacicola', 0.0657276995305164, '648.073777864441', None, None, None, None, 6, 52, 0, 'Land')
+  第 22 行: ('Pterotaenia fasciata', 0.0844663539264796, '504.485990629126', None, None, None, None, 6, 25, 0, 'Land_Coast')
+  第 23 行: ('Rubia oncotricha', 0.0613934781751508, '1619.41635372891', None, None, None, None, 8, 20, 0, 'Land')
+  第 24 行: ('Ryssonotus nebulosus', 0.107229481996804, '275.860400929871', None, None, None, None, 2, 7, 0, 'Land_Coast')
+  第 25 行: ('Scrobipalpula ramosella', 0.122994652406417, '2375.76623717159', None, None, None, None, 8, 31, 0, 'Land')
+  第 26 行: ('Senecio glossanthus', 0.195404594157769, '85.862033527193', None, None, None, None, 2, 2, 0, 'Land_Coast')
+  第 27 行: ('Sericomyia hispanica', 0.581589958158996, '1472.86126898061', None, None, None, None, 6, 77, 1, 'Land_Coast')
+  第 28 行: ('Stemphylium botryosum', 0.0679012345679012, '2585.88595451998', None, None, None, None, 6, 72, 0, 'Land_Coast')
+  第 29 行: ('Taraxacum atactum', 0.250122405376934, '2501.79044687817', None, None, None, None, 6, 53, 0, 'Land_Coast')
+  第 30 行: ('Trichoderma parmastoi', 0.195682022631504, '1487.04115638157', None, None, None, None, 8, 95, 0, 'Land_Coast')
+  第 31 行: ('Trichoscypha smythei', 0.142869957838711, '4156.53678200037', None, None, None, None, 8, 18, 1, 'Land_Coast')
+  第 32 行: ('Veronica anagalloides', 0.158350630832265, '1471.93086449212', None, None, None, None, 6, 1, 1, 'Land_Coast')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: global_biod_species_occ_endemism_and_small_range
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'grp', 'lcat', 'area', 'd_smallrange25', 'd_smallrange100', 'd_endemic100', 'd_endemic095', 'd_endemic090', 'max_sh_spp', 'WB_ISO', 'ISO_A3', 'WB_DATANAM', 'type']
+表内容:
+  第 1 行: ('Agaricus parviniveus', 'Fungi', 'Basidiomycota', 'Agaricomycetes', 'Agaricales', 'Agaricaceae', 'Agaricus', 'Fungi', 'Land', 4358.5499905651, 0, 0, 1, 1, 1, 1, 'PAK', 'PAK', 'Pakistan', 'land-eez')
+  第 2 行: ('Aniba perutilis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Laurales', 'Lauraceae', 'Aniba', 'Plants_Other', 'Land', 1330312.00909277, 0, 0, 0, 0, 0, 0.460344444213592, 'PER', 'PER', 'Peru', 'land-eez')
+  第 3 行: ('Ataenius fattigi', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Scarabaeidae', 'Ataenius', 'Arthropods_Coleoptera', 'Land_Coast', 99165.0632872499, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 4 行: ('Avicenna auricornis', 'Animalia', 'Arthropoda', 'Insecta', 'Hemiptera', 'Pentatomidae', 'Avicenna', 'Arthropods_Hemiptera', 'Land_Coast', 267720.318169042, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 5 行: ('Carpinus orientalis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fagales', 'Betulaceae', 'Carpinus', 'Plants_Other', 'Land_Coast', 4551995.21685608, 0, 0, 0, 0, 0, 0.161948833527962, 'TUR', 'TUR', 'Turkey', 'land-eez')
+  第 6 行: ('Combretum microphyllum', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Myrtales', 'Combretaceae', 'Combretum', 'Plants_Myrtales', 'Land_Coast', 2998802.18494498, 0, 0, 0, 0, 0, 0.206265282937552, 'ZMB', 'ZMB', 'Zambia', 'land')
+  第 7 行: ('Docalidia spatulata', 'Animalia', 'Arthropoda', 'Insecta', 'Hemiptera', 'Cicadellidae', 'Docalidia', 'Arthropods_Hemiptera', 'Land', 97.1308272110363, 0, 1, 1, 1, 1, 1, 'PER', 'PER', 'Peru', 'land-eez')
+  第 8 行: ('Drupa elegans', 'Animalia', 'Mollusca', 'Gastropoda', 'Neogastropoda', 'Muricidae', 'Drupa', 'Animals_Other', 'Coast', 80675.8237515678, 0, 0, 1, 1, 1, 1, 'PYF', 'PYF', 'French Polynesia', 'land-eez')
+  第 9 行: ('Galerina cerina', 'Fungi', 'Basidiomycota', 'Agaricomycetes', 'Agaricales', 'Hymenogastraceae', 'Galerina', 'Fungi', 'Land_Coast', 4851074.00885529, 0, 0, 0, 0, 0, 0.260416174220263, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+  第 10 行: ('Jasione sessiliflora', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Campanulaceae', 'Jasione', 'Plants_Asterales', 'Land_Coast', 129532.852581394, 0, 0, 0, 0, 0, 0.692248955359799, 'ESP', 'ESP', 'Spain', 'land-eez')
+  第 11 行: ('Machaerium isadelphum', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fabales', 'Fabaceae', 'Machaerium', 'Plants_Fabales', 'Land_Coast', 13139570.229037, 0, 0, 0, 0, 0, 0.507848213243633, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 12 行: ('Melese asana', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Erebidae', 'Melese', 'Arthropods_Lepidoptera', 'Land_Coast', 78323.9142114234, 0, 0, 0, 0, 0, 0.38956987607356, 'GTM', 'GTM', 'Guatemala', 'land-eez')
+  第 13 行: ('Paepalanthus falcifolius', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Poales', 'Eriocaulaceae', 'Paepalanthus', 'Plants_Poales', 'Land', 16591.909198796, 0, 0, 1, 1, 1, 1, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 14 行: ('Pancheria alaternoides', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Oxalidales', 'Cunoniaceae', 'Pancheria', 'Plants_Other', 'Coast', 8545.35598570999, 0, 0, 1, 1, 1, 1, 'NCL', 'NCL', 'New Caledonia', 'land-eez')
+  第 15 行: ('Paramolgus centor', 'Animalia', 'Arthropoda', 'Copepoda', 'Cyclopoida', 'Rhynchomolgidae', 'Paramolgus', 'Arthropods_Other', 'Coast', 72359.5820925283, 0, 0, 1, 1, 1, 1, 'IDN', 'IDN', 'Indonesia', 'land-eez')
+  第 16 行: ('Peperomia cotyledon', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Piperales', 'Piperaceae', 'Peperomia', 'Plants_Other', 'Land', 0.452216727695844, 1, 1, 1, 1, 1, 1, 'ECU', 'ECU', 'Ecuador', 'land-eez')
+  第 17 行: ('Phygadeuon lapponicus', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Ichneumonidae', 'Phygadeuon', 'Arthropods_Hymenoptera', 'Land_Coast', 252567.809275409, 0, 0, 0, 0, 0, 0.717306992551598, 'SWE', 'SWE', 'Sweden', 'land-eez')
+  第 18 行: ('Platoma gelatinosum', 'Plantae', 'Rhodophyta', 'Florideophyceae', 'Nemastomatales', 'Schizymeniaceae', 'Platoma', 'Plants_Other', 'Ocean_Coast', 226.982555490391, 0, 0, 0, 0, 0, 0.89398918853322, 'BMU', 'BMU', 'Bermuda', 'land-eez')
+  第 19 行: ('Poliaenus californicus', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Cerambycidae', 'Poliaenus', 'Arthropods_Coleoptera', 'Land', 4842.95805357516, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 20 行: ('Pomatoschistus montenegrensis', 'Animalia', 'Chordata', None, 'Perciformes', 'Gobiidae', 'Pomatoschistus', 'Fish', 'Coast', 115.370693163923, 0, 0, 1, 1, 1, 1, 'MNE', 'MNE', 'Montenegro', 'land-eez')
+  第 21 行: ('Pseudocercospora smilacicola', 'Fungi', 'Ascomycota', 'Dothideomycetes', 'Mycosphaerellales', 'Mycosphaerellaceae', 'Pseudocercospora', 'Fungi', 'Land', 5183.97466504346, 0, 0, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 22 行: ('Pterotaenia fasciata', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Ulidiidae', 'Pterotaenia', 'Arthropods_Diptera', 'Land_Coast', 1951098.92119172, 0, 0, 0, 0, 0, 0.800635842250642, 'ARG', 'ARG', 'Argentina', 'land-eez')
+  第 23 行: ('Rubia oncotricha', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Gentianales', 'Rubiaceae', 'Rubia', 'Plants_Gentianales', 'Land', 699990.261791569, 0, 0, 0, 0, 0, 0.858930743819624, 'CHN', 'CHN', 'China', 'land-eez')
+  第 24 行: ('Ryssonotus nebulosus', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Lucanidae', 'Ryssonotus', 'Arthropods_Coleoptera', 'Land_Coast', 1437401.68105093, 0, 0, 0, 1, 1, 0.985374483647153, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 25 行: ('Scrobipalpula ramosella', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Gelechiidae', 'Scrobipalpula', 'Arthropods_Lepidoptera', 'Land', 4533.61683626612, 0, 0, 0, 0, 0, 0.838021143109786, 'ITA', 'ITA', 'Italy', 'land-eez')
+  第 26 行: ('Senecio glossanthus', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Senecio', 'Plants_Asterales', 'Land_Coast', 4266630.91735932, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 27 行: ('Sericomyia hispanica', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Syrphidae', 'Sericomyia', 'Arthropods_Diptera', 'Land_Coast', 5332.15343398096, 0, 0, 1, 1, 1, 1, 'ESP', 'ESP', 'Spain', 'land-eez')
+  第 28 行: ('Stemphylium botryosum', 'Fungi', 'Ascomycota', 'Dothideomycetes', 'Pleosporales', 'Pleosporaceae', 'Stemphylium', 'Fungi', 'Land_Coast', 7852.36541241957, 0, 0, 1, 1, 1, 1, 'NZL', 'NZL', 'New Zealand', 'land-eez')
+  第 29 行: ('Taraxacum atactum', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Taraxacum', 'Plants_Asterales', 'Land_Coast', 0.000168482510222204, 0, 0, 0, 0, 0, 0.388270397309322, 'GBR', 'GBR', 'United Kingdom', 'land-eez')
+  第 30 行: ('Trichoderma parmastoi', 'Fungi', 'Ascomycota', 'Sordariomycetes', 'Hypocreales', 'Hypocreaceae', 'Trichoderma', 'Fungi', 'Land_Coast', 358950.533655101, 0, 0, 0, 0, 0, 0.330984849782244, 'FIN', 'FIN', 'Finland', 'land-eez')
+  第 31 行: ('Trichoscypha smythei', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Sapindales', 'Anacardiaceae', 'Trichoscypha', 'Plants_Other', 'Land_Coast', 1022798.65751434, 0, 0, 0, 0, 0, 0.219883971408019, 'NGA', 'NGA', 'Nigeria', 'land-eez')
+  第 32 行: ('Veronica anagalloides', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Lamiales', 'Plantaginaceae', 'Veronica', 'Plants_Lamiales', 'Land_Coast', 12151342.5356285, 0, 0, 0, 0, 0, 0.12910578412408, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/global_biodiversity/8.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: global_biod_species_extinction_risks
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'parkpct', 'popden', 'eezpct', 'popshadow', 'totfishing', 'natfishing', 'popgroupmax', 'pthreat', 'd_assignedrisk', 'lcat']
+表内容:
+  第 1 行: ('Chrysogaster coemiteriorum', 0.186710020150211, '826.991400712986', None, None, None, None, 6, 31, 0, 'Land_Coast')
+  第 2 行: ('Coelotes mediocris', 0.232294617563739, '2167.0970870942', None, None, None, None, 8, 65, 0, 'Land')
+  第 3 行: ('Colpochila antennalis', 0.184885290148448, '47.2101710361474', None, None, None, None, 3, 37, 0, 'Land_Coast')
+  第 4 行: ('Dendrobium ovatum', 0.0198005492123139, '10254.4631891071', None, None, None, None, 9, 34, 0, 'Land_Coast')
+  第 5 行: ('Diolcus irroratus', 0.234519104084321, '3382.13290391361', None, None, None, None, 1, 82, 0, 'Land_Coast')
+  第 6 行: ('Euphrasia alpina', 0, '0', None, None, None, None, 6, 81, 0, 'Land_Coast')
+  第 7 行: ('Fergusonina nodulosa', 0.0791855203619909, '594.975669338662', None, None, None, None, 3, 75, 0, 'Land_Coast')
+  第 8 行: ('Gunniopsis kochii', 0.173728813559322, '0.227027680967669', None, None, None, None, 2, 14, 0, 'Land')
+  第 9 行: ('Hesionura laubieri', 0, '177.211608886719', 1.0, 1914.55004882812, 266.161956787109, 0.181436441838741, 6, 73, 0, 'Coast')
+  第 10 行: ('Ipidia binotata', 0.195932459634609, '1131.13738935357', None, None, None, None, 6, 4, 0, 'Land_Coast')
+  第 11 行: ('Malthinus seriepunctatus', 0.280962719114587, '2079.62934159419', None, None, None, None, 6, 5, 0, 'Land_Coast')
+  第 12 行: ('Meranoplus ferrugineus', 0.138973836221543, '282.045227602494', None, None, None, None, 3, 65, 0, 'Land_Coast')
+  第 13 行: ('Mirachelus clinocnemus', 0, None, 0.926039119804401, 2938.29289627075, 14.3365177910665, 0.0785592825475305, None, 93, 0, 'Ocean')
+  第 14 行: ('Myriocephalus rhizocephalus', 0.164666009983806, '27.1641469432093', None, None, None, None, 2, 6, 0, 'Land')
+  第 15 行: ('Nassauvia lagascae', 0.426245365145897, '797.096625278458', None, None, None, None, 4, 35, 0, 'Land')
+  第 16 行: ('Pappochroma gunnii', 0.421944692239072, '177.606205686058', None, None, None, None, 3, 53, 0, 'Land_Coast')
+  第 17 行: ('Paraplagusia bilineata', 0.1626999043193, None, 0.818574015855659, 2965.66524753659, 410.107843241394, 0.240350945057789, 2, 3, 1, 'Ocean_Coast')
+  第 18 行: ('Phenacorhamdia anisura', 0.200693062006931, '146.304790537138', None, None, None, None, 4, 4, 0, 'Land')
+  第 19 行: ('Philocaenus clairae', 0.1625, '855.352140966009', 0.0, 653.433878580729, 0, 0.00288410924258642, 6, 57, 0, 'Coast')
+  第 20 行: ('Phlox pulvinata', 0.143783939641501, '147.557252126581', None, None, None, None, 1, 7, 0, 'Land')
+  第 21 行: ('Pimelodella modestus', 0.0839201877934272, '2468.94221736402', None, None, None, None, 6, 13, 1, 'Land_Coast')
+  第 22 行: ('Polybotrya cylindrica', 0.140446976336547, '3016.93115012152', None, None, None, None, 6, 30, 0, 'Land_Coast')
+  第 23 行: ('Psoralea intonsa', 0.255729794933655, '89.702061321368', None, None, None, None, 3, 53, 0, 'Land_Coast')
+  第 24 行: ('Saussurea lenensis', 0.0504937878305193, '3.04414107901069', None, None, None, None, 3, 23, 0, 'Land')
+  第 25 行: ('Strumigenys mixta', 0.140289855072464, '4922.06544791053', None, None, None, None, 8, 77, 0, 'Land_Coast')
+  第 26 行: ('Svistella bifasciata', 0.0738603667356175, '8292.05843678678', None, None, None, None, 8, 11, 1, 'Land_Coast')
+  第 27 行: ('Taraxacum atactum', 0.250122405376934, '2501.79044687817', None, None, None, None, 6, 53, 0, 'Land_Coast')
+  第 28 行: ('Taraxacum sinuatum', 0.284815049550588, '2459.05831102018', None, None, None, None, 8, 12, 0, 'Land_Coast')
+  第 29 行: ('Terminalia calogemma', 0.0625, '40.0558629469438', 0.0625, 37.0968309129987, 0, 0.00270554120652378, 4, 70, 1, 'Coast')
+  第 30 行: ('Tetrapocillon novaezealandiae', 0.0188679245283019, '33.3885532576519', 0.622641509433962, 302.626848220825, 75.8612827559312, 0.108805918134749, 3, 63, 0, 'Coast')
+  第 31 行: ('Tricholoma acre', 0.160738714090287, '1736.01460303319', None, None, None, None, 6, 77, 0, 'Land_Coast')
+  第 32 行: ('Verbesina pauciflora', 0.0238095238095238, '120.733441355824', None, None, None, None, 4, 80, 0, 'Land_Coast')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: global_biod_species_occ_endemism_and_small_range
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'grp', 'lcat', 'area', 'd_smallrange25', 'd_smallrange100', 'd_endemic100', 'd_endemic095', 'd_endemic090', 'max_sh_spp', 'WB_ISO', 'ISO_A3', 'WB_DATANAM', 'type']
+表内容:
+  第 1 行: ('Chrysogaster coemiteriorum', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Syrphidae', 'Chrysogaster', 'Arthropods_Diptera', 'Land_Coast', 1138066.29553591, 0, 0, 0, 0, 0, 0.255663465321634, 'SWE', 'SWE', 'Sweden', 'land-eez')
+  第 2 行: ('Coelotes mediocris', 'Animalia', 'Arthropoda', 'Arachnida', 'Araneae', 'Agelenidae', 'Coelotes', 'Arthropods_Araneae', 'Land', 7443.01564690182, 0, 0, 0, 0, 0, 0.726902224966201, 'ITA', 'ITA', 'Italy', 'land-eez')
+  第 3 行: ('Colpochila antennalis', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Scarabaeidae', 'Colpochila', 'Arthropods_Coleoptera', 'Land_Coast', 19012.93563582, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 4 行: ('Dendrobium ovatum', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Asparagales', 'Orchidaceae', 'Dendrobium', 'Plants_Asparagales', 'Land_Coast', 203955.289781041, 0, 0, 1, 1, 1, 1, 'IND', 'IND', 'India', 'land-eez')
+  第 5 行: ('Diolcus irroratus', 'Animalia', 'Arthropoda', 'Insecta', 'Hemiptera', 'Scutelleridae', 'Diolcus', 'Arthropods_Hemiptera', 'Land_Coast', 63045.5359727866, 0, 0, 0, 1, 1, 0.999867329068732, 'USA', 'USA', 'United States', 'land-eez')
+  第 6 行: ('Euphrasia alpina', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Lamiales', 'Orobanchaceae', 'Euphrasia', 'Plants_Lamiales', 'Land_Coast', 24.587990448578, 0, 0, 0, 0, 0, 0.356980553450157, 'FRA', 'FRA', 'France', 'land-eez')
+  第 7 行: ('Fergusonina nodulosa', 'Animalia', 'Arthropoda', 'Insecta', 'Diptera', 'Fergusoninidae', 'Fergusonina', 'Arthropods_Diptera', 'Land_Coast', 11236.4854714261, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 8 行: ('Gunniopsis kochii', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Caryophyllales', 'Aizoaceae', 'Gunniopsis', 'Plants_Caryophyllales', 'Land', 89057.0536407298, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 9 行: ('Hesionura laubieri', 'Animalia', 'Annelida', 'Polychaeta', 'Phyllodocida', 'Phyllodocidae', 'Hesionura', 'Animals_Other', 'Coast', 21.6750025495623, 1, 1, 1, 1, 1, 1, 'USA', 'USA', 'United States', 'land-eez')
+  第 10 行: ('Ipidia binotata', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Nitidulidae', 'Ipidia', 'Arthropods_Coleoptera', 'Land_Coast', 4170082.10292403, 0, 0, 0, 0, 0, 0.247513762049412, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+  第 11 行: ('Malthinus seriepunctatus', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Cantharidae', 'Malthinus', 'Arthropods_Coleoptera', 'Land_Coast', 3089205.56687216, 0, 0, 0, 0, 0, 0.21805562193499, 'FRA', 'FRA', 'France', 'land-eez')
+  第 12 行: ('Meranoplus ferrugineus', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Formicidae', 'Meranoplus', 'Arthropods_Hymenoptera', 'Land_Coast', 156463.551905982, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 13 行: ('Mirachelus clinocnemus', 'Animalia', 'Mollusca', 'Gastropoda', 'Seguenziida', 'Chilodontaidae', 'Mirachelus', 'Animals_Other', 'Ocean', 46083.2862407044, 0, 0, 0, 0, 0, 0.634579576137224, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 14 行: ('Myriocephalus rhizocephalus', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Myriocephalus', 'Plants_Asterales', 'Land', 1578083.74874889, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 15 行: ('Nassauvia lagascae', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Nassauvia', 'Plants_Asterales', 'Land', 144333.023484161, 0, 0, 0, 0, 0, 0.521450849580936, 'ARG', 'ARG', 'Argentina', 'land-eez')
+  第 16 行: ('Pappochroma gunnii', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Pappochroma', 'Plants_Asterales', 'Land_Coast', 25640.5459585503, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 17 行: ('Paraplagusia bilineata', 'Animalia', 'Chordata', None, 'Pleuronectiformes', 'Cynoglossidae', 'Paraplagusia', 'Fish', 'Ocean_Coast', 6836801.62308876, 0, 0, 0, 0, 0, 0.400117763929964, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 18 行: ('Phenacorhamdia anisura', 'Animalia', 'Chordata', None, 'Siluriformes', 'Heptapteridae', 'Phenacorhamdia', 'Fish', 'Land', 415636.110484722, 0, 0, 0, 0, 0, 0.551574344196273, 'COL', 'COL', 'Colombia', 'land-eez')
+  第 19 行: ('Philocaenus clairae', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Agaonidae', 'Philocaenus', 'Arthropods_Hymenoptera', 'Coast', 2268.31914945857, 0, 0, 1, 1, 1, 1, 'ZAF', 'ZAF', 'South Africa', 'land-eez')
+  第 20 行: ('Phlox pulvinata', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Ericales', 'Polemoniaceae', 'Phlox', 'Plants_Ericales', 'Land', 1438435.63990629, 0, 0, 0, 1, 1, 0.996830190772426, 'USA', 'USA', 'United States', 'land-eez')
+  第 21 行: ('Pimelodella modestus', 'Animalia', 'Chordata', None, 'Siluriformes', 'Heptapteridae', 'Pimelodella', 'Fish', 'Land_Coast', 104814.943852634, 0, 0, 0, 0, 0, 0.659538424729444, 'ECU', 'ECU', 'Ecuador', 'land-eez')
+  第 22 行: ('Polybotrya cylindrica', 'Plantae', 'Tracheophyta', 'Polypodiopsida', 'Polypodiales', 'Dryopteridaceae', 'Polybotrya', 'Plants_Other', 'Land_Coast', 650852.047054217, 0, 0, 1, 1, 1, 1, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 23 行: ('Psoralea intonsa', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fabales', 'Fabaceae', 'Psoralea', 'Plants_Fabales', 'Land_Coast', 21426.7946222118, 0, 0, 1, 1, 1, 1, 'ZAF', 'ZAF', 'South Africa', 'land-eez')
+  第 24 行: ('Saussurea lenensis', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Saussurea', 'Plants_Asterales', 'Land', 196003.957403707, 0, 0, 1, 1, 1, 1, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+  第 25 行: ('Strumigenys mixta', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Formicidae', 'Strumigenys', 'Arthropods_Hymenoptera', 'Land_Coast', 47376.082906713, 0, 0, 0, 0, 0, 0.561492998687332, 'USA', 'USA', 'United States', 'land-eez')
+  第 26 行: ('Svistella bifasciata', 'Animalia', 'Arthropoda', 'Insecta', 'Orthoptera', 'Trigonidiidae', 'Svistella', 'Arthropods_Other', 'Land_Coast', 1691323.21032362, 0, 0, 0, 0, 0, 0.64976474147566, 'CHN', 'CHN', 'China', 'land-eez')
+  第 27 行: ('Taraxacum atactum', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Taraxacum', 'Plants_Asterales', 'Land_Coast', 0.000168482510222204, 0, 0, 0, 0, 0, 0.388270397309322, 'GBR', 'GBR', 'United Kingdom', 'land-eez')
+  第 28 行: ('Taraxacum sinuatum', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Taraxacum', 'Plants_Asterales', 'Land_Coast', 1267245.03325031, 0, 0, 0, 0, 0, 0.264622730507177, 'DEU', 'DEU', 'Germany', 'land-eez')
+  第 29 行: ('Terminalia calogemma', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Myrtales', 'Combretaceae', 'Terminalia', 'Plants_Myrtales', 'Coast', 480.614282797926, 0, 0, 1, 1, 1, 1, 'PNG', 'PNG', 'Papua New Guinea', 'land-eez')
+  第 30 行: ('Tetrapocillon novaezealandiae', 'Animalia', 'Porifera', 'Demospongiae', 'Poecilosclerida', 'Guitarridae', 'Tetrapocillon', 'Animals_Other', 'Coast', 1354.13490364718, 0, 0, 1, 1, 1, 1, 'NZL', 'NZL', 'New Zealand', 'land-eez')
+  第 31 行: ('Tricholoma acre', 'Fungi', 'Basidiomycota', 'Agaricomycetes', 'Agaricales', 'Tricholomataceae', 'Tricholoma', 'Fungi', 'Land_Coast', 99373.2240751672, 0, 0, 0, 1, 1, 0.958994249323615, 'USA', 'USA', 'United States', 'land-eez')
+  第 32 行: ('Verbesina pauciflora', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Verbesina', 'Plants_Asterales', 'Land_Coast', 2308.7717354289, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/global_biodiversity/9.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: global_biod_species_extinction_risks
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'parkpct', 'popden', 'eezpct', 'popshadow', 'totfishing', 'natfishing', 'popgroupmax', 'pthreat', 'd_assignedrisk', 'lcat']
+表内容:
+  第 1 行: ('Alafia erythrophthalma', 0.210287024590812, '574.245126108939', None, None, None, None, 6, 16, 0, 'Land_Coast')
+  第 2 行: ('Albizia crassiramea', 0.109161165673805, '1208.41718389899', None, None, None, None, 8, 24, 0, 'Land')
+  第 3 行: ('Ampelocissus macrocirrha', 0.12198261989057, '3695.09685693699', None, None, None, None, 8, 46, 0, 'Land_Coast')
+  第 4 行: ('Anemone lithophila', 0.232725419676019, '23.1059924879657', None, None, None, None, 1, 2, 0, 'Land_Coast')
+  第 5 行: ('Astroblepus frenatus', 0.151547209732875, '2455.37558839723', None, None, None, None, 6, 14, 0, 'Land')
+  第 6 行: ('Bajacalia moranii', 1, '0.353059343621135', 0.0, 0.232636690139771, 0, 0, 2, 77, 0, 'Coast')
+  第 7 行: ('Bamberene dorsospina', 0.177328843995511, '183.143825354492', 0.72615039281706, 853.233174070334, 59.909105595218, 0.0785705734872156, 3, 48, 0, 'Coast')
+  第 8 行: ('Byturus ochraceus', 0.181562410499183, '1309.41172384343', None, None, None, None, 6, 3, 0, 'Land_Coast')
+  第 9 行: ('Chaenusa anervata', 0.0772946859903382, '726.108311405487', None, None, None, None, 6, 86, 0, 'Land')
+  第 10 行: ('Chlaenius coeruleus', 0.194779477947795, '859.108114017434', None, None, None, None, 6, 19, 0, 'Land_Coast')
+  第 11 行: ('Coenophila subrosea', 0.184607018329548, '1055.47792663227', None, None, None, None, 6, 3, 0, 'Land_Coast')
+  第 12 行: ('Duthiastrum linifolium', 0.0399527186761229, '984.84720066849', None, None, None, None, 4, 42, 0, 'Land')
+  第 13 行: ('Epicorsia oedipodalis', 0.103300436822521, '1596.24236312285', None, None, None, None, 6, 9, 0, 'Land_Coast')
+  第 14 行: ('Glyphocrangon assimilis', 0.00593286494925839, None, 0.862060889929742, 239.419432042403, 28.2458086810765, 0.024758031696166, 6, 11, 0, 'Ocean_Coast')
+  第 15 行: ('Hypochaeris clarionoides', 0.0972222222222222, '1719.16278936708', None, None, None, None, 6, 67, 0, 'Land')
+  第 16 行: ('Isoleon arabicus', 0.366666666666667, '731.99593102932', None, None, None, None, 4, 54, 0, 'Land')
+  第 17 行: ('Lindackeria poggei', 0.355650994575045, '564.720265301832', None, None, None, None, 6, 14, 0, 'Land')
+  第 18 行: ('Matelea vaupesana', 0.648351648351648, '99.5300380756393', None, None, None, None, 3, 65, 0, 'Land')
+  第 19 行: ('Memecylon xiphophyllum', 0, '2557.95174153646', 0.0, 2230.19970703125, 2.51555001735687, 0.0860139131546021, 8, 85, 1, 'Coast')
+  第 20 行: ('Neostorena minor', 0.133892215568862, '486.212126941802', None, None, None, None, 3, 38, 0, 'Land_Coast')
+  第 21 行: ('Oligobrachia haakonmosbiensis', 0, None, 1.0, 46.6534309387207, 0.907299995422363, 0.00469152955338359, None, 72, 0, 'Ocean')
+  第 22 行: ('Paepalanthus dianthoides', 0.0814771395076202, '2040.96005412139', None, None, None, None, 6, 29, 0, 'Land')
+  第 23 行: ('Paradirphia valverdei', 0.0748299319727891, '1752.44492142315', None, None, None, None, 6, 16, 0, 'Land_Coast')
+  第 24 行: ('Passiflora trifasciata', 0.35472207130412, '95.5936605655348', None, None, None, None, 4, 7, 0, 'Land')
+  第 25 行: ('Peltigera isidiophora', 0.183558756367469, '851.89462205299', None, None, None, None, 6, 83, 0, 'Land_Coast')
+  第 26 行: ('Peperomia hernandiifolia', 0.26939603960396, '1165.96859692246', None, None, None, None, 6, 6, 0, 'Land_Coast')
+  第 27 行: ('Pheroliodes lindsayae', 0.18639798488665, '342.082841443361', 0.118387909319899, 274.19838167059, 5.121716732528, 0.0169369036331773, 3, 44, 0, 'Coast')
+  第 28 行: ('Polites coras', 0.0700223371637747, '620.78267213255', None, None, None, None, 6, 2, 0, 'Land_Coast')
+  第 29 行: ('Pseudovelia esakii', 0, '64275.9287109375', 0.0, 35124.58984375, 0, 0, 12, 84, 0, 'Coast')
+  第 30 行: ('Pterostichus oblongopunctatus', 0.149951441362484, '744.782044861431', None, None, None, None, 6, 2, 0, 'Land_Coast')
+  第 31 行: ('Sepedophilus cavicola', 0.275912408759124, '5193.48111746074', None, None, None, None, 8, 37, 0, 'Land_Coast')
+  第 32 行: ('Solanum chippendalei', 0.298225397557041, '1.00562258428719', None, None, None, None, 2, 2, 0, 'Land')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: global_biod_species_occ_endemism_and_small_range
+--------------------------------------------------------------------------------
+表头（列名）: ['species', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'grp', 'lcat', 'area', 'd_smallrange25', 'd_smallrange100', 'd_endemic100', 'd_endemic095', 'd_endemic090', 'max_sh_spp', 'WB_ISO', 'ISO_A3', 'WB_DATANAM', 'type']
+表内容:
+  第 1 行: ('Alafia erythrophthalma', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Gentianales', 'Apocynaceae', 'Alafia', 'Plants_Gentianales', 'Land_Coast', 777736.509103191, 0, 0, 0, 0, 0, 0.261752095925656, 'GAB', 'GAB', 'Gabon', 'land-eez')
+  第 2 行: ('Albizia crassiramea', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Fabales', 'Fabaceae', 'Albizia', 'Plants_Fabales', 'Land', 355628.727276001, 0, 0, 0, 0, 0, 0.352509973934247, 'CHN', 'CHN', 'China', 'land-eez')
+  第 3 行: ('Ampelocissus macrocirrha', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Vitales', 'Vitaceae', 'Ampelocissus', 'Plants_Other', 'Land_Coast', 568530.086176649, 0, 0, 0, 0, 0, 0.651740956933283, 'NGA', 'NGA', 'Nigeria', 'land-eez')
+  第 4 行: ('Anemone lithophila', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Ranunculales', 'Ranunculaceae', 'Anemone', 'Plants_Other', 'Land_Coast', 3192327.41952288, 0, 0, 0, 0, 0, 0.568604348736121, 'USA', 'USA', 'United States', 'land-eez')
+  第 5 行: ('Astroblepus frenatus', 'Animalia', 'Chordata', None, 'Siluriformes', 'Astroblepidae', 'Astroblepus', 'Fish', 'Land', 115624.284712765, 0, 0, 0, 1, 1, 0.99196694218895, 'COL', 'COL', 'Colombia', 'land-eez')
+  第 6 行: ('Bajacalia moranii', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Bajacalia', 'Plants_Asterales', 'Coast', 347.233117502013, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 7 行: ('Bamberene dorsospina', 'Animalia', 'Arthropoda', 'Pycnogonida', 'Pantopoda', 'Callipallenidae', 'Bamberene', 'Arthropods_Other', 'Coast', 22443.2374162522, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 8 行: ('Byturus ochraceus', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Byturidae', 'Byturus', 'Arthropods_Coleoptera', 'Land_Coast', 6707490.48684678, 0, 0, 0, 0, 0, 0.249034836992048, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+  第 9 行: ('Chaenusa anervata', 'Animalia', 'Arthropoda', 'Insecta', 'Hymenoptera', 'Braconidae', 'Chaenusa', 'Arthropods_Hymenoptera', 'Land', 5451.7089472399, 0, 0, 1, 1, 1, 1, 'ZAF', 'ZAF', 'South Africa', 'land-eez')
+  第 10 行: ('Chlaenius coeruleus', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Carabidae', 'Chlaenius', 'Arthropods_Coleoptera', 'Land_Coast', 126508.138344604, 0, 0, 0, 0, 0, 0.55364718086856, 'GEO', 'GEO', 'Georgia', 'land-eez')
+  第 11 行: ('Coenophila subrosea', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Noctuidae', 'Coenophila', 'Arthropods_Lepidoptera', 'Land_Coast', 3093166.98164844, 0, 0, 0, 0, 0, 0.183854974758356, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+  第 12 行: ('Duthiastrum linifolium', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Asparagales', 'Iridaceae', 'Duthiastrum', 'Plants_Asparagales', 'Land', 115083.599103879, 0, 0, 1, 1, 1, 1, 'ZAF', 'ZAF', 'South Africa', 'land-eez')
+  第 13 行: ('Epicorsia oedipodalis', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Crambidae', 'Epicorsia', 'Arthropods_Lepidoptera', 'Land_Coast', 319308.354474833, 0, 0, 0, 0, 0, 0.851817194816013, 'USA', 'USA', 'United States', 'land-eez')
+  第 14 行: ('Glyphocrangon assimilis', 'Animalia', 'Arthropoda', 'Malacostraca', 'Decapoda', 'Glyphocrangonidae', 'Glyphocrangon', 'Arthropods_Other', 'Ocean_Coast', 391778.467593705, 0, 0, 1, 1, 1, 1, 'PNG', 'PNG', 'Papua New Guinea', 'land-eez')
+  第 15 行: ('Hypochaeris clarionoides', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', 'Asteraceae', 'Hypochaeris', 'Plants_Asterales', 'Land', 16788.4479550935, 0, 0, 0, 0, 0, 0.875322460975039, 'CHL', 'CHL', 'Chile', 'land-eez')
+  第 16 行: ('Isoleon arabicus', 'Animalia', 'Arthropoda', 'Insecta', 'Neuroptera', 'Myrmeleontidae', 'Isoleon', 'Arthropods_Other', 'Land', 771.687232124921, 0, 0, 0, 1, 1, 0.978785798287236, 'ISR', 'ISR', 'Israel', 'land-eez')
+  第 17 行: ('Lindackeria poggei', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Malpighiales', 'Achariaceae', 'Lindackeria', 'Plants_Malpighiales', 'Land', 680746.968304753, 0, 0, 0, 0, 0, 0.588358027776524, 'COD', 'COD', 'Congo, Dem. Rep.', 'land-eez')
+  第 18 行: ('Matelea vaupesana', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Gentianales', 'Apocynaceae', 'Matelea', 'Plants_Gentianales', 'Land', 8373.43917316544, 0, 0, 1, 1, 1, 1, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 19 行: ('Memecylon xiphophyllum', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Myrtales', 'Melastomataceae', 'Memecylon', 'Plants_Myrtales', 'Coast', 3.10169528097634, 1, 1, 1, 1, 1, 1, 'MDG', 'MDG', 'Madagascar', 'land-eez')
+  第 20 行: ('Neostorena minor', 'Animalia', 'Arthropoda', 'Arachnida', 'Araneae', 'Zodariidae', 'Neostorena', 'Arthropods_Araneae', 'Land_Coast', 225458.346893049, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 21 行: ('Oligobrachia haakonmosbiensis', 'Animalia', 'Annelida', 'Polychaeta', 'Sabellida', 'Siboglinidae', 'Oligobrachia', 'Animals_Other', 'Ocean', 1.97028502611829e-10, 1, 1, 1, 1, 1, 1, 'NOR', 'NOR', 'Norway', 'land-eez')
+  第 22 行: ('Paepalanthus dianthoides', 'Plantae', 'Tracheophyta', 'Liliopsida', 'Poales', 'Eriocaulaceae', 'Paepalanthus', 'Plants_Poales', 'Land', 98900.3853340086, 0, 0, 1, 1, 1, 1, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 23 行: ('Paradirphia valverdei', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Saturniidae', 'Paradirphia', 'Arthropods_Lepidoptera', 'Land_Coast', 103524.326032972, 0, 0, 1, 1, 1, 1, 'MEX', 'MEX', 'Mexico', 'land-eez')
+  第 24 行: ('Passiflora trifasciata', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Malpighiales', 'Passifloraceae', 'Passiflora', 'Plants_Malpighiales', 'Land', 1609622.11077757, 0, 0, 0, 0, 0, 0.493295337833177, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 25 行: ('Peltigera isidiophora', 'Fungi', 'Ascomycota', 'Lecanoromycetes', 'Peltigerales', 'Peltigeraceae', 'Peltigera', 'Fungi', 'Land_Coast', 1099959.00126413, 0, 0, 0, 0, 0, 0.282879526618597, 'SWE', 'SWE', 'Sweden', 'land-eez')
+  第 26 行: ('Peperomia hernandiifolia', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Piperales', 'Piperaceae', 'Peperomia', 'Plants_Other', 'Land_Coast', 6067703.22338345, 0, 0, 0, 0, 0, 0.239468858045446, 'BRA', 'BRA', 'Brazil', 'land-eez')
+  第 27 行: ('Pheroliodes lindsayae', 'Animalia', 'Arthropoda', 'Arachnida', 'Sarcoptiformes', 'Pheroliodidae', 'Pheroliodes', 'Arthropods_Other', 'Coast', 18076.4954090724, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+  第 28 行: ('Polites coras', 'Animalia', 'Arthropoda', 'Insecta', 'Lepidoptera', 'Hesperiidae', 'Polites', 'Arthropods_Lepidoptera', 'Land_Coast', 5240937.65996887, 0, 0, 0, 0, 0, 0.68745751297361, 'USA', 'USA', 'United States', 'land-eez')
+  第 29 行: ('Pseudovelia esakii', 'Animalia', 'Arthropoda', 'Insecta', 'Hemiptera', 'Veliidae', 'Pseudovelia', 'Arthropods_Hemiptera', 'Coast', 221.0551179411, 0, 0, 1, 1, 1, 1, 'JPN', 'JPN', 'Japan', 'land-eez')
+  第 30 行: ('Pterostichus oblongopunctatus', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Carabidae', 'Pterostichus', 'Arthropods_Coleoptera', 'Land_Coast', 10098508.3123834, 0, 0, 0, 0, 0, 0.453846026088541, 'RUS', 'RUS', 'Russian Federation', 'land-eez')
+  第 31 行: ('Sepedophilus cavicola', 'Animalia', 'Arthropoda', 'Insecta', 'Coleoptera', 'Staphylinidae', 'Sepedophilus', 'Arthropods_Coleoptera', 'Land_Coast', 16399.4587396666, 0, 0, 1, 1, 1, 1, 'ESP', 'ESP', 'Spain', 'land-eez')
+  第 32 行: ('Solanum chippendalei', 'Plantae', 'Tracheophyta', 'Magnoliopsida', 'Solanales', 'Solanaceae', 'Solanum', 'Plants_Other', 'Land', 2103561.05918621, 0, 0, 1, 1, 1, 1, 'AUS', 'AUS', 'Australia', 'land-eez')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+

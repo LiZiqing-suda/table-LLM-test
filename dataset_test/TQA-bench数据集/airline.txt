@@ -1,0 +1,1088 @@
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/airline/0.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Air Carriers
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: (19393, 'Southwest Airlines Co.: WN')
+  第 2 行: (19687, 'Horizon Air: QX')
+  第 3 行: (19790, 'Delta Air Lines Inc.: DL')
+  第 4 行: (19805, 'American Airlines Inc.: AA')
+  第 5 行: (19930, 'Alaska Airlines Inc.: AS')
+  第 6 行: (19977, 'United Air Lines Inc.: UA')
+  第 7 行: (20046, 'Air Wisconsin Airlines Corp: ZW')
+  第 8 行: (20304, 'SkyWest Airlines Inc.: OO')
+  第 9 行: (20363, 'Endeavor Air Inc.: 9E')
+  第 10 行: (20368, 'Allegiant Air: G4')
+  第 11 行: (20378, 'Mesa Airlines Inc.: YV')
+  第 12 行: (20397, 'PSA Airlines Inc.: OH')
+  第 13 行: (20398, 'Envoy Air: MQ')
+  第 14 行: (20409, 'JetBlue Airways: B6')
+  第 15 行: (20416, 'Spirit Air Lines: NK')
+  第 16 行: (20452, 'Republic Airline: YX')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Airports
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: ('ABQ', 'Albuquerque, NM: Albuquerque International Sunport')
+  第 2 行: ('ATL', 'Atlanta, GA: Hartsfield-Jackson Atlanta International')
+  第 3 行: ('BUF', 'Buffalo, NY: Buffalo Niagara International')
+  第 4 行: ('BWI', 'Baltimore, MD: Baltimore/Washington International Thurgood Marshall')
+  第 5 行: ('CLT', 'Charlotte, NC: Charlotte Douglas International')
+  第 6 行: ('CVG', 'Cincinnati, OH: Cincinnati/Northern Kentucky International')
+  第 7 行: ('DAL', 'Dallas, TX: Dallas Love Field')
+  第 8 行: ('DTW', 'Detroit, MI: Detroit Metro Wayne County')
+  第 9 行: ('FLL', 'Fort Lauderdale, FL: Fort Lauderdale-Hollywood International')
+  第 10 行: ('FNT', 'Flint, MI: Bishop International')
+  第 11 行: ('GEG', 'Spokane, WA: Spokane International')
+  第 12 行: ('GSO', 'Greensboro/High Point, NC: Piedmont Triad International')
+  第 13 行: ('IAD', 'Washington, DC: Washington Dulles International')
+  第 14 行: ('IAH', 'Houston, TX: George Bush Intercontinental/Houston')
+  第 15 行: ('IND', 'Indianapolis, IN: Indianapolis International')
+  第 16 行: ('JAX', 'Jacksonville, FL: Jacksonville International')
+  第 17 行: ('LAS', 'Las Vegas, NV: McCarran International')
+  第 18 行: ('LGA', 'New York, NY: LaGuardia')
+  第 19 行: ('MCO', 'Orlando, FL: Orlando International')
+  第 20 行: ('MEM', 'Memphis, TN: Memphis International')
+  第 21 行: ('MHT', 'Manchester, NH: Manchester-Boston Regional')
+  第 22 行: ('MKE', 'Milwaukee, WI: General Mitchell International')
+  第 23 行: ('MSN', 'Madison, WI: Dane County Regional-Truax Field')
+  第 24 行: ('MYR', 'Myrtle Beach, SC: Myrtle Beach International')
+  第 25 行: ('OAJ', 'Jacksonville/Camp Lejeune, NC: Albert J Ellis')
+  第 26 行: ('OAK', 'Oakland, CA: Metropolitan Oakland International')
+  第 27 行: ('ORD', "Chicago, IL: Chicago O'Hare International")
+  第 28 行: ('PDX', 'Portland, OR: Portland International')
+  第 29 行: ('RDU', 'Raleigh/Durham, NC: Raleigh-Durham International')
+  第 30 行: ('SFO', 'San Francisco, CA: San Francisco International')
+  第 31 行: ('SJC', 'San Jose, CA: Norman Y. Mineta San Jose International')
+  第 32 行: ('ANC', 'Anchorage, AK: Ted Stevens Anchorage International')
+  第 33 行: ('BDL', 'Hartford, CT: Bradley International')
+  第 34 行: ('BUR', 'Burbank, CA: Bob Hope')
+  第 35 行: ('FAY', 'Fayetteville, NC: Fayetteville Regional/Grannis Field')
+  第 36 行: ('JFK', 'New York, NY: John F. Kennedy International')
+  第 37 行: ('LBB', 'Lubbock, TX: Lubbock Preston Smith International')
+  第 38 行: ('MAF', 'Midland/Odessa, TX: Midland International Air and Space Port')
+  第 39 行: ('PGV', 'Greenville, NC: Pitt Greenville')
+  第 40 行: ('PHL', 'Philadelphia, PA: Philadelphia International')
+  第 41 行: ('PHX', 'Phoenix, AZ: Phoenix Sky Harbor International')
+  第 42 行: ('PIE', 'St. Petersburg, FL: St Pete Clearwater International')
+  第 43 行: ('SEA', 'Seattle, WA: Seattle/Tacoma International')
+  第 44 行: ('VPS', 'Valparaiso, FL: Eglin AFB Destin Fort Walton Beach')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Airlines
+--------------------------------------------------------------------------------
+表头（列名）: ['FL_DATE', 'OP_CARRIER_AIRLINE_ID', 'TAIL_NUM', 'OP_CARRIER_FL_NUM', 'ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_SEQ_ID', 'ORIGIN_CITY_MARKET_ID', 'ORIGIN', 'DEST_AIRPORT_ID', 'DEST_AIRPORT_SEQ_ID', 'DEST_CITY_MARKET_ID', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DEP_DELAY_NEW', 'ARR_TIME', 'ARR_DELAY', 'ARR_DELAY_NEW', 'CANCELLED', 'CANCELLATION_CODE', 'CRS_ELAPSED_TIME', 'ACTUAL_ELAPSED_TIME', 'CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'LATE_AIRCRAFT_DELAY']
+表内容:
+  第 1 行: ('2018/8/1', 20398, 'N663AR', 3558, 13930, 1393006, 30977, 'ORD', 11721, 1172105, 31721, 'FNT', 1140, 1131, -9, 0, 1324, -15, 0, 0, None, 59, 53, None, None, None, None, None)
+  第 2 行: ('2018/8/1', 20378, 'N86324', 6222, 15624, 1562404, 31504, 'VPS', 12266, 1226603, 31453, 'IAH', 900, 854, -6, 0, 1059, 11, 11, 0, None, 108, 125, None, None, None, None, None)
+  第 3 行: ('2018/8/2', 19393, 'N8511K', 738, 10821, 1082106, 30852, 'BWI', 11697, 1169706, 32467, 'FLL', 1945, None, None, None, None, None, None, 1, 'B', 155, None, None, None, None, None, None)
+  第 4 行: ('2018/8/4', 19393, 'N438WN', 5784, 13204, 1320402, 31454, 'MCO', 12339, 1233904, 32337, 'IND', 2025, 2036, 11, 11, 2244, -1, 0, 0, None, 140, 128, None, None, None, None, None)
+  第 5 行: ('2018/8/5', 20452, 'N857RW', 3629, 13930, 1393006, 30977, 'ORD', 11193, 1119302, 33105, 'CVG', 910, 905, -5, 0, 1116, -13, 0, 0, None, 79, 71, None, None, None, None, None)
+  第 6 行: ('2018/8/5', 20409, 'N947JB', 577, 11697, 1169706, 32467, 'FLL', 14771, 1477104, 32457, 'SFO', 906, 940, 34, 34, 1241, 36, 36, 0, None, 359, 361, 34, 0, 2, 0, 0)
+  第 7 行: ('2018/8/7', 19393, 'N7724A', 945, 14492, 1449202, 34492, 'RDU', 10821, 1082106, 30852, 'BWI', 1030, 1025, -5, 0, 1132, -3, 0, 0, None, 65, 67, None, None, None, None, None)
+  第 8 行: ('2018/8/8', 19393, 'N276WN', 2545, 13158, 1315805, 33158, 'MAF', 11259, 1125903, 30194, 'DAL', 600, 557, -3, 0, 703, -7, 0, 0, None, 70, 66, None, None, None, None, None)
+  第 9 行: ('2018/8/10', 20397, 'N505AE', 5690, 11057, 1105703, 31057, 'CLT', 13485, 1348502, 33485, 'MSN', 1427, 1424, -3, 0, 1515, -18, 0, 0, None, 126, 111, None, None, None, None, None)
+  第 10 行: ('2018/8/10', 19687, 'N445QX', 2368, 14747, 1474703, 30559, 'SEA', 11884, 1188402, 31884, 'GEG', 725, 724, -1, 0, 823, 1, 1, 0, None, 57, 59, None, None, None, None, None)
+  第 11 行: ('2018/8/12', 20363, 'N313PQ', 4058, 10397, 1039707, 30397, 'ATL', 13795, 1379502, 33795, 'OAJ', 2116, 2112, -4, 0, 2235, -10, 0, 0, None, 89, 83, None, None, None, None, None)
+  第 12 行: ('2018/8/15', 19977, 'N33266', 2103, 12266, 1226603, 31453, 'IAH', 13204, 1320402, 31454, 'MCO', 2003, 2000, -3, 0, 2310, -15, 0, 0, None, 142, 130, None, None, None, None, None)
+  第 13 行: ('2018/8/15', 20304, 'N814SK', 4709, 10529, 1052906, 30529, 'BDL', 14492, 1449202, 34492, 'RDU', 630, 626, -4, 0, 801, -17, 0, 0, None, 108, 95, None, None, None, None, None)
+  第 14 行: ('2018/8/16', 19393, 'N440LV', 1672, 10821, 1082106, 30852, 'BWI', 13296, 1329604, 30721, 'MHT', 730, 724, -6, 0, 832, -18, 0, 0, None, 80, 68, None, None, None, None, None)
+  第 15 行: ('2018/8/16', 20363, 'N197PQ', 3311, 10792, 1079206, 30792, 'BUF', 12953, 1295304, 31703, 'LGA', 1219, 1215, -4, 0, 1324, -16, 0, 0, None, 81, 69, None, None, None, None, None)
+  第 16 行: ('2018/8/17', 20409, 'N651JB', 47, 10299, 1029906, 30299, 'ANC', 14057, 1405702, 34057, 'PDX', 2359, 2349, -10, 0, 411, -23, 0, 0, None, 215, 202, None, None, None, None, None)
+  第 17 行: ('2018/8/17', 19805, 'N986NN', 2310, 13930, 1393006, 30977, 'ORD', 14831, 1483106, 32457, 'SJC', 1725, 1725, 0, 0, 1959, 5, 5, 0, None, 269, 274, None, None, None, None, None)
+  第 18 行: ('2018/8/19', 20368, '302NV', 938, 14112, 1411206, 33195, 'PIE', 13342, 1334207, 33342, 'MKE', 740, 735, -5, 0, 921, -2, 0, 0, None, 163, 166, None, None, None, None, None)
+  第 19 行: ('2018/8/19', 20046, 'N424AW', 3922, 11641, 1164102, 31641, 'FAY', 12264, 1226402, 30852, 'IAD', 1930, 1937, 7, 7, 2046, -9, 0, 0, None, 85, 69, None, None, None, None, None)
+  第 20 行: ('2018/8/22', 20363, 'N133EV', 5140, 12478, 1247805, 31703, 'JFK', 12451, 1245102, 31136, 'JAX', 815, 809, -6, 0, 1056, 3, 3, 0, None, 158, 167, None, None, None, None, None)
+  第 21 行: ('2018/8/22', 20452, 'N132HQ', 4646, 14100, 1410005, 34100, 'PHL', 13244, 1324402, 33244, 'MEM', 835, 831, -4, 0, 1019, -3, 0, 0, None, 167, 168, None, None, None, None, None)
+  第 22 行: ('2018/8/23', 19930, 'N531AS', 796, 14747, 1474703, 30559, 'SEA', 11433, 1143302, 31295, 'DTW', 2355, 25, 30, 30, 738, 32, 32, 0, None, 251, 253, 30, 0, 2, 0, 0)
+  第 23 行: ('2018/8/23', 19790, 'N960DL', 942, 10397, 1039707, 30397, 'ATL', 11995, 1199502, 31995, 'GSO', 816, 814, -2, 0, 913, -17, 0, 0, None, 74, 59, None, None, None, None, None)
+  第 24 行: ('2018/8/24', 19393, 'N733SA', 1907, 12889, 1288903, 32211, 'LAS', 10140, 1014005, 30140, 'ABQ', 2105, 2100, -5, 0, 2323, -12, 0, 0, None, 90, 83, None, None, None, None, None)
+  第 25 行: ('2018/8/24', 19393, 'N8544Z', 1564, 14107, 1410702, 30466, 'PHX', 10792, 1079206, 30792, 'BUF', 1715, 1713, -2, 0, 1, -14, 0, 0, None, 240, 228, None, None, None, None, None)
+  第 26 行: ('2018/8/25', 19790, 'N337DN', 1546, 14107, 1410702, 30466, 'PHX', 10397, 1039707, 30397, 'ATL', 1015, 1011, -4, 0, 1642, -23, 0, 0, None, 230, 211, None, None, None, None, None)
+  第 27 行: ('2018/8/25', 20416, 'N517NK', 717, 14100, 1410005, 34100, 'PHL', 13577, 1357702, 31135, 'MYR', 815, 801, -14, 0, 933, -17, 0, 0, None, 95, 92, None, None, None, None, None)
+  第 28 行: ('2018/8/26', 19930, 'N284AK', 686, 14057, 1405702, 34057, 'PDX', 13930, 1393006, 30977, 'ORD', 700, 656, -4, 0, 1225, -34, 0, 0, None, 239, 209, None, None, None, None, None)
+  第 29 行: ('2018/8/28', 20397, 'N218PS', 5116, 14092, 1409205, 34092, 'PGV', 11057, 1105703, 31057, 'CLT', 533, 524, -9, 0, 624, -27, 0, 0, None, 78, 60, None, None, None, None, None)
+  第 30 行: ('2018/8/30', 19393, 'N765SW', 957, 10800, 1080003, 32575, 'BUR', 13796, 1379608, 32457, 'OAK', 2120, 2150, 30, 30, 2254, 19, 19, 0, None, 75, 64, 0, 0, 0, 0, 19)
+  第 31 行: ('2018/8/31', 19805, 'N540UW', 2052, 13930, 1393006, 30977, 'ORD', 11057, 1105703, 31057, 'CLT', 724, 718, -6, 0, 1004, -20, 0, 0, None, 120, 106, None, None, None, None, None)
+  第 32 行: ('2018/8/31', 19393, 'N265WN', 207, 12896, 1289607, 32896, 'LBB', 12889, 1288903, 32211, 'LAS', 1720, 1714, -6, 0, 1721, -9, 0, 0, None, 130, 127, None, None, None, None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/airline/1.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Air Carriers
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: (19393, 'Southwest Airlines Co.: WN')
+  第 2 行: (19687, 'Horizon Air: QX')
+  第 3 行: (19790, 'Delta Air Lines Inc.: DL')
+  第 4 行: (19805, 'American Airlines Inc.: AA')
+  第 5 行: (19930, 'Alaska Airlines Inc.: AS')
+  第 6 行: (20304, 'SkyWest Airlines Inc.: OO')
+  第 7 行: (20366, 'ExpressJet Airlines Inc.: EV')
+  第 8 行: (20378, 'Mesa Airlines Inc.: YV')
+  第 9 行: (20397, 'PSA Airlines Inc.: OH')
+  第 10 行: (20409, 'JetBlue Airways: B6')
+  第 11 行: (20416, 'Spirit Air Lines: NK')
+  第 12 行: (20436, 'Frontier Airlines Inc.: F9')
+  第 13 行: (20452, 'Republic Airline: YX')
+  第 14 行: (20500, 'GoJet Airlines LLC d/b/a United Express: G7')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Airports
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: ('ATL', 'Atlanta, GA: Hartsfield-Jackson Atlanta International')
+  第 2 行: ('AUS', 'Austin, TX: Austin - Bergstrom International')
+  第 3 行: ('BUF', 'Buffalo, NY: Buffalo Niagara International')
+  第 4 行: ('CLT', 'Charlotte, NC: Charlotte Douglas International')
+  第 5 行: ('DCA', 'Washington, DC: Ronald Reagan Washington National')
+  第 6 行: ('DEN', 'Denver, CO: Denver International')
+  第 7 行: ('DFW', 'Dallas/Fort Worth, TX: Dallas/Fort Worth International')
+  第 8 行: ('DTW', 'Detroit, MI: Detroit Metro Wayne County')
+  第 9 行: ('EUG', 'Eugene, OR: Mahlon Sweet Field')
+  第 10 行: ('EWR', 'Newark, NJ: Newark Liberty International')
+  第 11 行: ('JFK', 'New York, NY: John F. Kennedy International')
+  第 12 行: ('LGA', 'New York, NY: LaGuardia')
+  第 13 行: ('LIT', 'Little Rock, AR: Bill and Hillary Clinton Nat Adams Field')
+  第 14 行: ('MCO', 'Orlando, FL: Orlando International')
+  第 15 行: ('MLB', 'Melbourne, FL: Melbourne International')
+  第 16 行: ('MYR', 'Myrtle Beach, SC: Myrtle Beach International')
+  第 17 行: ('ORF', 'Norfolk, VA: Norfolk International')
+  第 18 行: ('PHX', 'Phoenix, AZ: Phoenix Sky Harbor International')
+  第 19 行: ('PIT', 'Pittsburgh, PA: Pittsburgh International')
+  第 20 行: ('RDU', 'Raleigh/Durham, NC: Raleigh-Durham International')
+  第 21 行: ('RNO', 'Reno, NV: Reno/Tahoe International')
+  第 22 行: ('SAN', 'San Diego, CA: San Diego International')
+  第 23 行: ('SDF', 'Louisville, KY: Louisville International-Standiford Field')
+  第 24 行: ('SFO', 'San Francisco, CA: San Francisco International')
+  第 25 行: ('SLC', 'Salt Lake City, UT: Salt Lake City International')
+  第 26 行: ('SMF', 'Sacramento, CA: Sacramento International')
+  第 27 行: ('ACV', 'Arcata/Eureka, CA: California Redwood Coast Humboldt County')
+  第 28 行: ('BDL', 'Hartford, CT: Bradley International')
+  第 29 行: ('BHM', 'Birmingham, AL: Birmingham-Shuttlesworth International')
+  第 30 行: ('BWI', 'Baltimore, MD: Baltimore/Washington International Thurgood Marshall')
+  第 31 行: ('CLE', 'Cleveland, OH: Cleveland-Hopkins International')
+  第 32 行: ('CRW', 'Charleston/Dunbar, WV: Yeager')
+  第 33 行: ('DHN', 'Dothan, AL: Dothan Regional')
+  第 34 行: ('GSO', 'Greensboro/High Point, NC: Piedmont Triad International')
+  第 35 行: ('LAX', 'Los Angeles, CA: Los Angeles International')
+  第 36 行: ('MAF', 'Midland/Odessa, TX: Midland International Air and Space Port')
+  第 37 行: ('MSP', 'Minneapolis, MN: Minneapolis-St Paul International')
+  第 38 行: ('PNS', 'Pensacola, FL: Pensacola International')
+  第 39 行: ('SEA', 'Seattle, WA: Seattle/Tacoma International')
+  第 40 行: ('SJC', 'San Jose, CA: Norman Y. Mineta San Jose International')
+  第 41 行: ('SYR', 'Syracuse, NY: Syracuse Hancock International')
+  第 42 行: ('TUS', 'Tucson, AZ: Tucson International')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Airlines
+--------------------------------------------------------------------------------
+表头（列名）: ['FL_DATE', 'OP_CARRIER_AIRLINE_ID', 'TAIL_NUM', 'OP_CARRIER_FL_NUM', 'ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_SEQ_ID', 'ORIGIN_CITY_MARKET_ID', 'ORIGIN', 'DEST_AIRPORT_ID', 'DEST_AIRPORT_SEQ_ID', 'DEST_CITY_MARKET_ID', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DEP_DELAY_NEW', 'ARR_TIME', 'ARR_DELAY', 'ARR_DELAY_NEW', 'CANCELLED', 'CANCELLATION_CODE', 'CRS_ELAPSED_TIME', 'ACTUAL_ELAPSED_TIME', 'CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'LATE_AIRCRAFT_DELAY']
+表内容:
+  第 1 行: ('2018/8/1', 20304, 'N247SY', 3538, 14831, 1483106, 32457, 'SJC', 14869, 1486903, 34614, 'SLC', 1830, 1824, -6, 0, 2111, -11, 0, 0, None, 112, 107, None, None, None, None, None)
+  第 2 行: ('2018/8/1', 19393, 'N7852A', 1300, 10821, 1082106, 30852, 'BWI', 14730, 1473003, 33044, 'SDF', 815, 813, -2, 0, 941, -24, 0, 0, None, 110, 88, None, None, None, None, None)
+  第 3 行: ('2018/8/3', 20304, 'N937SW', 5678, 13158, 1315805, 33158, 'MAF', 11292, 1129202, 30325, 'DEN', 1305, 1301, -4, 0, 1358, 0, 0, 0, None, 113, 117, None, None, None, None, None)
+  第 4 行: ('2018/8/4', 19393, 'N212WN', 2677, 11292, 1129202, 30325, 'DEN', 14679, 1467903, 33570, 'SAN', 2125, 2121, -4, 0, 2230, -10, 0, 0, None, 135, 129, None, None, None, None, None)
+  第 5 行: ('2018/8/6', 19930, 'N926VA', 1001, 14771, 1477104, 32457, 'SFO', 11278, 1127805, 30852, 'DCA', 800, 751, -9, 0, 1547, -23, 0, 0, None, 310, 296, None, None, None, None, None)
+  第 6 行: ('2018/8/7', 20500, 'N656CA', 6278, 11433, 1143302, 31295, 'DTW', 13931, 1393102, 33667, 'ORF', 845, 841, -4, 0, 1020, -15, 0, 0, None, 110, 99, None, None, None, None, None)
+  第 7 行: ('2018/8/8', 20500, 'N378CA', 6261, 11042, 1104205, 30647, 'CLE', 14492, 1449202, 34492, 'RDU', 600, 814, 134, 134, 924, 114, 114, 0, None, 90, 70, 114, 0, 0, 0, 0)
+  第 8 行: ('2018/8/8', 20452, 'N815MD', 5941, 12953, 1295304, 31703, 'LGA', 11298, 1129806, 30194, 'DFW', 1729, 1815, 46, 46, 2055, 21, 21, 0, None, 245, 220, 2, 0, 0, 0, 19)
+  第 9 行: ('2018/8/9', 20366, 'N17185', 4069, 11995, 1199502, 31995, 'GSO', 11618, 1161802, 31703, 'EWR', 1920, 2037, 77, 77, 2223, 75, 75, 0, None, 108, 106, 0, 0, 1, 0, 74)
+  第 10 行: ('2018/8/9', 19393, 'N934WN', 473, 14831, 1483106, 32457, 'SJC', 14570, 1457002, 34570, 'RNO', 1405, 1404, -1, 0, 1457, -3, 0, 0, None, 55, 53, None, None, None, None, None)
+  第 11 行: ('2018/8/10', 19805, 'N837AW', 1872, 11057, 1105703, 31057, 'CLT', 13360, 1336003, 33360, 'MLB', 1824, 1847, 23, 23, 2038, 30, 30, 0, None, 104, 111, 13, 0, 7, 0, 10)
+  第 12 行: ('2018/8/11', 20452, 'N131HQ', 4575, 11057, 1105703, 31057, 'CLT', 11278, 1127805, 30852, 'DCA', 1445, 1444, -1, 0, 1607, -9, 0, 0, None, 91, 83, None, None, None, None, None)
+  第 13 行: ('2018/8/12', 20397, 'N254PS', 5176, 11146, 1114606, 31146, 'CRW', 11057, 1105703, 31057, 'CLT', 1551, 1557, 6, 6, 1714, 5, 5, 0, None, 78, 77, None, None, None, None, None)
+  第 14 行: ('2018/8/12', 19790, 'N140LL', 2350, 10397, 1039707, 30397, 'ATL', 12478, 1247805, 31703, 'JFK', 810, 810, 0, 0, 1014, -12, 0, 0, None, 136, 124, None, None, None, None, None)
+  第 15 行: ('2018/8/14', 19790, 'N309US', 2037, 12478, 1247805, 31703, 'JFK', 10423, 1042302, 30423, 'AUS', 1340, 1336, -4, 0, 1632, -8, 0, 0, None, 240, 236, None, None, None, None, None)
+  第 16 行: ('2018/8/16', 19805, 'N982TW', 2389, 14193, 1419306, 33728, 'PNS', 11298, 1129806, 30194, 'DFW', 1546, 1723, 97, 97, 1929, 99, 99, 0, None, 124, 126, 0, 0, 2, 0, 97)
+  第 17 行: ('2018/8/17', 20436, 'N211FR', 1468, 10599, 1059904, 30599, 'BHM', 13204, 1320402, 31454, 'MCO', 1748, 1809, 21, 21, 2040, 12, 12, 0, None, 100, 91, None, None, None, None, None)
+  第 18 行: ('2018/8/17', 20397, 'N562NN', 5358, 11057, 1105703, 31057, 'CLT', 13577, 1357702, 31135, 'MYR', 1429, 1425, -4, 0, 1514, -6, 0, 0, None, 51, 49, None, None, None, None, None)
+  第 19 行: ('2018/8/18', 20416, 'N631NK', 549, 10529, 1052906, 30529, 'BDL', 13204, 1320402, 31454, 'MCO', 1220, 1218, -2, 0, 1454, -14, 0, 0, None, 168, 156, None, None, None, None, None)
+  第 20 行: ('2018/8/19', 20409, 'N316JB', 102, 12478, 1247805, 31703, 'JFK', 10792, 1079206, 30792, 'BUF', 1838, 1833, -5, 0, 2007, -13, 0, 0, None, 102, 94, None, None, None, None, None)
+  第 21 行: ('2018/8/20', 20304, 'N8933B', 4472, 11308, 1130802, 31308, 'DHN', 10397, 1039707, 30397, 'ATL', 1408, 1403, -5, 0, 1609, -12, 0, 0, None, 73, 66, None, None, None, None, None)
+  第 22 行: ('2018/8/20', 19790, 'N938DL', 1803, 14492, 1449202, 34492, 'RDU', 10397, 1039707, 30397, 'ATL', 1345, 1345, 0, 0, 1530, 13, 13, 0, None, 92, 105, None, None, None, None, None)
+  第 23 行: ('2018/8/21', 19393, 'N402WN', 2065, 12892, 1289208, 32575, 'LAX', 14122, 1412202, 30198, 'PIT', 1000, 1013, 13, 13, 1733, -12, 0, 0, None, 285, 260, None, None, None, None, None)
+  第 24 行: ('2018/8/25', 20378, 'N911FJ', 5805, 15376, 1537603, 30436, 'TUS', 14107, 1410702, 30466, 'PHX', 805, 919, 74, 74, 1007, 51, 51, 0, None, 71, 48, 51, 0, 0, 0, 0)
+  第 25 行: ('2018/8/26', 20304, 'N479CA', 5797, 10157, 1015706, 30157, 'ACV', 14771, 1477104, 32457, 'SFO', 2050, 2040, -10, 0, 2137, -22, 0, 0, None, 69, 57, None, None, None, None, None)
+  第 26 行: ('2018/8/26', 19790, 'N369NW', 1689, 13487, 1348702, 31650, 'MSP', 11278, 1127805, 30852, 'DCA', 2026, 2021, -5, 0, 2338, -8, 0, 0, None, 140, 137, None, None, None, None, None)
+  第 27 行: ('2018/8/27', 19790, 'N819DN', 568, 10397, 1039707, 30397, 'ATL', 14893, 1489302, 33192, 'SMF', 1700, 1659, -1, 0, 1832, -28, 0, 0, None, 300, 273, None, None, None, None, None)
+  第 28 行: ('2018/8/27', 20397, 'N576NN', 5683, 11057, 1105703, 31057, 'CLT', 12992, 1299206, 32600, 'LIT', 909, 905, -4, 0, 951, -20, 0, 0, None, 122, 106, None, None, None, None, None)
+  第 29 行: ('2018/8/27', 20409, 'N703JB', 655, 15096, 1509602, 35096, 'SYR', 13204, 1320402, 31454, 'MCO', 625, 615, -10, 0, 852, -16, 0, 0, None, 163, 157, None, None, None, None, None)
+  第 30 行: ('2018/8/27', 19687, 'N407QX', 2281, 14747, 1474703, 30559, 'SEA', 11603, 1160302, 31603, 'EUG', 2338, 2344, 6, 6, 45, 1, 1, 0, None, 66, 61, None, None, None, None, None)
+  第 31 行: ('2018/8/29', 19790, 'N933DL', 95, 10397, 1039707, 30397, 'ATL', 11433, 1143302, 31295, 'DTW', 826, 821, -5, 0, 1015, -13, 0, 0, None, 122, 114, None, None, None, None, None)
+  第 32 行: ('2018/8/30', 19790, 'N348NW', 1996, 13487, 1348702, 31650, 'MSP', 12953, 1295304, 31703, 'LGA', 651, 704, 13, 13, 1029, -11, 0, 0, None, 169, 145, None, None, None, None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/airline/2.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Air Carriers
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: (19393, 'Southwest Airlines Co.: WN')
+  第 2 行: (19790, 'Delta Air Lines Inc.: DL')
+  第 3 行: (19805, 'American Airlines Inc.: AA')
+  第 4 行: (19930, 'Alaska Airlines Inc.: AS')
+  第 5 行: (19977, 'United Air Lines Inc.: UA')
+  第 6 行: (20366, 'ExpressJet Airlines Inc.: EV')
+  第 7 行: (20368, 'Allegiant Air: G4')
+  第 8 行: (20378, 'Mesa Airlines Inc.: YV')
+  第 9 行: (20397, 'PSA Airlines Inc.: OH')
+  第 10 行: (20398, 'Envoy Air: MQ')
+  第 11 行: (20427, 'Piedmont Airlines: PT')
+  第 12 行: (20436, 'Frontier Airlines Inc.: F9')
+  第 13 行: (20452, 'Republic Airline: YX')
+  第 14 行: (21167, 'Compass Airlines: CP')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Airports
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: ('ATL', 'Atlanta, GA: Hartsfield-Jackson Atlanta International')
+  第 2 行: ('BNA', 'Nashville, TN: Nashville International')
+  第 3 行: ('BWI', 'Baltimore, MD: Baltimore/Washington International Thurgood Marshall')
+  第 4 行: ('CLT', 'Charlotte, NC: Charlotte Douglas International')
+  第 5 行: ('CMH', 'Columbus, OH: John Glenn Columbus International')
+  第 6 行: ('DCA', 'Washington, DC: Ronald Reagan Washington National')
+  第 7 行: ('DFW', 'Dallas/Fort Worth, TX: Dallas/Fort Worth International')
+  第 8 行: ('EWR', 'Newark, NJ: Newark Liberty International')
+  第 9 行: ('IAH', 'Houston, TX: George Bush Intercontinental/Houston')
+  第 10 行: ('LAX', 'Los Angeles, CA: Los Angeles International')
+  第 11 行: ('LGA', 'New York, NY: LaGuardia')
+  第 12 行: ('MCO', 'Orlando, FL: Orlando International')
+  第 13 行: ('MFR', 'Medford, OR: Rogue Valley International - Medford')
+  第 14 行: ('MSP', 'Minneapolis, MN: Minneapolis-St Paul International')
+  第 15 行: ('OMA', 'Omaha, NE: Eppley Airfield')
+  第 16 行: ('PHL', 'Philadelphia, PA: Philadelphia International')
+  第 17 行: ('PHX', 'Phoenix, AZ: Phoenix Sky Harbor International')
+  第 18 行: ('PIT', 'Pittsburgh, PA: Pittsburgh International')
+  第 19 行: ('RDU', 'Raleigh/Durham, NC: Raleigh-Durham International')
+  第 20 行: ('RNO', 'Reno, NV: Reno/Tahoe International')
+  第 21 行: ('ROA', 'Roanoke, VA: Roanoke Blacksburg Regional Woodrum Field')
+  第 22 行: ('SBP', 'San Luis Obispo, CA: San Luis County Regional')
+  第 23 行: ('SEA', 'Seattle, WA: Seattle/Tacoma International')
+  第 24 行: ('SJC', 'San Jose, CA: Norman Y. Mineta San Jose International')
+  第 25 行: ('BHM', 'Birmingham, AL: Birmingham-Shuttlesworth International')
+  第 26 行: ('BOI', 'Boise, ID: Boise Air Terminal')
+  第 27 行: ('BUR', 'Burbank, CA: Bob Hope')
+  第 28 行: ('CHA', 'Chattanooga, TN: Lovell Field')
+  第 29 行: ('COS', 'Colorado Springs, CO: City of Colorado Springs Municipal')
+  第 30 行: ('FLL', 'Fort Lauderdale, FL: Fort Lauderdale-Hollywood International')
+  第 31 行: ('GSO', 'Greensboro/High Point, NC: Piedmont Triad International')
+  第 32 行: ('LAS', 'Las Vegas, NV: McCarran International')
+  第 33 行: ('ORD', "Chicago, IL: Chicago O'Hare International")
+  第 34 行: ('PVD', 'Providence, RI: Theodore Francis Green State')
+  第 35 行: ('SFB', 'Sanford, FL: Orlando Sanford International')
+  第 36 行: ('SFO', 'San Francisco, CA: San Francisco International')
+  第 37 行: ('SHV', 'Shreveport, LA: Shreveport Regional')
+  第 38 行: ('SLC', 'Salt Lake City, UT: Salt Lake City International')
+  第 39 行: ('TPA', 'Tampa, FL: Tampa International')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Airlines
+--------------------------------------------------------------------------------
+表头（列名）: ['FL_DATE', 'OP_CARRIER_AIRLINE_ID', 'TAIL_NUM', 'OP_CARRIER_FL_NUM', 'ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_SEQ_ID', 'ORIGIN_CITY_MARKET_ID', 'ORIGIN', 'DEST_AIRPORT_ID', 'DEST_AIRPORT_SEQ_ID', 'DEST_CITY_MARKET_ID', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DEP_DELAY_NEW', 'ARR_TIME', 'ARR_DELAY', 'ARR_DELAY_NEW', 'CANCELLED', 'CANCELLATION_CODE', 'CRS_ELAPSED_TIME', 'ACTUAL_ELAPSED_TIME', 'CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'LATE_AIRCRAFT_DELAY']
+表内容:
+  第 1 行: ('2018/8/3', 20368, '886GA', 742, 14761, 1476106, 34761, 'SFB', 13871, 1387102, 33316, 'OMA', 1500, 1500, 0, 0, 1652, -9, 0, 0, None, 181, 172, None, None, None, None, None)
+  第 2 行: ('2018/8/3', 19930, 'N640VA', 1491, 12889, 1288903, 32211, 'LAS', 12892, 1289208, 32575, 'LAX', 1836, 1829, -7, 0, 1947, -8, 0, 0, None, 79, 78, None, None, None, None, None)
+  第 3 行: ('2018/8/5', 20452, 'N747YX', 3484, 11618, 1161802, 31703, 'EWR', 14492, 1449202, 34492, 'RDU', 605, 601, -4, 0, 732, -9, 0, 0, None, 96, 91, None, None, None, None, None)
+  第 4 行: ('2018/8/5', 19790, 'N3752', 1170, 12892, 1289208, 32575, 'LAX', 11066, 1106606, 31066, 'CMH', 2225, 2221, -4, 0, 535, -17, 0, 0, None, 267, 254, None, None, None, None, None)
+  第 5 行: ('2018/8/6', 19393, 'N8531Q', 51, 11697, 1169706, 32467, 'FLL', 11278, 1127805, 30852, 'DCA', 1230, 1231, 1, 1, 1456, -9, 0, 0, None, 155, 145, None, None, None, None, None)
+  第 6 行: ('2018/8/7', 19790, 'N371DA', 951, 14869, 1486903, 34614, 'SLC', 12892, 1289208, 32575, 'LAX', 1100, 1103, 3, 3, 1205, 2, 2, 0, None, 123, 122, None, None, None, None, None)
+  第 7 行: ('2018/8/7', 21167, 'N603CZ', 5695, 14869, 1486903, 34614, 'SLC', 13264, 1326403, 33264, 'MFR', 1105, 1056, -9, 0, 1140, -22, 0, 0, None, 117, 104, None, None, None, None, None)
+  第 8 行: ('2018/8/7', 20436, 'N213FR', 955, 11109, 1110902, 30189, 'COS', 14747, 1474703, 30559, 'SEA', 1327, 1401, 34, 34, 1605, 21, 21, 0, None, 197, 184, 0, 0, 0, 0, 21)
+  第 9 行: ('2018/8/10', 20398, 'N246NN', 3629, 14814, 1481402, 30476, 'SHV', 11298, 1129806, 30194, 'DFW', 1421, 1417, -4, 0, 1534, 0, 0, 0, None, 73, 77, None, None, None, None, None)
+  第 10 行: ('2018/8/10', 20378, 'N904FJ', 5867, 10713, 1071302, 30713, 'BOI', 14107, 1410702, 30466, 'PHX', 1135, 1140, 5, 5, 1240, -3, 0, 0, None, 128, 120, None, None, None, None, None)
+  第 11 行: ('2018/8/10', 19805, 'N843NN', 2427, 13930, 1393006, 30977, 'ORD', 14570, 1457002, 34570, 'RNO', 1047, 1045, -2, 0, 1231, -24, 0, 0, None, 248, 226, None, None, None, None, None)
+  第 12 行: ('2018/8/12', 19805, 'N575UW', 1854, 13930, 1393006, 30977, 'ORD', 14100, 1410005, 34100, 'PHL', 700, 657, -3, 0, 957, -2, 0, 0, None, 119, 120, None, None, None, None, None)
+  第 13 行: ('2018/8/14', 19790, 'N330NW', 2505, 10397, 1039707, 30397, 'ATL', 11298, 1129806, 30194, 'DFW', 1137, 1141, 4, 4, 1243, -2, 0, 0, None, 128, 122, None, None, None, None, None)
+  第 14 行: ('2018/8/15', 19977, 'N33266', 2103, 12266, 1226603, 31453, 'IAH', 13204, 1320402, 31454, 'MCO', 2003, 2000, -3, 0, 2310, -15, 0, 0, None, 142, 130, None, None, None, None, None)
+  第 15 行: ('2018/8/15', 19790, 'N803DN', 2060, 12889, 1288903, 32211, 'LAS', 13487, 1348702, 31650, 'MSP', 1822, 1815, -7, 0, 2330, 6, 6, 0, None, 182, 195, None, None, None, None, None)
+  第 16 行: ('2018/8/15', 20366, 'N718EV', 2936, 10980, 1098002, 30980, 'CHA', 11298, 1129806, 30194, 'DFW', 525, 526, 1, 1, 639, 4, 4, 0, None, 130, 133, None, None, None, None, None)
+  第 17 行: ('2018/8/17', 19393, 'N955WN', 1315, 10821, 1082106, 30852, 'BWI', 10693, 1069302, 30693, 'BNA', 1555, 1553, -2, 0, 1640, -10, 0, 0, None, 115, 107, None, None, None, None, None)
+  第 18 行: ('2018/8/17', 20452, 'N403YX', 4527, 10397, 1039707, 30397, 'ATL', 12953, 1295304, 31703, 'LGA', 907, 901, -6, 0, 1123, -7, 0, 0, None, 143, 142, None, None, None, None, None)
+  第 19 行: ('2018/8/18', 20427, 'N640AE', 4828, 11057, 1105703, 31057, 'CLT', 14574, 1457405, 34574, 'ROA', 1610, 1658, 48, 48, 1813, 61, 61, 0, None, 62, 75, 0, 48, 13, 0, 0)
+  第 20 行: ('2018/8/18', 19977, 'N73291', 1958, 14771, 1477104, 32457, 'SFO', 12266, 1226603, 31453, 'IAH', 922, 927, 5, 5, 1505, -16, 0, 0, None, 239, 218, None, None, None, None, None)
+  第 21 行: ('2018/8/19', 19393, 'N8708Q', 5992, 14107, 1410702, 30466, 'PHX', 10821, 1082106, 30852, 'BWI', 810, 805, -5, 0, 1520, -10, 0, 0, None, 260, 255, None, None, None, None, None)
+  第 22 行: ('2018/8/21', 19790, 'N998AT', 1311, 11995, 1199502, 31995, 'GSO', 10397, 1039707, 30397, 'ATL', 1217, 1204, -13, 0, 1315, -21, 0, 0, None, 79, 71, None, None, None, None, None)
+  第 23 行: ('2018/8/21', 19393, 'N402WN', 2065, 12892, 1289208, 32575, 'LAX', 14122, 1412202, 30198, 'PIT', 1000, 1013, 13, 13, 1733, -12, 0, 0, None, 285, 260, None, None, None, None, None)
+  第 24 行: ('2018/8/21', 20378, 'N921FJ', 5832, 14107, 1410702, 30466, 'PHX', 14698, 1469802, 34236, 'SBP', 1658, 1653, -5, 0, 1821, -9, 0, 0, None, 92, 88, None, None, None, None, None)
+  第 25 行: ('2018/8/22', 20397, 'N247JS', 5682, 10599, 1059904, 30599, 'BHM', 11278, 1127805, 30852, 'DCA', 600, 600, 0, 0, 907, 2, 2, 0, None, 125, 127, None, None, None, None, None)
+  第 26 行: ('2018/8/24', 19393, 'N411WN', 1161, 10800, 1080003, 32575, 'BUR', 14831, 1483106, 32457, 'SJC', 1705, 1754, 49, 49, 1856, 51, 51, 0, None, 60, 62, 4, 0, 2, 0, 45)
+  第 27 行: ('2018/8/27', 19790, 'N396DA', 1440, 14869, 1486903, 34614, 'SLC', 13487, 1348702, 31650, 'MSP', 550, 543, -7, 0, 904, -16, 0, 0, None, 150, 141, None, None, None, None, None)
+  第 28 行: ('2018/8/27', 19790, 'N923AT', 2819, 13204, 1320402, 31454, 'MCO', 14492, 1449202, 34492, 'RDU', 908, 903, -5, 0, 1036, -24, 0, 0, None, 112, 93, None, None, None, None, None)
+  第 29 行: ('2018/8/27', 20452, 'N724YX', 3584, 14307, 1430705, 30721, 'PVD', 11618, 1161802, 31703, 'EWR', 1930, 1949, 19, 19, 2107, 14, 14, 0, None, 83, 78, None, None, None, None, None)
+  第 30 行: ('2018/8/30', 19805, 'N658AW', 476, 10397, 1039707, 30397, 'ATL', 14107, 1410702, 30466, 'PHX', 1140, 1132, -8, 0, 1224, -11, 0, 0, None, 235, 232, None, None, None, None, None)
+  第 31 行: ('2018/8/30', 19805, 'N659AW', 1811, 15304, 1530402, 33195, 'TPA', 11057, 1105703, 31057, 'CLT', 1922, 1915, -7, 0, 2051, -18, 0, 0, None, 107, 96, None, None, None, None, None)
+  第 32 行: ('2018/8/30', 20398, 'N849AE', 3343, 14492, 1449202, 34492, 'RDU', 12953, 1295304, 31703, 'LGA', 1026, 1019, -7, 0, 1157, -3, 0, 0, None, 94, 98, None, None, None, None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/airline/3.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Air Carriers
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: (19393, 'Southwest Airlines Co.: WN')
+  第 2 行: (19687, 'Horizon Air: QX')
+  第 3 行: (19790, 'Delta Air Lines Inc.: DL')
+  第 4 行: (19805, 'American Airlines Inc.: AA')
+  第 5 行: (19930, 'Alaska Airlines Inc.: AS')
+  第 6 行: (19977, 'United Air Lines Inc.: UA')
+  第 7 行: (20046, 'Air Wisconsin Airlines Corp: ZW')
+  第 8 行: (20304, 'SkyWest Airlines Inc.: OO')
+  第 9 行: (20378, 'Mesa Airlines Inc.: YV')
+  第 10 行: (20397, 'PSA Airlines Inc.: OH')
+  第 11 行: (20409, 'JetBlue Airways: B6')
+  第 12 行: (20416, 'Spirit Air Lines: NK')
+  第 13 行: (20500, 'GoJet Airlines LLC d/b/a United Express: G7')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Airports
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: ('ATL', 'Atlanta, GA: Hartsfield-Jackson Atlanta International')
+  第 2 行: ('BDL', 'Hartford, CT: Bradley International')
+  第 3 行: ('BOS', 'Boston, MA: Logan International')
+  第 4 行: ('BWI', 'Baltimore, MD: Baltimore/Washington International Thurgood Marshall')
+  第 5 行: ('CID', 'Cedar Rapids/Iowa City, IA: The Eastern Iowa')
+  第 6 行: ('DEN', 'Denver, CO: Denver International')
+  第 7 行: ('DFW', 'Dallas/Fort Worth, TX: Dallas/Fort Worth International')
+  第 8 行: ('EWR', 'Newark, NJ: Newark Liberty International')
+  第 9 行: ('JFK', 'New York, NY: John F. Kennedy International')
+  第 10 行: ('JNU', 'Juneau, AK: Juneau International')
+  第 11 行: ('LAX', 'Los Angeles, CA: Los Angeles International')
+  第 12 行: ('LGA', 'New York, NY: LaGuardia')
+  第 13 行: ('LIT', 'Little Rock, AR: Bill and Hillary Clinton Nat Adams Field')
+  第 14 行: ('MDW', 'Chicago, IL: Chicago Midway International')
+  第 15 行: ('MIA', 'Miami, FL: Miami International')
+  第 16 行: ('ORD', "Chicago, IL: Chicago O'Hare International")
+  第 17 行: ('ORF', 'Norfolk, VA: Norfolk International')
+  第 18 行: ('PDX', 'Portland, OR: Portland International')
+  第 19 行: ('PHL', 'Philadelphia, PA: Philadelphia International')
+  第 20 行: ('PHX', 'Phoenix, AZ: Phoenix Sky Harbor International')
+  第 21 行: ('SEA', 'Seattle, WA: Seattle/Tacoma International')
+  第 22 行: ('SFO', 'San Francisco, CA: San Francisco International')
+  第 23 行: ('SJC', 'San Jose, CA: Norman Y. Mineta San Jose International')
+  第 24 行: ('SLC', 'Salt Lake City, UT: Salt Lake City International')
+  第 25 行: ('AVP', 'Scranton/Wilkes-Barre, PA: Wilkes Barre Scranton International')
+  第 26 行: ('COS', 'Colorado Springs, CO: City of Colorado Springs Municipal')
+  第 27 行: ('DAL', 'Dallas, TX: Dallas Love Field')
+  第 28 行: ('DCA', 'Washington, DC: Ronald Reagan Washington National')
+  第 29 行: ('FLL', 'Fort Lauderdale, FL: Fort Lauderdale-Hollywood International')
+  第 30 行: ('LAS', 'Las Vegas, NV: McCarran International')
+  第 31 行: ('LGB', 'Long Beach, CA: Long Beach Airport')
+  第 32 行: ('RIC', 'Richmond, VA: Richmond International')
+  第 33 行: ('RSW', 'Fort Myers, FL: Southwest Florida International')
+  第 34 行: ('SAN', 'San Diego, CA: San Diego International')
+  第 35 行: ('SMF', 'Sacramento, CA: Sacramento International')
+  第 36 行: ('SNA', 'Santa Ana, CA: John Wayne Airport-Orange County')
+  第 37 行: ('SRQ', 'Sarasota/Bradenton, FL: Sarasota/Bradenton International')
+  第 38 行: ('YAK', 'Yakutat, AK: Yakutat Airport')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Airlines
+--------------------------------------------------------------------------------
+表头（列名）: ['FL_DATE', 'OP_CARRIER_AIRLINE_ID', 'TAIL_NUM', 'OP_CARRIER_FL_NUM', 'ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_SEQ_ID', 'ORIGIN_CITY_MARKET_ID', 'ORIGIN', 'DEST_AIRPORT_ID', 'DEST_AIRPORT_SEQ_ID', 'DEST_CITY_MARKET_ID', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DEP_DELAY_NEW', 'ARR_TIME', 'ARR_DELAY', 'ARR_DELAY_NEW', 'CANCELLED', 'CANCELLATION_CODE', 'CRS_ELAPSED_TIME', 'ACTUAL_ELAPSED_TIME', 'CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'LATE_AIRCRAFT_DELAY']
+表内容:
+  第 1 行: ('2018/8/3', 20304, 'N259SY', 4662, 11292, 1129202, 30325, 'DEN', 14869, 1486903, 34614, 'SLC', 1142, 1136, -6, 0, 1315, 0, 0, 0, None, 93, 99, None, None, None, None, None)
+  第 2 行: ('2018/8/4', 19790, 'N930AT', 884, 14986, 1498603, 34986, 'SRQ', 12953, 1295304, 31703, 'LGA', 1433, 2102, 389, 389, 2342, 369, 369, 0, None, 180, 160, 369, 0, 0, 0, 0)
+  第 3 行: ('2018/8/4', 19687, 'N632QX', 2526, 14893, 1489302, 33192, 'SMF', 14057, 1405702, 34057, 'PDX', 846, 923, 37, 37, 1047, 20, 20, 0, None, 101, 84, 0, 0, 0, 0, 20)
+  第 4 行: ('2018/8/5', 20046, 'N417AW', 3858, 10434, 1043405, 30434, 'AVP', 13930, 1393006, 30977, 'ORD', 1730, 1724, -6, 0, 1831, -24, 0, 0, None, 145, 127, None, None, None, None, None)
+  第 5 行: ('2018/8/5', 19805, 'N988NN', 1048, 11278, 1127805, 30852, 'DCA', 13303, 1330303, 32467, 'MIA', 1200, 1154, -6, 0, 1425, -25, 0, 0, None, 170, 151, None, None, None, None, None)
+  第 6 行: ('2018/8/7', 20378, 'N932LR', 5896, 12954, 1295406, 32575, 'LGB', 14107, 1410702, 30466, 'PHX', 1625, 1618, -7, 0, 1740, -13, 0, 0, None, 88, 82, None, None, None, None, None)
+  第 7 行: ('2018/8/8', 20409, 'N993JB', 1833, 10721, 1072102, 30721, 'BOS', 14771, 1477104, 32457, 'SFO', 1050, 1222, 92, 92, 1601, 93, 93, 0, None, 398, 399, 0, 0, 93, 0, 0)
+  第 8 行: ('2018/8/9', 19790, 'N388DA', 2039, 10397, 1039707, 30397, 'ATL', 11292, 1129202, 30325, 'DEN', 1912, 2253, 221, 221, 5, 210, 210, 0, None, 203, 192, 28, 106, 0, 0, 76)
+  第 9 行: ('2018/8/9', 19977, 'N492UA', 342, 14893, 1489302, 33192, 'SMF', 11618, 1161802, 31703, 'EWR', 2330, 119, 109, 109, 933, 115, 115, 0, None, 308, 314, 0, 0, 16, 0, 99)
+  第 10 行: ('2018/8/9', 19930, 'N532AS', 66, 15991, 1599102, 35991, 'YAK', 12523, 1252306, 32523, 'JNU', 1832, 1805, -27, 0, 1850, -31, 0, 0, None, 49, 45, None, None, None, None, None)
+  第 11 行: ('2018/8/11', 19393, 'N913WN', 3366, 14831, 1483106, 32457, 'SJC', 14747, 1474703, 30559, 'SEA', 905, 904, -1, 0, 1122, 7, 7, 0, None, 130, 138, None, None, None, None, None)
+  第 12 行: ('2018/8/11', 19805, 'N755US', 523, 11697, 1169706, 32467, 'FLL', 14100, 1410005, 34100, 'PHL', 1613, 1621, 8, 8, 2019, 66, 66, 0, None, 180, 238, 0, 7, 58, 0, 1)
+  第 13 行: ('2018/8/12', 19790, 'N988DN', 537, 12953, 1295304, 31703, 'LGA', 13930, 1393006, 30977, 'ORD', 1715, 1724, 9, 9, 1904, 9, 9, 0, None, 160, 160, None, None, None, None, None)
+  第 14 行: ('2018/8/12', 20500, 'N175GJ', 4511, 13930, 1393006, 30977, 'ORD', 13931, 1393102, 33667, 'ORF', 1145, 1138, -7, 0, 1448, -4, 0, 0, None, 127, 130, None, None, None, None, None)
+  第 15 行: ('2018/8/13', 19805, 'N545UW', 1713, 13930, 1393006, 30977, 'ORD', 14057, 1405702, 34057, 'PDX', 2026, 2024, -2, 0, 2241, -5, 0, 0, None, 260, 257, None, None, None, None, None)
+  第 16 行: ('2018/8/14', 19393, 'N8638A', 1561, 14107, 1410702, 30466, 'PHX', 13232, 1323202, 30977, 'MDW', 850, 848, -2, 0, 1404, -11, 0, 0, None, 205, 196, None, None, None, None, None)
+  第 17 行: ('2018/8/14', 19977, 'N431UA', 277, 11292, 1129202, 30325, 'DEN', 11003, 1100303, 31003, 'CID', 2030, 2334, 184, 184, 222, 186, 186, 0, None, 106, 108, 102, 0, 2, 0, 82)
+  第 18 行: ('2018/8/16', 20409, 'N982JB', 1078, 12889, 1288903, 32211, 'LAS', 10721, 1072102, 30721, 'BOS', 720, 708, -12, 0, 1506, -21, 0, 0, None, 307, 298, None, None, None, None, None)
+  第 19 行: ('2018/8/16', 19393, 'N8535S', 1368, 14107, 1410702, 30466, 'PHX', 14831, 1483106, 32457, 'SJC', 815, 813, -2, 0, 949, -21, 0, 0, None, 115, 96, None, None, None, None, None)
+  第 20 行: ('2018/8/17', 19930, 'N635VA', 1064, 14831, 1483106, 32457, 'SJC', 12478, 1247805, 31703, 'JFK', 705, 934, 149, 149, 1758, 134, 134, 0, None, 339, 324, 134, 0, 0, 0, 0)
+  第 21 行: ('2018/8/20', 19393, 'N7842A', 2470, 13232, 1323202, 30977, 'MDW', 12892, 1289208, 32575, 'LAX', 1710, 1712, 2, 2, 1917, -18, 0, 0, None, 265, 245, None, None, None, None, None)
+  第 22 行: ('2018/8/20', 19977, 'N465UA', 2016, 14679, 1467903, 33570, 'SAN', 14771, 1477104, 32457, 'SFO', 1822, 1821, -1, 0, 1942, -11, 0, 0, None, 91, 81, None, None, None, None, None)
+  第 23 行: ('2018/8/22', 20416, 'N645NK', 824, 10397, 1039707, 30397, 'ATL', 10821, 1082106, 30852, 'BWI', 1408, 1412, 4, 4, 1606, 10, 10, 0, None, 108, 114, None, None, None, None, None)
+  第 24 行: ('2018/8/23', 19805, 'N760US', 1866, 14100, 1410005, 34100, 'PHL', 10397, 1039707, 30397, 'ATL', 805, 805, 0, 0, 1017, 4, 4, 0, None, 128, 132, None, None, None, None, None)
+  第 25 行: ('2018/8/23', 20304, 'N943SW', 5221, 11109, 1110902, 30189, 'COS', 11292, 1129202, 30325, 'DEN', 940, 939, -1, 0, 1040, 1, 1, 0, None, 59, 61, None, None, None, None, None)
+  第 26 行: ('2018/8/23', 19805, 'N946AN', 1096, 14524, 1452401, 34524, 'RIC', 11298, 1129806, 30194, 'DFW', 1133, 1125, -8, 0, 1324, -20, 0, 0, None, 191, 179, None, None, None, None, None)
+  第 27 行: ('2018/8/24', 19790, 'N955DL', 2088, 10397, 1039707, 30397, 'ATL', 12992, 1299206, 32600, 'LIT', 1051, 1045, -6, 0, 1106, -14, 0, 0, None, 89, 81, None, None, None, None, None)
+  第 28 行: ('2018/8/24', 19805, 'N868NN', 1313, 14635, 1463502, 31714, 'RSW', 13930, 1393006, 30977, 'ORD', 1136, 1134, -2, 0, 1324, -22, 0, 0, None, 190, 170, None, None, None, None, None)
+  第 29 行: ('2018/8/26', 20304, 'N175SY', 3379, 11259, 1125903, 30194, 'DAL', 14747, 1474703, 30559, 'SEA', 1445, 1438, -7, 0, 1709, 9, 9, 0, None, 255, 271, None, None, None, None, None)
+  第 30 行: ('2018/8/28', 19790, 'N607AT', 2837, 14908, 1490803, 32575, 'SNA', 14869, 1486903, 34614, 'SLC', 1010, 1010, 0, 0, 1257, -4, 0, 0, None, 111, 107, None, None, None, None, None)
+  第 31 行: ('2018/8/29', 19393, 'N773SA', 1987, 12892, 1289208, 32575, 'LAX', 11292, 1129202, 30325, 'DEN', 1415, 1415, 0, 0, 1725, -20, 0, 0, None, 150, 130, None, None, None, None, None)
+  第 32 行: ('2018/8/31', 20397, 'N712PS', 5377, 13930, 1393006, 30977, 'ORD', 10529, 1052906, 30529, 'BDL', 710, 705, -5, 0, 1005, -11, 0, 0, None, 126, 120, None, None, None, None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/airline/4.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Air Carriers
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: (19393, 'Southwest Airlines Co.: WN')
+  第 2 行: (19790, 'Delta Air Lines Inc.: DL')
+  第 3 行: (19805, 'American Airlines Inc.: AA')
+  第 4 行: (19977, 'United Air Lines Inc.: UA')
+  第 5 行: (20046, 'Air Wisconsin Airlines Corp: ZW')
+  第 6 行: (20304, 'SkyWest Airlines Inc.: OO')
+  第 7 行: (20366, 'ExpressJet Airlines Inc.: EV')
+  第 8 行: (20397, 'PSA Airlines Inc.: OH')
+  第 9 行: (20398, 'Envoy Air: MQ')
+  第 10 行: (20409, 'JetBlue Airways: B6')
+  第 11 行: (20452, 'Republic Airline: YX')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Airports
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: ('ATL', 'Atlanta, GA: Hartsfield-Jackson Atlanta International')
+  第 2 行: ('DCA', 'Washington, DC: Ronald Reagan Washington National')
+  第 3 行: ('DEN', 'Denver, CO: Denver International')
+  第 4 行: ('DTW', 'Detroit, MI: Detroit Metro Wayne County')
+  第 5 行: ('EWR', 'Newark, NJ: Newark Liberty International')
+  第 6 行: ('IAH', 'Houston, TX: George Bush Intercontinental/Houston')
+  第 7 行: ('LAX', 'Los Angeles, CA: Los Angeles International')
+  第 8 行: ('LGA', 'New York, NY: LaGuardia')
+  第 9 行: ('MCO', 'Orlando, FL: Orlando International')
+  第 10 行: ('MEM', 'Memphis, TN: Memphis International')
+  第 11 行: ('MSO', 'Missoula, MT: Missoula International')
+  第 12 行: ('MSP', 'Minneapolis, MN: Minneapolis-St Paul International')
+  第 13 行: ('ORD', "Chicago, IL: Chicago O'Hare International")
+  第 14 行: ('PIH', 'Pocatello, ID: Pocatello Regional')
+  第 15 行: ('RDM', 'Bend/Redmond, OR: Roberts Field')
+  第 16 行: ('RDU', 'Raleigh/Durham, NC: Raleigh-Durham International')
+  第 17 行: ('RNO', 'Reno, NV: Reno/Tahoe International')
+  第 18 行: ('SEA', 'Seattle, WA: Seattle/Tacoma International')
+  第 19 行: ('SFO', 'San Francisco, CA: San Francisco International')
+  第 20 行: ('SLC', 'Salt Lake City, UT: Salt Lake City International')
+  第 21 行: ('BOS', 'Boston, MA: Logan International')
+  第 22 行: ('CHA', 'Chattanooga, TN: Lovell Field')
+  第 23 行: ('CID', 'Cedar Rapids/Iowa City, IA: The Eastern Iowa')
+  第 24 行: ('CLE', 'Cleveland, OH: Cleveland-Hopkins International')
+  第 25 行: ('CMH', 'Columbus, OH: John Glenn Columbus International')
+  第 26 行: ('CVG', 'Cincinnati, OH: Cincinnati/Northern Kentucky International')
+  第 27 行: ('LIH', 'Lihue, HI: Lihue Airport')
+  第 28 行: ('MDW', 'Chicago, IL: Chicago Midway International')
+  第 29 行: ('MIA', 'Miami, FL: Miami International')
+  第 30 行: ('OAJ', 'Jacksonville/Camp Lejeune, NC: Albert J Ellis')
+  第 31 行: ('OAK', 'Oakland, CA: Metropolitan Oakland International')
+  第 32 行: ('PHL', 'Philadelphia, PA: Philadelphia International')
+  第 33 行: ('PVD', 'Providence, RI: Theodore Francis Green State')
+  第 34 行: ('RIC', 'Richmond, VA: Richmond International')
+  第 35 行: ('ROC', 'Rochester, NY: Greater Rochester International')
+  第 36 行: ('SJU', 'San Juan, PR: Luis Munoz Marin International')
+  第 37 行: ('SNA', 'Santa Ana, CA: John Wayne Airport-Orange County')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Airlines
+--------------------------------------------------------------------------------
+表头（列名）: ['FL_DATE', 'OP_CARRIER_AIRLINE_ID', 'TAIL_NUM', 'OP_CARRIER_FL_NUM', 'ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_SEQ_ID', 'ORIGIN_CITY_MARKET_ID', 'ORIGIN', 'DEST_AIRPORT_ID', 'DEST_AIRPORT_SEQ_ID', 'DEST_CITY_MARKET_ID', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DEP_DELAY_NEW', 'ARR_TIME', 'ARR_DELAY', 'ARR_DELAY_NEW', 'CANCELLED', 'CANCELLATION_CODE', 'CRS_ELAPSED_TIME', 'ACTUAL_ELAPSED_TIME', 'CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'LATE_AIRCRAFT_DELAY']
+表内容:
+  第 1 行: ('2018/8/1', 19790, 'N671DN', 1347, 12892, 1289208, 32575, 'LAX', 13487, 1348702, 31650, 'MSP', 1320, 1318, -2, 0, 1851, -12, 0, 0, None, 223, 213, None, None, None, None, None)
+  第 2 行: ('2018/8/1', 20304, 'N8965E', 4135, 13795, 1379502, 33795, 'OAJ', 10397, 1039707, 30397, 'ATL', 1401, 1355, -6, 0, 1531, -11, 0, 0, None, 101, 96, None, None, None, None, None)
+  第 3 行: ('2018/8/2', 20452, 'N631RW', 3434, 11193, 1119302, 33105, 'CVG', 11618, 1161802, 31703, 'EWR', 1210, 1252, 42, 42, 1509, 56, 56, 0, None, 123, 137, 0, 0, 56, 0, 0)
+  第 4 行: ('2018/8/3', 20398, 'N650AE', 3598, 11003, 1100303, 31003, 'CID', 13930, 1393006, 30977, 'ORD', 608, 556, -12, 0, 657, -23, 0, 0, None, 72, 61, None, None, None, None, None)
+  第 5 行: ('2018/8/3', 20304, 'N792SK', 5345, 11292, 1129202, 30325, 'DEN', 13244, 1324402, 33244, 'MEM', 1744, 1742, -2, 0, 2131, 21, 21, 0, None, 146, 169, 0, 0, 21, 0, 0)
+  第 6 行: ('2018/8/3', 19393, 'N418WN', 798, 13232, 1323202, 30977, 'MDW', 13204, 1320402, 31454, 'MCO', 1715, 1717, 2, 2, 2045, -10, 0, 0, None, 160, 148, None, None, None, None, None)
+  第 7 行: ('2018/8/8', 20398, 'N830AE', 4093, 11066, 1106606, 31066, 'CMH', 12953, 1295304, 31703, 'LGA', 1809, None, None, None, None, None, None, 1, 'C', 111, None, None, None, None, None, None)
+  第 8 行: ('2018/8/8', 19790, 'N382DA', 1493, 10721, 1072102, 30721, 'BOS', 14747, 1474703, 30559, 'SEA', 1114, 1106, -8, 0, 1452, 18, 18, 0, None, 380, 406, 0, 0, 18, 0, 0)
+  第 9 行: ('2018/8/8', 20046, 'N471ZW', 4856, 14524, 1452401, 34524, 'RIC', 13930, 1393006, 30977, 'ORD', 1035, 1034, -1, 0, 1204, 24, 24, 0, None, 125, 150, 0, 0, 24, 0, 0)
+  第 10 行: ('2018/8/9', 20398, 'N543EA', 3689, 14576, 1457606, 34576, 'ROC', 13930, 1393006, 30977, 'ORD', 731, 728, -3, 0, 901, 31, 31, 0, None, 119, 153, 0, 0, 31, 0, 0)
+  第 11 行: ('2018/8/9', 19393, 'N297WN', 1167, 13796, 1379608, 32457, 'OAK', 12892, 1289208, 32575, 'LAX', 2000, 2013, 13, 13, 2139, 14, 14, 0, None, 85, 86, None, None, None, None, None)
+  第 12 行: ('2018/8/10', 20397, 'N249PS', 5309, 10980, 1098002, 30980, 'CHA', 11278, 1127805, 30852, 'DCA', 1220, 1217, -3, 0, 1352, -7, 0, 0, None, 99, 95, None, None, None, None, None)
+  第 13 行: ('2018/8/13', 20304, 'N964SW', 5859, 11292, 1129202, 30325, 'DEN', 14489, 1448902, 34489, 'RDM', 1510, 1507, -3, 0, 1648, -10, 0, 0, None, 168, 161, None, None, None, None, None)
+  第 14 行: ('2018/8/13', 19393, 'N929WN', 2394, 13487, 1348702, 31650, 'MSP', 10397, 1039707, 30397, 'ATL', 630, 628, -2, 0, 941, -14, 0, 0, None, 145, 133, None, None, None, None, None)
+  第 15 行: ('2018/8/13', 19790, 'N996AT', 1116, 13232, 1323202, 30977, 'MDW', 10397, 1039707, 30397, 'ATL', 1555, 1556, 1, 1, 1828, -29, 0, 0, None, 122, 92, None, None, None, None, None)
+  第 16 行: ('2018/8/15', 19977, 'N39475', 407, 12892, 1289208, 32575, 'LAX', 13930, 1393006, 30977, 'ORD', 700, 656, -4, 0, 1245, -25, 0, 0, None, 250, 229, None, None, None, None, None)
+  第 17 行: ('2018/8/15', 20452, 'N657RW', 3479, 14576, 1457606, 34576, 'ROC', 13930, 1393006, 30977, 'ORD', 815, 815, 0, 0, 911, 0, 0, 0, None, 116, 116, None, None, None, None, None)
+  第 18 行: ('2018/8/17', 19805, 'N346AN', 383, 13303, 1330303, 32467, 'MIA', 14771, 1477104, 32457, 'SFO', 830, 833, 3, 3, 1212, 55, 55, 0, None, 347, 399, 3, 0, 52, 0, 0)
+  第 19 行: ('2018/8/21', 20304, 'N907SW', 7431, 14869, 1486903, 34614, 'SLC', 14113, 1411302, 34113, 'PIH', 2155, 2208, 13, 13, 2250, -5, 0, 0, None, 60, 42, None, None, None, None, None)
+  第 20 行: ('2018/8/21', 19977, 'N76533', 1117, 12266, 1226603, 31453, 'IAH', 12892, 1289208, 32575, 'LAX', 1220, 1216, -4, 0, 1330, -16, 0, 0, None, 206, 194, None, None, None, None, None)
+  第 21 行: ('2018/8/22', 20304, 'N986SW', 5721, 11292, 1129202, 30325, 'DEN', 13486, 1348602, 33486, 'MSO', 1405, 1447, 42, 42, 1640, 23, 23, 0, None, 132, 113, 23, 0, 0, 0, 0)
+  第 22 行: ('2018/8/22', 19805, 'N945UW', 2025, 14100, 1410005, 34100, 'PHL', 12266, 1226603, 31453, 'IAH', 1230, 1226, -4, 0, 1448, -10, 0, 0, None, 208, 202, None, None, None, None, None)
+  第 23 行: ('2018/8/23', 19393, 'N754SW', 998, 11292, 1129202, 30325, 'DEN', 14570, 1457002, 34570, 'RNO', 2215, 2211, -4, 0, 2326, -9, 0, 0, None, 140, 135, None, None, None, None, None)
+  第 24 行: ('2018/8/23', 20452, 'N415YX', 4500, 12953, 1295304, 31703, 'LGA', 13487, 1348702, 31650, 'MSP', 1446, 1442, -4, 0, 1700, 10, 10, 0, None, 184, 198, None, None, None, None, None)
+  第 25 行: ('2018/8/24', 20409, 'N562JB', 1075, 14307, 1430705, 30721, 'PVD', 13204, 1320402, 31454, 'MCO', 1815, 1844, 29, 29, 2129, 20, 20, 0, None, 174, 165, 0, 0, 0, 3, 17)
+  第 26 行: ('2018/8/25', 20409, 'N804JB', 1134, 14843, 1484306, 34819, 'SJU', 13204, 1320402, 31454, 'MCO', 1825, 1915, 50, 50, 2151, 30, 30, 0, None, 176, 156, 21, 0, 0, 0, 9)
+  第 27 行: ('2018/8/26', 20366, 'N14991', 3965, 11042, 1104205, 30647, 'CLE', 12953, 1295304, 31703, 'LGA', 545, 535, -10, 0, 715, -10, 0, 0, None, 100, 100, None, None, None, None, None)
+  第 28 行: ('2018/8/27', 19790, 'N923AT', 2819, 13204, 1320402, 31454, 'MCO', 14492, 1449202, 34492, 'RDU', 908, 903, -5, 0, 1036, -24, 0, 0, None, 112, 93, None, None, None, None, None)
+  第 29 行: ('2018/8/27', 19805, 'N745VJ', 1838, 14100, 1410005, 34100, 'PHL', 11433, 1143302, 31295, 'DTW', 1823, 1817, -6, 0, 1958, -25, 0, 0, None, 120, 101, None, None, None, None, None)
+  第 30 行: ('2018/8/27', 19805, 'N128AN', 286, 12982, 1298202, 32982, 'LIH', 12892, 1289208, 32575, 'LAX', 2200, 2149, -11, 0, 625, -12, 0, 0, None, 337, 336, None, None, None, None, None)
+  第 31 行: ('2018/8/28', 19790, 'N607AT', 2837, 14908, 1490803, 32575, 'SNA', 14869, 1486903, 34614, 'SLC', 1010, 1010, 0, 0, 1257, -4, 0, 0, None, 111, 107, None, None, None, None, None)
+  第 32 行: ('2018/8/31', 19977, 'N429UA', 745, 12953, 1295304, 31703, 'LGA', 11292, 1129202, 30325, 'DEN', 1420, 1432, 12, 12, 1952, None, None, 0, None, 258, None, None, None, None, None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/airline/5.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Air Carriers
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: (19393, 'Southwest Airlines Co.: WN')
+  第 2 行: (19790, 'Delta Air Lines Inc.: DL')
+  第 3 行: (19805, 'American Airlines Inc.: AA')
+  第 4 行: (19930, 'Alaska Airlines Inc.: AS')
+  第 5 行: (19977, 'United Air Lines Inc.: UA')
+  第 6 行: (20046, 'Air Wisconsin Airlines Corp: ZW')
+  第 7 行: (20304, 'SkyWest Airlines Inc.: OO')
+  第 8 行: (20368, 'Allegiant Air: G4')
+  第 9 行: (20409, 'JetBlue Airways: B6')
+  第 10 行: (20436, 'Frontier Airlines Inc.: F9')
+  第 11 行: (20452, 'Republic Airline: YX')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Airports
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: ('ATL', 'Atlanta, GA: Hartsfield-Jackson Atlanta International')
+  第 2 行: ('AZA', 'Phoenix, AZ: Phoenix - Mesa Gateway')
+  第 3 行: ('BNA', 'Nashville, TN: Nashville International')
+  第 4 行: ('CLT', 'Charlotte, NC: Charlotte Douglas International')
+  第 5 行: ('CMH', 'Columbus, OH: John Glenn Columbus International')
+  第 6 行: ('CVG', 'Cincinnati, OH: Cincinnati/Northern Kentucky International')
+  第 7 行: ('DTW', 'Detroit, MI: Detroit Metro Wayne County')
+  第 8 行: ('HNL', 'Honolulu, HI: Daniel K Inouye International')
+  第 9 行: ('LAX', 'Los Angeles, CA: Los Angeles International')
+  第 10 行: ('LGA', 'New York, NY: LaGuardia')
+  第 11 行: ('MHT', 'Manchester, NH: Manchester-Boston Regional')
+  第 12 行: ('MIA', 'Miami, FL: Miami International')
+  第 13 行: ('MSY', 'New Orleans, LA: Louis Armstrong New Orleans International')
+  第 14 行: ('OGG', 'Kahului, HI: Kahului Airport')
+  第 15 行: ('ORD', "Chicago, IL: Chicago O'Hare International")
+  第 16 行: ('PDX', 'Portland, OR: Portland International')
+  第 17 行: ('PHL', 'Philadelphia, PA: Philadelphia International')
+  第 18 行: ('RDU', 'Raleigh/Durham, NC: Raleigh-Durham International')
+  第 19 行: ('RNO', 'Reno, NV: Reno/Tahoe International')
+  第 20 行: ('SAT', 'San Antonio, TX: San Antonio International')
+  第 21 行: ('SDF', 'Louisville, KY: Louisville International-Standiford Field')
+  第 22 行: ('SFO', 'San Francisco, CA: San Francisco International')
+  第 23 行: ('SLC', 'Salt Lake City, UT: Salt Lake City International')
+  第 24 行: ('SMF', 'Sacramento, CA: Sacramento International')
+  第 25 行: ('SNA', 'Santa Ana, CA: John Wayne Airport-Orange County')
+  第 26 行: ('TPA', 'Tampa, FL: Tampa International')
+  第 27 行: ('TTN', 'Trenton, NJ: Trenton Mercer')
+  第 28 行: ('BWI', 'Baltimore, MD: Baltimore/Washington International Thurgood Marshall')
+  第 29 行: ('CPR', 'Casper, WY: Casper/Natrona County International')
+  第 30 行: ('HOU', 'Houston, TX: William P Hobby')
+  第 31 行: ('IAH', 'Houston, TX: George Bush Intercontinental/Houston')
+  第 32 行: ('JAX', 'Jacksonville, FL: Jacksonville International')
+  第 33 行: ('JFK', 'New York, NY: John F. Kennedy International')
+  第 34 行: ('LAS', 'Las Vegas, NV: McCarran International')
+  第 35 行: ('MCI', 'Kansas City, MO: Kansas City International')
+  第 36 行: ('MCO', 'Orlando, FL: Orlando International')
+  第 37 行: ('OMA', 'Omaha, NE: Eppley Airfield')
+  第 38 行: ('PVU', 'Provo, UT: Provo Municipal')
+  第 39 行: ('SAN', 'San Diego, CA: San Diego International')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Airlines
+--------------------------------------------------------------------------------
+表头（列名）: ['FL_DATE', 'OP_CARRIER_AIRLINE_ID', 'TAIL_NUM', 'OP_CARRIER_FL_NUM', 'ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_SEQ_ID', 'ORIGIN_CITY_MARKET_ID', 'ORIGIN', 'DEST_AIRPORT_ID', 'DEST_AIRPORT_SEQ_ID', 'DEST_CITY_MARKET_ID', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DEP_DELAY_NEW', 'ARR_TIME', 'ARR_DELAY', 'ARR_DELAY_NEW', 'CANCELLED', 'CANCELLATION_CODE', 'CRS_ELAPSED_TIME', 'ACTUAL_ELAPSED_TIME', 'CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'LATE_AIRCRAFT_DELAY']
+表内容:
+  第 1 行: ('2018/8/3', 19805, 'N121AN', 271, 12892, 1289208, 32575, 'LAX', 13830, 1383002, 33830, 'OGG', 955, 951, -4, 0, 1245, -1, 0, 0, None, 351, 354, None, None, None, None, None)
+  第 2 行: ('2018/8/5', 20409, 'N805JB', 81, 12478, 1247805, 31703, 'JFK', 14570, 1457002, 34570, 'RNO', 1830, 1828, -2, 0, 2141, -11, 0, 0, None, 382, 373, None, None, None, None, None)
+  第 3 行: ('2018/8/5', 19805, 'N741UW', 1817, 11057, 1105703, 31057, 'CLT', 11433, 1143302, 31295, 'DTW', 2209, 2208, -1, 0, 2340, -13, 0, 0, None, 104, 92, None, None, None, None, None)
+  第 4 行: ('2018/8/5', 19790, 'N3752', 1170, 12892, 1289208, 32575, 'LAX', 11066, 1106606, 31066, 'CMH', 2225, 2221, -4, 0, 535, -17, 0, 0, None, 267, 254, None, None, None, None, None)
+  第 5 行: ('2018/8/5', 19393, 'N247WN', 4067, 10821, 1082106, 30852, 'BWI', 13296, 1329604, 30721, 'MHT', 1915, 1949, 34, 34, 2106, 31, 31, 0, None, 80, 77, 0, 16, 0, 0, 15)
+  第 6 行: ('2018/8/5', 19393, 'N7837A', 3692, 14679, 1467903, 33570, 'SAN', 14893, 1489302, 33192, 'SMF', 955, 952, -3, 0, 1118, -7, 0, 0, None, 90, 86, None, None, None, None, None)
+  第 7 行: ('2018/8/7', 20304, 'N449SW', 7383, 11122, 1112205, 31122, 'CPR', 14869, 1486903, 34614, 'SLC', 1145, 1141, -4, 0, 1306, 0, 0, 0, None, 81, 85, None, None, None, None, None)
+  第 8 行: ('2018/8/7', 19805, 'N796AN', 1473, 12892, 1289208, 32575, 'LAX', 13303, 1330303, 32467, 'MIA', 945, None, None, None, None, None, None, 1, 'A', 326, None, None, None, None, None, None)
+  第 9 行: ('2018/8/11', 20046, 'N433AW', 3760, 13930, 1393006, 30977, 'ORD', 14730, 1473003, 33044, 'SDF', 1149, 1147, -2, 0, 1401, -12, 0, 0, None, 84, 74, None, None, None, None, None)
+  第 10 行: ('2018/8/12', 19805, 'N575UW', 1854, 13930, 1393006, 30977, 'ORD', 14100, 1410005, 34100, 'PHL', 700, 657, -3, 0, 957, -2, 0, 0, None, 119, 120, None, None, None, None, None)
+  第 11 行: ('2018/8/13', 19805, 'N545UW', 1713, 13930, 1393006, 30977, 'ORD', 14057, 1405702, 34057, 'PDX', 2026, 2024, -2, 0, 2241, -5, 0, 0, None, 260, 257, None, None, None, None, None)
+  第 12 行: ('2018/8/13', 20368, '233NV', 133, 14314, 1431402, 34314, 'PVU', 10466, 1046602, 30466, 'AZA', 1515, 1528, 13, 13, 1558, 11, 11, 0, None, 92, 90, None, None, None, None, None)
+  第 13 行: ('2018/8/13', 20452, 'N109HQ', 4672, 11057, 1105703, 31057, 'CLT', 13495, 1349505, 33495, 'MSY', 2230, 2331, 61, 61, 18, 49, 49, 0, None, 119, 107, 49, 0, 0, 0, 0)
+  第 14 行: ('2018/8/13', 19790, 'N774DE', 2443, 11193, 1119302, 33105, 'CVG', 10397, 1039707, 30397, 'ATL', 1055, 1052, -3, 0, 1207, -17, 0, 0, None, 89, 75, None, None, None, None, None)
+  第 15 行: ('2018/8/14', 20452, 'N742YX', 3746, 13198, 1319801, 33198, 'MCI', 13930, 1393006, 30977, 'ORD', 1005, 952, -13, 0, 1127, -16, 0, 0, None, 98, 95, None, None, None, None, None)
+  第 16 行: ('2018/8/15', 19393, 'N474WN', 830, 14908, 1490803, 32575, 'SNA', 14893, 1489302, 33192, 'SMF', 1955, 2034, 39, 39, 2150, 35, 35, 0, None, 80, 76, 3, 0, 0, 0, 32)
+  第 17 行: ('2018/8/15', 20452, 'N109HQ', 4425, 14100, 1410005, 34100, 'PHL', 11066, 1106606, 31066, 'CMH', 1315, 1309, -6, 0, 1436, -15, 0, 0, None, 96, 87, None, None, None, None, None)
+  第 18 行: ('2018/8/16', 19977, 'N39728', 1642, 13930, 1393006, 30977, 'ORD', 12953, 1295304, 31703, 'LGA', 1500, 1454, -6, 0, 1804, -11, 0, 0, None, 135, 130, None, None, None, None, None)
+  第 19 行: ('2018/8/16', 19393, 'N484WN', 6604, 12889, 1288903, 32211, 'LAS', 14908, 1490803, 32575, 'SNA', 845, 844, -1, 0, 944, -6, 0, 0, None, 65, 60, None, None, None, None, None)
+  第 20 行: ('2018/8/18', 19393, 'N757LV', 2669, 12191, 1219102, 31453, 'HOU', 14683, 1468305, 33214, 'SAT', 1905, 1905, 0, 0, 1951, -9, 0, 0, None, 55, 46, None, None, None, None, None)
+  第 21 行: ('2018/8/20', 19790, 'N546US', 1559, 12892, 1289208, 32575, 'LAX', 12173, 1217305, 32134, 'HNL', 1510, 1519, 9, 9, 1759, 4, 4, 0, None, 345, 340, None, None, None, None, None)
+  第 22 行: ('2018/8/21', 19790, 'N911DE', 546, 13871, 1387102, 33316, 'OMA', 10397, 1039707, 30397, 'ATL', 1826, 1818, -8, 0, 2144, -1, 0, 0, None, 139, 146, None, None, None, None, None)
+  第 23 行: ('2018/8/22', 19977, 'N479UA', 1131, 12266, 1226603, 31453, 'IAH', 13495, 1349505, 33495, 'MSY', 1451, 1450, -1, 0, 1553, -5, 0, 0, None, 67, 63, None, None, None, None, None)
+  第 24 行: ('2018/8/23', 19790, 'N690DL', 2939, 10397, 1039707, 30397, 'ATL', 10693, 1069302, 30693, 'BNA', 812, 813, 1, 1, 819, -4, 0, 0, None, 71, 66, None, None, None, None, None)
+  第 25 行: ('2018/8/23', 19805, 'N113AN', 331, 12478, 1247805, 31703, 'JFK', 12892, 1289208, 32575, 'LAX', 1100, 1053, -7, 0, 1352, -10, 0, 0, None, 362, 359, None, None, None, None, None)
+  第 26 行: ('2018/8/25', 20436, 'N223FR', 894, 14492, 1449202, 34492, 'RDU', 15356, 1535602, 35356, 'TTN', 1122, 1206, 44, 44, 1318, 28, 28, 0, None, 88, 72, 11, 0, 15, 0, 2)
+  第 27 行: ('2018/8/25', 20436, 'N228FR', 1121, 12451, 1245102, 31136, 'JAX', 11193, 1119302, 33105, 'CVG', 1550, 1544, -6, 0, 1741, -1, 0, 0, None, 112, 117, None, None, None, None, None)
+  第 28 行: ('2018/8/26', 19930, 'N284AK', 686, 14057, 1405702, 34057, 'PDX', 13930, 1393006, 30977, 'ORD', 700, 656, -4, 0, 1225, -34, 0, 0, None, 239, 209, None, None, None, None, None)
+  第 29 行: ('2018/8/27', 19790, 'N923AT', 2819, 13204, 1320402, 31454, 'MCO', 14492, 1449202, 34492, 'RDU', 908, 903, -5, 0, 1036, -24, 0, 0, None, 112, 93, None, None, None, None, None)
+  第 30 行: ('2018/8/27', 20304, 'N110SY', 5861, 12892, 1289208, 32575, 'LAX', 14771, 1477104, 32457, 'SFO', 1700, 1657, -3, 0, 1821, -23, 0, 0, None, 104, 84, None, None, None, None, None)
+  第 31 行: ('2018/8/29', 19805, 'N538UW', 1665, 12889, 1288903, 32211, 'LAS', 11057, 1105703, 31057, 'CLT', 600, 553, -7, 0, 1251, -32, 0, 0, None, 263, 238, None, None, None, None, None)
+  第 32 行: ('2018/8/31', 19790, 'N3763D', 2047, 10397, 1039707, 30397, 'ATL', 15304, 1530402, 33195, 'TPA', 1433, 1432, -1, 0, 1735, 93, 93, 0, None, 89, 183, 0, 0, 93, 0, 0)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/airline/6.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Air Carriers
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: (19393, 'Southwest Airlines Co.: WN')
+  第 2 行: (19690, 'Hawaiian Airlines Inc.: HA')
+  第 3 行: (19790, 'Delta Air Lines Inc.: DL')
+  第 4 行: (19805, 'American Airlines Inc.: AA')
+  第 5 行: (19977, 'United Air Lines Inc.: UA')
+  第 6 行: (20304, 'SkyWest Airlines Inc.: OO')
+  第 7 行: (20398, 'Envoy Air: MQ')
+  第 8 行: (20409, 'JetBlue Airways: B6')
+  第 9 行: (20416, 'Spirit Air Lines: NK')
+  第 10 行: (20427, 'Piedmont Airlines: PT')
+  第 11 行: (20500, 'GoJet Airlines LLC d/b/a United Express: G7')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Airports
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: ('ATL', 'Atlanta, GA: Hartsfield-Jackson Atlanta International')
+  第 2 行: ('BDL', 'Hartford, CT: Bradley International')
+  第 3 行: ('BWI', 'Baltimore, MD: Baltimore/Washington International Thurgood Marshall')
+  第 4 行: ('DCA', 'Washington, DC: Ronald Reagan Washington National')
+  第 5 行: ('DEN', 'Denver, CO: Denver International')
+  第 6 行: ('DFW', 'Dallas/Fort Worth, TX: Dallas/Fort Worth International')
+  第 7 行: ('EUG', 'Eugene, OR: Mahlon Sweet Field')
+  第 8 行: ('EWR', 'Newark, NJ: Newark Liberty International')
+  第 9 行: ('HNL', 'Honolulu, HI: Daniel K Inouye International')
+  第 10 行: ('IAH', 'Houston, TX: George Bush Intercontinental/Houston')
+  第 11 行: ('JFK', 'New York, NY: John F. Kennedy International')
+  第 12 行: ('LAS', 'Las Vegas, NV: McCarran International')
+  第 13 行: ('MCI', 'Kansas City, MO: Kansas City International')
+  第 14 行: ('MCO', 'Orlando, FL: Orlando International')
+  第 15 行: ('MDW', 'Chicago, IL: Chicago Midway International')
+  第 16 行: ('MKE', 'Milwaukee, WI: General Mitchell International')
+  第 17 行: ('MSP', 'Minneapolis, MN: Minneapolis-St Paul International')
+  第 18 行: ('MSY', 'New Orleans, LA: Louis Armstrong New Orleans International')
+  第 19 行: ('OGG', 'Kahului, HI: Kahului Airport')
+  第 20 行: ('ORD', "Chicago, IL: Chicago O'Hare International")
+  第 21 行: ('PHX', 'Phoenix, AZ: Phoenix Sky Harbor International')
+  第 22 行: ('SFO', 'San Francisco, CA: San Francisco International')
+  第 23 行: ('STL', 'St. Louis, MO: St Louis Lambert International')
+  第 24 行: ('XNA', 'Fayetteville, AR: Northwest Arkansas Regional')
+  第 25 行: ('ABQ', 'Albuquerque, NM: Albuquerque International Sunport')
+  第 26 行: ('BOS', 'Boston, MA: Logan International')
+  第 27 行: ('BTR', 'Baton Rouge, LA: Baton Rouge Metropolitan/Ryan Field')
+  第 28 行: ('CLT', 'Charlotte, NC: Charlotte Douglas International')
+  第 29 行: ('DAL', 'Dallas, TX: Dallas Love Field')
+  第 30 行: ('HOU', 'Houston, TX: William P Hobby')
+  第 31 行: ('JAX', 'Jacksonville, FL: Jacksonville International')
+  第 32 行: ('LGA', 'New York, NY: LaGuardia')
+  第 33 行: ('LIH', 'Lihue, HI: Lihue Airport')
+  第 34 行: ('MIA', 'Miami, FL: Miami International')
+  第 35 行: ('PHL', 'Philadelphia, PA: Philadelphia International')
+  第 36 行: ('RDU', 'Raleigh/Durham, NC: Raleigh-Durham International')
+  第 37 行: ('SAN', 'San Diego, CA: San Diego International')
+  第 38 行: ('SAT', 'San Antonio, TX: San Antonio International')
+  第 39 行: ('SJU', 'San Juan, PR: Luis Munoz Marin International')
+  第 40 行: ('SLC', 'Salt Lake City, UT: Salt Lake City International')
+  第 41 行: ('SMF', 'Sacramento, CA: Sacramento International')
+  第 42 行: ('TPA', 'Tampa, FL: Tampa International')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Airlines
+--------------------------------------------------------------------------------
+表头（列名）: ['FL_DATE', 'OP_CARRIER_AIRLINE_ID', 'TAIL_NUM', 'OP_CARRIER_FL_NUM', 'ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_SEQ_ID', 'ORIGIN_CITY_MARKET_ID', 'ORIGIN', 'DEST_AIRPORT_ID', 'DEST_AIRPORT_SEQ_ID', 'DEST_CITY_MARKET_ID', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DEP_DELAY_NEW', 'ARR_TIME', 'ARR_DELAY', 'ARR_DELAY_NEW', 'CANCELLED', 'CANCELLATION_CODE', 'CRS_ELAPSED_TIME', 'ACTUAL_ELAPSED_TIME', 'CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'LATE_AIRCRAFT_DELAY']
+表内容:
+  第 1 行: ('2018/8/1', 20304, 'N795SK', 5256, 10781, 1078105, 30781, 'BTR', 12266, 1226603, 31453, 'IAH', 535, 528, -7, 0, 631, -14, 0, 0, None, 70, 63, None, None, None, None, None)
+  第 2 行: ('2018/8/3', 20500, 'N175GJ', 4533, 11292, 1129202, 30325, 'DEN', 13495, 1349505, 33495, 'MSY', 1250, 1343, 53, 53, 1712, 47, 47, 0, None, 155, 149, 0, 0, 0, 0, 47)
+  第 3 行: ('2018/8/3', 19805, 'N934AN', 2291, 11057, 1105703, 31057, 'CLT', 12478, 1247805, 31703, 'JFK', 2015, None, None, None, None, None, None, 1, 'B', 130, None, None, None, None, None, None)
+  第 4 行: ('2018/8/3', 19977, 'N76533', 1288, 13830, 1383002, 33830, 'OGG', 14771, 1477104, 32457, 'SFO', 1436, 1435, -1, 0, 2208, -30, 0, 0, None, 302, 273, None, None, None, None, None)
+  第 5 行: ('2018/8/3', 19393, 'N8604K', 1567, 11259, 1125903, 30194, 'DAL', 10821, 1082106, 30852, 'BWI', 1545, None, None, None, None, None, None, 1, 'B', 185, None, None, None, None, None, None)
+  第 6 行: ('2018/8/5', 19790, 'N925DN', 1278, 13487, 1348702, 31650, 'MSP', 13342, 1334207, 33342, 'MKE', 1740, 1744, 4, 4, 1844, -12, 0, 0, None, 76, 60, None, None, None, None, None)
+  第 7 行: ('2018/8/7', 19977, 'N56859', 2005, 13930, 1393006, 30977, 'ORD', 11292, 1129202, 30325, 'DEN', 905, 901, -4, 0, 1048, 8, 8, 0, None, 155, 167, None, None, None, None, None)
+  第 8 行: ('2018/8/8', 19393, 'N7835A', 1673, 14107, 1410702, 30466, 'PHX', 15016, 1501606, 31123, 'STL', 640, 639, -1, 0, 1122, -8, 0, 0, None, 170, 163, None, None, None, None, None)
+  第 9 行: ('2018/8/9', 19977, 'N492UA', 342, 14893, 1489302, 33192, 'SMF', 11618, 1161802, 31703, 'EWR', 2330, 119, 109, 109, 933, 115, 115, 0, None, 308, 314, 0, 0, 16, 0, 99)
+  第 10 行: ('2018/8/10', 19393, 'N8680C', 539, 11259, 1125903, 30194, 'DAL', 10821, 1082106, 30852, 'BWI', 1700, 1659, -1, 0, 2039, -21, 0, 0, None, 180, 160, None, None, None, None, None)
+  第 11 行: ('2018/8/11', 20427, 'N609DP', 4972, 14100, 1410005, 34100, 'PHL', 10529, 1052906, 30529, 'BDL', 1136, 1132, -4, 0, 1254, 6, 6, 0, None, 72, 82, None, None, None, None, None)
+  第 12 行: ('2018/8/13', 20409, 'N517JB', 1348, 14843, 1484306, 34819, 'SJU', 11278, 1127805, 30852, 'DCA', 1813, 1900, 47, 47, 2240, 41, 41, 0, None, 226, 220, 18, 0, 0, 0, 23)
+  第 13 行: ('2018/8/14', 19393, 'N400WN', 1773, 13495, 1349505, 33495, 'MSY', 11278, 1127805, 30852, 'DCA', 1225, 1221, -4, 0, 1547, -3, 0, 0, None, 145, 146, None, None, None, None, None)
+  第 14 行: ('2018/8/15', 19977, 'N53442', 1747, 14492, 1449202, 34492, 'RDU', 13930, 1393006, 30977, 'ORD', 1000, 955, -5, 0, 1106, -1, 0, 0, None, 127, 131, None, None, None, None, None)
+  第 15 行: ('2018/8/15', 19393, 'N754SW', 744, 12451, 1245102, 31136, 'JAX', 13232, 1323202, 30977, 'MDW', 925, 921, -4, 0, 1031, -14, 0, 0, None, 140, 130, None, None, None, None, None)
+  第 16 行: ('2018/8/16', 19977, 'N37277', 1638, 14107, 1410702, 30466, 'PHX', 12266, 1226603, 31453, 'IAH', 906, 901, -5, 0, 1343, 6, 6, 0, None, 151, 162, None, None, None, None, None)
+  第 17 行: ('2018/8/16', 19790, 'N333NB', 1488, 13303, 1330303, 32467, 'MIA', 13487, 1348702, 31650, 'MSP', 1649, 1655, 6, 6, 1952, 7, 7, 0, None, 236, 237, None, None, None, None, None)
+  第 18 行: ('2018/8/17', 19805, 'N834NN', 2430, 15304, 1530402, 33195, 'TPA', 11298, 1129806, 30194, 'DFW', 1725, 1843, 78, 78, 2027, 74, 74, 0, None, 168, 164, 0, 0, 0, 0, 74)
+  第 19 行: ('2018/8/17', 19805, 'N909AM', 592, 13303, 1330303, 32467, 'MIA', 10397, 1039707, 30397, 'ATL', 952, 1002, 10, 10, 1148, 4, 4, 0, None, 112, 106, None, None, None, None, None)
+  第 20 行: ('2018/8/17', 19790, 'N350NA', 2623, 10721, 1072102, 30721, 'BOS', 10397, 1039707, 30397, 'ATL', 1000, 953, -7, 0, 1229, -11, 0, 0, None, 160, 156, None, None, None, None, None)
+  第 21 行: ('2018/8/17', 20416, 'N668NK', 356, 14679, 1467903, 33570, 'SAN', 12889, 1288903, 32211, 'LAS', 1532, 1528, -4, 0, 1642, -7, 0, 0, None, 77, 74, None, None, None, None, None)
+  第 22 行: ('2018/8/18', 20416, 'N631NK', 549, 10529, 1052906, 30529, 'BDL', 13204, 1320402, 31454, 'MCO', 1220, 1218, -2, 0, 1454, -14, 0, 0, None, 168, 156, None, None, None, None, None)
+  第 23 行: ('2018/8/20', 20304, 'N713SK', 3144, 14107, 1410702, 30466, 'PHX', 11603, 1160302, 31603, 'EUG', 1354, 1348, -6, 0, 1753, None, None, 0, None, 154, None, None, None, None, None, None)
+  第 24 行: ('2018/8/20', 20416, 'N686NK', 847, 12953, 1295304, 31703, 'LGA', 13930, 1393006, 30977, 'ORD', 955, 949, -6, 0, 1149, 19, 19, 0, None, 155, 180, 0, 0, 19, 0, 0)
+  第 25 行: ('2018/8/20', 19790, 'N309US', 2126, 14869, 1486903, 34614, 'SLC', 11298, 1129806, 30194, 'DFW', 2015, 2046, 31, 31, 17, 26, 26, 0, None, 156, 151, 0, 0, 0, 0, 26)
+  第 26 行: ('2018/8/22', 19690, 'N490HA', 376, 12173, 1217305, 32134, 'HNL', 13830, 1383002, 33830, 'OGG', 1855, 1848, -7, 0, 1938, 4, 4, 0, None, 39, 50, None, None, None, None, None)
+  第 27 行: ('2018/8/22', 20398, 'N234JW', 3494, 11278, 1127805, 30852, 'DCA', 15919, 1591904, 31834, 'XNA', 1659, 1656, -3, 0, 1830, -15, 0, 0, None, 166, 154, None, None, None, None, None)
+  第 28 行: ('2018/8/23', 19393, 'N242WN', 2243, 10140, 1014005, 30140, 'ABQ', 11292, 1129202, 30325, 'DEN', 1120, 1119, -1, 0, 1224, -16, 0, 0, None, 80, 65, None, None, None, None, None)
+  第 29 行: ('2018/8/25', 19790, 'N960AT', 1104, 14492, 1449202, 34492, 'RDU', 13487, 1348702, 31650, 'MSP', 1700, 1700, 0, 0, 1845, -5, 0, 0, None, 170, 165, None, None, None, None, None)
+  第 30 行: ('2018/8/25', 19690, 'N489HA', 104, 12982, 1298202, 32982, 'LIH', 12173, 1217305, 32134, 'HNL', 625, 611, -14, 0, 653, -6, 0, 0, None, 34, 42, None, None, None, None, None)
+  第 31 行: ('2018/8/27', 19805, 'N756US', 2053, 14683, 1468305, 33214, 'SAT', 14107, 1410702, 30466, 'PHX', 625, 616, -9, 0, 634, -14, 0, 0, None, 143, 138, None, None, None, None, None)
+  第 32 行: ('2018/8/29', 19393, 'N486WN', 2129, 12191, 1219102, 31453, 'HOU', 13198, 1319801, 33198, 'MCI', 1425, 1424, -1, 0, 1608, -17, 0, 0, None, 120, 104, None, None, None, None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/airline/7.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Air Carriers
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: (19393, 'Southwest Airlines Co.: WN')
+  第 2 行: (19690, 'Hawaiian Airlines Inc.: HA')
+  第 3 行: (19790, 'Delta Air Lines Inc.: DL')
+  第 4 行: (19805, 'American Airlines Inc.: AA')
+  第 5 行: (19930, 'Alaska Airlines Inc.: AS')
+  第 6 行: (19977, 'United Air Lines Inc.: UA')
+  第 7 行: (20237, 'Trans States Airlines: AX')
+  第 8 行: (20304, 'SkyWest Airlines Inc.: OO')
+  第 9 行: (20363, 'Endeavor Air Inc.: 9E')
+  第 10 行: (20397, 'PSA Airlines Inc.: OH')
+  第 11 行: (20398, 'Envoy Air: MQ')
+  第 12 行: (20409, 'JetBlue Airways: B6')
+  第 13 行: (20416, 'Spirit Air Lines: NK')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Airports
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: ('ATL', 'Atlanta, GA: Hartsfield-Jackson Atlanta International')
+  第 2 行: ('AUS', 'Austin, TX: Austin - Bergstrom International')
+  第 3 行: ('CLE', 'Cleveland, OH: Cleveland-Hopkins International')
+  第 4 行: ('CLT', 'Charlotte, NC: Charlotte Douglas International')
+  第 5 行: ('DAY', 'Dayton, OH: James M Cox/Dayton International')
+  第 6 行: ('DCA', 'Washington, DC: Ronald Reagan Washington National')
+  第 7 行: ('DEN', 'Denver, CO: Denver International')
+  第 8 行: ('DFW', 'Dallas/Fort Worth, TX: Dallas/Fort Worth International')
+  第 9 行: ('DTW', 'Detroit, MI: Detroit Metro Wayne County')
+  第 10 行: ('IND', 'Indianapolis, IN: Indianapolis International')
+  第 11 行: ('ITO', 'Hilo, HI: Hilo International')
+  第 12 行: ('LAX', 'Los Angeles, CA: Los Angeles International')
+  第 13 行: ('LGA', 'New York, NY: LaGuardia')
+  第 14 行: ('LIH', 'Lihue, HI: Lihue Airport')
+  第 15 行: ('MCO', 'Orlando, FL: Orlando International')
+  第 16 行: ('PDX', 'Portland, OR: Portland International')
+  第 17 行: ('PHL', 'Philadelphia, PA: Philadelphia International')
+  第 18 行: ('RIC', 'Richmond, VA: Richmond International')
+  第 19 行: ('SAN', 'San Diego, CA: San Diego International')
+  第 20 行: ('SEA', 'Seattle, WA: Seattle/Tacoma International')
+  第 21 行: ('SFO', 'San Francisco, CA: San Francisco International')
+  第 22 行: ('SJC', 'San Jose, CA: Norman Y. Mineta San Jose International')
+  第 23 行: ('SLC', 'Salt Lake City, UT: Salt Lake City International')
+  第 24 行: ('SNA', 'Santa Ana, CA: John Wayne Airport-Orange County')
+  第 25 行: ('TUS', 'Tucson, AZ: Tucson International')
+  第 26 行: ('BMI', 'Bloomington/Normal, IL: Central Illinois Regional')
+  第 27 行: ('BOI', 'Boise, ID: Boise Air Terminal')
+  第 28 行: ('BOS', 'Boston, MA: Logan International')
+  第 29 行: ('BWI', 'Baltimore, MD: Baltimore/Washington International Thurgood Marshall')
+  第 30 行: ('CHS', 'Charleston, SC: Charleston AFB/International')
+  第 31 行: ('GRR', 'Grand Rapids, MI: Gerald R. Ford International')
+  第 32 行: ('HNL', 'Honolulu, HI: Daniel K Inouye International')
+  第 33 行: ('IAH', 'Houston, TX: George Bush Intercontinental/Houston')
+  第 34 行: ('JFK', 'New York, NY: John F. Kennedy International')
+  第 35 行: ('LAS', 'Las Vegas, NV: McCarran International')
+  第 36 行: ('MKE', 'Milwaukee, WI: General Mitchell International')
+  第 37 行: ('OAK', 'Oakland, CA: Metropolitan Oakland International')
+  第 38 行: ('ORD', "Chicago, IL: Chicago O'Hare International")
+  第 39 行: ('ORF', 'Norfolk, VA: Norfolk International')
+  第 40 行: ('PBI', 'West Palm Beach/Palm Beach, FL: Palm Beach International')
+  第 41 行: ('PHX', 'Phoenix, AZ: Phoenix Sky Harbor International')
+  第 42 行: ('SBP', 'San Luis Obispo, CA: San Luis County Regional')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Airlines
+--------------------------------------------------------------------------------
+表头（列名）: ['FL_DATE', 'OP_CARRIER_AIRLINE_ID', 'TAIL_NUM', 'OP_CARRIER_FL_NUM', 'ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_SEQ_ID', 'ORIGIN_CITY_MARKET_ID', 'ORIGIN', 'DEST_AIRPORT_ID', 'DEST_AIRPORT_SEQ_ID', 'DEST_CITY_MARKET_ID', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DEP_DELAY_NEW', 'ARR_TIME', 'ARR_DELAY', 'ARR_DELAY_NEW', 'CANCELLED', 'CANCELLATION_CODE', 'CRS_ELAPSED_TIME', 'ACTUAL_ELAPSED_TIME', 'CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'LATE_AIRCRAFT_DELAY']
+表内容:
+  第 1 行: ('2018/8/1', 19805, 'N804AW', 780, 14107, 1410702, 30466, 'PHX', 12339, 1233904, 32337, 'IND', 1845, 1845, 0, 0, 130, 21, 21, 0, None, 204, 225, 0, 0, 21, 0, 0)
+  第 2 行: ('2018/8/3', 19393, 'N451WN', 555, 12892, 1289208, 32575, 'LAX', 14831, 1483106, 32457, 'SJC', 2055, 2116, 21, 21, 2216, 16, 16, 0, None, 65, 60, 0, 0, 0, 0, 16)
+  第 3 行: ('2018/8/6', 19805, 'N535UW', 2009, 11298, 1129806, 30194, 'DFW', 14747, 1474703, 30559, 'SEA', 1635, 1713, 38, 38, 1927, 40, 40, 0, None, 252, 254, 33, 0, 2, 0, 5)
+  第 4 行: ('2018/8/6', 20416, 'N684NK', 906, 12266, 1226603, 31453, 'IAH', 11433, 1143302, 31295, 'DTW', 1923, 1917, -6, 0, 2314, 7, 7, 0, None, 164, 177, None, None, None, None, None)
+  第 5 行: ('2018/8/6', 19393, 'N7735A', 48, 10821, 1082106, 30852, 'BWI', 13204, 1320402, 31454, 'MCO', 1255, 1258, 3, 3, 1516, 1, 1, 0, None, 140, 138, None, None, None, None, None)
+  第 6 行: ('2018/8/7', 19393, 'N799SW', 1498, 12889, 1288903, 32211, 'LAS', 14679, 1467903, 33570, 'SAN', 1940, 1943, 3, 3, 2038, -12, 0, 0, None, 70, 55, None, None, None, None, None)
+  第 7 行: ('2018/8/8', 19805, 'N834AW', 1866, 14100, 1410005, 34100, 'PHL', 10397, 1039707, 30397, 'ATL', 805, 757, -8, 0, 948, -28, 0, 0, None, 131, 111, None, None, None, None, None)
+  第 8 行: ('2018/8/9', 20304, 'N189SY', 3304, 14831, 1483106, 32457, 'SJC', 15376, 1537603, 30436, 'TUS', 1754, 2145, 231, 231, 2348, 238, 238, 0, None, 116, 123, 231, 0, 7, 0, 0)
+  第 9 行: ('2018/8/10', 20304, 'N479CA', 5611, 14698, 1469802, 34236, 'SBP', 12892, 1289208, 32575, 'LAX', 545, 529, -16, 0, 643, -17, 0, 0, None, 75, 74, None, None, None, None, None)
+  第 10 行: ('2018/8/11', 20416, 'N644NK', 389, 10821, 1082106, 30852, 'BWI', 13204, 1320402, 31454, 'MCO', 620, 620, 0, 0, 830, -5, 0, 0, None, 135, 130, None, None, None, None, None)
+  第 11 行: ('2018/8/15', 20409, 'N265JB', 1262, 14027, 1402702, 34027, 'PBI', 12953, 1295304, 31703, 'LGA', 1901, 1908, 7, 7, 2159, 3, 3, 0, None, 175, 171, None, None, None, None, None)
+  第 12 行: ('2018/8/16', 20237, 'N612AE', 4263, 11278, 1127805, 30852, 'DCA', 11042, 1104205, 30647, 'CLE', 2220, 2217, -3, 0, 2331, -9, 0, 0, None, 80, 74, None, None, None, None, None)
+  第 13 行: ('2018/8/16', 20237, 'N618AE', 4279, 11986, 1198603, 31986, 'GRR', 11278, 1127805, 30852, 'DCA', 1311, 1641, 210, 210, 1830, 211, 211, 0, None, 108, 109, 0, 0, 1, 0, 210)
+  第 14 行: ('2018/8/19', 19977, 'N62883', 1891, 13930, 1393006, 30977, 'ORD', 14771, 1477104, 32457, 'SFO', 1000, 1001, 1, 1, 1243, 1, 1, 0, None, 282, 282, None, None, None, None, None)
+  第 15 行: ('2018/8/20', 19977, 'N802UA', 2107, 12266, 1226603, 31453, 'IAH', 11298, 1129806, 30194, 'DFW', 1805, 1800, -5, 0, 1930, 5, 5, 0, None, 80, 90, None, None, None, None, None)
+  第 16 行: ('2018/8/20', 19977, 'N441UA', 677, 10713, 1071302, 30713, 'BOI', 11292, 1129202, 30325, 'DEN', 1430, 1424, -6, 0, 1602, -19, 0, 0, None, 111, 98, None, None, None, None, None)
+  第 17 行: ('2018/8/21', 20409, 'N316JB', 459, 10721, 1072102, 30721, 'BOS', 14100, 1410005, 34100, 'PHL', 900, 847, -13, 0, 1006, -31, 0, 0, None, 97, 79, None, None, None, None, None)
+  第 18 行: ('2018/8/21', 19393, 'N249WN', 1581, 12892, 1289208, 32575, 'LAX', 14831, 1483106, 32457, 'SJC', 1710, 1714, 4, 4, 1817, 2, 2, 0, None, 65, 63, None, None, None, None, None)
+  第 19 行: ('2018/8/24', 19790, 'N322NB', 2346, 11292, 1129202, 30325, 'DEN', 14747, 1474703, 30559, 'SEA', 1415, 1407, -8, 0, 1551, -20, 0, 0, None, 176, 164, None, None, None, None, None)
+  第 20 行: ('2018/8/24', 19805, 'N884NN', 2503, 13930, 1393006, 30977, 'ORD', 10423, 1042302, 30423, 'AUS', 951, 944, -7, 0, 1208, -17, 0, 0, None, 154, 144, None, None, None, None, None)
+  第 21 行: ('2018/8/24', 19690, 'N479HA', 162, 12173, 1217305, 32134, 'HNL', 12402, 1240203, 32402, 'ITO', 1354, 1347, -7, 0, 1520, 28, 28, 0, None, 58, 93, 0, 28, 0, 0, 0)
+  第 22 行: ('2018/8/25', 20363, 'N8783E', 5373, 12478, 1247805, 31703, 'JFK', 14524, 1452401, 34524, 'RIC', 1448, 1441, -7, 0, 1555, -34, 0, 0, None, 101, 74, None, None, None, None, None)
+  第 23 行: ('2018/8/26', 19393, 'N496WN', 6769, 14107, 1410702, 30466, 'PHX', 14869, 1486903, 34614, 'SLC', 1455, 1505, 10, 10, 1719, -1, 0, 0, None, 85, 74, None, None, None, None, None)
+  第 24 行: ('2018/8/26', 19690, 'N209HA', 67, 13796, 1379608, 32457, 'OAK', 12982, 1298202, 32982, 'LIH', 940, 932, -8, 0, 1150, -20, 0, 0, None, 330, 318, None, None, None, None, None)
+  第 25 行: ('2018/8/27', 20397, 'N515AE', 5143, 11278, 1127805, 30852, 'DCA', 11267, 1126702, 31267, 'DAY', 2200, 2146, -14, 0, 2258, -30, 0, 0, None, 88, 72, None, None, None, None, None)
+  第 26 行: ('2018/8/27', 20304, 'N161PQ', 4502, 13342, 1334207, 33342, 'MKE', 11433, 1143302, 31295, 'DTW', 1850, 1841, -9, 0, 2043, -16, 0, 0, None, 69, 62, None, None, None, None, None)
+  第 27 行: ('2018/8/28', 19393, 'N559WN', 1503, 14679, 1467903, 33570, 'SAN', 14057, 1405702, 34057, 'PDX', 2105, 2101, -4, 0, 2310, -15, 0, 0, None, 140, 129, None, None, None, None, None)
+  第 28 行: ('2018/8/28', 20398, 'N850AE', 3874, 13931, 1393102, 33667, 'ORF', 12953, 1295304, 31703, 'LGA', 1905, None, None, None, None, None, None, 1, 'A', 98, None, None, None, None, None, None)
+  第 29 行: ('2018/8/29', 19930, 'N533AS', 532, 14747, 1474703, 30559, 'SEA', 14908, 1490803, 32575, 'SNA', 940, 933, -7, 0, 1217, -22, 0, 0, None, 179, 164, None, None, None, None, None)
+  第 30 行: ('2018/8/29', 19790, 'N946DL', 2556, 10994, 1099402, 30994, 'CHS', 10397, 1039707, 30397, 'ATL', 540, 531, -9, 0, 629, -16, 0, 0, None, 65, 58, None, None, None, None, None)
+  第 31 行: ('2018/8/31', 20363, 'N293PQ', 5063, 10685, 1068502, 30685, 'BMI', 10397, 1039707, 30397, 'ATL', 1744, 1737, -7, 0, 2025, -4, 0, 0, None, 105, 108, None, None, None, None, None)
+  第 32 行: ('2018/8/31', 19805, 'N540UW', 2052, 13930, 1393006, 30977, 'ORD', 11057, 1105703, 31057, 'CLT', 724, 718, -6, 0, 1004, -20, 0, 0, None, 120, 106, None, None, None, None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/airline/8.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Air Carriers
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: (19393, 'Southwest Airlines Co.: WN')
+  第 2 行: (19790, 'Delta Air Lines Inc.: DL')
+  第 3 行: (19805, 'American Airlines Inc.: AA')
+  第 4 行: (19930, 'Alaska Airlines Inc.: AS')
+  第 5 行: (19977, 'United Air Lines Inc.: UA')
+  第 6 行: (20237, 'Trans States Airlines: AX')
+  第 7 行: (20304, 'SkyWest Airlines Inc.: OO')
+  第 8 行: (20363, 'Endeavor Air Inc.: 9E')
+  第 9 行: (20378, 'Mesa Airlines Inc.: YV')
+  第 10 行: (20397, 'PSA Airlines Inc.: OH')
+  第 11 行: (20398, 'Envoy Air: MQ')
+  第 12 行: (20409, 'JetBlue Airways: B6')
+  第 13 行: (20416, 'Spirit Air Lines: NK')
+  第 14 行: (20452, 'Republic Airline: YX')
+  第 15 行: (21167, 'Compass Airlines: CP')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Airports
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: ('BNA', 'Nashville, TN: Nashville International')
+  第 2 行: ('BOS', 'Boston, MA: Logan International')
+  第 3 行: ('BUF', 'Buffalo, NY: Buffalo Niagara International')
+  第 4 行: ('BWI', 'Baltimore, MD: Baltimore/Washington International Thurgood Marshall')
+  第 5 行: ('BZN', 'Bozeman, MT: Bozeman Yellowstone International')
+  第 6 行: ('CRP', 'Corpus Christi, TX: Corpus Christi International')
+  第 7 行: ('DEN', 'Denver, CO: Denver International')
+  第 8 行: ('DFW', 'Dallas/Fort Worth, TX: Dallas/Fort Worth International')
+  第 9 行: ('EWR', 'Newark, NJ: Newark Liberty International')
+  第 10 行: ('IAD', 'Washington, DC: Washington Dulles International')
+  第 11 行: ('LAS', 'Las Vegas, NV: McCarran International')
+  第 12 行: ('LAX', 'Los Angeles, CA: Los Angeles International')
+  第 13 行: ('LFT', 'Lafayette, LA: Lafayette Regional Paul Fournet Field')
+  第 14 行: ('LGA', 'New York, NY: LaGuardia')
+  第 15 行: ('MCO', 'Orlando, FL: Orlando International')
+  第 16 行: ('MIA', 'Miami, FL: Miami International')
+  第 17 行: ('MKE', 'Milwaukee, WI: General Mitchell International')
+  第 18 行: ('MSN', 'Madison, WI: Dane County Regional-Truax Field')
+  第 19 行: ('MSP', 'Minneapolis, MN: Minneapolis-St Paul International')
+  第 20 行: ('MYR', 'Myrtle Beach, SC: Myrtle Beach International')
+  第 21 行: ('OAK', 'Oakland, CA: Metropolitan Oakland International')
+  第 22 行: ('ORD', "Chicago, IL: Chicago O'Hare International")
+  第 23 行: ('SAT', 'San Antonio, TX: San Antonio International')
+  第 24 行: ('SLC', 'Salt Lake City, UT: Salt Lake City International')
+  第 25 行: ('SMF', 'Sacramento, CA: Sacramento International')
+  第 26 行: ('ATL', 'Atlanta, GA: Hartsfield-Jackson Atlanta International')
+  第 27 行: ('CID', 'Cedar Rapids/Iowa City, IA: The Eastern Iowa')
+  第 28 行: ('CLT', 'Charlotte, NC: Charlotte Douglas International')
+  第 29 行: ('CVG', 'Cincinnati, OH: Cincinnati/Northern Kentucky International')
+  第 30 行: ('DCA', 'Washington, DC: Ronald Reagan Washington National')
+  第 31 行: ('DTW', 'Detroit, MI: Detroit Metro Wayne County')
+  第 32 行: ('FLL', 'Fort Lauderdale, FL: Fort Lauderdale-Hollywood International')
+  第 33 行: ('GTF', 'Great Falls, MT: Great Falls International')
+  第 34 行: ('JFK', 'New York, NY: John F. Kennedy International')
+  第 35 行: ('KOA', 'Kona, HI: Ellison Onizuka Kona International at Keahole')
+  第 36 行: ('LBB', 'Lubbock, TX: Lubbock Preston Smith International')
+  第 37 行: ('LIH', 'Lihue, HI: Lihue Airport')
+  第 38 行: ('PDX', 'Portland, OR: Portland International')
+  第 39 行: ('PHL', 'Philadelphia, PA: Philadelphia International')
+  第 40 行: ('PIT', 'Pittsburgh, PA: Pittsburgh International')
+  第 41 行: ('RDU', 'Raleigh/Durham, NC: Raleigh-Durham International')
+  第 42 行: ('SAN', 'San Diego, CA: San Diego International')
+  第 43 行: ('SYR', 'Syracuse, NY: Syracuse Hancock International')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Airlines
+--------------------------------------------------------------------------------
+表头（列名）: ['FL_DATE', 'OP_CARRIER_AIRLINE_ID', 'TAIL_NUM', 'OP_CARRIER_FL_NUM', 'ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_SEQ_ID', 'ORIGIN_CITY_MARKET_ID', 'ORIGIN', 'DEST_AIRPORT_ID', 'DEST_AIRPORT_SEQ_ID', 'DEST_CITY_MARKET_ID', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DEP_DELAY_NEW', 'ARR_TIME', 'ARR_DELAY', 'ARR_DELAY_NEW', 'CANCELLED', 'CANCELLATION_CODE', 'CRS_ELAPSED_TIME', 'ACTUAL_ELAPSED_TIME', 'CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'LATE_AIRCRAFT_DELAY']
+表内容:
+  第 1 行: ('2018/8/2', 19790, 'N396DA', 2442, 11618, 1161802, 31703, 'EWR', 14869, 1486903, 34614, 'SLC', 655, 655, 0, 0, 950, -8, 0, 0, None, 303, 295, None, None, None, None, None)
+  第 2 行: ('2018/8/3', 20452, 'N204JQ', 6120, 12953, 1295304, 31703, 'LGA', 13485, 1348502, 33485, 'MSN', 2115, None, None, None, None, None, None, 1, 'C', 158, None, None, None, None, None, None)
+  第 3 行: ('2018/8/4', 19393, 'N480WN', 4993, 14492, 1449202, 34492, 'RDU', 10821, 1082106, 30852, 'BWI', 1845, 1945, 60, 60, 2037, 47, 47, 0, None, 65, 52, 0, 0, 0, 0, 47)
+  第 4 行: ('2018/8/5', 19790, 'N329NB', 2695, 11278, 1127805, 30852, 'DCA', 13487, 1348702, 31650, 'MSP', 830, 833, 3, 3, 954, -15, 0, 0, None, 159, 141, None, None, None, None, None)
+  第 5 行: ('2018/8/5', 19393, 'N7837A', 3692, 14679, 1467903, 33570, 'SAN', 14893, 1489302, 33192, 'SMF', 955, 952, -3, 0, 1118, -7, 0, 0, None, 90, 86, None, None, None, None, None)
+  第 6 行: ('2018/8/5', 20363, 'N348PQ', 5065, 11433, 1143302, 31295, 'DTW', 13342, 1334207, 33342, 'MKE', 1200, 1155, -5, 0, 1205, -7, 0, 0, None, 72, 70, None, None, None, None, None)
+  第 7 行: ('2018/8/6', 20378, 'N948LR', 5953, 11298, 1129806, 30194, 'DFW', 11140, 1114008, 31140, 'CRP', 1633, 1648, 15, 15, 1800, 12, 12, 0, None, 75, 72, None, None, None, None, None)
+  第 8 行: ('2018/8/9', 20409, 'N324JB', 102, 12478, 1247805, 31703, 'JFK', 10792, 1079206, 30792, 'BUF', 1838, 1843, 5, 5, 2008, -12, 0, 0, None, 102, 85, None, None, None, None, None)
+  第 9 行: ('2018/8/10', 19977, 'N77261', 2314, 10397, 1039707, 30397, 'ATL', 11292, 1129202, 30325, 'DEN', 1602, 1609, 7, 7, 1715, -10, 0, 0, None, 203, 186, None, None, None, None, None)
+  第 10 行: ('2018/8/10', 20452, 'N649RW', 3748, 11433, 1143302, 31295, 'DTW', 11618, 1161802, 31703, 'EWR', 1755, 1754, -1, 0, 1931, -10, 0, 0, None, 106, 97, None, None, None, None, None)
+  第 11 行: ('2018/8/13', 20409, 'N593JB', 1451, 10721, 1072102, 30721, 'BOS', 13204, 1320402, 31454, 'MCO', 1847, 2020, 93, 93, 2334, 96, 96, 0, None, 191, 194, 28, 0, 3, 0, 65)
+  第 12 行: ('2018/8/13', 20304, 'N181SY', 3366, 14057, 1405702, 34057, 'PDX', 10849, 1084905, 30849, 'BZN', 1651, 1646, -5, 0, 1918, -11, 0, 0, None, 98, 92, None, None, None, None, None)
+  第 13 行: ('2018/8/14', 20304, 'N8965E', 3550, 10397, 1039707, 30397, 'ATL', 12951, 1295106, 32951, 'LFT', 1622, 1617, -5, 0, 1659, -13, 0, 0, None, 110, 102, None, None, None, None, None)
+  第 14 行: ('2018/8/15', 20452, 'N416YX', 4612, 14122, 1412202, 30198, 'PIT', 13303, 1330303, 32467, 'MIA', 700, 704, 4, 4, 933, -12, 0, 0, None, 165, 149, None, None, None, None, None)
+  第 15 行: ('2018/8/16', 19977, 'N69835', 1941, 12892, 1289208, 32575, 'LAX', 12264, 1226402, 30852, 'IAD', 2117, 2114, -3, 0, 458, -12, 0, 0, None, 293, 284, None, None, None, None, None)
+  第 16 行: ('2018/8/16', 20452, 'N979RP', 3676, 11193, 1119302, 33105, 'CVG', 11618, 1161802, 31703, 'EWR', 1805, 1759, -6, 0, 1955, -15, 0, 0, None, 125, 116, None, None, None, None, None)
+  第 17 行: ('2018/8/17', 19393, 'N7736A', 2110, 12892, 1289208, 32575, 'LAX', 10693, 1069302, 30693, 'BNA', 840, 838, -2, 0, 1425, -30, 0, 0, None, 255, 227, None, None, None, None, None)
+  第 18 行: ('2018/8/17', 19393, 'N447WN', 454, 14679, 1467903, 33570, 'SAN', 14683, 1468305, 33214, 'SAT', 1900, 1909, 9, 9, 2353, 8, 8, 0, None, 165, 164, None, None, None, None, None)
+  第 19 行: ('2018/8/17', 20397, 'N562NN', 5358, 11057, 1105703, 31057, 'CLT', 13577, 1357702, 31135, 'MYR', 1429, 1425, -4, 0, 1514, -6, 0, 0, None, 51, 49, None, None, None, None, None)
+  第 20 行: ('2018/8/18', 19805, 'N580UW', 548, 13930, 1393006, 30977, 'ORD', 10721, 1072102, 30721, 'BOS', 2205, 2324, 79, 79, 234, 73, 73, 0, None, 136, 130, 0, 0, 0, 0, 73)
+  第 21 行: ('2018/8/19', 20363, 'N8775A', 5188, 15096, 1509602, 35096, 'SYR', 12953, 1295304, 31703, 'LGA', 1736, 1729, -7, 0, 1849, -11, 0, 0, None, 84, 80, None, None, None, None, None)
+  第 22 行: ('2018/8/19', 19977, 'N37427', 2336, 11697, 1169706, 32467, 'FLL', 11618, 1161802, 31703, 'EWR', 2133, 2130, -3, 0, 5, -25, 0, 0, None, 177, 155, None, None, None, None, None)
+  第 23 行: ('2018/8/20', 19977, 'N37253', 2409, 14100, 1410005, 34100, 'PHL', 13930, 1393006, 30977, 'ORD', 645, 644, -1, 0, 753, -2, 0, 0, None, 130, 129, None, None, None, None, None)
+  第 24 行: ('2018/8/20', 19805, 'N126AN', 246, 12758, 1275804, 32758, 'KOA', 12892, 1289208, 32575, 'LAX', 2149, 2145, -4, 0, 551, -17, 0, 0, None, 319, 306, None, None, None, None, None)
+  第 25 行: ('2018/8/20', 19790, 'N316DN', 513, 10397, 1039707, 30397, 'ATL', 12953, 1295304, 31703, 'LGA', 2030, 2049, 19, 19, 2316, 18, 18, 0, None, 148, 147, 0, 0, 0, 0, 18)
+  第 26 行: ('2018/8/26', 19805, 'N111ZM', 255, 12478, 1247805, 31703, 'JFK', 12892, 1289208, 32575, 'LAX', 1000, 954, -6, 0, 1238, -22, 0, 0, None, 360, 344, None, None, None, None, None)
+  第 27 行: ('2018/8/27', 20398, 'N680AE', 4175, 11003, 1100303, 31003, 'CID', 13930, 1393006, 30977, 'ORD', 1118, 1112, -6, 0, 1227, -9, 0, 0, None, 78, 75, None, None, None, None, None)
+  第 28 行: ('2018/8/27', 20237, 'N11121', 4659, 12003, 1200305, 31895, 'GTF', 11292, 1129202, 30325, 'DEN', 1500, 1547, 47, 47, 1731, 39, 39, 0, None, 112, 104, 39, 0, 0, 0, 0)
+  第 29 行: ('2018/8/29', 20416, 'N627NK', 128, 12892, 1289208, 32575, 'LAX', 10821, 1082106, 30852, 'BWI', 2330, 2334, 4, 4, 720, -13, 0, 0, None, 303, 286, None, None, None, None, None)
+  第 30 行: ('2018/8/30', 19930, 'N557AS', 868, 12982, 1298202, 32982, 'LIH', 13796, 1379608, 32457, 'OAK', 1450, 1430, -20, 0, 2222, -40, 0, 0, None, 312, 292, None, None, None, None, None)
+  第 31 行: ('2018/8/31', 21167, 'N631CZ', 5808, 12892, 1289208, 32575, 'LAX', 11298, 1129806, 30194, 'DFW', 700, 656, -4, 0, 1150, -20, 0, 0, None, 190, 174, None, None, None, None, None)
+  第 32 行: ('2018/8/31', 19393, 'N265WN', 207, 12896, 1289607, 32896, 'LBB', 12889, 1288903, 32211, 'LAS', 1720, 1714, -6, 0, 1721, -9, 0, 0, None, 130, 127, None, None, None, None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/airline/9.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Air Carriers
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: (19393, 'Southwest Airlines Co.: WN')
+  第 2 行: (19790, 'Delta Air Lines Inc.: DL')
+  第 3 行: (19805, 'American Airlines Inc.: AA')
+  第 4 行: (19977, 'United Air Lines Inc.: UA')
+  第 5 行: (20304, 'SkyWest Airlines Inc.: OO')
+  第 6 行: (20363, 'Endeavor Air Inc.: 9E')
+  第 7 行: (20366, 'ExpressJet Airlines Inc.: EV')
+  第 8 行: (20378, 'Mesa Airlines Inc.: YV')
+  第 9 行: (20397, 'PSA Airlines Inc.: OH')
+  第 10 行: (20409, 'JetBlue Airways: B6')
+  第 11 行: (20416, 'Spirit Air Lines: NK')
+  第 12 行: (20427, 'Piedmont Airlines: PT')
+  第 13 行: (20436, 'Frontier Airlines Inc.: F9')
+  第 14 行: (20500, 'GoJet Airlines LLC d/b/a United Express: G7')
+  第 15 行: (21167, 'Compass Airlines: CP')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Airports
+--------------------------------------------------------------------------------
+表头（列名）: ['Code', 'Description']
+表内容:
+  第 1 行: ('ATL', 'Atlanta, GA: Hartsfield-Jackson Atlanta International')
+  第 2 行: ('BTR', 'Baton Rouge, LA: Baton Rouge Metropolitan/Ryan Field')
+  第 3 行: ('BWI', 'Baltimore, MD: Baltimore/Washington International Thurgood Marshall')
+  第 4 行: ('CLE', 'Cleveland, OH: Cleveland-Hopkins International')
+  第 5 行: ('CLT', 'Charlotte, NC: Charlotte Douglas International')
+  第 6 行: ('DFW', 'Dallas/Fort Worth, TX: Dallas/Fort Worth International')
+  第 7 行: ('DTW', 'Detroit, MI: Detroit Metro Wayne County')
+  第 8 行: ('EWR', 'Newark, NJ: Newark Liberty International')
+  第 9 行: ('FLL', 'Fort Lauderdale, FL: Fort Lauderdale-Hollywood International')
+  第 10 行: ('IAD', 'Washington, DC: Washington Dulles International')
+  第 11 行: ('IAH', 'Houston, TX: George Bush Intercontinental/Houston')
+  第 12 行: ('JAX', 'Jacksonville, FL: Jacksonville International')
+  第 13 行: ('LAS', 'Las Vegas, NV: McCarran International')
+  第 14 行: ('MCO', 'Orlando, FL: Orlando International')
+  第 15 行: ('MKE', 'Milwaukee, WI: General Mitchell International')
+  第 16 行: ('OKC', 'Oklahoma City, OK: Will Rogers World')
+  第 17 行: ('ORF', 'Norfolk, VA: Norfolk International')
+  第 18 行: ('PHX', 'Phoenix, AZ: Phoenix Sky Harbor International')
+  第 19 行: ('RDU', 'Raleigh/Durham, NC: Raleigh-Durham International')
+  第 20 行: ('SAN', 'San Diego, CA: San Diego International')
+  第 21 行: ('SBY', 'Salisbury, MD: Salisbury-Ocean City/Wicomico Regional')
+  第 22 行: ('SCE', 'State College, PA: University Park')
+  第 23 行: ('SFO', 'San Francisco, CA: San Francisco International')
+  第 24 行: ('BHM', 'Birmingham, AL: Birmingham-Shuttlesworth International')
+  第 25 行: ('BNA', 'Nashville, TN: Nashville International')
+  第 26 行: ('BOS', 'Boston, MA: Logan International')
+  第 27 行: ('DEN', 'Denver, CO: Denver International')
+  第 28 行: ('GRR', 'Grand Rapids, MI: Gerald R. Ford International')
+  第 29 行: ('HOU', 'Houston, TX: William P Hobby')
+  第 30 行: ('JFK', 'New York, NY: John F. Kennedy International')
+  第 31 行: ('LGA', 'New York, NY: LaGuardia')
+  第 32 行: ('MEM', 'Memphis, TN: Memphis International')
+  第 33 行: ('MSP', 'Minneapolis, MN: Minneapolis-St Paul International')
+  第 34 行: ('PHL', 'Philadelphia, PA: Philadelphia International')
+  第 35 行: ('PNS', 'Pensacola, FL: Pensacola International')
+  第 36 行: ('SBP', 'San Luis Obispo, CA: San Luis County Regional')
+  第 37 行: ('SEA', 'Seattle, WA: Seattle/Tacoma International')
+  第 38 行: ('SMF', 'Sacramento, CA: Sacramento International')
+  第 39 行: ('TUS', 'Tucson, AZ: Tucson International')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Airlines
+--------------------------------------------------------------------------------
+表头（列名）: ['FL_DATE', 'OP_CARRIER_AIRLINE_ID', 'TAIL_NUM', 'OP_CARRIER_FL_NUM', 'ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_SEQ_ID', 'ORIGIN_CITY_MARKET_ID', 'ORIGIN', 'DEST_AIRPORT_ID', 'DEST_AIRPORT_SEQ_ID', 'DEST_CITY_MARKET_ID', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DEP_DELAY_NEW', 'ARR_TIME', 'ARR_DELAY', 'ARR_DELAY_NEW', 'CANCELLED', 'CANCELLATION_CODE', 'CRS_ELAPSED_TIME', 'ACTUAL_ELAPSED_TIME', 'CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'LATE_AIRCRAFT_DELAY']
+表内容:
+  第 1 行: ('2018/8/2', 19393, 'N8683D', 2262, 10693, 1069302, 30693, 'BNA', 11042, 1104205, 30647, 'CLE', 1520, 1520, 0, 0, 1746, 6, 6, 0, None, 80, 86, None, None, None, None, None)
+  第 2 行: ('2018/8/4', 20397, 'N568NN', 5298, 14193, 1419306, 33728, 'PNS', 11057, 1105703, 31057, 'CLT', 1247, 1243, -4, 0, 1520, -14, 0, 0, None, 107, 97, None, None, None, None, None)
+  第 3 行: ('2018/8/5', 19790, 'N925DN', 1278, 13487, 1348702, 31650, 'MSP', 13342, 1334207, 33342, 'MKE', 1740, 1744, 4, 4, 1844, -12, 0, 0, None, 76, 60, None, None, None, None, None)
+  第 4 行: ('2018/8/5', 20304, 'N926SW', 5674, 14698, 1469802, 34236, 'SBP', 14771, 1477104, 32457, 'SFO', 1220, 1209, -11, 0, 1312, -17, 0, 0, None, 69, 63, None, None, None, None, None)
+  第 5 行: ('2018/8/6', 20500, 'N181GJ', 6304, 11986, 1198603, 31986, 'GRR', 11433, 1143302, 31295, 'DTW', 1900, 2044, 104, 104, 2130, 93, 93, 0, None, 57, 46, 0, 40, 0, 0, 53)
+  第 6 行: ('2018/8/6', 19393, 'N7855A', 6838, 15376, 1537603, 30436, 'TUS', 12889, 1288903, 32211, 'LAS', 1900, 1854, -6, 0, 2001, -14, 0, 0, None, 75, 67, None, None, None, None, None)
+  第 7 行: ('2018/8/7', 19393, 'N8525S', 2327, 10821, 1082106, 30852, 'BWI', 14679, 1467903, 33570, 'SAN', 815, 823, 8, 8, 1036, 1, 1, 0, None, 320, 313, None, None, None, None, None)
+  第 8 行: ('2018/8/8', 19790, 'N388DA', 1174, 11292, 1129202, 30325, 'DEN', 10397, 1039707, 30397, 'ATL', 725, 1002, 157, 157, 1555, 218, 218, 0, None, 172, 233, 11, 0, 61, 0, 146)
+  第 9 行: ('2018/8/8', 19977, 'N850UA', 1799, 13487, 1348702, 31650, 'MSP', 11618, 1161802, 31703, 'EWR', 1535, 1603, 28, 28, 2013, 45, 45, 0, None, 173, 190, 0, 0, 45, 0, 0)
+  第 10 行: ('2018/8/9', 20397, 'N248PS', 5701, 12953, 1295304, 31703, 'LGA', 13931, 1393102, 33667, 'ORF', 830, 836, 6, 6, 957, -2, 0, 0, None, 89, 81, None, None, None, None, None)
+  第 11 行: ('2018/8/11', 19805, 'N755US', 1866, 14100, 1410005, 34100, 'PHL', 10397, 1039707, 30397, 'ATL', 805, 802, -3, 0, 1015, -1, 0, 0, None, 131, 133, None, None, None, None, None)
+  第 12 行: ('2018/8/11', 20397, 'N552NN', 5571, 13244, 1324402, 33244, 'MEM', 11057, 1105703, 31057, 'CLT', 1105, 1107, 2, 2, 1350, -8, 0, 0, None, 113, 103, None, None, None, None, None)
+  第 13 行: ('2018/8/12', 20366, 'N12172', 4369, 10599, 1059904, 30599, 'BHM', 12266, 1226603, 31453, 'IAH', 1120, 1115, -5, 0, 1307, -2, 0, 0, None, 109, 112, None, None, None, None, None)
+  第 14 行: ('2018/8/15', 20427, 'N624AE', 4947, 14100, 1410005, 34100, 'PHL', 14711, 1471105, 34711, 'SCE', 1314, 1307, -7, 0, 1410, -7, 0, 0, None, 63, 63, None, None, None, None, None)
+  第 15 行: ('2018/8/17', 19805, 'N128UW', 653, 10721, 1072102, 30721, 'BOS', 11057, 1105703, 31057, 'CLT', 934, 926, -8, 0, 1124, -42, 0, 0, None, 152, 118, None, None, None, None, None)
+  第 16 行: ('2018/8/17', 21167, 'N625CZ', 5692, 14747, 1474703, 30559, 'SEA', 14107, 1410702, 30466, 'PHX', 1850, 1849, -1, 0, 2131, -12, 0, 0, None, 173, 162, None, None, None, None, None)
+  第 17 行: ('2018/8/17', 20378, 'N82338', 6234, 12264, 1226402, 30852, 'IAD', 11057, 1105703, 31057, 'CLT', 2225, 2220, -5, 0, 2342, -13, 0, 0, None, 90, 82, None, None, None, None, None)
+  第 18 行: ('2018/8/17', 20416, 'N649NK', 296, 11298, 1129806, 30194, 'DFW', 11697, 1169706, 32467, 'FLL', 1210, 1249, 39, 39, 1644, 41, 41, 0, None, 173, 175, 39, 0, 2, 0, 0)
+  第 19 行: ('2018/8/19', 19393, 'N8708Q', 5992, 14107, 1410702, 30466, 'PHX', 10821, 1082106, 30852, 'BWI', 810, 805, -5, 0, 1520, -10, 0, 0, None, 260, 255, None, None, None, None, None)
+  第 20 行: ('2018/8/20', 20409, 'N981JB', 578, 14771, 1477104, 32457, 'SFO', 11697, 1169706, 32467, 'FLL', 855, 850, -5, 0, 1733, -9, 0, 0, None, 347, 343, None, None, None, None, None)
+  第 21 行: ('2018/8/21', 20366, 'N753EV', 5577, 10397, 1039707, 30397, 'ATL', 10781, 1078105, 30781, 'BTR', 2043, 2041, -2, 0, 2111, -4, 0, 0, None, 92, 90, None, None, None, None, None)
+  第 22 行: ('2018/8/21', 20427, 'N654AE', 4807, 14100, 1410005, 34100, 'PHL', 14704, 1470405, 34704, 'SBY', 1726, 1724, -2, 0, 1823, -7, 0, 0, None, 64, 59, None, None, None, None, None)
+  第 23 行: ('2018/8/22', 20363, 'N133EV', 5140, 12478, 1247805, 31703, 'JFK', 12451, 1245102, 31136, 'JAX', 815, 809, -6, 0, 1056, 3, 3, 0, None, 158, 167, None, None, None, None, None)
+  第 24 行: ('2018/8/25', 19977, 'N68801', 262, 14747, 1474703, 30559, 'SEA', 12264, 1226402, 30852, 'IAD', 2240, 2228, -12, 0, 552, -30, 0, 0, None, 282, 264, None, None, None, None, None)
+  第 25 行: ('2018/8/26', 19393, 'N404WN', 4469, 12191, 1219102, 31453, 'HOU', 13851, 1385103, 33851, 'OKC', 2220, 2216, -4, 0, 2331, -9, 0, 0, None, 80, 75, None, None, None, None, None)
+  第 26 行: ('2018/8/26', 19790, 'N3739P', 2540, 14747, 1474703, 30559, 'SEA', 14492, 1449202, 34492, 'RDU', 1255, 1255, 0, 0, 2046, -14, 0, 0, None, 305, 291, None, None, None, None, None)
+  第 27 行: ('2018/8/27', 20304, 'N779SK', 5902, 14107, 1410702, 30466, 'PHX', 14771, 1477104, 32457, 'SFO', 1320, 1358, 38, 38, 1602, 35, 35, 0, None, 127, 124, 0, 0, 0, 0, 35)
+  第 28 行: ('2018/8/27', 19805, 'N917NN', 1233, 14893, 1489302, 33192, 'SMF', 11298, 1129806, 30194, 'DFW', 803, 803, 0, 0, 1321, -4, 0, 0, None, 202, 198, None, None, None, None, None)
+  第 29 行: ('2018/8/29', 20436, 'N710FR', 1689, 11057, 1105703, 31057, 'CLT', 13204, 1320402, 31454, 'MCO', 1726, 1730, 4, 4, 1907, -3, 0, 0, None, 104, 97, None, None, None, None, None)
+  第 30 行: ('2018/8/29', 19805, 'N538UW', 1665, 12889, 1288903, 32211, 'LAS', 11057, 1105703, 31057, 'CLT', 600, 553, -7, 0, 1251, -32, 0, 0, None, 263, 238, None, None, None, None, None)
+  第 31 行: ('2018/8/29', 19790, 'N933DL', 95, 10397, 1039707, 30397, 'ATL', 11433, 1143302, 31295, 'DTW', 826, 821, -5, 0, 1015, -13, 0, 0, None, 122, 114, None, None, None, None, None)
+  第 32 行: ('2018/8/29', 19790, 'N837DN', 2149, 12953, 1295304, 31703, 'LGA', 11433, 1143302, 31295, 'DTW', 908, 901, -7, 0, 1052, -32, 0, 0, None, 136, 111, None, None, None, None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+

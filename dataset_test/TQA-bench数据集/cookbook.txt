@@ -1,0 +1,923 @@
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/cookbook/0.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Ingredient
+--------------------------------------------------------------------------------
+表头（列名）: ['ingredient_id', 'category', 'name', 'plural']
+表内容:
+  第 1 行: (35, 'nuts and seeds', 'almonds', None)
+  第 2 行: (363, 'dairy', 'butter', None)
+  第 3 行: (526, 'tomato products', 'tomato paste', None)
+  第 4 行: (638, 'soups', 'chicken broth', None)
+  第 5 行: (1367, 'fresh vegetables', 'mushroom', 's')
+  第 6 行: (1509, 'frozen vegetables', 'frozen Japanese vegetables', None)
+  第 7 行: (1573, 'fresh vegetables', 'garlic clove', 's')
+  第 8 行: (1684, 'spices and seasonings', 'ground cinnamon', None)
+  第 9 行: (1803, 'beverages', 'hot water', None)
+  第 10 行: (1985, 'pasta/noodles', 'lasagne', None)
+  第 11 行: (2019, 'fruit juices', 'lemon juice', None)
+  第 12 行: (2220, 'dairy', 'margarine', None)
+  第 13 行: (2282, 'fresh vegetables', 'onion', 's')
+  第 14 行: (3021, 'spices and seasonings', 'salt', None)
+  第 15 行: (3368, 'vinegars', 'sweet pickle vinegar', None)
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Recipe
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'title', 'subtitle', 'servings', 'yield_unit', 'prep_min', 'cook_min', 'stnd_min', 'source', 'intro', 'directions']
+表内容:
+  第 1 行: (258, 'Blueberry Crisp', None, 8, None, 20, 20, 10, 'USA Rice Council', None, 'Combine rice, blueberries, and 3 tablespoons sugar. Coat 8 individual custard cups or 2-quart baking dish with cooking spray. Place rice mixture in cups or baking dish; set aside. Combine bran, flour, walnuts, cinnamon and remaining 1/4 cup sugar in mixing bowl. Cut in margarine with pastry blender until mixture resembles coarse meal. Sprinkle over rice mixture. Bake at 375 degrees F. for 15 to 20 minutes or until thoroughly heated. Serve warm.\n\nMicrowave instructions: Prepare as directed using microwave-proof baking dish. Cook uncovered on HIGH 4 to 5 minutes, rotating dish once during cooking time. Let stand 5 minutes. Serve warm.\n\nVariations: Use your choice of fresh fruit or combinations of fruit for blueberries, if desired.')
+  第 2 行: (270, "Bill's Bean Fudge", None, 48, '3 pounds', 10, 10, 60, 'The California Dry Bean Advisory Board', 'The addition of beans adds fiber to this chocolatey confection.', 'You may use any variety of cooked or canned (one 16 ounce can) beans. Melt together chocolate and butter. Mix in thoroughly drained and mashed beans, vanilla and sugar. Place in large, buttered, shallow cookie pan and refrigerate. Cut into 48 pieces. Makes 2 1/2 to 3 pounds of fudge.')
+  第 3 行: (293, 'Apricot Applesauce Cake', None, 12, '1 cake', 20, 40, 10, 'The California Apricot Advisory Board', 'A cake filled with wonderful flavor that goes together quickly and travels easily.', "Preheat oven to 350 degrees F.\n\nGrease a 12-cup bundt pan or tube pan. Combine flours, allspice and baking soda; set aside. In a large bowl, with mixer at low speed, cream sugar and shortening; beat in applesauce and eggs until fluffy. Add flour mixture; beat at medium speed 2 minutes, scraping bowl occasionally. Stir in apricots and almonds. Pour batter into pan and bake 35 to 40 minutes until top springs back when lightly touched with finger. Cool cake in pan 10 minutes; invert onto serving platter and dust lightly with confectioner's sugar.")
+  第 4 行: (299, 'Peach and Blueberry Crisp', None, 6, None, 60, 20, 5, 'USA Rice Council', 'Brown rice adds texture and fiber.', 'Combine rice, peaches, blueberries and 2 tablespoons sugar. Coat 6 individual custard cups or 1-1/2-quart baking dish with cooking spray. Place rice mixture in cups or baking dish; set aside. Combine bran, flour, walnuts, cinnamon and remaining 1/4 cup sugar in mixing bowl. Cut in margarine with pastry blender until mixture resembles coarse meal. Sprinkle over rice mixture. Bake at 375 degrees F. 15 to 20 minutes or until thoroughly heated. Serve warm.\n\nMicrowave instructions: Prepare as directed using microwave-proof baking dish. Cook uncovered on HIGH (100% power) 4 to 5 minutes, rotating dish once\nduring cooking time. Let stand 5 minutes. Serve warm.')
+  第 5 行: (573, 'Gingered Beef Stir Fry', None, 2, None, 20, 15, 0, 'USA Rice Council', None, 'Cut beef diagonally across grain into 1/8-inch slices. Heat oil in wok or medium skillet over medium-high heat. Add beef and seasonings and stir-fry until beef is browned. Add vegetables and stir-fry until vegetables are tender- crisp. Blend ginger, cornstarch, soy sauce, and 1 tablespoon water in small bowl; add to beef and cook, stirring, until sauce is thickened. Serve over rice.\n\nMicrowave Oven Instructions: Cut beef diagonally across grain into 1/8-inch slices. Combine beef, salt, pepper and oil in 1-quart baking dish. Cover with waxed paper and cook on HIGH 1 minute. Stir and cook an additional 1 to 2 minutes on HIGH. Remove beef and set aside. Add vegetables and cook on HIGH 2 to 3 minutes or until vegetables are tender crisp. Blend ginger, cornstarch, soy sauce and 1 teaspoon water in small bowl. Add beef and cornstarch mixture to vegetables. Cover and cook on HIGH power 1 minute; stir and cook 1 minute longer. Let stand 2 minutes. Serve over rice.')
+  第 6 行: (617, 'Asparagus Mushroom Frittata', None, 6, None, 10, 17, 0, 'The American Egg Board', None, 'In 10-inch omelet pan or skillet with oven-proof handle over medium heat, cover and cook asparagus, mushrooms and onions until onion is tender but not brown, about 5 minutes. Remove from heat. Set aside 8 asparagus spears and 8 mushroom slices. Cut remaining spears into thirds and return to pan. Stir in oil. Beat together eggs, cheese, lemon juice, dill weed and salt, if desired until blended. Pour over vegetables. Reduce heat to low. Cover and cook until eggs are almost set, about 7 minutes. Remove from heat. Uncover. Arrange reserved asparagus spears in spoke-fashion over eggs. Place reserved mushroom slices between asparagus spears. Broil 6 inches from heat until eggs are set, about 3 to 5 minutes. Garnish with dill sprigs if desired. Cut into wedges and serve from pan or slide from pan onto serving platter.\n\nNote: If part-skim ricotta is unavailable, use low-fat 1% cottage cheese.')
+  第 7 行: (622, 'Pear Waldorf Salad', None, 6, None, 10, 0, 0, 'The California Tree Fruit Agreement', None, 'Gently toss pears in lemon juice. Arrange pears, celery and cereal on bed of lettuce. Spoon yogurt over individual servings.')
+  第 8 行: (650, 'Lasagne-Spinach Spirals', None, 6, None, 30, 35, 0, 'The National Pasta Association', None, 'Drain spinach well, squeezing out excess juice. Prepare lasagne according to package directions. Rinse and drain. Place vegetable oil in a medium-sized nonstick skillet and heat over medium-high heat. Add onion and saute until tender. Mix in spinach. Set aside and cool slightly. In a large mixing bowl, combine spinach mixture, ricotta and Parmesan cheese, egg and spices. Spread spinach mixture equally on lasagne and roll up each piece jelly-roll style. Place half of the spaghetti sauce in a 13-by-9-by-2-inch baking dish. Place pasta spinach spirals, seam side down, in dish. Top with remaining spaghetti sauce and mozzarella cheese, if desired. Bake, uncovered, in a 350 degree oven until heated, about 25 minutes.')
+  第 9 行: (652, 'Party-Fare Pistachio Pasta', None, 8, None, 15, 7, 0, 'The California Pistachio Commission', 'Delicious served with chicken or scallops', 'Saute garlic and onion in oil or butter until onion is tender. Add remaining ingredients except cheese. Toss together; heat 2 minutes. Toss with Parmesan cheese.')
+  第 10 行: (669, 'Mixed Bean Salad', None, 8, None, 15, 3, 720, 'California Dry Bean Advisory Board', None, 'Drain all beans to a large bowl. \nThoroughly mix dry ingredients in a saucepan. Add 1/2 cup cold water; stir until smooth. Gradually stir in 1-1/2 cups boiling water. Boil, stirring 2 to 3 minutes until thick and clear. Blend in vinegar. (If sweet pickle vinegar runs short, add wine vinegar to make right measure.) \n\nAdd the dressing, hot or cold, to the beans and mix gently. Taste; add salt if needed. Cover and chill overnight or longer. At serving time drain off excess dressing, empty beans into deep platter, and garnish with lettuce, sliced tomatoes, and onion rings.')
+  第 11 行: (1037, 'Gourmet Chicken Bake', None, 6, None, 720, 75, 0, 'The National Broiler Council', "When company's coming or family celebrates.", 'Mix together seasoned salt, curry powder, savory and pepper; sprinkle over chicken. Place chicken in large bowl, pour buttermilk over chicken, cover and refrigerate overnight. In large shallow baking pan, arrange chicken in single layer. Pour buttermilk marinade over chicken and bake in 350 degrees F oven for 1 hour or until fork can be inserted in chicken with ease. Substituting 5 cups chicken broth for the water called for, cook rice according to package instructions. Cut asparagus 3 inches from tip and then cut remaining part in 1-inch pieces; place in small saucepan with remaining 1/2 cup chicken broth and cook over medium heat, covered, about 15 minutes. Set aside and do not drain. When chicken, rice and asparagus are tender, remove chicken from baking dish and mix together with pan juices, the rice, 1-inch pieces of asparagus and broth used in cooking asparagus. Arrange chicken over rice and place asparagus tips around the chicken. Sprinkle with toasted almonds and pimiento and return to 350 degrees F oven to heat through, about 15 minutes.')
+  第 12 行: (1052, 'Chicken Provencale', None, 4, None, 15, 11, 0, 'The Florida Tomato Committee', 'The orange peel, fennel and tomatoes give this dish an international flair. Serve with cooked rice.', 'Use fully ripe tomatoes. Core and coarsely chop, making about 3 cups; set aside. In a large skillet, melt butter over medium heat, add chicken and garlic and cook for 3 to 5 minutes until chicken is cooked. Using a slotted spoon remove chicken to plate. To skillet add reserved tomatoes, basil, orange peel, salt, fennel and black pepper. Cook and stir until tomatoes are softened, 3 to 5 minutes. Stir in scallions and chicken; cook only until hot, about 1 minute.')
+  第 13 行: (1079, 'Oriental Stir-Fry', None, 3, None, 10, 10, 0, 'USA Rice Council', 'Frozen vegetables and cooked rice make this a quick and easy one dish meal.', 'Purchase either Japanese or Chinese stir-fry vegetables with seasonings. Remove seasoning pouch from vegetable package; reserve. Heat oil in wok over medium-high heat; add chicken. Stir-fry until chicken loses pink color; push to one side of wok. Add vegetables. Do not add oil to vegetables as directed on package. Cover and cook 2 minutes, stirring once. Sprinkle vegetables with reserved seasonings; add water as directed. Cook and stir 30 seconds. Serve with fluffy rice.')
+  第 14 行: (1129, 'Shrimp Marinara Pasta', None, 2, None, 10, 25, 0, 'The National Fisheries Institute', None, 'Cook onion, green pepper and garlic in hot oil until tender in 1-quart skillet or soup pot. Add tomato sauce, tomato paste, water and seasonings. Cover and simmer for 15 minutes, stirring occasionally. Add shrimp. Cover and simmer for approximately 3 minutes longer or until shrimp are tender. Serve over cooked pasta.')
+  第 15 行: (1133, 'Oysters on Pasta', None, 6, None, 15, 25, 0, 'South Carolina Wildlife and Marine Resources Dept.', 'An easy pasta dish with oysters. Serve with salad and garlic bread.', 'Heat margarine and oil in a medium skillet. Add garlic and onion; saute lightly. Blend in tomato paste. Add water, wine, oregano, salt, pepper and sugar. Stir well and simmer for 5 minutes.\n\nMeanwhile, cook vermicelli pasta until desired doneness; drain.\n\nAdd oysters and their juice to skillet. Cook, stirring occasionally until edges of oysters ruffle. Stir in chopped parsley. Pour half of oyster mixture over pasta and toss. Serve remaining sauce over pasta, with grated Parmesan cheese on the side.')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Nutrition
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'protein', 'carbo', 'alcohol', 'total_fat', 'sat_fat', 'cholestrl', 'sodium', 'iron', 'vitamin_c', 'vitamin_a', 'fiber', 'pcnt_cal_carb', 'pcnt_cal_fat', 'pcnt_cal_prot', 'calories']
+表内容:
+  第 1 行: (258, 3.63, 36.6, 0.0, 8.97, 1.33, 0.0, 57.01, 1.69, 7.28, 235.86, 1.64, 60.58, 33.41, 6.01, 241.65)
+  第 2 行: (270, 0.81, 20.96, 0.0, 3.68, 2.2, 6.48, 39.36, 0.36, 0.07, 91.89, 0.23, 69.72, 27.58, 2.7, 120.23)
+  第 3 行: (293, 4.75, 34.13, 0.0, 13.75, 2.07, 35.42, 82.32, 1.33, 1.23, 999.32, 0.81, 48.89, 44.31, 6.8, 279.23)
+  第 4 行: (299, 4.25, 41.27, 0.0, 11.54, 1.72, 0.0, 75.25, 2.22, 6.21, 555.31, 1.71, 57.74, 36.32, 5.95, 285.91)
+  第 5 行: (573, 29.25, 37.96, 0.0, 10.73, 3.42, 64.75, 748.76, 5.15, 50.67, 853.61, 1.57, 41.56, 26.42, 32.02, 365.36)
+  第 6 行: (617, 12.78, 7.14, 0.0, 10.78, 3.25, 289.65, 114.85, 1.64, 19.51, 961.63, 0.67, 16.16, 54.91, 28.93, 176.7)
+  第 7 行: (622, 1.61, 17.83, 0.0, 0.41, 0.04, 0.17, 54.47, 0.52, 6.34, 259.08, 1.44, 87.56, 4.55, 7.89, 81.45)
+  第 8 行: (650, 17.8, 25.28, 0.0, 18.43, 6.48, 63.28, 1204.28, 3.84, 42.25, 9126.3, 1.93, 29.89, 49.05, 21.05, 338.2)
+  第 9 行: (652, 7.18, 24.42, 0.0, 9.46, 1.87, 3.28, 121.84, 2.0, 3.08, 168.23, 0.36, 46.18, 40.25, 13.57, 211.57)
+  第 10 行: (669, 16.23, 66.52, 0.0, 2.39, 0.29, 0.0, 357.12, 5.59, 8.06, 141.62, 4.9, 75.49, 6.09, 18.41, 352.45)
+  第 11 行: (1037, 35.14, 19.63, 0.0, 12.45, 3.91, 80.72, 2434.99, 2.57, 28.81, 935.85, 1.62, 23.71, 33.84, 42.45, 331.13)
+  第 12 行: (1052, 29.73, 7.95, 0.0, 6.67, 2.82, 85.02, 548.37, 1.93, 39.82, 1074.3, 1.25, 15.09, 28.48, 56.43, 210.71)
+  第 13 行: (1079, 23.82, 45.8, 0.0, 7.79, 1.21, 51.5, 410.25, 3.21, 20.73, 914.1, 1.04, 52.55, 20.11, 27.34, 348.58)
+  第 14 行: (1129, 33.79, 52.52, 0.0, 3.21, 0.62, 262.98, 985.45, 8.02, 42.96, 2539.98, 1.68, 56.14, 7.73, 36.12, 374.19)
+  第 15 行: (1133, 18.41, 40.37, 1.8, 13.91, 3.15, 88.9, 647.46, 11.91, 11.0, 550.99, 0.42, 43.31, 33.57, 19.74, 372.87)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: Quantity
+--------------------------------------------------------------------------------
+表头（列名）: ['quantity_id', 'recipe_id', 'ingredient_id', 'max_qty', 'min_qty', 'unit', 'preparation', 'optional']
+表内容:
+  第 1 行: (383, 258, 1684, 1.0, 1.0, 'teaspoon(s)', None, 'FALSE')
+  第 2 行: (489, 270, 363, 5.0, 5.0, 'ounce(s)', None, 'FALSE')
+  第 3 行: (732, 299, 2220, 3.0, 3.0, 'tablespoon(s)', None, 'FALSE')
+  第 4 行: (2201, 573, 3021, 0.13, 0.13, 'teaspoon(s)', None, 'FALSE')
+  第 5 行: (2631, 617, 1367, 1.0, 1.0, 'cup(s)', 'sliced', 'FALSE')
+  第 6 行: (2698, 650, 1985, 12.0, 12.0, 'piece(s)', 'uncooked', 'FALSE')
+  第 7 行: (2894, 622, 2019, 1.0, 1.0, 'tablespoon(s)', None, 'FALSE')
+  第 8 行: (3005, 652, 2282, 0.25, 0.25, 'cup(s)', 'chopped', 'FALSE')
+  第 9 行: (3380, 669, 3368, 0.67, 0.67, 'cup(s)', 'from sweet pickles', 'FALSE')
+  第 10 行: (3871, 1037, 638, 5.5, 5.5, 'cup(s)', 'divided', 'FALSE')
+  第 11 行: (4024, 1052, 1573, 0.75, 0.75, 'teaspoon(s)', 'crushed', 'FALSE')
+  第 12 行: (4262, 1079, 1509, 1.0, 1.0, '10 oz. package(s)', None, 'FALSE')
+  第 13 行: (5007, 1129, 526, 3.0, 3.0, 'ounce(s)', None, 'FALSE')
+  第 14 行: (5044, 1133, 1803, 1.5, 1.5, 'cup(s)', None, 'FALSE')
+  第 15 行: (5909, 293, 35, 0.5, 0.5, 'cup(s)', 'chopped', 'FALSE')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/cookbook/1.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Ingredient
+--------------------------------------------------------------------------------
+表头（列名）: ['ingredient_id', 'category', 'name', 'plural']
+表内容:
+  第 1 行: (282, 'meat/poultry', 'skinless boneless chicken breast', 's')
+  第 2 行: (307, 'salad dressings', 'bottled red wine vinegar dressing', None)
+  第 3 行: (374, 'dairy', 'butter or margarine', None)
+  第 4 行: (527, 'tomato sauces', 'canned tomato sauce', None)
+  第 5 行: (841, 'grains', 'cooked rice', None)
+  第 6 行: (1267, 'baking products', 'flour', None)
+  第 7 行: (1367, 'fresh vegetables', 'mushroom', 's')
+  第 8 行: (1524, 'frozen vegetables', 'frozen peas', None)
+  第 9 行: (1648, 'fresh vegetables', 'green onion', 's')
+  第 10 行: (2139, 'dairy', 'lowfat creamed cottage cheese', None)
+  第 11 行: (2196, 'dairy', 'plain lowfat yogurt', None)
+  第 12 行: (2282, 'fresh vegetables', 'onion', 's')
+  第 13 行: (2323, 'vinegars', 'white wine vinegar', None)
+  第 14 行: (3021, 'spices and seasonings', 'salt', None)
+  第 15 行: (3287, 'pasta/noodles', 'spaghetti', None)
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Recipe
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'title', 'subtitle', 'servings', 'yield_unit', 'prep_min', 'cook_min', 'stnd_min', 'source', 'intro', 'directions']
+表内容:
+  第 1 行: (222, 'Iced Raspberry Mousse', None, 6, None, 15, 5, 80, 'Produce for Better Health Foundation and 5 a Day', None, 'In saucepan or microwave-safe dish, sprinkle gelatin over water; let stand for 5 minutes to soften. Heat over low heat or microwave at medium (50% power) for 50 seconds or until gelatin has dissolved.\n \nIn food processor or blender, puree raspberries (if using unsweetened, add 1/4 cup sugar). Transfer to bowl and stir in gelatin mixture, yogurt and orange rind. Refrigerate until mixture begins to set or is the consistency of raw egg whites.\n \nIn large bowl, beat egg whites until soft peaks form. Gradually add sugar, beating until stiff peaks form. Whisk about 1/4 of beaten whites into raspberry mixture; fold in remaining whites.\n \nDivide among prepared parfait or sherbet glasses. Cover and refrigerate for at least 1 hour before serving. Garnish with raspberries, mint and flowers.')
+  第 2 行: (259, 'Cherry Yogurt Cheesecake', None, 8, '1 cake', 20, 5, 420, 'Northwest Cherry Growers', 'A lowfat cheesecake with all the flavor of the original.', 'Be sure to buy yogurt that does not contain added gelatin.\n \nDrain yogurt in strainer lined with coffee filter 6 hours or overnight. Combine cookie crumbs and butter; press into 9-inch springform pan. Set aside. Discard liquid from yogurt; stir in sugar substitute. Combine orange juice and gelatin; heat until gelatin dissolves. Stir into yogurt mixture. Fold in dessert topping and orange peel. Arrange cherries over bottom of crust. Pour yogurt mixture over cherries. Refrigerate until set.\n\nNote: To lower the fat content even more, use nonfat plain yogurt.')
+  第 3 行: (307, 'Blueberry Snack Bars', None, 16, '16 bars', 10, 55, 30, 'Texas Department of Agriculture', None, 'Preheat oven to 350 degrees F.\n \nMix 1 cup flour, the butter and powdered sugar until smooth. Spread over the bottom of an 8-inch square pan. Bake 20 to 25 minutes. Mix eggs, sugar, blueberries, coconut (if desired), remaining 1/4 cup flour, lemon juice, vanilla, baking powder, cinnamon and salt. Spread over top of baked cookie base. Bake 30 minutes. Cool. Cut into 2-inch bars.')
+  第 4 行: (465, 'Spinach Balls', None, 36, '36 balls', 10, 25, 0, 'New York State Department of Agriculture and Markets', 'An easy make ahead appetizer that can be microwaved.', 'Place package of spinach in microwave oven. Microwave on high 4 to 5 minutes or until defrosted. Drain, pressing out excess liquid. Mix spinach with remaining ingredients and shape into 1 inch balls. Microwave right away: 2 minutes on high; 4-6 minutes at 50% power. Or bake right away at 325 degrees F. for approximately 20 minutes. (Spinach balls may be frozen before baking, but no longer than 2 weeks.)')
+  第 5 行: (573, 'Gingered Beef Stir Fry', None, 2, None, 20, 15, 0, 'USA Rice Council', None, 'Cut beef diagonally across grain into 1/8-inch slices. Heat oil in wok or medium skillet over medium-high heat. Add beef and seasonings and stir-fry until beef is browned. Add vegetables and stir-fry until vegetables are tender- crisp. Blend ginger, cornstarch, soy sauce, and 1 tablespoon water in small bowl; add to beef and cook, stirring, until sauce is thickened. Serve over rice.\n\nMicrowave Oven Instructions: Cut beef diagonally across grain into 1/8-inch slices. Combine beef, salt, pepper and oil in 1-quart baking dish. Cover with waxed paper and cook on HIGH 1 minute. Stir and cook an additional 1 to 2 minutes on HIGH. Remove beef and set aside. Add vegetables and cook on HIGH 2 to 3 minutes or until vegetables are tender crisp. Blend ginger, cornstarch, soy sauce and 1 teaspoon water in small bowl. Add beef and cornstarch mixture to vegetables. Cover and cook on HIGH power 1 minute; stir and cook 1 minute longer. Let stand 2 minutes. Serve over rice.')
+  第 6 行: (600, 'Sweet and Sour Cherry Ham Salad', None, 8, None, 30, 0, 60, 'Northwest Cherry Growers', None, 'Fill salad bowl half full with torn salad greens. Arrange cherries, ham, celery, green onions, green pepper, cashews and water chestnuts on top. Refrigerate. Serve with dressing.')
+  第 7 行: (685, 'Tofu Baked Ziti', None, 6, None, 15, 45, 0, 'The American Cancer Society', None, 'Preheat oven to 350 degrees F. Prepare sauce: in medium-size saucepan over medium-high heat, cook onion and garlic in vegetable oil 2-3 minutes. Add tomato sauces, 1 Tablespoon parsley and oregano. Bring to a boil; reduce heat, cover and simmer 15 minutes. Meanwhile, cook ziti according to package directions, omitting salt. While ziti is cooking, puree tofu with egg white in food processor or blender container. Place in large bowl. Add spinach, remaining tablespoon parsley, nutmeg and pepper. Blend well. Drain ziti and add to tofu mixture; blend well. Place 1/4 sauce in bottom of 2-quart casserole. Add 1/3 tofu-ziti mixture spreading with large spoon or spatula. Continue making layers of sauce and tofu-ziti mixture, ending with sauce. Top with grated cheese. Cover and bake 30 minutes.')
+  第 8 行: (693, 'Pistachio Pasta Salad Florentine', None, 4, '8 cups', 10, 15, 0, 'The California Pistachio Commission', None, 'Thaw peas quickly by placing in a sieve and rinsing with hot water. Drop pasta into boiling water; return to boil. Cook 10 to 15 minutes or until tender. Drain. Toss pasta, spinach, tomatoes, peas, pistachios and dressing (see below) in large bowl.\n \nDressing: Combine 2 Tablespoons honey, 2-1/2 Tablespoon dijon mustard, 3 tablespoons red wine vinegar, 1 egg white, 1-1/2 teaspoons dried oregano (crumbled) and 1/2 teaspoon garlic powder.\n \nNotes: Suggested pasta: penne, mostaccioli, rigatoni.')
+  第 9 行: (699, 'Stuffed Baked Potato', None, 4, None, 15, 60, 0, 'Produce for Better Health Foundation and 5 a Day', None, 'Preheat oven to 425 degrees F. Wash and dry potatoes. Prick skins with a fork. Bake potatoes until tender--50 to 60 minutes. (Potatoes may be baked in a microwave oven. Use directions that came with your oven). Beat cottage cheese until smooth. Slice tops off potatoes; scoop out insides of potatoes and add to cottage cheese. Add milk and seasonings; beat until well blended. Put stuffing back into potato and eat.')
+  第 10 行: (702, 'Fresh Tomato and Red Pepper Sauce', None, 4, '4 cups', 10, 20, 0, 'The Florida Tomato Committee', 'This versatile sauce is high in Vitamins A and C. It tastes delicious, too.', 'Use tomatoes held at room temperature until fully ripe. (2 pounds tomatoes equals 5 large fresh tomatoes.) Core and chop tomatoes (makes about 6-1/2 cups); set aside. In a large skillet heat oil until hot. Add red peppers, onion and garlic; cook and stir occasionally until softened, about 5 minutes. Stir in salt, oregano, sugar, black pepper and reserved tomatoes; simmer, covered, until tomatoes are softened about 7 minutes. Increase heat; boil, uncovered, until sauce is thickened about 5 minutes. Stir in parsley. Serve over hot cooked spaghetti.')
+  第 11 行: (1052, 'Chicken Provencale', None, 4, None, 15, 11, 0, 'The Florida Tomato Committee', 'The orange peel, fennel and tomatoes give this dish an international flair. Serve with cooked rice.', 'Use fully ripe tomatoes. Core and coarsely chop, making about 3 cups; set aside. In a large skillet, melt butter over medium heat, add chicken and garlic and cook for 3 to 5 minutes until chicken is cooked. Using a slotted spoon remove chicken to plate. To skillet add reserved tomatoes, basil, orange peel, salt, fennel and black pepper. Cook and stir until tomatoes are softened, 3 to 5 minutes. Stir in scallions and chicken; cook only until hot, about 1 minute.')
+  第 12 行: (1139, 'Gulf Coast Stir-Fry', None, 6, None, 20, 17, 0, 'USA Rice Council', None, 'Heat oil with garlic in large skillet or wok over high heat. Add onion, pepper, mushrooms, snow peas, and water chestnuts; stir-fry until vegetables are tender crisp. Blend broth with soy sauce and cornstarch. Stir in crawfish (about 2 1/2 cups) and broth mixture. Cook until sauce is thickened and bubbly. Serve over hot rice. Serve with soy sauce, if desired.\n\nIf crawfish is unavailable you may substitute medium peeled, deveined shrimp.')
+  第 13 行: (1163, 'Shrimp Fried Rice', None, 4, None, 10, 10, 0, 'USA Rice Council', 'Chilled leftover rice finds a new use in fried rice. It goes great with any stir fry dish.', 'Heat oil in large skillet or wok over medium-high heat. Add mushrooms onions and ginger; stir-fry 1 minute. Push vegetables aside; pour egg into skillet and scramble. Stir in rice, gently separating grains. Add shrimp and soy sauce; stir until thoroughly heated.')
+  第 14 行: (1191, 'Basil Baked Cod Fillets', None, 2, None, 15, 15, 0, 'The National Fisheries Institute', None, 'Use firm white fish such as cod, haddock, lingcod or orange roughy fillet. \n\nPat fish dry and cut into 2 serving pieces. Combine oil and lemon juice in a baking dish. Add fish and turn to coat both sides. Sprinkle with basil, pepper and salt. Overlap tomato slices in even layer on fish and sprinkle with Parmesan cheese. Cover with foil and bake at 400 degrees F. about 10 to 15 minutes or until fish begins to flake when tested with a fork.')
+  第 15 行: (1208, 'Long Island Fisherman Stew', None, 12, None, 25, 35, 0, 'New York State Department of Agriculture and Markets', None, 'Cut fish into 1-inch cubes. In a large saucepan melt margarine. Add onion and garlic and cook until vegetables are tender. Add tomatoes, water, basil, thyme, red pepper, salt pumpkin and corn. Cover and bring to a boil; simmer for 10 to 15 minutes or until pumpkin and corn are done. Add fish and continue to cook for 5 to 10 minutes or until fish flakes easily when tested with a fork.')
+  第 16 行: (1393, 'Hazelnut Bleu Cheese Dressing', None, 8, None, 15, 0, 0, 'Hazelnut Marketing Board', 'Great on green salads, fruit salads, beef dinner salads and baked potatoes.', 'Combine buttermilk, eggs, vinegar, garlic, salt and both peppers in a blender or mixer bowl. Blend until well mixed, then slowly add olive oil. Once emulsified and creamy, reduce speed to low and add bleu cheese, hazelnuts, parsley and lemon rind. When thoroughly mixed, dressing is ready to serve. Refrigerate any unused dressing.')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Nutrition
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'protein', 'carbo', 'alcohol', 'total_fat', 'sat_fat', 'cholestrl', 'sodium', 'iron', 'vitamin_c', 'vitamin_a', 'fiber', 'pcnt_cal_carb', 'pcnt_cal_fat', 'pcnt_cal_prot', 'calories']
+表内容:
+  第 1 行: (222, 5.76, 37.4, 0.0, 0.56, 0.29, 1.73, 50.34, 0.52, 12.51, 72.77, 1.58, 84.21, 2.83, 12.96, 177.64)
+  第 2 行: (259, 6.38, 36.47, 0.0, 10.83, 3.96, 22.94, 111.17, 1.1, 5.25, 277.22, 0.24, 54.25, 36.26, 9.48, 268.92)
+  第 3 行: (307, 1.92, 23.41, 0.0, 6.52, 3.79, 42.1, 114.9, 0.29, 1.65, 266.36, 0.17, 58.53, 36.68, 4.8, 159.97)
+  第 4 行: (465, 1.31, 0.96, 0.0, 0.95, 0.54, 8.37, 57.7, 0.22, 1.93, 643.17, 0.08, 21.81, 48.44, 29.75, 17.59)
+  第 5 行: (573, 29.25, 37.96, 0.0, 10.73, 3.42, 64.75, 748.76, 5.15, 50.67, 853.61, 1.57, 41.56, 26.42, 32.02, 365.36)
+  第 6 行: (600, 6.87, 14.32, 0.0, 7.94, 1.58, 10.84, 407.02, 2.17, 32.86, 5985.29, 1.18, 36.67, 45.73, 17.6, 156.24)
+  第 7 行: (685, 16.2, 41.44, 0.0, 6.11, 1.59, 6.3, 298.13, 6.45, 28.59, 4996.93, 2.55, 58.05, 19.26, 22.7, 285.55)
+  第 8 行: (693, 14.13, 49.96, 1.01, 9.97, 1.32, 31.1, 353.55, 5.03, 42.25, 2929.74, 2.55, 56.59, 25.4, 16.01, 353.16)
+  第 9 行: (699, 9.01, 52.89, 0.0, 0.81, 0.42, 2.58, 137.04, 2.93, 28.0, 366.04, 1.43, 82.99, 2.86, 14.15, 254.92)
+  第 10 行: (702, 10.7, 63.54, 0.0, 8.86, 1.08, 0.0, 762.34, 4.24, 174.66, 4843.79, 2.55, 67.46, 21.18, 11.36, 376.73)
+  第 11 行: (1052, 29.73, 7.95, 0.0, 6.67, 2.82, 85.02, 548.37, 1.93, 39.82, 1074.3, 1.25, 15.09, 28.48, 56.43, 210.71)
+  第 12 行: (1139, 17.6, 44.93, 0.0, 3.79, 0.53, 100.73, 625.73, 3.41, 30.51, 158.91, 1.38, 63.23, 12.0, 24.77, 284.23)
+  第 13 行: (1163, 15.71, 31.43, 0.0, 5.52, 1.0, 155.5, 392.57, 3.73, 3.34, 226.4, 0.31, 52.77, 20.86, 26.38, 238.24)
+  第 14 行: (1191, 20.9, 3.38, 0.0, 3.83, 0.87, 48.5, 256.44, 0.85, 13.98, 459.07, 0.45, 10.26, 26.21, 63.52, 131.57)
+  第 15 行: (1208, 14.95, 12.08, 0.0, 1.87, 0.34, 31.24, 375.44, 1.43, 18.0, 1237.41, 1.06, 38.67, 13.45, 47.88, 124.93)
+  第 16 行: (1393, 3.07, 1.38, 0.0, 45.09, 6.72, 56.05, 218.6, 0.49, 0.34, 122.75, 0.15, 1.3, 95.8, 2.9, 423.62)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: Quantity
+--------------------------------------------------------------------------------
+表头（列名）: ['quantity_id', 'recipe_id', 'ingredient_id', 'max_qty', 'min_qty', 'unit', 'preparation', 'optional']
+表内容:
+  第 1 行: (64, 222, 2196, 0.75, 0.75, 'cup(s)', 'plain', 'FALSE')
+  第 2 行: (387, 259, 374, 2.0, 2.0, 'tablespoon(s)', 'melted', 'FALSE')
+  第 3 行: (791, 307, 1267, 1.25, 1.25, 'cup(s)', 'divided', 'FALSE')
+  第 4 行: (1216, 465, 2282, 1.0, 1.0, 'tablespoon(s)', 'grated', 'FALSE')
+  第 5 行: (2211, 573, 841, 1.0, 1.0, 'cup(s)', 'hot', 'FALSE')
+  第 6 行: (2479, 600, 307, 0.25, 0.25, 'cup(s)', None, 'FALSE')
+  第 7 行: (2801, 699, 2139, 0.5, 0.5, 'cup(s)', None, 'FALSE')
+  第 8 行: (2856, 685, 527, 8.0, 8.0, 'ounce(s)', None, 'FALSE')
+  第 9 行: (3148, 693, 1524, 1.5, 1.5, 'cup(s)', 'thawed', 'FALSE')
+  第 10 行: (3610, 702, 3287, 8.0, 8.0, 'ounce(s)', 'cooked', 'FALSE')
+  第 11 行: (4023, 1052, 282, 1.0, 1.0, 'pound(s)', 'in 1/2-inch slices', 'FALSE')
+  第 12 行: (5101, 1139, 1367, 1.0, 1.0, 'cup(s)', 'sliced', 'FALSE')
+  第 13 行: (5346, 1163, 1648, 0.33, 0.33, 'cup(s)', 'sliced, include tops', 'FALSE')
+  第 14 行: (5606, 1191, 3021, 1.0, 1.0, 'dash(es)', None, 'FALSE')
+  第 15 行: (5764, 1208, 2282, 1.0, 1.0, 'cup(s)', 'chopped', 'FALSE')
+  第 16 行: (6338, 1393, 2323, 2.0, 2.0, 'teaspoon(s)', None, 'FALSE')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/cookbook/2.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Ingredient
+--------------------------------------------------------------------------------
+表头（列名）: ['ingredient_id', 'category', 'name', 'plural']
+表内容:
+  第 1 行: (74, 'canned/bottled fruit', 'apricots in light syrup', None)
+  第 2 行: (125, 'baking products', 'baking powder', None)
+  第 3 行: (196, 'alcoholic beverages', 'beer', None)
+  第 4 行: (289, 'meat/poultry', 'whole boneless turkey', None)
+  第 5 行: (718, 'fresh herbs', 'fresh parsley', None)
+  第 6 行: (1577, 'spices and seasonings', 'garlic powder', None)
+  第 7 行: (2019, 'fruit juices', 'lemon juice', None)
+  第 8 行: (2270, 'fresh vegetables', 'garlic', None)
+  第 9 行: (2282, 'fresh vegetables', 'onion', 's')
+  第 10 行: (2454, 'frozen fruit', 'orange juice', None)
+  第 11 行: (2735, 'condiments/sauces', 'prepared horseradish', None)
+  第 12 行: (3283, 'Oriental products', 'soy sauce', None)
+  第 13 行: (3640, 'nuts and seeds', 'walnuts', None)
+  第 14 行: (3649, 'beverages', 'water', None)
+  第 15 行: (3901, 'Oriental noodles', 'Oriental noodles, beef flavor', None)
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Recipe
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'title', 'subtitle', 'servings', 'yield_unit', 'prep_min', 'cook_min', 'stnd_min', 'source', 'intro', 'directions']
+表内容:
+  第 1 行: (234, 'Apricot Meringue Tart', None, 4, None, 15, 35, 60, 'California Apricot Advisory Board', None, 'Preheat oven to 450 degrees F. Whip egg white with salt until soft peaks form. Add almond extract and continue beating until stiff. Spread evenly into a greased tart or pie pan; bake 10 minutes or until golden. Remove from oven and reduce oven temperature to 350 degrees F. Place 8 apricot halves cut side down on meringue. Brush apricots with egg yolk and sprinkle with almonds. Bake 20 minutes longer.\n\nMash remaining apricot halves and combine with nectar, cornstarch and nutmeg in a small saucepan; cook stirring occasionally until thickened.\nPour glaze evenly over tart and chill 1 hour.')
+  第 2 行: (292, 'Peach Oatmeal Cookies', None, 12, '3 dozen', 20, 15, 10, 'The California Tree Fruit Agreement', None, 'Beat eggs with vanilla extract, margarine and sugars in mixing bowl. Combine flour, salt and baking powder. Add to egg mixture and beat at low speed 2 or 3 minutes or until smooth. Stir in oats, peaches and raisins. Chill. Drop by tablespoon onto nonstick baking sheet. Bake in 350 degree F. oven 10 to 15 minutes or until golden.')
+  第 3 行: (478, 'Cream of Broccoli Soup', None, 4, '4 cups', 5, 30, 0, 'The American Cancer Society', None, 'Saute onion in margarine over high heat in saucepan, about 3 minutes, or until soft. Add flour and cook stirring constantly, 1 minute. Gradually add chicken broth, stirring until well blended. Add broccoli, tarragon, garlic powder, thyme and black pepper. Bring to a boil. Reduce heat, cover and simmer 15 minutes or until broccoli is tender. Add milk and simmer uncovered, 5 minutes. Add 1/4 at a time to blender container and blend at medium speed until smooth. Return to saucepan and simmer till heated through.')
+  第 4 行: (530, 'Mandarin Lamb with Oriental Noodles', None, 4, None, 10, 15, 0, 'American Lamb Council', None, 'Heat oil and garlic to medium-high heat in large skillet or wok. Add lamb and stir fry about 3 minutes or until no longer pink; remove from skillet and set aside. Break up noodles, and place noodles, 1 cup water, flavor packet and vegetables in skillet. Bring to a boil; reduce heat. Cover and simmer 3 to 5 minutes or until vegetables are crisp tender. Stir in cooked lamb, sweet and sour sauce, and oranges. Heat through. Top with almonds or peanuts to serve.')
+  第 5 行: (532, 'Stir Fry Vegetables', None, 4, None, 20, 65, 0, 'New York State Department of Agriculture and Markets', None, "Brown stew meat, simmer for one hour until tender, drain and set aside. \n\nMix cornstarch, ginger, garlic powder, soy sauce and water in glass measuring cup and set aside. \n\nHeat oil in large frying pan with lid. When oil is hot, add dry carrots, onions and celery. \n\nCook for one minute, stirring constantly. \n\nThen add the broccoli and cook for 2 minutes. Stir constantly, broccoli will turn bright green. \n\nAdd the liquid and continue cooking for one minute or until it's bubbly. \n\nAdd the bean sprouts, French green beans, mushrooms, water chestnuts and cooked stew meat. \n\nReduce heat, cover pan and cook for 2 more minutes. This recipe may also be served with rice or Chinese noodles.")
+  第 6 行: (630, 'Rice Primavera', None, 6, None, 10, 15, 0, 'USA Rice Council', None, 'Heat garlic with oil in large skillet over medium-high heat; discard garlic. Cook broccoli, zucchini, and mushrooms in oil until almost tender crisp. Add tomatoes and parsley; cook one minute longer. Remove vegetables; set aside. Place mayonnaise in same skillet; stir in milk cheese and pepper. Cook over medium heat, stirring until smooth. Add rice; toss to coat. Stir in reserved vegetables; heat through. Serve immediately.')
+  第 7 行: (654, 'Squash Stuffed with Rice', None, 8, None, 10, 50, 0, 'Produce for Better Health Foundation and 5 a Day', None, 'Preheat oven 350 degrees F. Halve and seed the squash. Combine rice, walnuts, cracker meal, onion, egg whites, sage, nutmeg, parsley, brown sugar and black pepper. Spoon mixture loosely into squash halves. Bake in foil-covered pan until squash is tender, about 60 minutes.')
+  第 8 行: (818, '-Whole Hominy-', None, 4, None, 720, 180, 0, None, None, 'Soak overnight. Simmer for 2 1/2 to 3 hours.')
+  第 9 行: (890, '-Prepared Horseradish-', None, 4, None, 2, 0, 0, None, None, None)
+  第 10 行: (1033, 'Apple-Stuffed Turkey Tenderloins', None, 6, None, 20, 40, 0, 'The National Turkey Federation', None, 'In small saucepan combine apple, orange juice, jellied cranberry sauce and marmalade. Cook until apple is soft but holds its shape. Rinse tenderloins and pat dry. Slice them lengthwise, not all the way through, to form a pocket. Spoon some of the apple mixture into the pocket. Secure cut edges with toothpick or skewer pin. Dip tenderloins in beaten egg, and dredge in crumbs. Place them in a casserole dish so that they do not touch. Bake 25 to 35 minutes at 350 degrees F. Heat remaining fruit mixture and serve over tenderloins.\n\nNote: Use 3 turkey tenderloins of approximately the same size.')
+  第 11 行: (1082, 'Chicken Pocket Sandwich', None, 10, None, 20, 0, 0, 'The California Tree Fruit Agreement', None, 'Combine all ingredients except bread and lettuce. Cut each pita bread in half; line with lettuce leaves; spoon mixture into pita pockets.')
+  第 12 行: (1085, 'Brown Rice Chicken Bake', None, 6, None, 10, 20, 0, 'USA Rice Council', 'Leftover chicken and rice combine for another sensational meal.', 'Combine rice, peas, chicken, mayonnaise, almonds, soy sauce, garlic powder and tarragon in bowl. Transfer to 3-quart baking dish coated with cooking spray. Cover and bake at 350 degrees F. 15 to 20 minutes.')
+  第 13 行: (1088, 'Chicken Mushroom Soup', None, 6, None, 15, 50, 0, 'The National Broiler Council', 'An easy to prepare soup with light, clear flavors, perfect for a light lunch or the first course at dinner.', 'In large Dutch oven, place chicken breasts. Add water, celery, onion, salt pepper and bay leaves. Bring to a boil over high temperature; reduce heat to low and simmer, covered, about 30 minutes. Remove chicken and bay leaves; skim off fat from broth. Add carrots and macaroni rosettes and return to a boil. Lower heat and simmer about 10 minutes or until rosettes are tender. Remove skin and bones from chicken and discard; chop chicken into bite-size pieces. Add chicken, mushrooms and parsley to Dutch oven and cook until mushrooms are done, about 5 minutes.')
+  第 14 行: (1098, 'Tipsy Turkey Stew', None, 6, None, 15, 60, 0, 'The National Turkey Federation', 'Serve with boiled potatoes or over noodles.', 'Instead of using a boneless turkey roast you may substitute skinned and boned turkey thighs, cut into 1 1/2-inch cubes. \n\nHeat margarine in wide pot over medium-high heat. Brown turkey pieces quickly on all sides, processing in batches, if necessary so that there is only a single layer in pot. Add a little more margarine, if necessary, to prevent sticking. Remove and reserve. Add garlic to pan and stir. Add onions and stir until golden. Add all spices, except sugar, and beer. Simmer over low heat for 20 minutes. Combine flour and water and slowly add to hot mixture, stirring constantly. Cook until sauce is thickened. Add carrots, sugar and browned turkey cubes. Bring to boil and simmer for 10 minutes or until carrots are tender and turkey is cooked through. Adjust seasonings to taste.')
+  第 15 行: (1119, 'Sonoma Turkey and Vegetables', None, 12, None, 15, 135, 0, 'The California Poultry Industry Federation', 'A hearty turkey and vegetable one dish meal that is great for a crowd.', 'Heat oil in a large Dutch oven; brown turkey on all sides. Add wine, broth and rosemary; reduce heat. Simmer 1 1/2 hours, covered. Add remaining ingredients and cook 15 minutes more. Remove turkey and vegetables from cooking liquid; keep warm. Bring liquid to boil; cook until slightly thickened, about 15 minutes more. Serve sauce with sliced turkey and vegetables.\n \nNote: If fresh rosemary is unavailable, substitute 1 tsp. dried. \nA standard wine bottle is 750 milliliters.')
+  第 16 行: (1162, 'Smoky Broiled Catfish', None, 4, None, 5, 6, 0, 'The Catfish Institute', 'Fish with an outdoor taste, cooked indoors.', 'In small bowl, combine soy sauce, lemon juice, garlic powder and liquid\nwoodsmoke flavoring. Preheat broiler pan for 5 minutes. Coat pan with\nshortening spray. Place catfish on broiler pan. Brush with mixture. Broil 3 inches from heat for 4-6 minutes, basting occasionally until catfish flakes easily.')
+  第 17 行: (1350, 'Fruit and Green Salad', None, 2, None, 10, 0, 0, ' The Sugar Association, Inc. ', None, 'In small bowl mix yogurt, lemon juice and sugar. In salad bowl toss lettuce, orange and apple. Pour dressing over and top with nuts.')
+  第 18 行: (1396, 'Athena Dressing', None, 6, None, 5, 0, 0, 'Sun-Diamond Growers of California', 'Delicious for Greek salads.', 'Combine all ingredients; blend well.')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Nutrition
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'protein', 'carbo', 'alcohol', 'total_fat', 'sat_fat', 'cholestrl', 'sodium', 'iron', 'vitamin_c', 'vitamin_a', 'fiber', 'pcnt_cal_carb', 'pcnt_cal_fat', 'pcnt_cal_prot', 'calories']
+表内容:
+  第 1 行: (234, 3.1, 22.4, 0.0, 3.65, 0.63, 51.24, 93.63, 0.81, 11.63, 1786.28, 0.62, 66.44, 24.36, 9.2, 134.82)
+  第 2 行: (292, 6.47, 54.97, 0.0, 12.41, 2.26, 35.42, 387.74, 1.97, 1.85, 601.68, 2.41, 61.52, 31.24, 7.24, 357.47)
+  第 3 行: (478, 5.4, 10.55, 0.0, 3.51, 0.68, 1.1, 103.79, 1.1, 41.93, 1720.89, 0.97, 44.25, 33.1, 22.66, 95.4)
+  第 4 行: (530, 26.95, 27.27, 0.0, 15.3, 4.07, 75.83, 368.27, 2.15, 33.06, 5996.8, 0.64, 30.77, 38.83, 30.4, 354.57)
+  第 5 行: (532, 14.52, 11.3, 0.0, 12.79, 4.2, 42.17, 150.24, 2.49, 49.99, 5966.81, 1.41, 20.7, 52.7, 26.6, 218.38)
+  第 6 行: (630, 6.37, 36.78, 0.0, 5.69, 1.48, 6.56, 159.3, 2.31, 37.67, 853.77, 0.79, 65.74, 22.88, 11.39, 223.78)
+  第 7 行: (654, 4.73, 36.52, 0.0, 4.98, 0.52, 0.0, 20.87, 2.08, 20.06, 586.46, 2.83, 69.63, 21.36, 9.01, 209.81)
+  第 8 行: (818, 0.3, 2.85, 0.0, 0.18, 0.02, 0.0, 332.69, 0.13, 0.0, 0.0, 0.09, 80.47, 11.17, 8.35, 14.18)
+  第 9 行: (890, 0.2, 1.44, 0.0, 0.03, 0.0, 0.0, 14.4, 0.14, 0.0, 0.0, 0.14, 84.58, 3.96, 11.45, 6.81)
+  第 10 行: (1033, 28.45, 21.46, 0.0, 5.57, 1.77, 104.49, 138.28, 2.26, 12.44, 346.92, 0.76, 34.36, 20.08, 45.56, 249.79)
+  第 11 行: (1082, 12.5, 14.36, 0.0, 5.54, 0.89, 22.69, 140.2, 0.7, 2.13, 93.66, 0.31, 36.52, 31.71, 31.77, 157.31)
+  第 12 行: (1085, 12.09, 32.95, 0.0, 7.7, 1.52, 24.96, 284.84, 1.59, 8.52, 369.26, 1.3, 52.84, 27.78, 19.38, 249.47)
+  第 13 行: (1088, 21.23, 14.02, 0.0, 5.25, 1.44, 52.86, 861.13, 1.98, 6.58, 5336.52, 0.89, 29.79, 25.1, 45.11, 188.21)
+  第 14 行: (1098, 37.59, 15.95, 2.14, 9.21, 2.13, 118.75, 181.21, 3.35, 5.77, 10322.32, 0.95, 20.44, 26.57, 48.19, 312.08)
+  第 15 行: (1119, 49.69, 16.17, 5.7, 20.64, 5.35, 139.73, 380.94, 4.9, 10.94, 6279.07, 1.18, 13.23, 37.98, 40.64, 489.11)
+  第 16 行: (1162, 22.62, 2.3, 0.0, 3.39, 0.88, 85.32, 830.86, 0.69, 2.7, 60.8, 0.0, 7.06, 23.45, 69.49, 130.24)
+  第 17 行: (1350, 1.91, 27.01, 0.0, 1.76, 0.45, 1.8, 10.54, 0.5, 43.47, 345.4, 2.56, 82.17, 12.02, 5.81, 131.51)
+  第 18 行: (1396, 0.18, 0.57, 0.9, 18.13, 2.44, 0.0, 31.89, 0.22, 0.16, 8.66, 0.05, 1.32, 94.6, 0.42, 172.43)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: Quantity
+--------------------------------------------------------------------------------
+表头（列名）: ['quantity_id', 'recipe_id', 'ingredient_id', 'max_qty', 'min_qty', 'unit', 'preparation', 'optional']
+表内容:
+  第 1 行: (169, 234, 74, 1.0, 1.0, '16 oz. can(s)', 'drained, rinsed, separated', 'FALSE')
+  第 2 行: (663, 292, 125, 2.0, 2.0, 'teaspoon(s)', None, 'FALSE')
+  第 3 行: (1308, 478, 1577, 0.25, 0.25, 'teaspoon(s)', None, 'FALSE')
+  第 4 行: (1734, 530, 3901, 3.0, 3.0, 'ounce(s)', None, 'FALSE')
+  第 5 行: (1760, 532, 2282, 0.33, 0.33, 'cup(s)', 'sliced thin', 'FALSE')
+  第 6 行: (2925, 630, 718, 0.25, 0.25, 'cup(s)', 'snipped', 'FALSE')
+  第 7 行: (3357, 654, 718, 1.0, 1.0, 'tablespoon(s)', 'chopped', 'FALSE')
+  第 8 行: (3827, 1033, 2454, 0.5, 0.5, 'cup(s)', None, 'FALSE')
+  第 9 行: (4287, 1082, 2019, 1.0, 1.0, 'tablespoon(s)', None, 'FALSE')
+  第 10 行: (4312, 1085, 3283, 2.0, 2.0, 'teaspoon(s)', None, 'FALSE')
+  第 11 行: (4349, 1088, 718, 1.0, 1.0, 'tablespoon(s)', 'chopped', 'FALSE')
+  第 12 行: (4448, 1098, 196, 12.0, 12.0, 'fl. ounce(s)', None, 'FALSE')
+  第 13 行: (4766, 818, 3649, 1.5, 1.5, 'cup(s)', None, 'FALSE')
+  第 14 行: (4853, 890, 2735, 4.0, 4.0, 'tablespoon(s)', None, 'FALSE')
+  第 15 行: (5339, 1162, 3283, 3.0, 3.0, 'tablespoon(s)', None, 'FALSE')
+  第 16 行: (5985, 1350, 3640, 1.0, 1.0, 'teaspoon(s)', None, 'FALSE')
+  第 17 行: (6189, 1396, 2270, 1.0, 1.0, 'clove(s)', 'minced', 'FALSE')
+  第 18 行: (6349, 1119, 289, 6.0, 6.0, 'pound(s)', None, 'FALSE')
+  第 19 行: (6361, None, None, None, None, None, None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/cookbook/3.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Ingredient
+--------------------------------------------------------------------------------
+表头（列名）: ['ingredient_id', 'category', 'name', 'plural']
+表内容:
+  第 1 行: (236, 'cheese', 'blue cheese', None)
+  第 2 行: (251, 'fresh vegetables', 'bok choy', None)
+  第 3 行: (554, 'condiments/sauces', 'capers', None)
+  第 4 行: (679, 'condiments/sauces', 'chili sauce', None)
+  第 5 行: (889, 'baking products', 'cornstarch', None)
+  第 6 行: (1339, 'spices and seasonings', 'fresh ground black pepper', None)
+  第 7 行: (1363, 'fresh fruit', 'fresh Northwest sweet cherries', None)
+  第 8 行: (1780, 'sweeteners', 'honey', None)
+  第 9 行: (2426, 'nuts and seeds', 'nuts', None)
+  第 10 行: (2523, 'cheese', 'Parmesan cheese', None)
+  第 11 行: (2880, 'alcoholic beverages', 'red wine', None)
+  第 12 行: (2947, 'spices and seasonings', 'rock or table salt', None)
+  第 13 行: (3021, 'spices and seasonings', 'salt', None)
+  第 14 行: (3283, 'Oriental products', 'soy sauce', None)
+  第 15 行: (3334, 'baking products', 'sugar', None)
+  第 16 行: (3480, 'fresh vegetables', 'tomato', 'es')
+  第 17 行: (4289, 'dairy', 'plain nonfat yogurt', None)
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Recipe
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'title', 'subtitle', 'servings', 'yield_unit', 'prep_min', 'cook_min', 'stnd_min', 'source', 'intro', 'directions']
+表内容:
+  第 1 行: (259, 'Cherry Yogurt Cheesecake', None, 8, '1 cake', 20, 5, 420, 'Northwest Cherry Growers', 'A lowfat cheesecake with all the flavor of the original.', 'Be sure to buy yogurt that does not contain added gelatin.\n \nDrain yogurt in strainer lined with coffee filter 6 hours or overnight. Combine cookie crumbs and butter; press into 9-inch springform pan. Set aside. Discard liquid from yogurt; stir in sugar substitute. Combine orange juice and gelatin; heat until gelatin dissolves. Stir into yogurt mixture. Fold in dessert topping and orange peel. Arrange cherries over bottom of crust. Pour yogurt mixture over cherries. Refrigerate until set.\n\nNote: To lower the fat content even more, use nonfat plain yogurt.')
+  第 2 行: (298, 'Fresh Apricot Ice Cream', None, 16, '2 quarts', 15, 15, 240, 'The California Apricot Advisory Board', 'This no cholesterol ice cream is amazingly apricot-creamy with only 90 calories per serving.', 'Combine skim milk and gelatin in large saucepan. Heat, stirring often until gelatin dissolves. Add sugar and heat until it dissolves. Using a wire whip, stir in apricots, apricot nectar, yogurt and vanilla. Pour mixture into canister of ice cream maker and assemble the machine. Make alternate layers of ice and salt (use whatever type your machine calls for) around the canister. Churn 20 to 30 minutes or until softly frozen. Pack into containers and freeze. For the best flavor, let ice cream soften slightly before serving.')
+  第 3 行: (309, 'Tart Cherry Salad Mold', None, 6, None, 10, 10, 120, 'New York State Department of Agriculture and Markets', None, 'Drain fruit, reserve juices. Add water to juices to make 1 5/8 cup liquid. Place in saucepan and add sugar. \n\nBring to boil and stir in gelatin until dissolved. Add fruit and ginger ale, nuts and coconut. Pour into 1-quart mold. Chill until set. Unmold onto plate.')
+  第 4 行: (440, 'Tangy Cucumber Salad', None, 6, None, 15, 0, 80, 'State of South Carolina Department of Agriculture', None, 'Dissolve gelatin and salt in boiling water. Add cold water, vinegar, onion, and green pepper. Stir in black pepper and chill until slightly thickened. Fold in diced tomato and cucumber. Pour in 1-quart mold, which has been well- greased. Chill until firm. Unmold on lettuce leaves.')
+  第 5 行: (515, 'Tote-Along Dressing', None, 20, '1 1/4 cups', 5, 7, 60, 'The American Cancer Society', None, 'Combine all ingredients in screw-top jar; shake to blend. Pour into small saucepan and cook over medium heat, stirring. Bring to a boil and continue cooking, stirring, 1-2 minutes or until slightly thickened. Allow to cool. Return to jar and keep refrigerated.\n\nServing size is 1 tablespoon.')
+  第 6 行: (574, 'Five-Spice Fried Rice', None, 2, None, 15, 10, 0, 'USA Rice Council', None, 'Cut beef in 1/2-inch cubes. Combine sugar, five-spice powder and pepper flakes; coat beef cubes with spice mixture. Heat oil and garlic in medium skillet over medium-high heat. Brown beef in oil. Add remaining ingredients; stir-fry until thoroughly heated.\n\nMicrowave Oven Instructions: Combine oil and garlic in medium microproof baking dish. Cook uncovered on HIGH 30 seconds. Add beef and cook on HIGH 1 to 2 minutes or until meat loses most of its pink color. Add remaining ingredients; stir and cook on HIGH 1 to 2 minutes, or until thoroughly heated.')
+  第 7 行: (612, 'Baked Beans', None, 8, None, 720, 120, 0, 'Wisconsin Department of Agriculture', None, 'Soak beans overnight, drain. Add remaining ingredients and enough water to cover beans. Bake at 325 degrees F. 2 hours or until soft (when beans mash easily). Remove 1 cup cooked beans and mash them. Add to remaining beans to thicken.')
+  第 8 行: (684, "Keep 'em Low-Cal Topping", None, 4, None, 15, 0, 0, 'The Idaho Potato Commission', "A zippy topping for those who like their spuds enhanced with saucy appeal, but don't want to splurge on calories. Great flavor excitement for weight watchers!", 'Place all ingredients, but potatoes, in container of electric blender. Cover and process until smooth. Spoon 2 Tablespoons topping over each potato.')
+  第 9 行: (788, '-Steamed Bok Choy-', None, 4, None, 15, 9, 0, None, None, 'To prepare: Trim off root end; separate stalks, cutting leaves and slicing stalks diagonally.\n\nSteam slowly in a large covered saucepan for 7-9 minutes, or until crisp-tender. Drain, season and serve.')
+  第 10 行: (868, '-Red Wine-', None, 4, None, 2, 0, 0, None, None, 'For adults only.')
+  第 11 行: (1050, 'Polynesian Pineapple Turkey', None, 6, None, 15, 15, 0, 'The California Poultry Industry Federation', 'Serve over hot rice.', 'Drain juice from pineapple. Save. Cut pineapple slices into wedges. Dredge turkey meat in a mixture of cornstarch, salt, cold water and soy sauce. Saute onions in 1 tablespoon oil; add celery and water chestnuts and cook 2 minutes. Remove from pan. Saute turkey in remaining 2 tablespoons oil until brown. Add vegetables, pineapple and pineapple juice. Simmer until thoroughly heated.')
+  第 12 行: (1091, 'Chicken-Cabbage Stir-Fry', None, 4, None, 10, 6, 0, 'Produce for Better Health Foundation and 5 a Day', 'A quick and tasty stir fry.', 'Heat oil in frypan. Add chicken strips and stir fry over moderately high heat, turning pieces constantly until lightly browned (about 2-3 minutes). Add cabbage; stir fry 2 minutes until cabbage is tender-crisp. Mix cornstarch and seasonings; add to water and soy sauce, mixing until smooth. Stir into chicken mixture. Cook until thickened and pieces are coated, about 1 minute.')
+  第 13 行: (1100, 'Simply Deluxe Microwave Chicken', None, 8, '0', 10, 12, 2, 'The National Broiler Council', 'Cooked rice or pasta and a colorful vegetable round out this easy meal.', 'Cut each chicken breast in half, making 8 breast halves; brush each piece with browning sauce. Arrange chicken on rack around outside edges of circular microwave dish. Cover loosely with wax paper and microwave on HIGH for 6 minutes. Remove chicken from rack and place in bottom of dish turning breasts over and keeping them in a circle around edge of dish. Sprinkle with 1/2 teaspoon of salt and 1/4 teaspoon of pepper. In small bowl, mix together yogurt, onion and mustard; spoon over chicken dividing equally on each piece. Cover loosely with wax paper and microwave on HIGH about 6 minutes or until fork can be inserted in chicken with ease. Sprinkle with remaining 1/2 teaspoon salt and 1/4 teaspoon pepper. Let stand 2 minutes, then remove chicken to warm serving platter. \n\nStir together pan juices and pour into separate serving bowl to spoon over rice or pasta served with chicken.')
+  第 14 行: (1117, 'Sesame Chicken Salad', None, 6, None, 30, 0, 0, 'USA Rice Council', 'A tasty salad with an Oriental flavored dressing.', 'Cut cucumber into 1 1/2 by 1/4-inch strips. Cut red pepper into 1 1/2 by 1/4-inch strips.\n \nCombine the first six ingredients (rice through green onions). Stir well. Combine remaining ingredients: chicken broth, peanut oil, rice vinegar, soy sauce and sesame oil in a jar. Cover tightly and shake vigorously. Makes about 3/4 cup. Combine dressing with chicken and rice mixture. Serve at room temperature or slightly chilled.')
+  第 15 行: (1143, 'Fish Florentine', None, 2, None, 10, 30, 0, 'The National Marine Fisheries Service', 'An easy topping that really jazzes up fish.', 'To make the Florentine topping, cook spinach according to directions on package; combine with bread crumbs, nutmeg and dash of pepper. Place fillets, skin side down, in a well-greased baking pan, 8x8x2 inches. Spread Florentine topping over fillets. Sprinkle with cheese. Bake in moderate oven, 350 F. for 20 to 25 minutes or until fillets flake easily when tested with a fork. Serve with lemon wedges.')
+  第 16 行: (1186, 'Fruitful Sole and Nectarines Remoulade', None, 4, None, 15, 5, 0, 'The California Tree Fruit Agreement', 'Nectarines and sauce brighten up quick microwaved fish.', 'Prepare remoulade sauce by mixing together yogurt, capers, green onion, mustard and tarragon. Roll up sole fillets (cut in 4 pieces) and fasten with wooden picks. (If fillets are large, cut in half lengthwise before rolling.) Stand on end, turban-fashion, in microwave-safe dish. Season with pepper and dill weed. Add water to dish. Cover and microwave on HIGH power 3 to 4 minutes or until fish is done. Add nectarine slices to dish and microwave, covered, 1 minute or until hot. Transfer fish and fruit to serving platter and remove picks. Serve with remoulade sauce.')
+  第 17 行: (1398, 'Yogurt-Honey Dressing', None, 6, '1 1/4 cups', 5, 0, 0, 'Sun-Diamond Growers of California', 'Delicious over assorted fruits.', 'Combine all ingredients; whisk together to blend. Stir before serving.\n\nNote: Diamond Walnut Oil with Garlic may be substituted for the Diamond Walnut Oil.')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Nutrition
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'protein', 'carbo', 'alcohol', 'total_fat', 'sat_fat', 'cholestrl', 'sodium', 'iron', 'vitamin_c', 'vitamin_a', 'fiber', 'pcnt_cal_carb', 'pcnt_cal_fat', 'pcnt_cal_prot', 'calories']
+表内容:
+  第 1 行: (259, 6.38, 36.47, 0.0, 10.83, 3.96, 22.94, 111.17, 1.1, 5.25, 277.22, 0.24, 54.25, 36.26, 9.48, 268.92)
+  第 2 行: (298, 3.01, 17.51, 0.0, 0.34, 0.17, 1.63, 7066.59, 0.28, 13.42, 752.73, 0.13, 82.27, 3.58, 14.14, 85.15)
+  第 3 行: (309, 5.78, 65.96, 0.0, 8.36, 2.82, 0.0, 100.1, 1.06, 11.44, 987.76, 0.67, 72.83, 20.78, 6.39, 362.25)
+  第 4 行: (440, 1.85, 14.82, 0.0, 0.14, 0.02, 0.0, 243.84, 0.27, 8.14, 218.46, 0.37, 87.28, 1.85, 10.87, 67.92)
+  第 5 行: (515, 0.16, 1.34, 0.0, 0.01, 0.0, 0.0, 16.42, 0.12, 4.37, 105.14, 0.07, 87.92, 1.84, 10.23, 6.1)
+  第 6 行: (574, 22.51, 49.67, 0.0, 12.48, 3.08, 43.12, 456.16, 4.07, 0.64, 91.98, 0.73, 49.54, 28.01, 22.45, 401.03)
+  第 7 行: (612, 15.49, 64.84, 0.0, 4.15, 1.11, 4.28, 254.14, 4.67, 23.54, 5879.22, 4.37, 72.32, 10.41, 17.27, 358.62)
+  第 8 行: (684, 9.49, 53.1, 0.0, 1.23, 0.71, 3.91, 299.23, 2.86, 26.9, 84.6, 1.35, 81.25, 4.23, 14.52, 261.42)
+  第 9 行: (788, 2.13, 3.1, 0.0, 0.28, 0.04, 0.0, 92.3, 1.14, 63.9, 4260.0, 0.85, 52.78, 10.9, 36.32, 23.46)
+  第 10 行: (868, 0.23, 1.97, 10.79, 0.0, 0.0, 0.0, 5.8, 0.5, 0.0, 0.0, 0.0, 9.35, 0.0, 1.1, 84.33)
+  第 11 行: (1050, 18.77, 7.3, 0.0, 8.87, 1.43, 41.8, 504.11, 1.12, 4.41, 27.88, 0.4, 15.86, 43.36, 40.79, 184.06)
+  第 12 行: (1091, 22.89, 5.31, 0.0, 3.78, 0.86, 60.18, 319.32, 1.16, 24.83, 81.53, 0.44, 14.47, 23.18, 62.34, 146.85)
+  第 13 行: (1100, 31.14, 4.23, 0.0, 3.48, 0.99, 80.75, 695.65, 1.1, 1.15, 81.36, 0.09, 9.8, 18.12, 72.08, 172.79)
+  第 14 行: (1117, 11.04, 34.31, 0.0, 5.23, 1.1, 20.16, 595.17, 2.59, 37.69, 799.09, 0.88, 60.08, 20.59, 19.33, 228.42)
+  第 15 行: (1143, 26.73, 15.85, 0.0, 4.95, 1.49, 52.09, 299.1, 1.84, 28.58, 6013.93, 0.87, 29.51, 20.72, 49.77, 214.84)
+  第 16 行: (1186, 17.49, 13.76, 0.0, 2.14, 0.6, 29.88, 362.78, 1.41, 5.77, 582.2, 0.58, 38.14, 13.36, 48.49, 144.28)
+  第 17 行: (1398, 0.71, 4.28, 0.0, 18.83, 2.05, 2.4, 9.01, 0.04, 1.84, 27.33, 0.0, 9.05, 89.46, 1.5, 189.44)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: Quantity
+--------------------------------------------------------------------------------
+表头（列名）: ['quantity_id', 'recipe_id', 'ingredient_id', 'max_qty', 'min_qty', 'unit', 'preparation', 'optional']
+表内容:
+  第 1 行: (393, 259, 1363, 2.0, 2.0, 'cup(s)', 'pitted', 'FALSE')
+  第 2 行: (722, 298, 2947, 1.0, 1.0, 'cup(s)', None, 'FALSE')
+  第 3 行: (812, 309, 2426, 0.5, 0.5, 'cup(s)', 'chopped', 'FALSE')
+  第 4 行: (1029, 440, 3480, 0.75, 0.75, 'cup(s)', 'diced, fresh', 'FALSE')
+  第 5 行: (1574, 515, 1339, 0.13, 0.13, 'teaspoon(s)', None, 'FALSE')
+  第 6 行: (2213, 574, 3334, 1.0, 1.0, 'teaspoon(s)', None, 'FALSE')
+  第 7 行: (2610, 612, 679, 2.0, 2.0, 'cup(s)', None, 'FALSE')
+  第 8 行: (3564, 684, 236, 1.5, 1.5, 'teaspoon(s)', None, 'FALSE')
+  第 9 行: (4000, 1050, 3021, 1.0, 1.0, 'teaspoon(s)', None, 'FALSE')
+  第 10 行: (4370, 1091, 889, 1.0, 1.0, 'tablespoon(s)', None, 'FALSE')
+  第 11 行: (4470, 1100, 4289, 1.0, 1.0, 'cup(s)', None, 'FALSE')
+  第 12 行: (4624, 1117, 3283, 3.0, 3.0, 'tablespoon(s)', None, 'FALSE')
+  第 13 行: (4727, 788, 251, 1.25, 1.25, 'pound(s)', None, 'FALSE')
+  第 14 行: (4832, 868, 2880, 16.0, 16.0, 'fl. ounce(s)', None, 'FALSE')
+  第 15 行: (5139, 1143, 2523, 2.0, 2.0, 'tablespoon(s)', 'grated', 'FALSE')
+  第 16 行: (5551, 1186, 554, 0.25, 0.25, 'cup(s)', 'or dill pickle, chopped', 'FALSE')
+  第 17 行: (6197, 1398, 1780, 1.0, 1.0, 'tablespoon(s)', None, 'FALSE')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/cookbook/4.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Ingredient
+--------------------------------------------------------------------------------
+表头（列名）: ['ingredient_id', 'category', 'name', 'plural']
+表内容:
+  第 1 行: (142, 'spices and seasonings', 'dried basil', None)
+  第 2 行: (527, 'tomato sauces', 'canned tomato sauce', None)
+  第 3 行: (580, 'spices and seasonings', 'cayenne pepper', None)
+  第 4 行: (585, 'fresh vegetables', 'celery', None)
+  第 5 行: (638, 'soups', 'chicken broth', None)
+  第 6 行: (692, 'spices and seasonings', 'Chinese five-spice powder', None)
+  第 7 行: (889, 'baking products', 'cornstarch', None)
+  第 8 行: (1334, 'fresh herbs', 'fresh ginger root', None)
+  第 9 行: (2358, 'cheese', 'Monterey Jack cheese', None)
+  第 10 行: (3002, 'fresh vegetables', 'salad greens', None)
+  第 11 行: (3021, 'spices and seasonings', 'salt', None)
+  第 12 行: (3334, 'baking products', 'sugar', None)
+  第 13 行: (4421, 'frozen desserts', 'ice cream', None)
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Recipe
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'title', 'subtitle', 'servings', 'yield_unit', 'prep_min', 'cook_min', 'stnd_min', 'source', 'intro', 'directions']
+表内容:
+  第 1 行: (429, 'Chinese Broccoli and Almonds', None, 4, None, 60, 10, 0, 'The Idaho Potato Commission', 'This can be an entire meal or a great side dish for chicken or fish.', 'In large skillet, heat oil; saute onion and garlic until onion is transparent. Add broccoli, chicken broth and vinegar. Mix cornstarch with soy sauce, stir into skillet; bring to a boil, boil 1 minute. Just before serving stir in almonds and pimiento. Spoon topping over each blossomed potato.')
+  第 2 行: (431, 'Dilled Rice Salad', None, 6, None, 30, 0, 60, 'USA Rice Council', 'Leftover rice shines again.', 'Combine vinegar, lemon juice, oil, dill, salt, and pepper in a large bowl. Add rice, red pepper, and snow peas; toss. Serve chilled.')
+  第 3 行: (465, 'Spinach Balls', None, 36, '36 balls', 10, 25, 0, 'New York State Department of Agriculture and Markets', 'An easy make ahead appetizer that can be microwaved.', 'Place package of spinach in microwave oven. Microwave on high 4 to 5 minutes or until defrosted. Drain, pressing out excess liquid. Mix spinach with remaining ingredients and shape into 1 inch balls. Microwave right away: 2 minutes on high; 4-6 minutes at 50% power. Or bake right away at 325 degrees F. for approximately 20 minutes. (Spinach balls may be frozen before baking, but no longer than 2 weeks.)')
+  第 4 行: (537, 'Middle Eastern Meatballs', None, 4, None, 35, 45, 0, 'California Beef Council', None, 'Stir 1/2 cup water into bulgur; let sit 30 minutes. When bulgur has absorbed the water, combine with beef and remaining ingredients except tomato sauce. Mix well using hands. Form into 12 meatballs. Arrange in shallow baking dish. Bake at 500 degrees F. until beef begins to brown, about 5 minutes. Combine tomato sauce and remaining 1/2 cup water. Pour over beef. Reduce oven temperature to 350 degrees F. Bake, uncovered, until meatballs are done and sauce has thickened slightly, about 30 minutes. Baste meatballs with tomato sauce twice during baking.\n\nNote: 3/4 cup uncooked rice (1 1/2 cups cooked rice) may be substituted for the bulgur wheat.\nIf fresh mint is unavailable, use 2 teaspoons dried.')
+  第 5 行: (574, 'Five-Spice Fried Rice', None, 2, None, 15, 10, 0, 'USA Rice Council', None, 'Cut beef in 1/2-inch cubes. Combine sugar, five-spice powder and pepper flakes; coat beef cubes with spice mixture. Heat oil and garlic in medium skillet over medium-high heat. Brown beef in oil. Add remaining ingredients; stir-fry until thoroughly heated.\n\nMicrowave Oven Instructions: Combine oil and garlic in medium microproof baking dish. Cook uncovered on HIGH 30 seconds. Add beef and cook on HIGH 1 to 2 minutes or until meat loses most of its pink color. Add remaining ingredients; stir and cook on HIGH 1 to 2 minutes, or until thoroughly heated.')
+  第 6 行: (602, 'Fruited Ham and Blueberry Salad', None, 6, None, 20, 0, 60, 'North American Blueberry Council', None, 'Line a salad bowl with greens. Arrange ham, oranges, celery, and blueberries in a pretty pattern on top of greens. Chill. Just before serving time, toss with Ruby French Dressing.\n\nRuby French Dressing: Combine last 5 ingredients in a jar with a tight fitting lid. Shake until well blended.')
+  第 7 行: (616, 'Three Cheese Potatoes', None, 8, None, 10, 30, 0, 'The Texas Department of Agriculture', None, 'Cover potatoes with salted water and bring to a boil. Reduce heat and cook until tender; cool slightly. Slice potatoes and place in large bowl. In\nseparate bowl, combine cottage cheese, sour cream, green onion, parsley dill and salt. Add to potatoes. Spoon potato mixture into lightly greased 1-1/2 quart casserole dish. Sprinkle with cheddar and Monterey Jack cheeses. Bake at 350 degrees F. for 30 minutes or until bubbly.')
+  第 8 行: (631, 'Apple Stuffed Squash', None, 4, None, 15, 60, 0, 'USA Rice Council', None, 'Place squash cut-side down in shallow baking pan. Bake at 350 degrees F. for 30 minutes. Turn squash cut-side up; brush with butter (or margarine). Sprinkle with salt and cinnamon. Combine rice, applesauce, celery, pecans, brown sugar, onion powder, and ginger. Fill squash evenly with rice stuffing. Bake, uncovered, 20 to 30 minutes. Garnish with apple wedges.')
+  第 9 行: (646, 'Mushroom and Spinach Lasagne', None, 8, None, 25, 60, 0, 'The National Cancer Institute', 'Lowfat cheeses, spinach and whole wheat lasagne noodles boost the nutrition content of this dish.', 'Preheat the oven to 400 degrees F. Warm the oil in a large, non-stick skillet over low heat. Add the onion and garlic. Cook until the onion is soft, about 5 minutes, stirring occasionally. Add the mushrooms and turn the heat up to medium. Cook the mushrooms until almost all the liquid has evaporated. Add the spinach. Increase the heat to high, and stir until almost all the liquid has cooked away. Stir in the salt, pepper and nutmeg. Set the mixture aside. Stir the egg into ricotta. \n\nTO ASSEMBLE: Set aside 1/2 cup mozzarella. Spread half the tomato sauce onto the bottom of a 9-x-12 inch glass or ceramic lasagne dish. Lay one-third of the pasta over the tomato sauce. Spread half the ricotta over the pasta and then half the spinach mixture over the ricotta. Sprinkle on 1/2 cup mozzarella. Cover with another layer of pasta and then repeat the ricotta, spinach and mozzarella layers. Lay the remaining pasta on top. Spread the rest of the tomato sauce over the pasta and then sprinkle the 1/2 cup of mozzarella on top of the lasagna. Bake 45 minutes, until brown on top and bubbling.')
+  第 10 行: (780, '-Stewed Rhubarb-', None, 4, None, 10, 15, 0, None, None, 'Not to be eaten raw. \n\nSimmer rhubarb, uncovered in water and sugar syrup about 15 minutes until crisp-tender. Serve in syrup. Flavor with 1 teaspoon finely grated orange or lemon rind.')
+  第 11 行: (1117, 'Sesame Chicken Salad', None, 6, None, 30, 0, 0, 'USA Rice Council', 'A tasty salad with an Oriental flavored dressing.', 'Cut cucumber into 1 1/2 by 1/4-inch strips. Cut red pepper into 1 1/2 by 1/4-inch strips.\n \nCombine the first six ingredients (rice through green onions). Stir well. Combine remaining ingredients: chicken broth, peanut oil, rice vinegar, soy sauce and sesame oil in a jar. Cover tightly and shake vigorously. Makes about 3/4 cup. Combine dressing with chicken and rice mixture. Serve at room temperature or slightly chilled.')
+  第 12 行: (1123, ' Pacific Chicken, Shrimp and Kiwifruit Kabobs ', None, 4, None, 25, 8, 120, 'New Zealand Fruit Company', "A colorful and tasty combination of shrimp, chicken, fruit and vegetables that's great on the grill.", 'Peel kiwifruit and cut into quarters. Cut chicken into sixteen 1-inch pieces. Core and quarter pepper, cut each quarter into 4 pieces. Peel and quarter onion, cut each quarter into 4 pieces. Toss chicken, peppers and onions with lime-ginger marinade; marinate 1-2 hours in refrigerator. When ready to cook, toss kiwifruit and shrimp with other ingredients to coat with marinade. Divide ingredients among 8 skewers. Grill or broil, 3-4 minutes per side, turning skewers once, until chicken and shrimp are cooked through. \n\nFor lime-ginger marinade: Whisk together last 7 ingredients, from lime juice through hot red pepper, until well combined.')
+  第 13 行: (1139, 'Gulf Coast Stir-Fry', None, 6, None, 20, 17, 0, 'USA Rice Council', None, 'Heat oil with garlic in large skillet or wok over high heat. Add onion, pepper, mushrooms, snow peas, and water chestnuts; stir-fry until vegetables are tender crisp. Blend broth with soy sauce and cornstarch. Stir in crawfish (about 2 1/2 cups) and broth mixture. Cook until sauce is thickened and bubbly. Serve over hot rice. Serve with soy sauce, if desired.\n\nIf crawfish is unavailable you may substitute medium peeled, deveined shrimp.')
+  第 14 行: (1191, 'Basil Baked Cod Fillets', None, 2, None, 15, 15, 0, 'The National Fisheries Institute', None, 'Use firm white fish such as cod, haddock, lingcod or orange roughy fillet. \n\nPat fish dry and cut into 2 serving pieces. Combine oil and lemon juice in a baking dish. Add fish and turn to coat both sides. Sprinkle with basil, pepper and salt. Overlap tomato slices in even layer on fish and sprinkle with Parmesan cheese. Cover with foil and bake at 400 degrees F. about 10 to 15 minutes or until fish begins to flake when tested with a fork.')
+  第 15 行: (1400, 'Creamy Dressing', None, 6, None, 5, 0, 0, 'California Dry Bean Advisory Board', 'A tasty dressing for cabbage salads.', 'Combine ingredients; mix well.')
+  第 16 行: (1408, 'Fudge Brownie Pie', None, 8, None, 20, 30, 0, 'Hershey Foods Corporation', None, 'Beat eggs in small mixer bowl; blend in sugar and melted butter. Combine flour, cocoa and salt; add to butter mixture. Stir in vanilla and nuts.\n\nPour into lightly greased 8-inch pie pan. Bake at 350 degrees F. for 25 to 30 minutes or until almost set (pie will not test done). Cool; cut into wedges. Serve wedges topped with scoop of ice cream and drizzled with Hot Fudge Sauce (directions follow).\n\nHot Fudge Sauce: Combine sugar and cocoa in small saucepan; blend in evaporated milk and corn syrup. Cook over medium heat, stirring constantly, until mixture boils; boil and stir 1 minute. Remove from heat; stir in butter and vanilla. Serve warm. Makes about 1 3/4 cups sauce.')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Nutrition
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'protein', 'carbo', 'alcohol', 'total_fat', 'sat_fat', 'cholestrl', 'sodium', 'iron', 'vitamin_c', 'vitamin_a', 'fiber', 'pcnt_cal_carb', 'pcnt_cal_fat', 'pcnt_cal_prot', 'calories']
+表内容:
+  第 1 行: (429, 10.67, 65.15, 0.0, 17.27, 2.5, 0.0, 837.42, 4.15, 88.24, 1347.59, 2.9, 56.81, 33.88, 9.3, 458.71)
+  第 2 行: (431, 3.63, 33.68, 0.0, 2.58, 0.34, 0.0, 196.47, 2.41, 47.32, 758.58, 1.15, 78.14, 13.45, 8.41, 172.4)
+  第 3 行: (465, 1.31, 0.96, 0.0, 0.95, 0.54, 8.37, 57.7, 0.22, 1.93, 643.17, 0.08, 21.81, 48.44, 29.75, 17.59)
+  第 4 行: (537, 26.41, 26.38, 0.0, 12.1, 4.56, 71.7, 403.24, 3.07, 6.12, 75.51, 0.78, 32.98, 34.02, 33.0, 320.05)
+  第 5 行: (574, 22.51, 49.67, 0.0, 12.48, 3.08, 43.12, 456.16, 4.07, 0.64, 91.98, 0.73, 49.54, 28.01, 22.45, 401.03)
+  第 6 行: (602, 17.94, 17.88, 1.2, 31.41, 5.32, 41.3, 1286.55, 2.3, 65.74, 4515.62, 1.67, 16.46, 65.08, 16.53, 434.34)
+  第 7 行: (616, 15.11, 42.52, 0.0, 7.47, 4.39, 22.24, 739.99, 2.39, 23.55, 269.1, 1.28, 57.13, 22.57, 20.3, 297.71)
+  第 8 行: (631, 5.58, 77.15, 0.0, 12.67, 2.66, 7.77, 198.52, 3.86, 28.69, 923.53, 5.65, 69.35, 25.63, 5.02, 444.99)
+  第 9 行: (646, 20.13, 36.1, 0.0, 10.91, 6.19, 55.06, 682.0, 4.62, 15.62, 3443.49, 5.43, 44.69, 30.4, 24.91, 323.13)
+  第 10 行: (780, 0.62, 30.67, 0.0, 0.12, 0.0, 0.0, 2.52, 0.35, 5.45, 121.55, 0.8, 97.13, 0.89, 1.98, 126.3)
+  第 11 行: (1117, 11.04, 34.31, 0.0, 5.23, 1.1, 20.16, 595.17, 2.59, 37.69, 799.09, 0.88, 60.08, 20.59, 19.33, 228.42)
+  第 12 行: (1123, 21.91, 37.33, 0.0, 9.34, 1.48, 93.22, 104.81, 2.18, 200.77, 2715.91, 1.62, 46.51, 26.19, 27.3, 321.02)
+  第 13 行: (1139, 17.6, 44.93, 0.0, 3.79, 0.53, 100.73, 625.73, 3.41, 30.51, 158.91, 1.38, 63.23, 12.0, 24.77, 284.23)
+  第 14 行: (1191, 20.9, 3.38, 0.0, 3.83, 0.87, 48.5, 256.44, 0.85, 13.98, 459.07, 0.45, 10.26, 26.21, 63.52, 131.57)
+  第 15 行: (1400, 1.17, 2.64, 0.0, 15.7, 4.31, 18.65, 70.21, 0.03, 0.34, 213.09, 0.0, 6.74, 90.28, 2.99, 156.5)
+  第 16 行: (1408, 5.22, 75.42, 0.0, 27.11, 15.84, 127.89, 355.78, 0.98, 0.55, 1005.95, 0.02, 53.25, 43.06, 3.68, 566.5)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: Quantity
+--------------------------------------------------------------------------------
+表头（列名）: ['quantity_id', 'recipe_id', 'ingredient_id', 'max_qty', 'min_qty', 'unit', 'preparation', 'optional']
+表内容:
+  第 1 行: (939, 429, 638, 1.5, 1.5, 'cup(s)', None, 'FALSE')
+  第 2 行: (958, 431, 3021, 0.5, 0.5, 'teaspoon(s)', None, 'FALSE')
+  第 3 行: (1218, 465, 3021, 0.5, 0.5, 'teaspoon(s)', None, 'FALSE')
+  第 4 行: (1818, 537, 580, 0.13, 0.13, 'teaspoon(s)', None, 'FALSE')
+  第 5 行: (2214, 574, 692, 0.5, 0.5, 'teaspoon(s)', None, 'FALSE')
+  第 6 行: (2491, 602, 3002, 3.0, 3.0, 'cup(s)', 'bite-size pieces', 'FALSE')
+  第 7 行: (2933, 631, 585, 0.5, 0.5, 'cup(s)', 'chopped', 'FALSE')
+  第 8 行: (3453, 616, 2358, 0.5, 0.5, 'cup(s)', 'shredded', 'FALSE')
+  第 9 行: (3667, 646, 527, 1.0, 1.0, 'cup(s)', None, 'FALSE')
+  第 10 行: (4621, 1117, 638, 0.25, 0.25, 'cup(s)', None, 'FALSE')
+  第 11 行: (4716, 780, 3334, 0.5, 0.5, 'cup(s)', None, 'FALSE')
+  第 12 行: (4954, 1123, 1334, 1.0, 1.0, 'teaspoon(s)', 'grated', 'FALSE')
+  第 13 行: (5106, 1139, 889, 2.0, 2.0, 'tablespoon(s)', None, 'FALSE')
+  第 14 行: (5604, 1191, 142, 0.25, 0.25, 'teaspoon(s)', 'crushed', 'FALSE')
+  第 15 行: (6208, 1400, 3334, 1.0, 1.0, 'teaspoon(s)', None, 'FALSE')
+  第 16 行: (6225, 1408, 4421, 8.0, 8.0, 'scoop(s)', None, 'FALSE')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/cookbook/5.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Ingredient
+--------------------------------------------------------------------------------
+表头（列名）: ['ingredient_id', 'category', 'name', 'plural']
+表内容:
+  第 1 行: (351, 'baking products', 'brown sugar', None)
+  第 2 行: (526, 'tomato products', 'tomato paste', None)
+  第 3 行: (710, 'dessert sauces', 'chocolate fudge syrup', None)
+  第 4 行: (720, 'nuts and seeds', 'chopped walnuts', None)
+  第 5 行: (841, 'grains', 'cooked rice', None)
+  第 6 行: (956, 'spices and seasonings', 'crushed red pepper', None)
+  第 7 行: (1021, 'Mexican products', 'canned diced mild green chiles', None)
+  第 8 行: (1088, 'spices and seasonings', 'parsley', None)
+  第 9 行: (1813, 'fresh vegetables', 'iceberg lettuce', None)
+  第 10 行: (2019, 'fruit juices', 'lemon juice', None)
+  第 11 行: (2130, 'salad dressings', 'lowfat mayonnaise', None)
+  第 12 行: (2402, 'fresh vegetables', 'new potatoes', None)
+  第 13 行: (2902, 'grains', 'rice', None)
+  第 14 行: (3021, 'spices and seasonings', 'salt', None)
+  第 15 行: (3640, 'nuts and seeds', 'walnuts', None)
+  第 16 行: (3757, 'breads', 'whole wheat bread', None)
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Recipe
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'title', 'subtitle', 'servings', 'yield_unit', 'prep_min', 'cook_min', 'stnd_min', 'source', 'intro', 'directions']
+表内容:
+  第 1 行: (215, 'Apricot Yogurt Parfaits', None, 4, None, 5, 2, 65, 'Produce for Better Health Foundation and 5 a Day', None, 'Drain canned apricots, pour 1/4 cup of the juice into saucepan or microwave-safe dish. Sprinkle gelatin over juice and let stand for 5 minutes to soften. Warm over low heat or microwave at medium (50% power) for 30 seconds or until gelatin has dissolved.\n \nIn food processor or blender, puree canned apricots; add lemon juice brandy, yogurt and gelatin mixture and process for 30 seconds or until combined.\n \nPour into parfait or stemmed glasses or champagne flutes. Cover and refrigerate until set, at least 1 hour or overnight.\n \nJust before serving arrange fresh apricots on top. (If apricots are not available substitute kiwi slices or berries). Garnish each with a small spoonful of yogurt and sprinkling of brown sugar or mint.')
+  第 2 行: (230, 'Apricot Almond Bread Pudding', None, 8, None, 10, 55, 180, 'The American Egg Board', None, 'In greased shallow 1 1/2-quart casserole, lightly toss together bread cubes, apricots and almonds. In medium bowl, beat together eggs, milk, sugar and flavorings. Pour over bread mixture. Cover and refrigerate several hours or overnight.\n \nBake in a preheated 350 degree F. oven until knife inserted near center\ncomes out clean, about 45 to 55 minutes. Serve hot or refrigerate to serve\nchilled.')
+  第 3 行: (523, 'Quick Spanish Rice', None, 6, None, 5, 20, 0, 'American Lamb Council', None, 'Saute lamb, onion, green pepper until lamb is cooked. Drain. Add rice, tomatoes, water, mustard, garlic salt, and pepper. Bring to a boil. Cover and simmer for five minutes or until moisture has been absorbed. Stir in cheese.')
+  第 4 行: (627, 'Fettuccine with Walnuts and California Avocado', None, 6, None, 15, 6, 0, 'California Avocado Commission', None, "In a large bowl combine the olive oil, vinegar, basil, green onions, sundried tomatoes, walnuts and half of the California avocado. Toss ingredients well so they are evenly coated with the oil and vinegar. Cook pasta in boiling water for 6 minutes or until 'al dente.' Drain pasta and pour into salad bowl with other ingredients while pasta is still hot. Toss all ingredients and serve immediately using the remaining California avocado as garnish on top of the pasta.")
+  第 5 行: (628, 'Pasta-Veggie Scramble', None, 2, None, 10, 10, 0, 'The Egg Nutrition Center', None, 'Spray 10-inch omelet pan or skillet with non-stick pan spray. Add zucchini, onions and red pepper. Cover and cook over medium heat until zucchini is crisp-tender, about 3 minutes. Meanwhile, beat together whole eggs and whites, cheese and seasonings. Pour over vegetables. Add fettuccine or linguine and tomatoes. As egg mixture begins to set, gently draw an inverted pancake turner completely across bottom and sides of pan. Continue until eggs are thickened but still moist. Do not stir constantly. Serve immediately.')
+  第 6 行: (631, 'Apple Stuffed Squash', None, 4, None, 15, 60, 0, 'USA Rice Council', None, 'Place squash cut-side down in shallow baking pan. Bake at 350 degrees F. for 30 minutes. Turn squash cut-side up; brush with butter (or margarine). Sprinkle with salt and cinnamon. Combine rice, applesauce, celery, pecans, brown sugar, onion powder, and ginger. Fill squash evenly with rice stuffing. Bake, uncovered, 20 to 30 minutes. Garnish with apple wedges.')
+  第 7 行: (692, 'Top Hat Pizza', None, 10, None, 20, 12, 0, 'The California Avocado Commission', None, 'Place pizza crust on baking sheet, sprinkle with mozzarella cheese, red and green pepper, green chile, black olives and onion. Bake in preheated oven at 375 F. for 10 to 12 minutes until cheese is melted. Meanwhile, prepare guacamole by combining avocado, lemon juice, garlic salt, seasoned salt red pepper sauce and crushed tortilla chips. Arrange tomato slices on top of pizza. Place generous mound of guacamole in center of each tomato slice. Pass additional guacamole at serving time.')
+  第 8 行: (882, '-Chocolate Milk-', None, 4, None, 7, 0, 0, None, None, 'Mix syrup into milk and stir. Serve chilled.')
+  第 9 行: (1067, 'Scandinavian Chicken Soup', None, 6, '1', 15, 100, 45, 'The National Broiler Council', 'The light flavors of this soup come shining through.', 'Cook chicken until done. Cool and chop into pieces. Place chicken broth in large Dutch oven and bring to a boil over high heat. Add potatoes, 1 cup onion and 1 teaspoon of the dill weed. After soup returns to a boil, reduce temperature to medium-low and simmer until potatoes are tender, about 12 minutes. Add chicken, salt and pepper; simmer about 5 minutes more until chicken is hot. At serving time, place soup in individual bowls and sprinkle each with chopped red onion and remaining 1/2 teaspoon dill weed.')
+  第 10 行: (1088, 'Chicken Mushroom Soup', None, 6, None, 15, 50, 0, 'The National Broiler Council', 'An easy to prepare soup with light, clear flavors, perfect for a light lunch or the first course at dinner.', 'In large Dutch oven, place chicken breasts. Add water, celery, onion, salt pepper and bay leaves. Bring to a boil over high temperature; reduce heat to low and simmer, covered, about 30 minutes. Remove chicken and bay leaves; skim off fat from broth. Add carrots and macaroni rosettes and return to a boil. Lower heat and simmer about 10 minutes or until rosettes are tender. Remove skin and bones from chicken and discard; chop chicken into bite-size pieces. Add chicken, mushrooms and parsley to Dutch oven and cook until mushrooms are done, about 5 minutes.')
+  第 11 行: (1127, 'Shrimp-Stuffed Shells', None, 4, None, 15, 15, 120, 'The National Pasta Association', 'A different way to serve shrimp salad.', 'In a mixing bowl, combine the mayonnaise and Dijon mustard. Add the shrimp, onion, peas, celery, salt, and pepper. Stir to combine thoroughly. Refrigerate mixture at least 2 hours before filling the shells. Fill shells with shrimp mixture and sprinkle with paprika.')
+  第 12 行: (1129, 'Shrimp Marinara Pasta', None, 2, None, 10, 25, 0, 'The National Fisheries Institute', None, 'Cook onion, green pepper and garlic in hot oil until tender in 1-quart skillet or soup pot. Add tomato sauce, tomato paste, water and seasonings. Cover and simmer for 15 minutes, stirring occasionally. Add shrimp. Cover and simmer for approximately 3 minutes longer or until shrimp are tender. Serve over cooked pasta.')
+  第 13 行: (1149, 'Summer Seafood Salad', None, 4, None, 15, 20, 30, 'USA Rice Council', 'An easy salad with light fresh flavors.', 'Combine rice, crab meat, water chestnuts, celery and onions in large mixing bowl. Combine yogurt, sour cream, lemon juice, and seasonings in small bowl; blend well. Pour over rice mixture; toss lightly. Serve on lettuce leaves and garnish with tomato wedges.\n\nIf crab meat is unavailable substitute crab-flavored Surimi Seafood flakes or chunks.')
+  第 14 行: (1346, 'Grilled Whole Salmon', None, 6, None, 20, 20, 0, 'Oregon Salmon Commission', None, 'Scale and eviscerate (disembowel) salmon; remove gills. Cut off pectoral and pelvic fins and trim tail. Rinse salmon with cold water; pat dry with paper towels. Make three shallow diagonal slashes into each side of salmon. Combine salt, pepper, marjoram, savory and thyme, crushing herbs slightly. Rub mixture into belly cavity and on skin; taking care to rub into slashes. Fill belly cavity with lemon, green onion and parsley; skewer closed. Baste salmon with vegetable oil. Place in well-greased hinged wire basket and cook 4-5 inches from hot coals. Allow 10 minutes per inch of salmon measured at its thickest point. Baste and turn midway through cooking time. When salmon is browned, test for doneness. Ease onto serving platter. Serve plain or with favorite sauce.\n\nNote: Use equal amounts of dried marjoram, savory and thyme.')
+  第 15 行: (1347, 'Iceberg Salad Athena', None, 6, None, 20, 0, 0, 'California Iceberg Lettuce Commission', None, 'Core, rinse and thoroughly drain lettuce; refrigerate in disposable plastic bag or plastic crisper. Cut tomato in small wedges; slice celery and cube cheese. Line chilled salad bowl with a few crisp lettuce leaves. Cut remainder of lettuce in bite-size chunks. Toss lightly with tomato, celery, cheese, olives and Lemon Oregano Dressing (recipe follows). Pile into salad bowl for serving.\n\nLemon Oregano Dressing: Mix last 5 ingredients in a small jar. Cover and shake well. Makes about 1/2 cup dressing.')
+  第 16 行: (1361, 'Pat-In-The-Pan Nut Cookie Crust', None, 8, None, 15, 0, 0, ' General Mills, Inc. ', 'No rolling necessary.', 'Mix margarine and brown sugar. Stir in remaining ingredients until crumbly. Press against bottom and side of pie plate, 9 x 1-1/4 inches, building up 1/2-inch edge.\n\n*If using self-rising flour, omit salt and baking soda. Also, whole wheat flour or unbleached flour may be used in place of the all-purpose flour.\n\nHigh Altitude Directions (3500 to 6500 feet): Lightly grease pie plate.')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Nutrition
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'protein', 'carbo', 'alcohol', 'total_fat', 'sat_fat', 'cholestrl', 'sodium', 'iron', 'vitamin_c', 'vitamin_a', 'fiber', 'pcnt_cal_carb', 'pcnt_cal_fat', 'pcnt_cal_prot', 'calories']
+表内容:
+  第 1 行: (215, 5.7, 23.75, 1.93, 1.08, 0.58, 3.48, 46.17, 0.57, 13.02, 2738.24, 0.62, 67.38, 6.89, 16.17, 141.01)
+  第 2 行: (230, 10.35, 44.99, 0.0, 6.08, 1.28, 108.61, 287.35, 2.39, 0.92, 1165.57, 1.11, 65.18, 19.82, 15.0, 276.09)
+  第 3 行: (523, 20.88, 49.19, 0.0, 20.0, 8.94, 64.22, 853.18, 3.71, 15.2, 452.83, 0.56, 42.74, 39.11, 18.14, 460.31)
+  第 4 行: (627, 10.17, 47.82, 0.0, 13.01, 1.79, 55.29, 29.3, 3.48, 9.04, 300.08, 1.6, 54.8, 33.54, 11.66, 349.07)
+  第 5 行: (628, 23.55, 37.89, 0.0, 11.48, 3.4, 258.88, 352.13, 3.69, 42.96, 1720.51, 0.81, 43.42, 29.59, 26.99, 349.06)
+  第 6 行: (631, 5.58, 77.15, 0.0, 12.67, 2.66, 7.77, 198.52, 3.86, 28.69, 923.53, 5.65, 69.35, 25.63, 5.02, 444.99)
+  第 7 行: (692, 10.22, 25.07, 0.0, 11.5, 3.62, 12.9, 638.28, 2.0, 56.9, 1504.98, 1.93, 40.98, 42.31, 16.71, 244.67)
+  第 8 行: (882, 8.67, 18.41, 0.0, 4.27, 2.56, 9.76, 134.35, 0.28, 2.39, 518.95, 0.05, 50.18, 26.21, 23.61, 146.78)
+  第 9 行: (1067, 69.42, 23.34, 0.0, 18.07, 4.93, 202.21, 2051.25, 4.0, 14.0, 158.99, 0.92, 17.5, 30.47, 52.03, 533.69)
+  第 10 行: (1088, 21.23, 14.02, 0.0, 5.25, 1.44, 52.86, 861.13, 1.98, 6.58, 5336.52, 0.89, 29.79, 25.1, 45.11, 188.21)
+  第 11 行: (1127, 24.27, 64.2, 0.0, 7.91, 1.39, 117.96, 578.67, 3.94, 16.42, 1003.55, 2.0, 60.41, 16.75, 22.84, 425.12)
+  第 12 行: (1129, 33.79, 52.52, 0.0, 3.21, 0.62, 262.98, 985.45, 8.02, 42.96, 2539.98, 1.68, 56.14, 7.73, 36.12, 374.19)
+  第 13 行: (1149, 15.74, 41.2, 0.0, 4.61, 1.41, 36.71, 793.58, 2.81, 17.82, 378.16, 0.89, 61.21, 15.4, 23.38, 269.21)
+  第 14 行: (1346, 67.69, 1.38, 0.0, 22.95, 5.5, 187.44, 2084.47, 3.53, 5.82, 317.6, 0.16, 1.14, 42.78, 56.08, 482.79)
+  第 15 行: (1347, 5.37, 4.2, 0.0, 19.2, 5.42, 16.76, 583.09, 0.96, 13.01, 514.77, 0.64, 7.95, 81.87, 10.18, 211.09)
+  第 16 行: (1361, 2.91, 23.18, 0.0, 16.23, 2.38, 0.0, 235.85, 1.05, 0.26, 478.89, 0.35, 37.03, 58.32, 4.66, 250.43)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: Quantity
+--------------------------------------------------------------------------------
+表头（列名）: ['quantity_id', 'recipe_id', 'ingredient_id', 'max_qty', 'min_qty', 'unit', 'preparation', 'optional']
+表内容:
+  第 1 行: (14, 215, 2019, 2.0, 2.0, 'tablespoon(s)', None, 'FALSE')
+  第 2 行: (133, 230, 3757, 3.0, 3.0, 'cup(s)', 'day-old, cubed', 'FALSE')
+  第 3 行: (1654, 523, 2902, 1.5, 1.5, 'cup(s)', 'quick cooking', 'FALSE')
+  第 4 行: (3142, 692, 1021, 1.0, 1.0, '4 oz. can(s)', None, 'FALSE')
+  第 5 行: (3314, 627, 3640, 2.0, 2.0, 'tablespoon(s)', 'chopped', 'FALSE')
+  第 6 行: (3463, 628, 956, 0.13, 0.13, 'teaspoon(s)', None, 'FALSE')
+  第 7 行: (3469, 631, 351, 0.25, 0.25, 'cup(s)', 'packed', 'FALSE')
+  第 8 行: (4151, 1067, 2402, 1.0, 1.0, 'pound(s)', 'peeled, chopped in 1/2-inch pieces', 'FALSE')
+  第 9 行: (4343, 1088, 3021, 2.0, 2.0, 'teaspoon(s)', None, 'FALSE')
+  第 10 行: (4915, 882, 710, 8.0, 8.0, 'teaspoon(s)', None, 'FALSE')
+  第 11 行: (4984, 1127, 2130, 0.5, 0.5, 'cup(s)', None, 'FALSE')
+  第 12 行: (5007, 1129, 526, 3.0, 3.0, 'ounce(s)', None, 'FALSE')
+  第 13 行: (5199, 1149, 841, 2.0, 2.0, 'cup(s)', 'cooled', 'FALSE')
+  第 14 行: (5944, 1346, 1088, 5.0, 3.0, 'sprig(s)', None, 'FALSE')
+  第 15 行: (5946, 1347, 1813, 1.0, 1.0, 'head(s)', None, 'FALSE')
+  第 16 行: (6047, 1361, 720, 0.5, 0.5, 'cup(s)', 'or other nuts', 'FALSE')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/cookbook/6.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Ingredient
+--------------------------------------------------------------------------------
+表头（列名）: ['ingredient_id', 'category', 'name', 'plural']
+表内容:
+  第 1 行: (420, 'canned/bottled vegetables', 'canned artichoke hearts', None)
+  第 2 行: (617, 'fresh vegetables', 'cherry tomatoes', None)
+  第 3 行: (732, 'vinegars', 'cider vinegar', None)
+  第 4 行: (781, 'dairy', 'skim milk', None)
+  第 5 行: (1367, 'fresh vegetables', 'mushroom', 's')
+  第 6 行: (1746, 'spices and seasonings', 'hazelnut extract', None)
+  第 7 行: (1767, 'baking products', "HERSHEY'S Cocoa", None)
+  第 8 行: (2019, 'fruit juices', 'lemon juice', None)
+  第 9 行: (2220, 'dairy', 'margarine', None)
+  第 10 行: (2306, 'fresh vegetables', 'zucchini', None)
+  第 11 行: (3283, 'Oriental products', 'soy sauce', None)
+  第 12 行: (3287, 'pasta/noodles', 'spaghetti', None)
+  第 13 行: (3341, 'tomato products', 'sun-dried tomatoes', None)
+  第 14 行: (3533, 'meat/poultry', 'turkey cutlet', 's')
+  第 15 行: (3595, 'spices and seasonings', 'vanilla', None)
+  第 16 行: (4274, 'salad dressings', 'ranch style salad dressing', None)
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Recipe
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'title', 'subtitle', 'servings', 'yield_unit', 'prep_min', 'cook_min', 'stnd_min', 'source', 'intro', 'directions']
+表内容:
+  第 1 行: (231, 'Oregon Hazelnut Crunch', None, 32, '2 cups', 15, 10, 20, 'The Hazelnut Marketing Board', 'Great sprinkled on frozen yogurt.', 'Combine sugar, hazelnut extract, corn syrup, water and salt in a 1-quart saucepan and bring to a boil. Cook to 300 degrees F. (syrup will be a golden color) without stirring. Remove from heat and add Oregon hazelnuts and soda (mixture will foam), stir briskly and pour into buttered pan. Let cool and break into coarse crumbs with rolling pin. Store in airtight container until used.')
+  第 2 行: (429, 'Chinese Broccoli and Almonds', None, 4, None, 60, 10, 0, 'The Idaho Potato Commission', 'This can be an entire meal or a great side dish for chicken or fish.', 'In large skillet, heat oil; saute onion and garlic until onion is transparent. Add broccoli, chicken broth and vinegar. Mix cornstarch with soy sauce, stir into skillet; bring to a boil, boil 1 minute. Just before serving stir in almonds and pimiento. Spoon topping over each blossomed potato.')
+  第 3 行: (446, 'Butternut Squash Souffle', None, 6, None, 20, 60, 30, 'State of South Carolina Department of Agriculture', None, "Cut squash in half lengthwise; remove seeds. Place cut sides down in casserole dish; add 1/2 inch of hot water. Cover and bake at 375 degrees F. or 30 to 35 minutes or until tender. Let cool for 30 minutes. When cooled, carefully scoop out pulp and mash with potato masher. (This should yield about 2 cups.) Stir squash together with oranges, margarine, flavoring and spice. Beat egg yolks until thick and lemon colored. Stir beaten yolks into squash mixture. Beat egg whites (at room temperature) until stiff but not dry. Gently fold in squash mixture. Spoon into 6 ungreased 6-ounce souffle' dishes. Bake at 375 degrees F. for 20 minutes or until puffed and lightly browned. Sprinkle each with toasted almonds and serve immediately.")
+  第 4 行: (487, 'California Marinated Salad', None, 6, '6 cups', 20, 0, 120, 'The Calfornia Tree Fruit Agreement', None, 'Cut nectarines into thick slices, then cut each slice in half. Combine nectarines with mushrooms, tomatoes, olives and onion in a large salad bowl. Drain and save liquid from artichokes. Add artichokes to salad. Combine reserved liquid with remaining ingredients in jar. Shake well and pour over salad. Cover and chill at least 2 hours, tossing once or twice.')
+  第 5 行: (617, 'Asparagus Mushroom Frittata', None, 6, None, 10, 17, 0, 'The American Egg Board', None, 'In 10-inch omelet pan or skillet with oven-proof handle over medium heat, cover and cook asparagus, mushrooms and onions until onion is tender but not brown, about 5 minutes. Remove from heat. Set aside 8 asparagus spears and 8 mushroom slices. Cut remaining spears into thirds and return to pan. Stir in oil. Beat together eggs, cheese, lemon juice, dill weed and salt, if desired until blended. Pour over vegetables. Reduce heat to low. Cover and cook until eggs are almost set, about 7 minutes. Remove from heat. Uncover. Arrange reserved asparagus spears in spoke-fashion over eggs. Place reserved mushroom slices between asparagus spears. Broil 6 inches from heat until eggs are set, about 3 to 5 minutes. Garnish with dill sprigs if desired. Cut into wedges and serve from pan or slide from pan onto serving platter.\n\nNote: If part-skim ricotta is unavailable, use low-fat 1% cottage cheese.')
+  第 6 行: (618, 'Hot or Cold Layered Potato Salad', None, 4, None, 20, 20, 0, 'The American Egg Board', 'A versatile, colorful dish served hot or cold.', 'Reserve a few center egg slices for garnish. In 10 x 6 x 1-1/2 inch baking dish or casserole (oven-proof for heated version), evenly layer 1/3 of the potatoes, the carrots, another 1/3 of the potatoes, the zucchini, the remaining 1/3 of the potatoes, the unreserved egg slices and the tomatoes. Evenly drizzle with dressing. To serve cold, cover and chill to blend flavors, several hours or overnight. To serve hot, bake, covered, in preheated 350 degree F. oven until heated through, about 20 minutes. Garnish with reserved egg slices and parsley, if desired. For each serving, serve a portion of all layers.')
+  第 7 行: (627, 'Fettuccine with Walnuts and California Avocado', None, 6, None, 15, 6, 0, 'California Avocado Commission', None, "In a large bowl combine the olive oil, vinegar, basil, green onions, sundried tomatoes, walnuts and half of the California avocado. Toss ingredients well so they are evenly coated with the oil and vinegar. Cook pasta in boiling water for 6 minutes or until 'al dente.' Drain pasta and pour into salad bowl with other ingredients while pasta is still hot. Toss all ingredients and serve immediately using the remaining California avocado as garnish on top of the pasta.")
+  第 8 行: (652, 'Party-Fare Pistachio Pasta', None, 8, None, 15, 7, 0, 'The California Pistachio Commission', 'Delicious served with chicken or scallops', 'Saute garlic and onion in oil or butter until onion is tender. Add remaining ingredients except cheese. Toss together; heat 2 minutes. Toss with Parmesan cheese.')
+  第 9 行: (693, 'Pistachio Pasta Salad Florentine', None, 4, '8 cups', 10, 15, 0, 'The California Pistachio Commission', None, 'Thaw peas quickly by placing in a sieve and rinsing with hot water. Drop pasta into boiling water; return to boil. Cook 10 to 15 minutes or until tender. Drain. Toss pasta, spinach, tomatoes, peas, pistachios and dressing (see below) in large bowl.\n \nDressing: Combine 2 Tablespoons honey, 2-1/2 Tablespoon dijon mustard, 3 tablespoons red wine vinegar, 1 egg white, 1-1/2 teaspoons dried oregano (crumbled) and 1/2 teaspoon garlic powder.\n \nNotes: Suggested pasta: penne, mostaccioli, rigatoni.')
+  第 10 行: (697, 'Three-Peas-in-a-Pasta', None, 6, None, 15, 20, 0, 'The National Pasta Association', 'This rich and creamy cheese sauce fits your healthy eating plan.', 'Prepare pasta according to package directions, drain. Meanwhile, in a 2-quart saucepan, heat olive or vegetable oil over medium heat. Saute garlic and snow peas 2 minutes. Remove with slotted spoon. Add green peas to skillet. Lower heat, cover and simmer 3 minutes. Reserve 1 cup peas; add remainder to blender. Add broth, herbs, pepper, salt, milk and feta to blender. Blend until smooth. Return sauce to pan with remaining peas, sauteed snow peas, garlic and chick peas. Heat through over low heat, stirring. Transfer pasta to large bowl. Toss with sauce. If pasta appears too dry, add more warm broth or milk. Serve immediately with additional feta cheese, if desired.\n\nNote: 1 teaspoon dried basil may be substituted for fresh basil.')
+  第 11 行: (914, '-Ranch Style Salad Dressing-', None, 4, None, 3, 0, 0, None, None, None)
+  第 12 行: (1083, 'Turkey Rolls Italian Style', None, 4, None, 10, 15, 5, 'The National Turkey Federation', None, 'Spray 4 custard cups with nonstick vegetable spray. On a sheet of wax paper (12 X 16-inch) place cutlets. Sprinkle 1/8 tsp. Italian seasoning over each cutlet.\n \nCut cheese into 8 sticks. Place 2 halves of cheese on each cutlet. Roll up like a jelly roll to encase cheese. \n\nIn each custard cup place 1 tablespoon sauce and 1 cutlet roll. Top each cup with 2 tablespoons sauce. In center of microwave oven arrange cups in a circle. Cover each cup with a sheet of wax paper (8 X 8-inch).\n \nMicrowave at Medium High (70% power) for 13 to 15 minutes. Using pot holders, rotate cups every 5 minutes. Remove cups from microwave when rolls are no longer pink in the center. Allow to stand 5 minutes to complete cooking. To serve unmold cutlets onto serving plate.')
+  第 13 行: (1194, 'Sweet-Sour Shrimp', None, 4, None, 15, 5, 0, 'The Cherry Marketing Institute', 'This easy to make sauce changes cooked plain shrimp into something special.', 'Drain shrimp well. In a 2-quart microwave-safe bowl, combine cherry pie filling, vinegar, brown sugar and ginger. Mix well. Stir in green pepper, water chestnuts and shrimp. Mix just to combine. Cover bowl with waxed paper. Microwave on HIGH (100% power) 4 to 5 minutes (stirring 2 or 3 times), or until hot.\nServe over rice.')
+  第 14 行: (1347, 'Iceberg Salad Athena', None, 6, None, 20, 0, 0, 'California Iceberg Lettuce Commission', None, 'Core, rinse and thoroughly drain lettuce; refrigerate in disposable plastic bag or plastic crisper. Cut tomato in small wedges; slice celery and cube cheese. Line chilled salad bowl with a few crisp lettuce leaves. Cut remainder of lettuce in bite-size chunks. Toss lightly with tomato, celery, cheese, olives and Lemon Oregano Dressing (recipe follows). Pile into salad bowl for serving.\n\nLemon Oregano Dressing: Mix last 5 ingredients in a small jar. Cover and shake well. Makes about 1/2 cup dressing.')
+  第 15 行: (1408, 'Fudge Brownie Pie', None, 8, None, 20, 30, 0, 'Hershey Foods Corporation', None, 'Beat eggs in small mixer bowl; blend in sugar and melted butter. Combine flour, cocoa and salt; add to butter mixture. Stir in vanilla and nuts.\n\nPour into lightly greased 8-inch pie pan. Bake at 350 degrees F. for 25 to 30 minutes or until almost set (pie will not test done). Cool; cut into wedges. Serve wedges topped with scoop of ice cream and drizzled with Hot Fudge Sauce (directions follow).\n\nHot Fudge Sauce: Combine sugar and cocoa in small saucepan; blend in evaporated milk and corn syrup. Cook over medium heat, stirring constantly, until mixture boils; boil and stir 1 minute. Remove from heat; stir in butter and vanilla. Serve warm. Makes about 1 3/4 cups sauce.')
+  第 16 行: (1409, 'Chocolate Banana Cream Pie', None, 8, None, 150, 15, 240, 'Hershey Foods Corporation', None, 'Bake pastry shell; set aside. Combine sugar, cocoa, cornstarch and salt in medium saucepan; gradually add milk, stirring until smooth. Cook over medium heat, stirring constantly, until mixture boils; boil and stir 3 minutes. Remove from heat; blend in butter and vanilla. Pour into bowl; press plastic wrap directly onto surface. Cool to room temperature.\n\nCover bottom of cooled shell with small amount of filling. Arrange banana slices over filling; cover with remaining filling. Chill 3 to 4 hours or until firm. Garnish with sweetened whipped cream and banana slices, if desired.')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Nutrition
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'protein', 'carbo', 'alcohol', 'total_fat', 'sat_fat', 'cholestrl', 'sodium', 'iron', 'vitamin_c', 'vitamin_a', 'fiber', 'pcnt_cal_carb', 'pcnt_cal_fat', 'pcnt_cal_prot', 'calories']
+表内容:
+  第 1 行: (231, 0.47, 10.62, 0.0, 2.25, 0.17, 0.0, 36.78, 0.23, 0.04, 2.41, 0.14, 65.74, 31.36, 2.9, 64.61)
+  第 2 行: (429, 10.67, 65.15, 0.0, 17.27, 2.5, 0.0, 837.42, 4.15, 88.24, 1347.59, 2.9, 56.81, 33.88, 9.3, 458.71)
+  第 3 行: (446, 4.22, 26.79, 0.0, 5.45, 1.02, 70.83, 53.96, 1.44, 48.01, 12477.92, 2.4, 61.92, 28.33, 9.75, 173.04)
+  第 4 行: (487, 3.22, 17.64, 0.0, 2.95, 0.32, 0.0, 119.08, 1.54, 22.3, 793.59, 1.33, 64.15, 24.12, 11.73, 109.99)
+  第 5 行: (617, 12.78, 7.14, 0.0, 10.78, 3.25, 289.65, 114.85, 1.64, 19.51, 961.63, 0.67, 16.16, 54.91, 28.93, 176.7)
+  第 6 行: (618, 12.55, 63.28, 0.0, 5.81, 1.73, 212.0, 263.17, 3.73, 50.47, 16154.8, 2.65, 71.19, 14.7, 14.12, 355.59)
+  第 7 行: (627, 10.17, 47.82, 0.0, 13.01, 1.79, 55.29, 29.3, 3.48, 9.04, 300.08, 1.6, 54.8, 33.54, 11.66, 349.07)
+  第 8 行: (652, 7.18, 24.42, 0.0, 9.46, 1.87, 3.28, 121.84, 2.0, 3.08, 168.23, 0.36, 46.18, 40.25, 13.57, 211.57)
+  第 9 行: (693, 14.13, 49.96, 1.01, 9.97, 1.32, 31.1, 353.55, 5.03, 42.25, 2929.74, 2.55, 56.59, 25.4, 16.01, 353.16)
+  第 10 行: (697, 19.44, 84.67, 0.0, 17.5, 2.88, 6.31, 616.21, 3.46, 23.74, 510.69, 2.79, 59.01, 27.44, 13.55, 573.95)
+  第 11 行: (914, 0.4, 0.6, 0.0, 5.7, 0.74, 3.9, 97.01, 0.03, 0.0, 50.55, 0.0, 4.34, 92.76, 2.9, 55.3)
+  第 12 行: (1083, 35.47, 16.77, 0.0, 15.34, 5.32, 85.29, 690.62, 2.39, 11.2, 1400.28, 0.96, 19.33, 39.78, 40.89, 347.02)
+  第 13 行: (1194, 25.09, 58.57, 0.0, 1.73, 0.4, 221.52, 275.49, 4.77, 19.76, 489.41, 1.18, 66.9, 4.44, 28.66, 350.16)
+  第 14 行: (1347, 5.37, 4.2, 0.0, 19.2, 5.42, 16.76, 583.09, 0.96, 13.01, 514.77, 0.64, 7.95, 81.87, 10.18, 211.09)
+  第 15 行: (1408, 5.22, 75.42, 0.0, 27.11, 15.84, 127.89, 355.78, 0.98, 0.55, 1005.95, 0.02, 53.25, 43.06, 3.68, 566.5)
+  第 16 行: (1409, 4.99, 59.51, 0.0, 17.09, 7.55, 29.79, 313.54, 0.76, 3.46, 370.6, 0.17, 57.81, 37.34, 4.84, 411.77)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: Quantity
+--------------------------------------------------------------------------------
+表头（列名）: ['quantity_id', 'recipe_id', 'ingredient_id', 'max_qty', 'min_qty', 'unit', 'preparation', 'optional']
+表内容:
+  第 1 行: (142, 231, 1746, 0.25, 0.25, 'cup(s)', None, 'FALSE')
+  第 2 行: (942, 429, 3283, 1.0, 1.0, 'tablespoon(s)', None, 'FALSE')
+  第 3 行: (1077, 446, 2220, 1.0, 1.0, 'tablespoon(s)', 'melted', 'FALSE')
+  第 4 行: (1381, 487, 420, 8.0, 8.0, 'ounce(s)', None, 'FALSE')
+  第 5 行: (2631, 617, 1367, 1.0, 1.0, 'cup(s)', 'sliced', 'FALSE')
+  第 6 行: (2878, 618, 2306, 1.0, 1.0, 'cup(s)', 'chopped', 'FALSE')
+  第 7 行: (3147, 693, 617, 2.0, 2.0, 'cup(s)', 'halved', 'FALSE')
+  第 8 行: (3279, 627, 3341, 0.5, 0.5, 'cup(s)', 'diced', 'FALSE')
+  第 9 行: (3511, 652, 3287, 8.0, 8.0, 'ounce(s)', 'cooked, drained', 'FALSE')
+  第 10 行: (3599, 697, 781, 1.0, 1.0, 'cup(s)', 'or lowfat milk', 'FALSE')
+  第 11 行: (4293, 1083, 3533, 1.0, 1.0, 'pound(s)', None, 'FALSE')
+  第 12 行: (4876, 914, 4274, 4.0, 4.0, 'tablespoon(s)', None, 'FALSE')
+  第 13 行: (5633, 1194, 732, 3.0, 3.0, 'tablespoon(s)', None, 'FALSE')
+  第 14 行: (5952, 1347, 2019, 2.0, 2.0, 'tablespoon(s)', None, 'FALSE')
+  第 15 行: (6223, 1408, 3595, 1.0, 1.0, 'teaspoon(s)', None, 'FALSE')
+  第 16 行: (6234, 1409, 1767, 0.33, 0.33, 'cup(s)', None, 'FALSE')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/cookbook/7.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Ingredient
+--------------------------------------------------------------------------------
+表头（列名）: ['ingredient_id', 'category', 'name', 'plural']
+表内容:
+  第 1 行: (60, 'frozen fruit', 'apple juice', None)
+  第 2 行: (374, 'dairy', 'butter or margarine', None)
+  第 3 行: (448, 'canned/bottled vegetables', 'canned corn', None)
+  第 4 行: (528, 'tomato products', 'canned tomatoes', None)
+  第 5 行: (1267, 'baking products', 'flour', None)
+  第 6 行: (1440, 'fresh fruit', 'fresh strawberry', '#NAME?')
+  第 7 行: (1780, 'sweeteners', 'honey', None)
+  第 8 行: (1860, 'spices and seasonings', 'Italian seasoning', None)
+  第 9 行: (2282, 'fresh vegetables', 'onion', 's')
+  第 10 行: (3021, 'spices and seasonings', 'salt', None)
+  第 11 行: (3039, 'fresh herbs', 'savory', None)
+  第 12 行: (3533, 'meat/poultry', 'turkey cutlet', 's')
+  第 13 行: (3640, 'nuts and seeds', 'walnuts', None)
+  第 14 行: (3775, 'fresh vegetables', 'winter squash', None)
+  第 15 行: (4381, 'nuts and seeds', 'blanched cashews', None)
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Recipe
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'title', 'subtitle', 'servings', 'yield_unit', 'prep_min', 'cook_min', 'stnd_min', 'source', 'intro', 'directions']
+表内容:
+  第 1 行: (240, 'Citrus Pecan Topping', None, 4, '2 cups', 15, 15, 0, 'Texas Department of Agriculture', 'An interesting Texas topping.', 'Peel and section 1 grapefruit and 1 orange over bowl, reserving juice. Set sections aside. Measure grapefruit juice; squeeze enough juice from the remaining grapefruit to equal 6 tablespoons juice. Repeat with oranges, squeezing enough juice to equal 6 tablespoons juice. Set aside. Combine sugar, cornstarch and salt in saucepan; stir in juices and water. Cook over medium heat, stirring constantly until thickened and bubbly. Add butter and stir until melted. Stir in citrus sections and pecans. Serve warm or at room temperature over pound cake, shortcake, bread pudding or pancakes.')
+  第 2 行: (251, 'Bronx Brownies', None, 12, '1 dozen', 15, 50, 30, 'New York State Department of Agriculture and Markets', 'A twist on the familiar, sweetened with maple syrup.', 'Preheat oven to 300 degrees F.\n\nMelt shortening and chocolate together in medium saucepan over medium heat. Add maple syrup, vanilla, sugar and beaten eggs. Sift flour, baking powder and salt, then add nuts. Add this to first mixture. Pour into a shallow pan which has been lined with well-greased wax paper. Bake at 300 degrees F. for 45 minutes or until done. Cool and cut into 12 pieces.')
+  第 3 行: (430, 'Tangy Strawberry Soup', None, 6, None, 10, 6, 180, 'State of South Carolina Department of Agriculture', 'Great for a luncheon or dinner starter.', 'Wash strawberries, reserving 6 for garnish. Hull remaining berries. Puree strawberries in blender or food processor. Add orange juice, tapioca and cinnamon; process for 10 seconds. Pour strawberry mixture into a 3 quart glass casserole dish. Microwave on HIGH for 5 to 6 minutes or until tapioca is transparent. Stir in buttermilk, sugar, lemon juice, and lemon rind. Cover and chill 3 hours or overnight. When ready to serve, ladle soup into melon halves. Garnish with yogurt and reserved strawberries.')
+  第 4 行: (467, 'Apple-Grape Salad', None, 4, None, 5, 5, 90, 'Produce for Better Health Foundation and 5 a Day', "A versatile molded salad that's great for a side dish or dessert.", 'Soften gelatin in water for 5 minutes. Heat gelatin over low heat, stirring constantly, until dissolved. Add apple juice. Chill until mixture begins to thicken. Stir in fruit and celery. Pour into 3-cup mold. Chill until set.')
+  第 5 行: (486, 'Squash Rolls', None, 24, '2 dozen', 15, 25, 145, 'New York State Department of Argriculture and Markets', None, 'Heat milk margarine, sugar and salt until margarine is melted. Cool to lukewarm. Dissolve yeast in warm water in large mixing bowl. \n\nStir in milk mixture squash and 2 cups of the flour. Beat until smooth. Mix in enough remaining flour to make dough easy to handle. \n\nTurn dough onto lightly floured surface; knead until smooth and elastic, about 5 minutes. \n\nPlace in greased bowl; turn greased side up. Cover; let rise in warm place until double about 1 1/2 hours. (Dough is ready if indentation remains when touched.) \n\nPunch down dough. Shape into 1" balls. Place 3 balls in each of 24 greased muffin cups, 2 1/2" x 1 1/4". \n\nLet rise until double 35 - 45 minutes. Heat oven to 400 F. Bake until light brown, 15 to 20 minutes.\n\nNote: Frozen squash may be used. Thaw and bring to room temperature.')
+  第 6 行: (488, 'Ratatouille', None, 6, None, 20, 25, 0, 'The American Cancer Society', None, 'In a heavy skillet heat olive oil, add onions and saute them until transparent. Add mushrooms and bell peppers and saute until all moisture is evaporated. Add garlic and herbs, saute 1/2 minute, add eggplant and saute another 1/2 minute before adding the tomatoes. Simmer until eggplant is almost tender. Add squash and zucchini, cook until all the ingredients are tender. Just before serving add the black pepper. If you like spicy food, add a pinch of crushed red pepper.\n\nNote: Crushed, canned tomatoes may be substituted for fresh.')
+  第 7 行: (586, 'Lima Beans and Ham', None, 4, None, 20, 75, 15, 'California Dry Bean Advisory Board', None, 'Saute onion and garlic in butter until onion is tender; blend in flour. Combine with beans, ham, carrots, 1 cup water, wine, mustard, thyme and allspice; salt to taste. Place in greased 5-cup baking dish. Bake at 350 degrees F. 1 hour or until most of liquid is absorbed. Add Buttered Bread Crumbs during last 15 minutes. Let stand 10 to 15 minutes before serving.\n\nButtered Bread Crumbs: Saute 1 cup bread crumbs in 1 tablespoon butter until crumbs are crisp and golden brown. Makes about 3/4 cup.\n\nNote: 2 cans of cooked large lima beans may be substituted for the cooked dry beans.')
+  第 8 行: (612, 'Baked Beans', None, 8, None, 720, 120, 0, 'Wisconsin Department of Agriculture', None, 'Soak beans overnight, drain. Add remaining ingredients and enough water to cover beans. Bake at 325 degrees F. 2 hours or until soft (when beans mash easily). Remove 1 cup cooked beans and mash them. Add to remaining beans to thicken.')
+  第 9 行: (627, 'Fettuccine with Walnuts and California Avocado', None, 6, None, 15, 6, 0, 'California Avocado Commission', None, "In a large bowl combine the olive oil, vinegar, basil, green onions, sundried tomatoes, walnuts and half of the California avocado. Toss ingredients well so they are evenly coated with the oil and vinegar. Cook pasta in boiling water for 6 minutes or until 'al dente.' Drain pasta and pour into salad bowl with other ingredients while pasta is still hot. Toss all ingredients and serve immediately using the remaining California avocado as garnish on top of the pasta.")
+  第 10 行: (657, 'Meatless Chili', None, 18, None, 10, 200, 0, 'Produce for Better Health Foundation and 5 a Day', None, 'Recipe can be halved and made in electric stockpot. Freezes well. \n\nCombine all ingredients except rice in 8-quart stockpot. Bring to a boil. Reduce to medium heat and cook partially covered for 3 to 3-1/3 hours stirring occasionally. \n\nMeanwhile, cook rice in 3-quart saucepan according to package directions. Set aside. \n\nTo serve, place 1/2 cup rice in bowl and top with 1-1/2 cups chili.\n\nNote: Fresh or frozen tomatoes may be used in place of the canned.')
+  第 11 行: (658, 'Santa Fe Salad', None, 2, None, 15, 0, 180, 'USA Rice Council', 'A colorful, easy-to-make complete protein.', 'Combine rice, beans, corn and onion in medium bowl. Whisk remaining ingredients in small bowl; pour over rice mixture. Chill 2 to 3 hours so flavors will blend. Stir before serving.')
+  第 12 行: (920, '-Whole Unsalted Cashew Nuts-', None, 4, None, 3, 0, 0, None, None, None)
+  第 13 行: (1083, 'Turkey Rolls Italian Style', None, 4, None, 10, 15, 5, 'The National Turkey Federation', None, 'Spray 4 custard cups with nonstick vegetable spray. On a sheet of wax paper (12 X 16-inch) place cutlets. Sprinkle 1/8 tsp. Italian seasoning over each cutlet.\n \nCut cheese into 8 sticks. Place 2 halves of cheese on each cutlet. Roll up like a jelly roll to encase cheese. \n\nIn each custard cup place 1 tablespoon sauce and 1 cutlet roll. Top each cup with 2 tablespoons sauce. In center of microwave oven arrange cups in a circle. Cover each cup with a sheet of wax paper (8 X 8-inch).\n \nMicrowave at Medium High (70% power) for 13 to 15 minutes. Using pot holders, rotate cups every 5 minutes. Remove cups from microwave when rolls are no longer pink in the center. Allow to stand 5 minutes to complete cooking. To serve unmold cutlets onto serving plate.')
+  第 14 行: (1088, 'Chicken Mushroom Soup', None, 6, None, 15, 50, 0, 'The National Broiler Council', 'An easy to prepare soup with light, clear flavors, perfect for a light lunch or the first course at dinner.', 'In large Dutch oven, place chicken breasts. Add water, celery, onion, salt pepper and bay leaves. Bring to a boil over high temperature; reduce heat to low and simmer, covered, about 30 minutes. Remove chicken and bay leaves; skim off fat from broth. Add carrots and macaroni rosettes and return to a boil. Lower heat and simmer about 10 minutes or until rosettes are tender. Remove skin and bones from chicken and discard; chop chicken into bite-size pieces. Add chicken, mushrooms and parsley to Dutch oven and cook until mushrooms are done, about 5 minutes.')
+  第 15 行: (1398, 'Yogurt-Honey Dressing', None, 6, '1 1/4 cups', 5, 0, 0, 'Sun-Diamond Growers of California', 'Delicious over assorted fruits.', 'Combine all ingredients; whisk together to blend. Stir before serving.\n\nNote: Diamond Walnut Oil with Garlic may be substituted for the Diamond Walnut Oil.')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Nutrition
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'protein', 'carbo', 'alcohol', 'total_fat', 'sat_fat', 'cholestrl', 'sodium', 'iron', 'vitamin_c', 'vitamin_a', 'fiber', 'pcnt_cal_carb', 'pcnt_cal_fat', 'pcnt_cal_prot', 'calories']
+表内容:
+  第 1 行: (240, 1.71, 33.02, 0.0, 5.55, 1.5, 5.18, 92.68, 0.35, 80.46, 531.7, 0.92, 69.94, 26.43, 3.63, 188.86)
+  第 2 行: (251, 2.67, 23.83, 0.0, 9.4, 1.86, 35.42, 68.65, 0.62, 0.02, 54.25, 0.09, 50.02, 44.39, 5.59, 190.61)
+  第 3 行: (430, 5.98, 63.63, 0.0, 2.83, 1.05, 6.23, 86.07, 1.23, 185.1, 8728.57, 1.6, 83.75, 8.38, 7.87, 303.87)
+  第 4 行: (467, 1.73, 17.3, 0.0, 0.25, 0.05, 0.0, 11.12, 0.46, 41.24, 37.06, 0.89, 88.24, 2.91, 8.85, 78.43)
+  第 5 行: (486, 2.95, 23.07, 0.0, 1.39, 0.32, 0.76, 114.31, 0.36, 0.69, 256.21, 0.13, 79.13, 10.76, 10.11, 116.61)
+  第 6 行: (488, 5.03, 22.45, 0.0, 3.03, 0.44, 0.0, 14.2, 2.24, 81.6, 1671.11, 2.87, 65.46, 19.88, 14.66, 137.18)
+  第 7 行: (586, 22.66, 57.59, 0.69, 14.02, 7.01, 48.02, 1191.65, 5.39, 26.82, 6655.62, 3.43, 50.97, 27.92, 20.06, 452.02)
+  第 8 行: (612, 15.49, 64.84, 0.0, 4.15, 1.11, 4.28, 254.14, 4.67, 23.54, 5879.22, 4.37, 72.32, 10.41, 17.27, 358.62)
+  第 9 行: (627, 10.17, 47.82, 0.0, 13.01, 1.79, 55.29, 29.3, 3.48, 9.04, 300.08, 1.6, 54.8, 33.54, 11.66, 349.07)
+  第 10 行: (657, 9.48, 46.94, 0.0, 2.33, 0.36, 0.0, 333.91, 3.33, 23.76, 938.85, 2.98, 76.13, 8.49, 15.38, 246.64)
+  第 11 行: (658, 12.99, 66.04, 0.0, 8.89, 1.16, 0.0, 1114.68, 3.21, 64.22, 2937.23, 3.33, 66.68, 20.2, 13.12, 396.15)
+  第 12 行: (920, 4.59, 8.1, 0.0, 13.69, 2.71, 0.0, 4.83, 1.16, 0.0, 0.0, 0.36, 18.62, 70.83, 10.55, 173.97)
+  第 13 行: (1083, 35.47, 16.77, 0.0, 15.34, 5.32, 85.29, 690.62, 2.39, 11.2, 1400.28, 0.96, 19.33, 39.78, 40.89, 347.02)
+  第 14 行: (1088, 21.23, 14.02, 0.0, 5.25, 1.44, 52.86, 861.13, 1.98, 6.58, 5336.52, 0.89, 29.79, 25.1, 45.11, 188.21)
+  第 15 行: (1398, 0.71, 4.28, 0.0, 18.83, 2.05, 2.4, 9.01, 0.04, 1.84, 27.33, 0.0, 9.05, 89.46, 1.5, 189.44)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: Quantity
+--------------------------------------------------------------------------------
+表头（列名）: ['quantity_id', 'recipe_id', 'ingredient_id', 'max_qty', 'min_qty', 'unit', 'preparation', 'optional']
+表内容:
+  第 1 行: (222, 240, 374, 2.0, 2.0, 'teaspoon(s)', None, 'FALSE')
+  第 2 行: (329, 251, 1267, 0.5, 0.5, 'cup(s)', 'sifted', 'FALSE')
+  第 3 行: (945, 430, 1440, 1.0, 1.0, 'quart(s)', None, 'FALSE')
+  第 4 行: (1227, 467, 60, 1.5, 1.5, 'cup(s)', None, 'FALSE')
+  第 5 行: (1374, 486, 3775, 1.0, 1.0, 'cup(s)', 'mashed, cooked', 'FALSE')
+  第 6 行: (1399, 488, 3039, 0.25, 0.25, 'teaspoon(s)', None, 'FALSE')
+  第 7 行: (2325, 586, 2282, 0.5, 0.5, 'cup(s)', 'chopped', 'FALSE')
+  第 8 行: (2615, 612, 3021, 0.5, 0.5, 'teaspoon(s)', None, 'FALSE')
+  第 9 行: (3019, 657, 528, 8.0, 8.0, 'cup(s)', 'unsalted', 'FALSE')
+  第 10 行: (3026, 658, 448, 8.75, 8.75, 'ounce(s)', 'drained', 'FALSE')
+  第 11 行: (3314, 627, 3640, 2.0, 2.0, 'tablespoon(s)', 'chopped', 'FALSE')
+  第 12 行: (4293, 1083, 3533, 1.0, 1.0, 'pound(s)', None, 'FALSE')
+  第 13 行: (4294, 1083, 1860, 0.5, 0.5, 'teaspoon(s)', None, 'FALSE')
+  第 14 行: (4343, 1088, 3021, 2.0, 2.0, 'teaspoon(s)', None, 'FALSE')
+  第 15 行: (4882, 920, 4381, 4.0, 4.0, 'ounce(s)', None, 'FALSE')
+  第 16 行: (6197, 1398, 1780, 1.0, 1.0, 'tablespoon(s)', None, 'FALSE')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/cookbook/8.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Ingredient
+--------------------------------------------------------------------------------
+表头（列名）: ['ingredient_id', 'category', 'name', 'plural']
+表内容:
+  第 1 行: (337, 'fresh vegetables', 'broccoli', None)
+  第 2 行: (527, 'tomato sauces', 'canned tomato sauce', None)
+  第 3 行: (585, 'fresh vegetables', 'celery', None)
+  第 4 行: (841, 'grains', 'cooked rice', None)
+  第 5 行: (1636, 'frozen vegetables', 'green beans', None)
+  第 6 行: (1688, 'spices and seasonings', 'ground cumin', None)
+  第 7 行: (2260, 'fresh vegetables', 'carrot', 's')
+  第 8 行: (2342, 'dried fruit', 'mixed dried fruit', None)
+  第 9 行: (2454, 'frozen fruit', 'orange juice', None)
+  第 10 行: (3021, 'spices and seasonings', 'salt', None)
+  第 11 行: (3384, 'cheese', 'Swiss cheese', None)
+  第 12 行: (3595, 'spices and seasonings', 'vanilla', None)
+  第 13 行: (3757, 'breads', 'whole wheat bread', None)
+  第 14 行: (4289, 'dairy', 'plain nonfat yogurt', None)
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Recipe
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'title', 'subtitle', 'servings', 'yield_unit', 'prep_min', 'cook_min', 'stnd_min', 'source', 'intro', 'directions']
+表内容:
+  第 1 行: (230, 'Apricot Almond Bread Pudding', None, 8, None, 10, 55, 180, 'The American Egg Board', None, 'In greased shallow 1 1/2-quart casserole, lightly toss together bread cubes, apricots and almonds. In medium bowl, beat together eggs, milk, sugar and flavorings. Pour over bread mixture. Cover and refrigerate several hours or overnight.\n \nBake in a preheated 350 degree F. oven until knife inserted near center\ncomes out clean, about 45 to 55 minutes. Serve hot or refrigerate to serve\nchilled.')
+  第 2 行: (416, 'Orange Date Shake', None, 1, None, 5, 0, 0, 'The California Date Adminstrative Committee', 'This versatile shake is a delicious pick-me-up morning, noon or night.', 'Combine dates and orange juice in blender and puree until dates are finely chopped. Add frozen yogurt; blend until just combined.')
+  第 3 行: (420, 'Tomato-Cucumber Relish', None, 4, None, 15, 7, 120, 'The Florida Tomato Committee', 'A great accompaniment to grilled foods.', 'Use tomatoes held at room temperature until fully ripe. Set aside cut tomatoes, which should equal about 2 cups. Peel cucumbers; cut in halves lengthwise and scoop out seeds using a teaspoon. Cut cucumbers in 1/2-inch pieces (makes about 1 1/2 cups); set aside. In a small saucepan combine water, vinegar, salt, celery seed, mustard, sugar and red pepper. Bring to a boil. Reduce heat and simmer, covered, for 2 minutes. Remove from heat. In a medium bowl combine green pepper, green onion and reserved tomatoes and cucumbers. Stir in vinegar mixture. Cover and refrigerate at least 2 hours or overnight.')
+  第 4 行: (485, 'Slimline Blue Cheese Dressing and Dip', None, 20, '1 1/2 cups', 10, 0, 30, 'Wisconsin Milk Marketing Board', None, 'In a small bowl stir together yogurt and milk. Mix in onions, blue cheese, garlic, herbs, and salt. Cover and chill 30 minutes or more to blend flavors. Serve as a dressing for salads or a dip for vegetable chunks.')
+  第 5 行: (501, 'Strawberry-Banana Shake', None, 2, '2 cups', 10, 0, 0, ' The Sugar Association, Inc. ', 'This drink is wonderful as a quick breakfast or satisfying snack.', 'In a blender or food processor, combine all the ingredients. Process until smooth.')
+  第 6 行: (532, 'Stir Fry Vegetables', None, 4, None, 20, 65, 0, 'New York State Department of Agriculture and Markets', None, "Brown stew meat, simmer for one hour until tender, drain and set aside. \n\nMix cornstarch, ginger, garlic powder, soy sauce and water in glass measuring cup and set aside. \n\nHeat oil in large frying pan with lid. When oil is hot, add dry carrots, onions and celery. \n\nCook for one minute, stirring constantly. \n\nThen add the broccoli and cook for 2 minutes. Stir constantly, broccoli will turn bright green. \n\nAdd the liquid and continue cooking for one minute or until it's bubbly. \n\nAdd the bean sprouts, French green beans, mushrooms, water chestnuts and cooked stew meat. \n\nReduce heat, cover pan and cook for 2 more minutes. This recipe may also be served with rice or Chinese noodles.")
+  第 7 行: (537, 'Middle Eastern Meatballs', None, 4, None, 35, 45, 0, 'California Beef Council', None, 'Stir 1/2 cup water into bulgur; let sit 30 minutes. When bulgur has absorbed the water, combine with beef and remaining ingredients except tomato sauce. Mix well using hands. Form into 12 meatballs. Arrange in shallow baking dish. Bake at 500 degrees F. until beef begins to brown, about 5 minutes. Combine tomato sauce and remaining 1/2 cup water. Pour over beef. Reduce oven temperature to 350 degrees F. Bake, uncovered, until meatballs are done and sauce has thickened slightly, about 30 minutes. Baste meatballs with tomato sauce twice during baking.\n\nNote: 3/4 cup uncooked rice (1 1/2 cups cooked rice) may be substituted for the bulgur wheat.\nIf fresh mint is unavailable, use 2 teaspoons dried.')
+  第 8 行: (615, 'Moroccan Egg Salad', None, 6, None, 20, 5, 5, 'The Egg Nutrition Center', 'A tasty twist on typical egg salad.', 'In medium saucepan, bring broth to boiling. Stir in couscous and fruits. Remove from heat. Cover and let stand 5 minutes. In medium bowl, blend dressing and lemon juice. Add reserved couscous and toss until evenly moistened. Chop 3 eggs. Discard remaining yolks and chop whites. Add to couscous mixture along with vegetables. Toss until well combined. To serve mound on serving plate. Garnish with spinach leaves, if desired.')
+  第 9 行: (625, "Bean 'n' Vegetable Medley", None, 6, None, 10, 30, 0, 'California Dry Bean Advisory Board', None, 'Combine all ingredients except beans and parsley; simmer 30 minutes or until vegetables are tender. Drain; reserve 1/4 cup liquid. Puree vegetables in food processor or food mill until smooth. Puree beans and combine with vegetables; blend in reserved liquid. Garnish with parsley.\n\nNote: Two 16-ounce cans of small white beans may be used in place of the cooked.')
+  第 10 行: (685, 'Tofu Baked Ziti', None, 6, None, 15, 45, 0, 'The American Cancer Society', None, 'Preheat oven to 350 degrees F. Prepare sauce: in medium-size saucepan over medium-high heat, cook onion and garlic in vegetable oil 2-3 minutes. Add tomato sauces, 1 Tablespoon parsley and oregano. Bring to a boil; reduce heat, cover and simmer 15 minutes. Meanwhile, cook ziti according to package directions, omitting salt. While ziti is cooking, puree tofu with egg white in food processor or blender container. Place in large bowl. Add spinach, remaining tablespoon parsley, nutmeg and pepper. Blend well. Drain ziti and add to tofu mixture; blend well. Place 1/4 sauce in bottom of 2-quart casserole. Add 1/3 tofu-ziti mixture spreading with large spoon or spatula. Continue making layers of sauce and tofu-ziti mixture, ending with sauce. Top with grated cheese. Cover and bake 30 minutes.')
+  第 11 行: (716, '-Green Beans and New Potatoes-', None, 4, None, 15, 15, 0, None, None, 'Trim, wash and snap beans in 1-2 inch lengths. Wash potatoes and cut in half if small and in quarters if large. Place potatoes in saucepan and cover with water. Bring to a boil and cook for 5 minutes, add beans and cook for another 10 minutes or until both are tender. Drain, season and serve.')
+  第 12 行: (1073, 'Barbecued Chicken on a Bun', None, 4, None, 20, 35, 0, 'The California Tree Fruit Agreement', 'Serve with savory grilled peaches.', 'Combine seasoned salt and pepper. Loosen one edge of chicken skin and rub seasoning mixture underneath skin. Cook chicken skin-side down on covered grill over medium, indirect heat about 30 to 35 minutes or until chicken is cooked through.\n \nIn a small bowl combine peach, green onions, tomato, mint and chili powder to make peach-mint salsa.\n \nServe chicken on buns topped with cheese, ham and salsa. Garnish with lettuce.')
+  第 13 行: (1079, 'Oriental Stir-Fry', None, 3, None, 10, 10, 0, 'USA Rice Council', 'Frozen vegetables and cooked rice make this a quick and easy one dish meal.', 'Purchase either Japanese or Chinese stir-fry vegetables with seasonings. Remove seasoning pouch from vegetable package; reserve. Heat oil in wok over medium-high heat; add chicken. Stir-fry until chicken loses pink color; push to one side of wok. Add vegetables. Do not add oil to vegetables as directed on package. Cover and cook 2 minutes, stirring once. Sprinkle vegetables with reserved seasonings; add water as directed. Cook and stir 30 seconds. Serve with fluffy rice.')
+  第 14 行: (1149, 'Summer Seafood Salad', None, 4, None, 15, 20, 30, 'USA Rice Council', 'An easy salad with light fresh flavors.', 'Combine rice, crab meat, water chestnuts, celery and onions in large mixing bowl. Combine yogurt, sour cream, lemon juice, and seasonings in small bowl; blend well. Pour over rice mixture; toss lightly. Serve on lettuce leaves and garnish with tomato wedges.\n\nIf crab meat is unavailable substitute crab-flavored Surimi Seafood flakes or chunks.')
+  第 15 行: (1218, 'Texas Shrimp Slaw', None, 6, None, 30, 0, 0, 'The Texas Department of Agriculture', None, 'In a large mixing bowl, combine shrimp, cabbage, carrots, and parsley. To prepare dressing, mix remaining ingredients together in a small container. Add to salad and mix thoroughly or serve separately. Serve with fancy crackers.')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Nutrition
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'protein', 'carbo', 'alcohol', 'total_fat', 'sat_fat', 'cholestrl', 'sodium', 'iron', 'vitamin_c', 'vitamin_a', 'fiber', 'pcnt_cal_carb', 'pcnt_cal_fat', 'pcnt_cal_prot', 'calories']
+表内容:
+  第 1 行: (230, 10.35, 44.99, 0.0, 6.08, 1.28, 108.61, 287.35, 2.39, 0.92, 1165.57, 1.11, 65.18, 19.82, 15.0, 276.09)
+  第 2 行: (416, 8.0, 105.99, 0.0, 5.99, 1.54, 22.5, 108.91, 1.53, 40.93, 141.53, 2.02, 83.16, 10.57, 6.28, 509.83)
+  第 3 行: (420, 2.91, 16.63, 0.0, 1.16, 0.15, 0.0, 608.02, 1.74, 86.7, 1657.95, 2.24, 75.03, 11.82, 13.14, 88.67)
+  第 4 行: (485, 0.79, 0.85, 0.0, 0.43, 0.28, 1.22, 84.29, 0.06, 0.59, 28.67, 0.03, 32.48, 37.3, 30.23, 10.42)
+  第 5 行: (501, 7.55, 40.09, 0.0, 0.75, 0.25, 2.04, 90.23, 0.58, 48.42, 74.24, 0.68, 81.26, 3.44, 15.3, 197.37)
+  第 6 行: (532, 14.52, 11.3, 0.0, 12.79, 4.2, 42.17, 150.24, 2.49, 49.99, 5966.81, 1.41, 20.7, 52.7, 26.6, 218.38)
+  第 7 行: (537, 26.41, 26.38, 0.0, 12.1, 4.56, 71.7, 403.24, 3.07, 6.12, 75.51, 0.78, 32.98, 34.02, 33.0, 320.05)
+  第 8 行: (615, 16.3, 34.21, 0.0, 12.09, 3.18, 318.47, 632.6, 1.97, 4.73, 3334.64, 0.72, 44.03, 35.0, 20.98, 310.86)
+  第 9 行: (625, 9.09, 25.8, 3.66, 0.4, 0.1, 0.0, 212.96, 3.77, 3.02, 5204.72, 2.61, 61.15, 2.13, 21.55, 168.77)
+  第 10 行: (685, 16.2, 41.44, 0.0, 6.11, 1.59, 6.3, 298.13, 6.45, 28.59, 4996.93, 2.55, 58.05, 19.26, 22.7, 285.55)
+  第 11 行: (716, 3.47, 28.19, 0.0, 0.17, 0.04, 0.0, 11.41, 1.83, 24.36, 379.42, 1.43, 87.98, 1.18, 10.84, 128.15)
+  第 12 行: (1073, 44.79, 27.39, 0.0, 19.34, 8.29, 119.47, 1701.43, 2.82, 17.34, 745.31, 0.55, 23.68, 37.61, 38.71, 462.78)
+  第 13 行: (1079, 23.82, 45.8, 0.0, 7.79, 1.21, 51.5, 410.25, 3.21, 20.73, 914.1, 1.04, 52.55, 20.11, 27.34, 348.58)
+  第 14 行: (1149, 15.74, 41.2, 0.0, 4.61, 1.41, 36.71, 793.58, 2.81, 17.82, 378.16, 0.89, 61.21, 15.4, 23.38, 269.21)
+  第 15 行: (1218, 25.16, 11.26, 0.0, 5.44, 1.12, 227.41, 743.8, 4.07, 24.18, 3008.81, 0.48, 23.14, 25.15, 51.71, 194.63)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: Quantity
+--------------------------------------------------------------------------------
+表头（列名）: ['quantity_id', 'recipe_id', 'ingredient_id', 'max_qty', 'min_qty', 'unit', 'preparation', 'optional']
+表内容:
+  第 1 行: (133, 230, 3757, 3.0, 3.0, 'cup(s)', 'day-old, cubed', 'FALSE')
+  第 2 行: (839, 416, 2454, 0.5, 0.5, 'cup(s)', None, 'FALSE')
+  第 3 行: (861, 420, 3021, 1.0, 1.0, 'teaspoon(s)', None, 'FALSE')
+  第 4 行: (1360, 485, 4289, 0.5, 0.5, 'cup(s)', None, 'FALSE')
+  第 5 行: (1473, 501, 3595, 0.5, 0.5, 'teaspoon(s)', None, 'FALSE')
+  第 6 行: (1761, 532, 337, 2.0, 2.0, 'cup(s)', 'flowerets separated, stems cut in thin slices', 'FALSE')
+  第 7 行: (1814, 537, 1688, 1.0, 1.0, 'teaspoon(s)', None, 'FALSE')
+  第 8 行: (2651, 625, 585, 0.25, 0.25, 'cup(s)', 'sliced', 'FALSE')
+  第 9 行: (2856, 685, 527, 8.0, 8.0, 'ounce(s)', None, 'FALSE')
+  第 10 行: (2865, 615, 2342, 0.33, 0.33, 'cup(s)', 'chopped', 'FALSE')
+  第 11 行: (4208, 1073, 3384, 4.0, 4.0, 'ounce(s)', 'cut into 1 ounce slices', 'FALSE')
+  第 12 行: (4263, 1079, 841, 2.0, 2.0, 'cup(s)', 'hot', 'FALSE')
+  第 13 行: (4652, 716, 1636, 0.5, 0.5, 'pound(s)', None, 'FALSE')
+  第 14 行: (5199, 1149, 841, 2.0, 2.0, 'cup(s)', 'cooled', 'FALSE')
+  第 15 行: (5871, 1218, 2260, 0.5, 0.5, 'cup(s)', 'grated', 'FALSE')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/cookbook/9.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Ingredient
+--------------------------------------------------------------------------------
+表头（列名）: ['ingredient_id', 'category', 'name', 'plural']
+表内容:
+  第 1 行: (219, 'spices and seasonings', 'black pepper', None)
+  第 2 行: (282, 'meat/poultry', 'skinless boneless chicken breast', 's')
+  第 3 行: (526, 'tomato products', 'tomato paste', None)
+  第 4 行: (889, 'baking products', 'cornstarch', None)
+  第 5 行: (1339, 'spices and seasonings', 'fresh ground black pepper', None)
+  第 6 行: (1524, 'frozen vegetables', 'frozen peas', None)
+  第 7 行: (1690, 'spices and seasonings', 'ground ginger', None)
+  第 8 行: (1807, 'frozen desserts', 'chocolate ice cream', None)
+  第 9 行: (2019, 'fruit juices', 'lemon juice', None)
+  第 10 行: (2058, 'salad dressings', 'low calorie mayonnaise', None)
+  第 11 行: (2140, 'cheese', 'lowfat low sodium swiss cheese', None)
+  第 12 行: (2417, 'dairy', 'nonfat milk', None)
+  第 13 行: (2518, 'spices and seasonings', 'paprika', None)
+  第 14 行: (3021, 'spices and seasonings', 'salt', None)
+  第 15 行: (3772, 'vinegars', 'wine vinegar', None)
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Recipe
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'title', 'subtitle', 'servings', 'yield_unit', 'prep_min', 'cook_min', 'stnd_min', 'source', 'intro', 'directions']
+表内容:
+  第 1 行: (429, 'Chinese Broccoli and Almonds', None, 4, None, 60, 10, 0, 'The Idaho Potato Commission', 'This can be an entire meal or a great side dish for chicken or fish.', 'In large skillet, heat oil; saute onion and garlic until onion is transparent. Add broccoli, chicken broth and vinegar. Mix cornstarch with soy sauce, stir into skillet; bring to a boil, boil 1 minute. Just before serving stir in almonds and pimiento. Spoon topping over each blossomed potato.')
+  第 2 行: (439, 'Creamy Vegetable Dip', None, 16, '1 cup', 5, 0, 60, 'New York State Department of Argiculture and Markets', None, 'In a small bowl, whisk mayonnaise until smooth. \n\nStir in yogurt, oregano salt, pepper and garlic. \n\nCover and chill for 1 hour before serving. \n\nServe with raw vegetables for dipping.')
+  第 3 行: (458, 'Fast Pea Soup', None, 4, None, 10, 10, 60, 'Produce for Better Health Foundation and 5 a Day', 'An easy to make cold soup, good anytime of year.', 'Combine peas, onions, 1/4 cup of the chicken broth and dill in microwave safe dish. Cover and cook on high till peas are extremely tender (8-10 minutes). Cool, then add the rest of the chicken broth. Pour half of the pea mixture into a food processor or blender and blend until smooth. Transfer to another container and process the rest. Cover the pea mixture and chill until serving time. \n\nWith a wire whisk, blend in 8 ounces of yogurt. Garnish each serving bowl with an extra dollop of yogurt, if desired.')
+  第 4 行: (477, 'Red Onion Potato Salad', None, 6, None, 15, 30, 120, 'The Potato Board', 'A lower fat version of the old stand-by. Your family is sure to love it.', 'In large bowl, combine hot potatoes with remaining ingredients. Refrigerate to chill.')
+  第 5 行: (485, 'Slimline Blue Cheese Dressing and Dip', None, 20, '1 1/2 cups', 10, 0, 30, 'Wisconsin Milk Marketing Board', None, 'In a small bowl stir together yogurt and milk. Mix in onions, blue cheese, garlic, herbs, and salt. Cover and chill 30 minutes or more to blend flavors. Serve as a dressing for salads or a dip for vegetable chunks.')
+  第 6 行: (550, 'Potato Sticks with Glazed Pork and Cabbage', None, 4, None, 20, 20, 0, 'National Potato Board', None, 'Cut pork into strips, 1/2-inch thick, 1-inch wide and 2 1/2-inches long. Place onion and butter on 12-inch round microwave platter. Microwave, uncovered, on HIGH 1 to 2 minutes until onion is slightly softened. Add cabbage; toss well to mix. Cover tightly with plastic wrap, turning back one edge to vent steam; microwave on HIGH 2 to 3 minutes until cabbage has cooked down somewhat. Push cabbage mixture to center of plate. Arrange potatoes in a ring around outer 2 inches of plate. Place pork strips between cabbage and potatoes. Microwave covered for 10 to 12 minutes, until pork is cooked through and potatoes are tender.\n\nIn a small bowl, mix together apricot preserves and mustard. Spoon half of the apricot mixture over the pork and microwave on HIGH for 2 to 3 minutes to glaze. Pass extra glaze at table.\n\nVariation: Barbecue Pork and Potatoes: Substitute prepared barbecue sauce for apricot preserves. Spoon half of the sauce over the pork before cooking. Pass remaining sauce when serving.')
+  第 7 行: (645, 'Broccoli Amandine', None, 4, None, 17, 60, 0, 'The Idaho Potato Commission', None, "Scrub potatoes well. Dry, then prick with a fork. Bake in a 425 degree F. oven 55-60 minutes, until soft. In medium saucepan heat oil; saute onion and garlic until onion is tender. Add broccoli, chicken broth and vinegar. Bring to a boil. Cover. Cook 2-3 minutes, until broccoli is crisp-tender. Mix cornstarch with soy sauce, stir into pan; return to boiling, boil 1 minute. Just before serving, stir in almonds and pimiento. Cut an 'x' in the top of each potato with tines of a fork, then push up some of the potato with slight pressure of the finger. Spoon topping over each blossomed potato.")
+  第 8 行: (685, 'Tofu Baked Ziti', None, 6, None, 15, 45, 0, 'The American Cancer Society', None, 'Preheat oven to 350 degrees F. Prepare sauce: in medium-size saucepan over medium-high heat, cook onion and garlic in vegetable oil 2-3 minutes. Add tomato sauces, 1 Tablespoon parsley and oregano. Bring to a boil; reduce heat, cover and simmer 15 minutes. Meanwhile, cook ziti according to package directions, omitting salt. While ziti is cooking, puree tofu with egg white in food processor or blender container. Place in large bowl. Add spinach, remaining tablespoon parsley, nutmeg and pepper. Blend well. Drain ziti and add to tofu mixture; blend well. Place 1/4 sauce in bottom of 2-quart casserole. Add 1/3 tofu-ziti mixture spreading with large spoon or spatula. Continue making layers of sauce and tofu-ziti mixture, ending with sauce. Top with grated cheese. Cover and bake 30 minutes.')
+  第 9 行: (879, '-Chocolate Milk Shake-', None, 4, None, 5, 0, 0, None, None, 'Blend all together in blender until smooth, for 30 seconds to 1 minute. Pour into tall glasses.')
+  第 10 行: (1024, 'Turkey with Orange', None, 4, None, 15, 70, 0, 'The National Turkey Federation', 'An easy way to boost the flavor but not the fat.', 'Rinse turkey parts and pat dry. Skin turkey thighs. Place under broiler to brown. Remove to Dutch oven or roasting pan and sprinkle with paprika. Arrange onion slices over turkey. Combine juice concentrate, brown sugar parsley, soy sauce, ginger and water. Pour over turkey and onions.\n \nPreheat oven to 400 degrees F. Cover turkey and bake in oven approximately 60 minutes, basting once or twice, until turkey is tender. Slice meat, coat with sauce and garnish with orange twists.\n\nNote: Thighs may be boned before cooking.')
+  第 11 行: (1086, 'Lemon Chicken and Rice', None, 4, None, 15, 35, 0, 'USA Rice Council', None, 'Season chicken breast with salt, pepper and paprika. Brown chicken in oil in large nonstick skillet over high heat. Add remaining ingredients except parsley; bring to a boil. Reduce heat, cover and simmer 20 to 25 minutes, or until rice is tender and liquid is absorbed. Fluff with fork. Garnish with parsley.')
+  第 12 行: (1096, 'Tomato-Turkey Noodle Bake', None, 6, None, 15, 50, 10, 'The Florida Tomato Committee', None, 'Use ripe tomatoes. Dice tomatoes to make about 6 cups; set aside. In a large skillet, heat oil until hot. Add onion and garlic; saute until tender, about 5 minutes. Add thyme, salt, rosemary, black pepper and reserved tomatoes. Bring to a boil. Reduce heat and simmer, uncovered until tomatoes are softened, about 15 minutes. Stir often.\n \nPreheat oven to 350 degrees F. Meanwhile, cook noodles according to package directions; drain. In a large bowl toss noodles with eggs, 1/2 cup of the Parmesan cheese and milk. In a shallow 2-quart buttered casserole, layer half of the noodle mixture. Spoon half the tomato sauce over the noodles. Top with half the chicken. Repeat layers. Sprinkle the other 2 tablespoons of cheese over the chicken. Bake, uncovered, until firm, 25 to 30 minutes. Let stand 10 minutes before cutting into portions.\n\nNote: Chicken may be used in place of turkey.')
+  第 13 行: (1097, 'Dilly Turkey Stuffed Tomatoes', None, 6, None, 20, 15, 120, 'The National Turkey Federation', 'Leftover turkey and tomatoes combine to make a great lunch, or side dish.', 'Cut tops from tomatoes. Scoop out pulp and seeds; discard. Turn tomatoes upside down on paper towels to drain. In a medium bowl, combine remaining ingredients; cover and refrigerate 1 to 2 hours or overnight.\n \nTo serve, fill tomato shells with turkey mixture. If desired, garnish with a sprig of fresh dill and serve on lettuce.')
+  第 14 行: (1129, 'Shrimp Marinara Pasta', None, 2, None, 10, 25, 0, 'The National Fisheries Institute', None, 'Cook onion, green pepper and garlic in hot oil until tender in 1-quart skillet or soup pot. Add tomato sauce, tomato paste, water and seasonings. Cover and simmer for 15 minutes, stirring occasionally. Add shrimp. Cover and simmer for approximately 3 minutes longer or until shrimp are tender. Serve over cooked pasta.')
+  第 15 行: (1135, 'Simply Snapper', None, 6, None, 20, 40, 0, 'West Coast Fisheries Development Foundation', None, 'Rinse fish with cold water; pat dry with paper towels. Cut fish into 6 equal-size serving portions. Slice olives; set aside. In a large skillet, fry bacon over medium heat until crisp. Remove bacon from skillet reserving bacon drippings. Blot bacon with paper towels and crumble; set aside. Saute onion in bacon drippings until tender. Place fish in a single layer in well-greased 2-quart glass baking dish. Sprinkle with lemon juice, pepper and garlic salt. Top with onion and olives. Combine bacon, bread crumbs and parsley; sprinkle over top of olives. Bake, uncovered, at 350 F. for 25-30 minutes, or until fish flakes easily when tested with a fork.')
+  第 16 行: (1209, 'Saffron Crawfish Risotto', None, 6, None, 15, 40, 0, 'USA Rice Council', 'A classic Italian rice dish with the Southern addition of crawfish.', 'Cook onions in butter in large skillet over medium-high heat until soft. Add rice and saffron; stir 2 to 3 minutes. Add wine; stir until absorbed. Stir in 1 cup broth; cook, uncovered, stirring frequently, until broth is absorbed. Continue stirring and adding remaining 1 cup broth and 3 cups water, allowing each to be absorbed before adding another, until rice is tender and mixture has a creamy consistency. It will take approximately 25 to 30 minutes. Stir in remaining ingredients and cook until thoroughly heated, about 2 minutes.\n\nIf crawfish is unavailable, substitute deveined medium shrimp.')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Nutrition
+--------------------------------------------------------------------------------
+表头（列名）: ['recipe_id', 'protein', 'carbo', 'alcohol', 'total_fat', 'sat_fat', 'cholestrl', 'sodium', 'iron', 'vitamin_c', 'vitamin_a', 'fiber', 'pcnt_cal_carb', 'pcnt_cal_fat', 'pcnt_cal_prot', 'calories']
+表内容:
+  第 1 行: (429, 10.67, 65.15, 0.0, 17.27, 2.5, 0.0, 837.42, 4.15, 88.24, 1347.59, 2.9, 56.81, 33.88, 9.3, 458.71)
+  第 2 行: (439, 0.4, 1.73, 0.0, 1.55, 0.32, 2.23, 78.73, 0.02, 0.06, 6.34, 0.01, 30.8, 62.08, 7.13, 22.52)
+  第 3 行: (458, 7.93, 14.64, 0.0, 1.56, 0.62, 3.46, 154.54, 1.5, 13.33, 555.58, 1.51, 56.15, 13.44, 30.41, 104.28)
+  第 4 行: (477, 5.53, 52.93, 0.0, 1.95, 0.33, 0.0, 930.08, 2.88, 36.68, 218.16, 2.0, 84.2, 7.0, 8.8, 251.46)
+  第 5 行: (485, 0.79, 0.85, 0.0, 0.43, 0.28, 1.22, 84.29, 0.06, 0.59, 28.67, 0.03, 32.48, 37.3, 30.23, 10.42)
+  第 6 行: (550, 26.88, 62.91, 0.0, 5.39, 2.02, 65.41, 128.26, 3.52, 46.51, 286.81, 2.14, 61.73, 11.9, 26.38, 407.65)
+  第 7 行: (645, 10.68, 65.63, 0.0, 17.2, 2.48, 0.0, 702.3, 4.34, 98.43, 1662.59, 3.03, 57.06, 33.66, 9.28, 460.07)
+  第 8 行: (685, 16.2, 41.44, 0.0, 6.11, 1.59, 6.3, 298.13, 6.45, 28.59, 4996.93, 2.55, 58.05, 19.26, 22.7, 285.55)
+  第 9 行: (879, 9.88, 33.04, 0.0, 12.14, 7.37, 34.92, 166.61, 0.79, 2.46, 729.07, 0.05, 47.04, 38.89, 14.07, 280.92)
+  第 10 行: (1024, 53.73, 22.39, 0.0, 13.37, 4.43, 154.5, 321.84, 5.38, 53.15, 424.81, 0.5, 21.08, 28.32, 50.59, 424.8)
+  第 11 行: (1086, 32.27, 41.21, 0.0, 7.53, 1.53, 77.25, 998.67, 3.48, 9.07, 278.29, 0.33, 45.58, 18.73, 35.69, 361.69)
+  第 12 行: (1096, 27.93, 40.31, 0.0, 14.27, 4.37, 151.23, 670.71, 4.31, 60.39, 1650.63, 1.78, 40.17, 31.99, 27.83, 401.33)
+  第 13 行: (1097, 15.3, 9.27, 0.0, 4.72, 1.16, 37.87, 101.88, 1.8, 42.11, 1004.63, 1.1, 26.34, 30.18, 43.48, 140.73)
+  第 14 行: (1129, 33.79, 52.52, 0.0, 3.21, 0.62, 262.98, 985.45, 8.02, 42.96, 2539.98, 1.68, 56.14, 7.73, 36.12, 374.19)
+  第 15 行: (1135, 26.32, 9.15, 0.0, 7.2, 1.99, 47.3, 355.44, 1.27, 8.04, 217.83, 0.36, 17.7, 31.37, 50.93, 206.69)
+  第 16 行: (1209, 13.08, 33.55, 1.2, 8.04, 4.51, 72.44, 724.07, 2.46, 16.14, 511.5, 0.99, 50.21, 27.08, 19.58, 267.28)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: Quantity
+--------------------------------------------------------------------------------
+表头（列名）: ['quantity_id', 'recipe_id', 'ingredient_id', 'max_qty', 'min_qty', 'unit', 'preparation', 'optional']
+表内容:
+  第 1 行: (941, 429, 889, 1.0, 1.0, 'tablespoon(s)', None, 'FALSE')
+  第 2 行: (1019, 439, 219, 0.13, 0.13, 'teaspoon(s)', None, 'FALSE')
+  第 3 行: (1169, 458, 1524, 1.0, 1.0, '10 oz. package(s)', None, 'FALSE')
+  第 4 行: (1299, 477, 3772, 3.0, 3.0, 'tablespoon(s)', None, 'FALSE')
+  第 5 行: (1361, 485, 2417, 0.25, 0.25, 'cup(s)', None, 'FALSE')
+  第 6 行: (1973, 550, 2518, 0.5, 0.5, 'teaspoon(s)', None, 'FALSE')
+  第 7 行: (3572, 685, 2140, 0.5, 0.5, 'cup(s)', 'grated', 'FALSE')
+  第 8 行: (3676, 645, 889, 1.0, 1.0, 'tablespoon(s)', None, 'FALSE')
+  第 9 行: (3742, 1024, 1690, 0.5, 0.5, 'teaspoon(s)', None, 'FALSE')
+  第 10 行: (4317, 1086, 282, 1.0, 1.0, 'pound(s)', 'cut in chunks', 'FALSE')
+  第 11 行: (4424, 1096, 1339, 0.25, 0.25, 'teaspoon(s)', None, 'FALSE')
+  第 12 行: (4917, 879, 1807, 8.0, 8.0, 'ounce(s)', None, 'FALSE')
+  第 13 行: (5007, 1129, 526, 3.0, 3.0, 'ounce(s)', None, 'FALSE')
+  第 14 行: (5068, 1135, 2019, 1.0, 1.0, 'tablespoon(s)', None, 'FALSE')
+  第 15 行: (5783, 1209, 3021, 0.25, 0.25, 'teaspoon(s)', None, 'FALSE')
+  第 16 行: (5918, 1097, 2058, 0.25, 0.25, 'cup(s)', None, 'FALSE')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+

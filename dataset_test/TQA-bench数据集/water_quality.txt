@@ -1,0 +1,1002 @@
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/water_quality/0.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: stations
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'station_name', 'full_station_name', 'station_number', 'station_type', 'latitude', 'longitude', 'county_name', 'sample_count', 'sample_date_min', 'sample_date_max']
+表内容:
+  第 1 行: (3, 'CACHE', 'Cache Slough @ Vallejo P.P', 'B9D81781448', 'Surface Water', 38.2969, -121.7483, 'Solano', 104, '05/08/1950 00:00', '01/22/1992 11:20')
+  第 2 行: (12, 'H.O. Banks Headworks', 'Delta P.P. Headworks at H.O. Banks PP', 'KA000331', 'Surface Water', 37.8019, -121.6203, 'Alameda', 1693, '10/16/1960 07:25', '05/14/2024 07:45')
+  第 3 行: (126, 'OLDR-DMC-CLIFT', 'Old River 6/10 mile below DMC intake.', 'B9D74951331', 'Surface Water', 37.8244, -121.5524, 'Contra Costa', 235, '09/24/1952 12:20', '07/20/1994 10:39')
+  第 4 行: (1132, 'SACRAMENTO R NR REDD', 'SACRAMENTO R NR REDDING', 'A0283500', 'Surface Water', 40.5379, -122.3575, 'Shasta', 87, '04/09/1951 11:30', '01/22/1964 09:30')
+  第 5 行: (1331, 'CACHE C A CAPAY DIV', 'CACHE C A CAPAY DIV DM', 'A0894500', 'Surface Water', 38.7132, -122.085, 'Yolo', 24, '06/03/1930 00:00', '04/03/1952 16:25')
+  第 6 行: (1813, 'BATTLE C NR COTTONWO', 'BATTLE C NR COTTONWOOD', 'A4711000', 'Surface Water', 40.3982, -122.1367, 'Shasta', 170, '01/28/1955 11:15', '02/15/1991 12:40')
+  第 7 行: (2972, 'SAN JOAQUIN R A BRAN', 'SAN JOAQUIN R A BRANDT BR', 'B9D75191193', 'Surface Water', 37.8646, -121.323, 'San Joaquin', 202, '09/06/1950 00:00', '02/26/2010 12:00')
+  第 8 行: (3086, 'OLD R A MANDEVILLE I', 'OLD R A MANDEVILLE ISL', 'B9D80391345', 'Surface Water', 38.0649, -121.5766, 'San Joaquin', 143, '12/14/1954 13:00', '09/01/1966 12:45')
+  第 9 行: (4805, 'EEL R MF A DOS RIOS', 'EEL R MF A DOS RIOS', 'F6300901', 'Surface Water', 39.711, -123.3475, 'Mendocino', 400, '04/16/1958 10:00', '10/13/2022 09:35')
+  第 10 行: (5328, 'LK TAHOE A TAHOE CTY', 'LK TAHOE A TAHOE CTY', 'G7L91010084', 'Surface Water', 39.1688, -120.1413, 'Placer', 152, '04/18/1951 08:55', '09/08/1969 10:10')
+  第 11 行: (12733, '03N05E30D001M', '03N05E30D001M', '03N05E30D001M', 'Groundwater', 38.0819, -121.4748, 'San Joaquin', 1, '07/29/1954 08:10', '07/29/1954 08:10')
+  第 12 行: (13954, '03S07W11N002S', '03S07W11N002S', '03S07W11N002S', 'Groundwater', 33.9197, -117.5899, 'Riverside', 6, '12/19/1953 00:00', '01/06/1961 00:00')
+  第 13 行: (14144, '03S09E16N002M', '03S09E16N002M', '03S09E16N002M', 'Groundwater', 37.6697, -120.9922, 'Stanislaus', 6, '03/09/1960 00:00', '12/11/1978 00:00')
+  第 14 行: (15283, '04N01W21E001S', '04N01W21E001S', '04N01W21E001S', 'Groundwater', 34.425, -116.9984, 'San Bernardino', 1, '12/10/1953 00:00', '12/10/1953 00:00')
+  第 15 行: (15998, '04N18W30J003S', '04N18W30J003S', '04N18W30J003S', 'Groundwater', 34.4011, -118.7997, 'Ventura', 11, '06/28/1962 00:00', '09/16/1983 14:00')
+  第 16 行: (17201, '04S10W14H002S', '04S10W14H002S', '04S10W14H002S', 'Groundwater', 33.8256, -117.8901, 'Orange', 30, '08/19/1958 00:00', '09/16/1980 00:00')
+  第 17 行: (17859, '04S13W31E002S', '04S13W31E002S', '04S13W31E002S', 'Groundwater', 33.7821, -118.2887, 'Los Angeles', 18, '04/07/1933 00:00', '05/01/1962 00:00')
+  第 18 行: (18527, '05N07W20N002M', '05N07W20N002M', '05N07W20N002M', 'Groundwater', 38.2589, -122.6644, 'Sonoma', 1, '10/03/1979 11:20', '10/03/1979 11:20')
+  第 19 行: (19940, '05S11W28C007S', '05S11W28C007S', '05S11W28C007S', 'Groundwater', 33.7142, -118.0385, 'Orange', 3, '12/13/1956 00:00', '12/31/1963 00:00')
+  第 20 行: (19946, '05S11W28K001S', '05S11W28K001S', '05S11W28K001S', 'Groundwater', 33.707, -118.0341, 'Orange', 19, '03/27/1952 00:00', '06/22/1964 00:00')
+  第 21 行: (21183, '06S02W10N006M', '06S02W10N006M', '06S02W10N006M', 'Groundwater', 37.4208, -122.0786, 'Santa Clara', 10, '07/11/1978 00:00', '05/17/1983 00:00')
+  第 22 行: (22307, '07N34W28G002S', '07N34W28G002S', '07N34W28G002S', 'Groundwater', 34.6611, -120.4674, 'Santa Barbara', 4, '03/11/1963 14:00', '06/15/1964 00:00')
+  第 23 行: (26835, '11N02E30X001S', '11N02E30X001S', '11N02E30X001S', 'Groundwater', 35.0101, -116.8107, 'San Bernardino', 1, '04/17/1956 00:00', '04/17/1956 00:00')
+  第 24 行: (26880, '11N04E04P001M', '11N04E04P001M', '11N04E04P001M', 'Groundwater', 38.8265, -121.5333, 'Sutter', 1, '08/02/1976 00:00', '08/02/1976 00:00')
+  第 25 行: (28123, '11S12E13G001M', '11S12E13G001M', '11S12E13G001M', 'Groundwater', 36.977, -120.6101, 'Fresno', 1, '04/11/1956 11:35', '04/11/1956 11:35')
+  第 26 行: (38872, '27N01E23B001S', '27N01E23B001S', '27N01E23B001S', 'Groundwater', 36.459, -116.8363, 'Inyo', 4, '11/27/1953 00:00', '12/10/1959 00:00')
+  第 27 行: (40418, '29S10E03G001M', '29S10E03G001M', '29S10E03G001M', 'Groundwater', 35.4348, -120.8862, 'San Luis Obispo', 30, '12/19/1956 00:00', '10/05/1965 09:10')
+  第 28 行: (45916, 'C3A - Hood', 'Sacramento River @ Hood - C3A', 'B9D82211312', 'Surface Water', 38.3677, -121.5205, 'Sacramento', 1097, '10/01/1981 12:15', '05/15/2024 11:50')
+  第 29 行: (45938, 'D41', 'D41 - San Pablo Bay near Pinole Point', 'E0B80182224', 'Surface Water', 38.0302, -122.3729, 'Contra Costa', 113, '03/24/1971 11:30', '05/18/1998 11:05')
+  第 30 行: (46056, '24N01W04M001M', '24N01W04M001M', '24N01W04M001M', 'Groundwater', 39.9624, -121.9947, 'Tehama', 8, '02/20/2003 09:00', '05/28/2015 12:45')
+  第 31 行: (46376, '09S01W01F001SS', '09S01W01F001SS', '09S01W01F001SS', 'Groundwater', 33.4239, -116.9383, 'San Diego', 1, '10/30/1962 00:00', '10/30/1962 00:00')
+  第 32 行: (46558, '19N02W08Q001M', '19N02W08Q001M', '19N02W08Q001M', 'Groundwater', 39.516, -122.1116, 'Glenn', 2, '08/24/2004 12:05', '07/07/2005 08:10')
+  第 33 行: (46688, 'Holland Cut Nr BI', 'Holland Cut near Bethel Island', 'B9D80101349', 'Surface Water', 38.015821, -121.582124, 'San Joaquin', 332, '10/20/2005 11:11', '05/28/2024 10:17')
+  第 34 行: (47198, '29N04W03R005M', '29N04W03R005M', '29N04W03R005M', 'Groundwater', 40.3928, -122.2944, 'Shasta', 2, '08/24/2010 13:10', '12/16/2015 09:25')
+  第 35 行: (47979, '24N04W07F005M', '24N04W07F005M', '24N04W07F005M', 'Groundwater', 39.95218, -122.36191, 'Tehama', 7, '02/01/2022 09:50', '05/17/2023 12:10')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: period_of_record
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'parameter']
+表内容:
+  第 1 行: (12733, 'Dissolved Nitrate')
+  第 2 行: (13954, 'Dissolved Calcium')
+  第 3 行: (15283, 'pH')
+  第 4 行: (18527, 'Conductance')
+  第 5 行: (19940, 'Dissolved Chloride')
+  第 6 行: (46376, 'pH')
+  第 7 行: (26835, 'Dissolved Calcium')
+  第 8 行: (26880, 'Total Hardness')
+  第 9 行: (47979, 'Dissolved Nitrate + Nitrite')
+  第 10 行: (38872, 'Dissolved Magnesium')
+  第 11 行: (40418, 'Dissolved Chloride')
+  第 12 行: (1331, 'pH')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: field_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'anl_data_type', 'parameter', 'fdr_result', 'fdr_text_result', 'fdr_date_result', 'fdr_reporting_limit', 'uns_name', 'mth_name', 'fdr_footnote']
+表内容:
+  第 1 行: (12, 'Public, Review Status Unknown', 'C1090A0738', '1990-10-16 08:45:00', 1.0, 'Meters', None, 'WaterTemperature', 18.9, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 2 行: (126, 'Public, Review Status Unknown', 'WDIS_0899437', '1964-06-11 10:30:00', None, 'Feet', None, 'pH', 7.3, None, None, 0.1, 'pH Units', 'UnkH pH', None)
+  第 3 行: (45938, 'Public, Review Status Unknown', 'EA0803B1780', '2003-08-08 10:55:00', 3.0, 'Feet', None, 'WaterTemperature', 21.0, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 4 行: (45938, 'Public, Review Status Unknown', 'E1219B2878', '2019-12-10 10:25:00', 3.0, 'Feet', None, '(Bottom)Chlorophyll Fluorescence', 2.16, None, None, None, 'ug/L of Chl', 'Fluorescence, Sonde', None)
+  第 5 行: (46558, 'Public, Review Status Unknown', 'NB0705B3676', '2005-07-07 08:10:00', 0.0, 'Meters', None, 'Turbidity', 0.3, None, None, 0.1, 'N.T.U.', 'EPA 180.1 (Field)', None)
+  第 6 行: (17201, 'Public, Review Status Unknown', 'WDIS_0827836', '1971-06-30 00:00:00', None, 'Feet', None, 'WaterTemperature', 61.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+  第 7 行: (45916, 'Public, Review Status Unknown', 'CB0199A0055', '1999-01-25 12:55:00', 1.0, 'Meters', None, 'pH', 7.1, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+  第 8 行: (2972, 'Public, Review Status Unknown', 'WDIS_0208756', '1970-09-28 05:20:00', None, 'Feet', None, 'Conductance', 862.0, None, None, 1.0, 'uS/cm', 'Std Method 2510-B (Field)', None)
+  第 9 行: (3086, 'Public, Review Status Unknown', 'WDIS_0908052', '1961-05-11 09:00:00', None, 'Feet', None, 'WaterTemperature', 65.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+  第 10 行: (46688, 'Public, Review Status Unknown', 'CF0817B1504', '2017-08-02 10:43:00', 1.0, 'Meters', None, 'Turbidity', 4.4, None, None, 0.0, 'N.T.U.', 'EPA 180.1 (Field)', None)
+  第 11 行: (1132, 'Public, Review Status Unknown', 'WDIS_0318853', '1952-05-09 09:35:00', None, 'Feet', None, 'DissolvedOxygen', 13.2, '*See Units Note', None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+  第 12 行: (47198, 'Public, Review Status Unknown', 'N1215B0928', '2015-12-16 09:25:00', None, 'Meters', None, 'pH', 6.8, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: lab_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'parameter', 'result', 'reporting_limit', 'units', 'method_name']
+表内容:
+  第 1 行: (28123, 'Public, Review Status Unknown', 'WDIS_0723858', '04/11/1956 11:35', None, 'Feet', 'Dissolved Sodium', 208, 1.0, 'mg/L', 'Std Method 3500-Na, D')
+  第 2 行: (17859, 'Public, Review Status Unknown', 'WDIS_0792291', '03/25/1959 00:00', None, 'Feet', 'Dissolved Calcium', 48, 1.0, 'mg/L', 'UnkMod Calcium')
+  第 3 行: (4805, 'Public, Review Status Unknown', 'WDIS_0010490', '09/12/1968 08:30', None, 'Feet', 'Dissolved Zinc', '< R.L.', 0.01, 'mg/L', 'UnkMod Zinc')
+  第 4 行: (19946, 'Public, Review Status Unknown', 'WDIS_0830841', '12/14/1956 00:00', None, 'Feet', 'Dissolved Magnesium', 1, 0.1, 'mg/L', 'Std Method 3500-Mg, E')
+  第 5 行: (5328, 'Public, Review Status Unknown', 'WDIS_0951015', '08/16/1956 14:00', None, 'Feet', 'Dissolved Potassium', 1.8, 0.1, 'mg/L', 'UnkMod Potassium')
+  第 6 行: (22307, 'Public, Review Status Unknown', 'WDIS_0773559', '10/15/1963 12:25', None, 'Feet', 'Conductance', 2120, 1.0, 'uS/cm', 'EPA 120.1')
+  第 7 行: (21183, 'Public, Review Status Unknown', 'WDIS_0750632', '07/11/1978 00:00', None, 'Feet', 'Dissolved Chloride', 57, 1.0, 'mg/L', 'UnkMod Chloride')
+  第 8 行: (1813, 'Public, Review Status Unknown', 'WDIS_0879773', '07/05/1967 13:15', None, 'Feet', 'Total Hardness', 40, 1.0, 'mg/L as CaCO3', 'EPA 130.2')
+  第 9 行: (3, 'Public, Review Status Unknown', 'WDIS_0912535', '07/22/1982 08:00', None, 'Feet', 'Dissolved Hardness', 153, 1.0, 'mg/L as CaCO3', 'Std Method 2340 B (D)')
+  第 10 行: (14144, 'Public, Review Status Unknown', 'WDIS_0725522', '05/20/1964 00:00', None, 'Feet', 'pH', 7.5, 0.1, 'pH Units', 'EPA 150.1')
+  第 11 行: (46056, 'Public, Review Status Unknown', 'NA0703B2893', '07/21/2003 07:50', 0.15, 'Meters', 'Total Hardness', 65, 1.0, 'mg/L as CaCO3', 'Std Method 2340 B (T)')
+  第 12 行: (15998, 'Public, Review Status Unknown', 'WDIS_0784751', '05/31/1978 00:00', None, 'Feet', 'Conductance', 1420, 1.0, 'uS/cm', 'EPA 120.1')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/water_quality/1.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: stations
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'station_name', 'full_station_name', 'station_number', 'station_type', 'latitude', 'longitude', 'county_name', 'sample_count', 'sample_date_min', 'sample_date_max']
+表内容:
+  第 1 行: (186, 'GLC@Tracy', 'Grant Ln Can @ Tracy Rd Bdg', 'B9D74921269', 'Surface Water', 37.8199, -121.4499, 'San Joaquin', 568, '06/16/1954 15:05', '07/17/2018 12:00')
+  第 2 行: (237, 'DKA13600', 'DRAINAGE INLET AT MILE POST 136.0, SALT CREEK', 'DKA13600', 'Surface Water', 36.414, -120.2845, 'Fresno', 17, '02/15/1986 01:40', '01/13/1998 11:55')
+  第 3 行: (347, 'Check 29', 'CALIFORNIA AQU A CHECK 29', 'KA024454', 'Surface Water', 35.232, -119.3299, 'Kern', 721, '08/26/1970 09:55', '05/24/2023 10:15')
+  第 4 行: (591, 'SHERMST01', 'Sherman Island Dredge Site 01', 'B9D80191454', 'Surface Water', 38.0316, -121.7577, 'Sacramento', 15, '10/25/1990 10:15', '03/03/1992 09:37')
+  第 5 行: (670, 'Sac R nr Parrotts', 'Sacramento River nr Parrotts Landing', 'A0256010', 'Surface Water', 39.6124, -121.9773, 'Glenn', 2, '06/29/2004 07:40', '07/13/2004 07:40')
+  第 6 行: (1813, 'BATTLE C NR COTTONWO', 'BATTLE C NR COTTONWOOD', 'A4711000', 'Surface Water', 40.3982, -122.1367, 'Shasta', 170, '01/28/1955 11:15', '02/15/1991 12:40')
+  第 7 行: (2555, 'STANISLAUS R NR MOUT', 'STANISLAUS R NR MOUTH NR RIPON', 'B0310500', 'Surface Water', 37.6763, -121.2227, 'Stanislaus', 167, '04/11/1951 11:20', '09/10/1963 10:45')
+  第 8 行: (2565, 'TUOLUMNE R A TUOLUMN', 'TUOLUMNE R A TUOLUMNE CITY', 'B0410500', 'Surface Water', 37.6033, -121.1177, 'Stanislaus', 576, '04/07/1934 00:00', '08/14/1991 10:15')
+  第 9 行: (3091, 'OLD R A MO', 'OLD R A MO', 'B9D80441342', 'Surface Water', 38.073, -121.5716, 'Contra Costa', 33, '05/24/1955 06:40', '03/03/1971 11:20')
+  第 10 行: (3256, 'KINGS R BL PEOPLES W', 'KINGS R BL PEOPLES WR NR KINGSBUR', 'C0114000', 'Surface Water', 36.4866, -119.5376, 'Kings', 298, '04/15/1951 08:30', '04/10/1991 07:00')
+  第 11 行: (3958, 'NAPA R A ST HELENA', 'NAPA R A ST HELENA', 'E3150000', 'Surface Water', 38.4944, -122.4316, 'Napa', 247, '12/19/1951 11:30', '10/28/2021 15:24')
+  第 12 行: (4516, 'KLAMATH R BL IRON GT', 'KLAMATH R BL IRON GT DM', 'F3159901', 'Surface Water', 41.9165, -122.4609, 'Siskiyou', 419, '01/09/1962 09:30', '07/24/2013 12:50')
+  第 13 行: (5135, 'EAGLE LK STA NO 1A', 'EAGLE LK STA NO 1A', 'G3L03340484', 'Surface Water', 40.5563, -120.8072, 'Lassen', 175, '04/26/1971 12:00', '09/07/2016 09:40')
+  第 14 行: (5170, 'LASSEN ID CA A JOHNS', 'LASSEN ID CA A JOHNSTONVILLE', 'G4146500', 'Surface Water', 40.3855, -120.5872, 'Lassen', 29, '01/03/1978 14:00', '11/15/1982 10:00')
+  第 15 行: (5588, 'COLORADO R BL CIBOLA', 'COLORADO R BL CIBOLA VLY', 'W7140000', 'Surface Water', 33.2261, -114.6725, 'Imperial', 130, '03/16/1970 00:00', '02/02/1981 09:30')
+  第 16 行: (6307, '01N04W29F001S', '01N04W29F001S', '01N04W29F001S', 'Groundwater', 34.144, -117.3236, 'San Bernardino', 37, '09/13/1956 00:00', '03/06/1974 10:00')
+  第 17 行: (7917, '01S02W25R002S', '01S02W25R002S', '01S02W25R002S', 'Groundwater', 34.05, -117.0354, 'San Bernardino', 1, '05/26/1979 00:00', '05/26/1979 00:00')
+  第 18 行: (14011, '03S07W26G001S', '03S07W26G001S', '03S07W26G001S', 'Groundwater', 33.8834, -117.5812, 'Riverside', 4, '10/20/1953 00:00', '06/23/1970 11:40')
+  第 19 行: (21739, '06S13W03D007S', '06S13W03D007S', '06S13W03D007S', 'Groundwater', 33.6858, -118.2347, 'Los Angeles', 3, '01/14/1963 00:00', '03/31/1964 15:00')
+  第 20 行: (23201, '07S23E04H001S', '07S23E04H001S', '07S23E04H001S', 'Groundwater', 33.5967, -114.575, 'Riverside', 1, '12/12/1956 00:00', '12/12/1956 00:00')
+  第 21 行: (25582, '10N02W32N001S', '10N02W32N001S', '10N02W32N001S', 'Groundwater', 34.9108, -117.117, 'San Bernardino', 6, '02/05/1952 00:00', '03/07/1961 12:40')
+  第 22 行: (27870, '11S04W08J001S', '11S04W08J001S', '11S04W08J001S', 'Groundwater', 33.2309, -117.3178, 'San Diego', 17, '08/13/1954 00:00', '09/28/1961 00:00')
+  第 23 行: (30955, '14S02W12K001S', '14S02W12K001S', '14S02W12K001S', 'Groundwater', 32.9662, -117.0398, 'San Diego', 7, '08/21/1953 00:00', '07/15/1959 00:00')
+  第 24 行: (32746, '16N02W13E001H', '16N02W13E001H', '16N02W13E001H', 'Groundwater', 41.7794, -124.249, 'Del Norte', 9, '09/23/1953 00:00', '06/03/1986 07:15')
+  第 25 行: (36048, '20S25E22B001M', '20S25E22B001M', '20S25E22B001M', 'Groundwater', 36.179, -119.2517, 'Tulare', 1, '05/12/1982 14:00', '05/12/1982 14:00')
+  第 26 行: (36802, '22N01E26L001M', '22N01E26L001M', '22N01E26L001M', 'Groundwater', 39.7333, -121.8308, 'Butte', 31, '07/10/1947 00:00', '06/17/1986 16:40')
+  第 27 行: (36847, '22N01W19J002M', '22N01W19J002M', '22N01W19J002M', 'Groundwater', 39.7478, -122.0075, 'Glenn', 7, '04/02/1976 00:00', '07/08/1986 10:05')
+  第 28 行: (37444, '24N01W36A002M', '24N01W36A002M', '24N01W36A002M', 'Groundwater', 39.8993, -121.9144, 'Tehama', 8, '06/28/1967 10:30', '12/13/2000 13:00')
+  第 29 行: (41020, '29S28E36J001M', '29S28E36J001M', '29S28E36J001M', 'Groundwater', 35.3591, -118.9151, 'Kern', 9, '12/03/1946 00:00', '07/17/1961 15:00')
+  第 30 行: (45913, 'C10 - Vernalis', 'San Joaquin River near Vernalis - C10', 'B9D74051159', 'Surface Water', 37.6758, -121.265, 'San Joaquin', 1525, '04/11/1951 13:15', '03/22/2005 12:35')
+  第 31 行: (45916, 'C3A - Hood', 'Sacramento River @ Hood - C3A', 'B9D82211312', 'Surface Water', 38.3677, -121.5205, 'Sacramento', 1097, '10/01/1981 12:15', '05/15/2024 11:50')
+  第 32 行: (45938, 'D41', 'D41 - San Pablo Bay near Pinole Point', 'E0B80182224', 'Surface Water', 38.0302, -122.3729, 'Contra Costa', 113, '03/24/1971 11:30', '05/18/1998 11:05')
+  第 33 行: (46376, '09S01W01F001SS', '09S01W01F001SS', '09S01W01F001SS', 'Groundwater', 33.4239, -116.9383, 'San Diego', 1, '10/30/1962 00:00', '10/30/1962 00:00')
+  第 34 行: (47208, '21N02E18C001M', '21N02E18C001M', '21N02E18C001M', 'Groundwater', 39.68195, -121.79701, 'Butte', 2, '10/05/2010 12:20', '07/23/2019 12:15')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: period_of_record
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'parameter']
+表内容:
+  第 1 行: (7917, 'Dissolved Fluoride')
+  第 2 行: (14011, 'Dissolved Calcium')
+  第 3 行: (23201, 'Dissolved Calcium')
+  第 4 行: (46376, 'pH')
+  第 5 行: (25582, 'Dissolved Magnesium')
+  第 6 行: (30955, 'Dissolved Magnesium')
+  第 7 行: (32746, 'Dissolved Boron')
+  第 8 行: (36048, 'Total Alkalinity')
+  第 9 行: (47208, 'Dissolved Hydroxide (OH-)')
+  第 10 行: (37444, 'Pendimethalin')
+  第 11 行: (670, 'Total Selenium')
+  第 12 行: (237, 'Dissolved Bromide')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: field_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'anl_data_type', 'parameter', 'fdr_result', 'fdr_text_result', 'fdr_date_result', 'fdr_reporting_limit', 'uns_name', 'mth_name', 'fdr_footnote']
+表内容:
+  第 1 行: (3091, 'Public, Review Status Unknown', 'WDIS_0908217', '1971-03-03 11:20:00', 3.0, 'Feet', 'Memo', 'Field Notes', None, None, None, None, None, 'Notes (Field)', 'DO Units Note - mg/L: WDIS DO Units not specified but assumed to be mg/L if Result <= 120% O2 Saturation - estimated using Field Temp.  Above 120% units changed to % Saturation.  This Sample = 104% - therefore assigned mg/L.  Possible units include ml/L; mg/L;  %Saturation')
+  第 2 行: (45938, 'Public, Review Status Unknown', 'EMP1089A0410', '1989-10-20 07:45:00', 3.0, 'Feet', 'Text', 'Tide Level', 50810.0, 'Lower High Slack', None, None, None, 'Tide Slack Level', None)
+  第 3 行: (5588, 'Public, Review Status Unknown', 'WDIS_0964171', '1978-04-03 09:45:00', None, 'Feet', None, 'pH', 7.9, None, None, 0.1, 'pH Units', 'UnkH pH', None)
+  第 4 行: (347, 'Public, Review Status Unknown', 'SJ0314B0045', '2014-03-18 09:05:00', 1.0, 'Meters', None, 'SpecificConductance', 406.0, None, None, 1.0, 'uS/cm@25 °C', 'EPA 120.1 (Field)', None)
+  第 5 行: (3256, 'Public, Review Status Unknown', 'WDIS_0915729', '1952-02-15 09:15:00', None, 'Feet', None, 'WaterTemperature', 48.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+  第 6 行: (5170, 'Public, Review Status Unknown', 'WDIS_0948902', '1981-09-04 08:10:00', None, 'Feet', None, 'DissolvedOxygen', 3.5, '*See Units Note', None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+  第 7 行: (3958, 'Public, Review Status Unknown', 'WDIS_0928441', '1963-07-09 14:20:00', None, 'Feet', None, 'Gauge Height', 0.65, None, None, 0.1, 'Feet', 'Flow, Channel', None)
+  第 8 行: (45916, 'Public, Review Status Unknown', 'ED1202B0043', '2002-11-27 11:11:00', 3.0, 'Feet', None, 'WaterTemperature', 13.0, None, '1899-12-30 00:01:00', 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 9 行: (45916, 'Public, Review Status Unknown', 'E0716B0403', '2016-07-08 08:15:00', 3.0, 'Feet', 'Memo', 'Weather Observations', None, 'windy, cool, clear', None, None, None, 'Weather Observations', 'windy, cool, clear')
+  第 10 行: (186, 'Public, Review Status Unknown', 'WDIS_0007771', '1959-09-11 07:00:00', None, 'Feet', None, 'Gauge Height', 6.02, None, None, 0.1, 'Feet', 'Flow, Channel', None)
+  第 11 行: (45913, 'Public, Review Status Unknown', 'CB0603B0525', '2003-06-30 11:00:00', 1.0, 'Meters', None, 'WaterTemperature', 22.9, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 12 行: (2555, 'Public, Review Status Unknown', 'WDIS_0890121', '1956-09-21 10:00:00', None, 'Feet', None, 'WaterTemperature', 69.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: lab_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'parameter', 'result', 'reporting_limit', 'units', 'method_name']
+表内容:
+  第 1 行: (36802, 'Public, Review Status Unknown', 'WDIS_0000365', '01/14/1980 13:50', None, 'Feet', 'Dissolved Strontium', 0.14, 0.01, 'mg/L', 'UnkMod Strontium')
+  第 2 行: (36847, 'Public, Review Status Unknown', 'WDIS_0000863', '07/17/1979 08:30', None, 'Feet', 'Total ortho-Phosphate', 0.11, 0.01, 'mg/L as P', 'UnkMod Orthophosphate')
+  第 3 行: (41020, 'Public, Review Status Unknown', 'WDIS_0741332', '12/03/1946 00:00', None, 'Feet', 'Total Alkalinity', 123, 1.0, 'mg/L as CaCO3', 'UnkH Alkalinity')
+  第 4 行: (5135, 'Public, Review Status Unknown', 'WDIS_0947663', '09/15/1987 14:40', 0.0, 'Feet', 'Dissolved Hardness', 219, 1.0, 'mg/L as CaCO3', 'Std Method 2340 B (D)')
+  第 5 行: (21739, 'Public, Review Status Unknown', 'WDIS_0795150', '07/31/1963 15:00', None, 'Feet', 'Dissolved Sodium', 8480, 1.0, 'mg/L', 'UnkMod Sodium')
+  第 6 行: (591, 'Public, Review Status Unknown', 'C1290A0903', '12/04/1990 09:00', 1.0, 'Meters', 'Total Copper', 0.01, 0.005, 'mg/L', 'EPA 220.2 (T)')
+  第 7 行: (6307, 'Public, Review Status Unknown', 'WDIS_0842137', '09/23/1958 00:00', None, 'Feet', 'pH', 7.9, 0.1, 'pH Units', 'EPA 150.1')
+  第 8 行: (27870, 'Public, Review Status Unknown', 'WDIS_0851573', '12/05/1956 00:00', None, 'Feet', 'Dissolved Chloride', 540, 1.0, 'mg/L', 'UnkMod Chloride')
+  第 9 行: (45913, 'Public, Review Status Unknown', 'WDIS_0892210', '09/01/1977 11:50', 2.0, 'Feet', 'Dissolved Zinc', 0.02, 0.01, 'mg/L', 'Std Method 3111 C')
+  第 10 行: (1813, 'Public, Review Status Unknown', 'WDIS_0879773', '07/05/1967 13:15', None, 'Feet', 'Total Hardness', 40, 1.0, 'mg/L as CaCO3', 'EPA 130.2')
+  第 11 行: (4516, 'Public, Review Status Unknown', 'NA0209B0092', '02/02/2009 09:30', 0.15, 'Meters', 'Total Chromium', 0.38, 0.05, 'ug/L', 'EPA 1638 (T)')
+  第 12 行: (2565, 'Public, Review Status Unknown', 'WDIS_0890546', '05/11/1954 00:00', None, 'Feet', 'Conductance', 94, 1.0, 'uS/cm', 'UnkH Conductance')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/water_quality/2.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: stations
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'station_name', 'full_station_name', 'station_number', 'station_type', 'latitude', 'longitude', 'county_name', 'sample_count', 'sample_date_min', 'sample_date_max']
+表内容:
+  第 1 行: (78, 'TWITCHELLPP01', 'Ag Drain on Twitchell Isl., PP. No. 1', 'B9V80661391', 'Surface Water', 38.0966, -121.6511, 'Sacramento', 398, '07/19/1989 10:34', '08/06/2001 09:45')
+  第 2 行: (347, 'Check 29', 'CALIFORNIA AQU A CHECK 29', 'KA024454', 'Surface Water', 35.232, -119.3299, 'Kern', 721, '08/26/1970 09:55', '05/24/2023 10:15')
+  第 3 行: (397, 'Lake Oroville, Dam', 'LK OROVILLE NR DM STA 1', 'OR001000', 'Surface Water', 39.5403, -121.4798, 'Butte', 539, '07/12/1968 12:00', '05/15/2024 07:13')
+  第 4 行: (1685, 'MCCLOUD R AB SHASTA', 'MCCLOUD R AB SHASTA LK', 'A2215000', 'Surface Water', 40.9582, -122.2203, 'Shasta', 419, '04/10/1951 15:00', '11/07/2023 08:30')
+  第 5 行: (2056, 'LK ALMANOR E ARM CEN', 'LK ALMANOR E ARM CENTER', 'A5L01431065', 'Surface Water', 40.2382, -121.1094, 'Plumas', 120, '04/17/1973 14:15', '11/07/2017 11:15')
+  第 6 行: (2407, 'CLEAR LK LO ARM CL3', 'CLEAR LK LO ARM CL3', 'A8L85792406', 'Surface Water', 38.9643, -122.6789, 'Lake', 1134, '05/02/1968 13:30', '01/15/2020 11:00')
+  第 7 行: (2595, 'SJR@PattersonBr', 'San Joaquin River @ Patterson Bridge', 'B0720000', 'Surface Water', 37.4983, -121.0827, 'Stanislaus', 404, '10/20/1936 00:00', '08/13/1991 12:45')
+  第 8 行: (2956, 'DELTA-MENDOTA IT CA', 'DELTA-MENDOTA IT CA A BYRON RD', 'B9D74871347', 'Surface Water', 37.8124, -121.5788, 'Contra Costa', 423, '07/11/1952 16:00', '04/03/1968 11:15')
+  第 9 行: (3559, 'SALINAS R A DAVIS RD', 'SALINAS R A DAVIS RD', 'D2116020', 'Surface Water', 36.6416, -121.7011, 'Monterey', 10, '11/04/1971 08:20', '03/12/1985 09:45')
+  第 10 行: (4556, 'CRAWFORD C NR CLEAR', 'CRAWFORD C NR CLEAR CREEK', 'F3231200', 'Surface Water', 41.649, -123.4642, 'Siskiyou', 1, '04/17/1984 15:35', '04/17/1984 15:35')
+  第 11 行: (4850, 'YAGER CREEK NR CARLO', 'YAGER CREEK NR CARLOTTA', 'F6512000', 'Surface Water', 40.5729, -124.0467, 'Humboldt', 1, '10/20/1952 12:40', '10/20/1952 12:40')
+  第 12 行: (5278, 'COPPINS C NR MO (A W', 'COPPINS C NR MO (A WEBBER LK)', 'G7264501', 'Surface Water', 39.4896, -120.4108, 'Sierra', 4, '10/21/1975 15:40', '06/19/1978 11:40')
+  第 13 行: (5568, 'WHITE WATER R NR MEC', 'WHITE WATER R NR MECCA', 'W3107000', 'Surface Water', 33.5189, -116.0675, 'Riverside', 165, '07/02/1957 12:30', '06/13/1991 09:00')
+  第 14 行: (7383, '01N21W31A001S', '01N21W31A001S', '01N21W31A001S', 'Groundwater', 34.1332, -119.1143, 'Ventura', 26, '01/04/1952 00:00', '07/29/1985 15:30')
+  第 15 行: (9161, '01S11E01B001S', '01S11E01B001S', '01S11E01B001S', 'Groundwater', 34.1199, -115.781, 'San Bernardino', 3, '07/30/1952 00:00', '03/02/1955 00:00')
+  第 16 行: (15942, '04N17W14Q003S', '04N17W14Q003S', '04N17W14Q003S', 'Groundwater', 34.4264, -118.6294, 'Los Angeles', 2, '11/25/1969 00:00', '06/20/1972 13:00')
+  第 17 行: (18380, '05N04W14C001M', '05N04W14C001M', '05N04W14C001M', 'Groundwater', 38.2863, -122.275, 'Napa', 20, '12/02/1949 00:00', '07/25/1968 10:30')
+  第 18 行: (20489, '06N05W06J001S', '06N05W06J001S', '06N05W06J001S', 'Groundwater', 34.6365, -117.4408, 'San Bernardino', 8, '12/08/1976 00:00', '03/27/1981 00:00')
+  第 19 行: (22670, '07S01W22E013M', '07S01W22E013M', '07S01W22E013M', 'Groundwater', 37.3124, -121.9688, 'Santa Clara', 8, '09/30/1974 00:00', '07/10/1985 06:30')
+  第 20 行: (24612, '09N03W26H001S', '09N03W26H001S', '09N03W26H001S', 'Groundwater', 34.844, -117.1586, 'San Bernardino', 46, '04/20/1954 00:00', '03/24/1981 00:00')
+  第 21 行: (26880, '11N04E04P001M', '11N04E04P001M', '11N04E04P001M', 'Groundwater', 38.8265, -121.5333, 'Sutter', 1, '08/02/1976 00:00', '08/02/1976 00:00')
+  第 22 行: (29548, '13N02W26G001M', '13N02W26G001M', '13N02W26G001M', 'Groundwater', 38.9494, -122.0476, 'Colusa', 9, '09/10/1970 13:50', '12/20/2006 12:30')
+  第 23 行: (30472, '13S20E17F001M', '13S20E17F001M', '13S20E17F001M', 'Groundwater', 36.8013, -119.8199, 'Fresno', 1, '08/15/1973 00:00', '08/15/1973 00:00')
+  第 24 行: (35517, '19S22E06H001M', '19S22E06H001M', '19S22E06H001M', 'Groundwater', 36.3069, -119.6223, 'Kings', 1, '08/13/1958 17:30', '08/13/1958 17:30')
+  第 25 行: (36855, '22N02E19N001M', '22N02E19N001M', '22N02E19N001M', 'Groundwater', 39.7442, -121.7984, 'Butte', 7, '08/15/1977 00:00', '02/14/1989 13:03')
+  第 26 行: (44555, '48N01E30N001M', '48N01E30N001M', '48N01E30N001M', 'Groundwater', 41.9691, -121.918, 'Siskiyou', 8, '05/13/1953 12:30', '05/25/1966 00:00')
+  第 27 行: (44942, 'FIR15561046', 'FIR15561046', 'FIR15561046', 'Surface Water', None, None, '(Unknown)', 1, '05/17/1989 09:00', '05/17/1989 09:00')
+  第 28 行: (45926, 'D14A', 'D14A - Big Break near Oakley', 'B9D80111427', 'Surface Water', 38.0178, -121.7114, 'Contra Costa', 312, '11/26/1968 11:05', '08/07/1984 16:05')
+  第 29 行: (45959, 'MR@UnionPt/P10A', 'Middle River @ Union Point - P10A', 'B9D75351292', 'Surface Water', 37.890778, -121.488361, 'San Joaquin', 748, '10/05/1982 09:50', '05/14/2024 11:05')
+  第 30 行: (46288, 'Pacheco PP', 'Pacheco Pumping Plant', 'SL000000', 'Surface Water', 37.0619, -121.1806, 'Merced', 304, '03/15/2000 05:57', '05/21/2024 13:30')
+  第 31 行: (46586, 'DCMW-1', 'Diamond Creek Monitoring Well No. 1', '11N06E17E001M', 'Groundwater', 38.8058, -121.3354, 'Placer', 59, '05/05/2004 14:55', '03/26/2008 12:32')
+  第 32 行: (46608, '02N06E11H005M-MW2', "Stockton Morada Ln - MW2 (540')", '02N06E11H005M', 'Groundwater', 38.0358, -121.2791, 'San Joaquin', 4, '05/09/2006 14:00', '03/27/2007 12:30')
+  第 33 行: (46614, 'Morada Ln Basin', 'Stockton Morada Ln Storm Basin', 'B9S80221167', 'Surface Water', 38.0358, -121.2791, 'San Joaquin', 2, '05/10/2006 13:30', '12/13/2006 11:30')
+  第 34 行: (46686, 'RS@DRB', 'Rock Slough at Delta Road Bridge', 'B9D75861372', 'Surface Water', 37.9768, -121.6201, 'Contra Costa', 478, '09/30/2004 09:50', '06/06/2024 09:45')
+  第 35 行: (47186, 'Sutter County MW-3A', 'Sutter County Monitoring Well 3A, (64-74 ft BGS)', '16N03E17J001M', 'Groundwater', 39.23935, -121.65086, 'Sutter', 1, '08/12/2010 14:26', '08/12/2010 14:26')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: period_of_record
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'parameter']
+表内容:
+  第 1 行: (46608, 'Permethrin')
+  第 2 行: (20489, 'Dissolved Calcium')
+  第 3 行: (26880, 'Total Hardness')
+  第 4 行: (46586, 'Dichlorodifluoromethane')
+  第 5 行: (29548, 'Dissolved Lead')
+  第 6 行: (30472, 'Dissolved Sulfate')
+  第 7 行: (35517, 'Dissolved Chloride')
+  第 8 行: (36855, 'Dissolved Strontium')
+  第 9 行: (44555, 'Dissolved Potassium')
+  第 10 行: (46614, 'trans-1,2-Dichloroethene')
+  第 11 行: (4850, 'Dissolved Chloride')
+  第 12 行: (44942, 'Total Chromium')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: field_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'anl_data_type', 'parameter', 'fdr_result', 'fdr_text_result', 'fdr_date_result', 'fdr_reporting_limit', 'uns_name', 'mth_name', 'fdr_footnote']
+表内容:
+  第 1 行: (2956, 'Public, Review Status Unknown', 'WDIS_0007753', '1957-09-11 14:25:00', None, 'Feet', None, 'pH', 7.7, None, None, 0.1, 'pH Units', 'UnkH pH', None)
+  第 2 行: (45926, 'Public, Review Status Unknown', 'EMP0490A0101', '1990-04-05 14:20:00', 3.0, 'Feet', None, 'SpecificConductance', 2580.0, None, None, 1.0, 'uS/cm@25 °C', 'EPA 120.1 (Field)', None)
+  第 3 行: (46686, 'Public, Review Status Unknown', 'CF1015B1622', '2015-10-30 10:02:00', 1.0, 'Meters', None, 'WaterTemperature', 18.3, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 4 行: (2407, 'Public, Review Status Unknown', 'N0615B0404', '2015-06-23 10:20:00', 0.5, 'Meters', None, 'Secchi Depth', 1.0, None, None, 0.1, 'Meters', 'Secchi Depth', None)
+  第 5 行: (3559, 'Public, Review Status Unknown', 'WDIS_0921237', '1977-08-24 06:00:00', None, 'Feet', None, 'WaterTemperature', 20.0, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 6 行: (5568, 'Public, Review Status Unknown', 'WDIS_0962951', '1977-03-28 13:30:00', None, 'Feet', None, 'pH', 8.2, None, None, 0.1, 'pH Units', 'UnkH pH', None)
+  第 7 行: (78, 'Public, Review Status Unknown', 'C0295A0507', '1995-02-22 11:30:00', 1.0, 'Meters', None, 'WaterTemperature', 13.8, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 8 行: (45959, 'Public, Review Status Unknown', 'EMP0484A0081', '1984-04-09 13:15:00', 3.0, 'Feet', None, 'Field Identification No.', 4270.0, None, None, None, None, 'Serial Identification', None)
+  第 9 行: (1685, 'Public, Review Status Unknown', 'WDIS_0875982', '1979-11-13 08:30:00', None, 'Feet', None, 'WaterTemperature', 7.0, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 10 行: (5278, 'Public, Review Status Unknown', 'WDIS_0951947', '1975-10-21 15:40:00', None, 'Feet', None, 'Conductance', 74.0, None, None, 1.0, 'uS/cm', 'Std Method 2510-B (Field)', None)
+  第 11 行: (4556, 'Public, Review Status Unknown', 'WDIS_0937542', '1984-04-17 15:35:00', None, 'Feet', None, 'WaterTemperature', 9.5, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 12 行: (2595, 'Public, Review Status Unknown', 'WDIS_0893553', '1982-02-09 13:45:00', None, 'Feet', None, 'Flow, channel', 900.0, None, None, 1.0, 'cfs', 'Flow, Channel', None)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: lab_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'parameter', 'result', 'reporting_limit', 'units', 'method_name']
+表内容:
+  第 1 行: (397, 'Public, Review Status Unknown', 'OC0810B0017', '08/18/2010 09:00', 0.15, 'Meters', 'Total Alkalinity', 44, 1.0, 'mg/L as CaCO3', 'Std Method 2320 B (Filtered)')
+  第 2 行: (347, 'Public, Review Status Unknown', 'SJA0407B0857', '04/18/2007 11:50', 1.0, 'Meters', 'Dissolved Silver', '< R.L.', 0.001, 'mg/L', 'EPA 200.8 (D)')
+  第 3 行: (15942, 'Public, Review Status Unknown', 'WDIS_0786415', '11/25/1969 00:00', None, 'Feet', 'Dissolved Chloride', 71, 0.1, 'mg/L', 'Std Method 4500-Cl, B')
+  第 4 行: (46288, 'Public, Review Status Unknown', 'SLA0511B0065', '05/17/2011 11:15', 0.0, 'Meters', 'Dissolved Nickel', 0.001, 0.001, 'mg/L', 'EPA 200.8 (D)')
+  第 5 行: (18380, 'Public, Review Status Unknown', 'WDIS_0753033', '09/27/1960 11:00', None, 'Feet', 'Dissolved Calcium', 13, 1.0, 'mg/L', 'UnkMod Calcium')
+  第 6 行: (2056, 'Public, Review Status Unknown', 'NA0804B2206', '08/18/2004 09:15', 0.5, 'Meters', 'Vinyl chloride', '< R.L.', 0.5, 'ug/L', 'EPA 502.2')
+  第 7 行: (9161, 'Public, Review Status Unknown', 'WDIS_0823822', '07/30/1952 00:00', None, 'Feet', 'Total Dissolved Solids', 2290, 1.0, 'mg/L at 105 °C', 'UnkH TDS')
+  第 8 行: (24612, 'Public, Review Status Unknown', 'WDIS_0819823', '06/04/1969 00:00', None, 'Feet', 'pH', 8.3, 0.1, 'pH Units', 'EPA 150.1')
+  第 9 行: (45959, 'Public, Review Status Unknown', 'C0621B0270', '06/08/2021 12:30', 1.0, 'Meters', 'Dissolved Bromide', 0.257, 0.05, 'mg/L', 'EPA 300.0')
+  第 10 行: (22670, 'Public, Review Status Unknown', 'WDIS_0751658', '03/30/1979 05:45', None, 'Feet', 'Dissolved Sulfate', 35, 1.0, 'mg/L', 'UnkMod Sulfate')
+  第 11 行: (47186, 'Public, Review Status Unknown', 'CHF0810B0007', '08/12/2010 14:26', 70.0, 'Feet', 'Dissolved Barium', '< R.L.', 0.05, 'mg/L', 'EPA 200.8 (D)')
+  第 12 行: (7383, 'Public, Review Status Unknown', 'WDIS_0776727', '11/20/1962 00:00', None, 'Feet', 'Total Hardness', 445, 1.0, 'mg/L as CaCO3', 'UnkMod Hardness')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/water_quality/3.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: stations
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'station_name', 'full_station_name', 'station_number', 'station_type', 'latitude', 'longitude', 'county_name', 'sample_count', 'sample_date_min', 'sample_date_max']
+表内容:
+  第 1 行: (357, 'Check 66', 'CALIFORNIA AQU A INL TO MOJAVE SI', 'KA040341', 'Surface Water', 34.336, -117.3036, 'San Bernardino', 722, '01/19/1972 12:48', '05/21/2024 11:50')
+  第 2 行: (411, 'Silverwood Lk Tower', 'Silverwood Lk Outlet Tower (San Bernardino Tunnel)', 'SI002000', 'Surface Water', 34.296956, -117.329922, 'San Bernardino', 813, '05/17/1972 09:00', '05/22/2024 07:05')
+  第 3 行: (583, 'BOULDSIPH01', 'Bouldin Siphon @ S. Mokelumne River', 'B9D80711320', 'Surface Water', 38.1185, -121.5338, 'San Joaquin', 18, '08/10/1988 11:53', '07/21/1989 06:24')
+  第 4 行: (916, 'MORRISON C NR SACTO-', 'MORRISON C NR SACTO-AB FLORIN RD', 'A0002000', 'Surface Water', 38.4982, -121.4519, 'Sacramento', 2, '09/14/1955 13:40', '06/06/1966 00:00')
+  第 5 行: (1244, 'MILL C NR MO NR LOS', 'MILL C NR MO NR LOS MOLINOS', 'A0442050', 'Surface Water', 40.0429, -122.1003, 'Tehama', 425, '09/22/1952 10:00', '11/14/2023 08:45')
+  第 6 行: (1298, 'YUBA R NR MARYSVILLE', 'YUBA R NR MARYSVILLE', 'A0615000', 'Surface Water', 39.1763, -121.5247, 'Yuba', 147, '02/26/1970 11:50', '10/27/2021 11:00')
+  第 7 行: (1565, 'LK BRITTON OPP PICNI', 'LK BRITTON OPP PICNIC AREA', 'A1L10191388', 'Surface Water', 41.031, -121.6472, 'Shasta', 38, '09/07/1977 12:00', '12/05/1979 11:55')
+  第 8 行: (2202, 'BEAR R A BEN DAY MIN', 'BEAR R A BEN DAY MINE', 'A6543001', 'Surface Water', 39.1521, -120.9347, 'Placer', 19, '04/30/1958 11:30', '01/27/1960 09:20')
+  第 9 行: (2388, 'HIGH VALLEY C AB KEL', 'HIGH VALLEY C AB KELSEY C', 'A8561000', 'Surface Water', 38.8685, -122.7944, 'Lake', 161, '03/22/1978 11:00', '07/18/2001 09:00')
+  第 10 行: (2418, 'CLEAR LK 23 OAKS ARM', 'CLEAR LK 23 OAKS ARM CL4', 'A8L90072417', 'Surface Water', 39.0116, -122.6961, 'Lake', 1143, '06/09/1964 00:00', '01/15/2020 10:05')
+  第 11 行: (2598, 'SJR nr Stevinson', 'San Joaquin River near Stevinson', 'B0740000', 'Surface Water', 37.2949, -120.851, 'Merced', 116, '11/13/1975 10:30', '05/27/1999 10:40')
+  第 12 行: (3264, 'KAWEAH R BL TERMINUS', 'KAWEAH R BL TERMINUS DM', 'C0218500', 'Surface Water', 36.4133, -119.0126, 'Tulare', 170, '01/04/1961 14:00', '04/10/1991 08:10')
+  第 13 行: (4419, 'SHASTA R NR GRENADA', 'SHASTA R NR GRENADA', 'F2135000', 'Surface Water', 41.6485, -122.4984, 'Siskiyou', 128, '04/07/1947 00:00', '03/20/1991 10:20')
+  第 14 行: (6041, 'CENTINELA C A CENTIN', 'CENTINELA C A CENTINELA BLVD', 'Z5323010', 'Surface Water', 33.985, -118.4129, 'Los Angeles', 115, '04/16/1969 06:30', '09/20/1978 05:38')
+  第 15 行: (9800, '02N05W29L001S', '02N05W29L001S', '02N05W29L001S', 'Groundwater', 34.2273, -117.4284, 'San Bernardino', 11, '04/27/1956 00:00', '06/06/1963 00:00')
+  第 16 行: (10797, '02N22W12D001S', '02N22W12D001S', '02N22W12D001S', 'Groundwater', 34.278, -119.1449, 'Ventura', 33, '09/02/1949 00:00', '05/10/1971 00:00')
+  第 17 行: (12552, '02S15W23N001S', '02S15W23N001S', '02S15W23N001S', 'Groundwater', 33.9776, -118.4285, 'Los Angeles', 196, '03/09/1953 00:00', '03/31/1969 12:00')
+  第 18 行: (14011, '03S07W26G001S', '03S07W26G001S', '03S07W26G001S', 'Groundwater', 33.8834, -117.5812, 'Riverside', 4, '10/20/1953 00:00', '06/23/1970 11:40')
+  第 19 行: (15769, '04N15W18P003S', '04N15W18P003S', '04N15W18P003S', 'Groundwater', 34.4264, -118.4941, 'Los Angeles', 3, '08/23/1955 00:00', '06/14/1962 00:00')
+  第 20 行: (15942, '04N17W14Q003S', '04N17W14Q003S', '04N17W14Q003S', 'Groundwater', 34.4264, -118.6294, 'Los Angeles', 2, '11/25/1969 00:00', '06/20/1972 13:00')
+  第 21 行: (17211, '04S10W17C003S', '04S10W17C003S', '04S10W17C003S', 'Groundwater', 33.8291, -117.9525, 'Orange', 1, '02/20/1951 00:00', '02/20/1951 00:00')
+  第 22 行: (17448, '04S12W01F003S', '04S12W01F003S', '04S12W01F003S', 'Groundwater', 33.8545, -118.0923, 'Los Angeles', 2, '07/08/1965 12:45', '10/01/1968 00:00')
+  第 23 行: (19813, '05S11W20R008S', '05S11W20R008S', '05S11W20R008S', 'Groundwater', 33.7177, -118.0473, 'Orange', 1, '01/09/1964 16:50', '01/09/1964 16:50')
+  第 24 行: (30704, '14N05E15C001M', '14N05E15C001M', '14N05E15C001M', 'Groundwater', 39.0716, -121.4105, 'Yuba', 1, '08/16/1976 00:00', '08/16/1976 00:00')
+  第 25 行: (40463, '29S11E32K003M', '29S11E32K003M', '29S11E32K003M', 'Groundwater', 35.3589, -120.8148, 'San Luis Obispo', 1, '10/01/1960 00:00', '10/01/1960 00:00')
+  第 26 行: (41307, '30S24E04C004M', '30S24E04C004M', '30S24E04C004M', 'Groundwater', 35.3533, -119.4037, 'Kern', 1, '04/09/1964 12:55', '04/09/1964 12:55')
+  第 27 行: (42289, '31S13E29F001M', '31S13E29F001M', '31S13E29F001M', 'Groundwater', 35.2036, -120.6049, 'San Luis Obispo', 6, '05/12/1954 00:00', '09/25/1963 09:20')
+  第 28 行: (45644, 'Travis Surge Tank', 'Travis Surge Tank', 'KG000843', 'Surface Water', 38.2995, -121.9331, 'Solano', 1, '11/08/2000 10:20', '11/08/2000 10:20')
+  第 29 行: (45914, 'C10A', 'C10A - San Joaquin River near Vernalis @ SJR Club', 'B9D74081159', 'Surface Water', 37.67934, -121.2647, 'San Joaquin', 715, '04/06/2005 14:30', '06/12/2024 10:20')
+  第 30 行: (45925, 'D12A', 'D12A - San Joaquin River @ Antioch', 'B9D80111482', 'Surface Water', 38.0177, -121.8027, 'Contra Costa', 226, '04/20/1951 14:00', '08/23/1976 12:00')
+  第 31 行: (45960, 'P12 - OR@TracyRdBr', 'Old River @ Tracy Road Bridge - P12', 'B9D74831270', 'Surface Water', 37.8047, -121.4499, 'San Joaquin', 602, '05/02/1966 11:45', '04/29/2015 12:56')
+  第 32 行: (46608, '02N06E11H005M-MW2', "Stockton Morada Ln - MW2 (540')", '02N06E11H005M', 'Groundwater', 38.0358, -121.2791, 'San Joaquin', 4, '05/09/2006 14:00', '03/27/2007 12:30')
+  第 33 行: (46685, 'HC@HollandMarina', 'Holland Cut at Holland Marina', 'B9D75841349', 'Surface Water', 37.9737, -121.5813, 'Contra Costa', 504, '09/30/2004 10:55', '06/06/2024 10:45')
+  第 34 行: (47175, 'Clear C NR MO NR Red', 'Clear Creek near Mouth near Redding', 'A3601000', 'Surface Water', 40.5092, -122.38, 'Shasta', 108, '09/15/1998 13:15', '11/08/2023 12:15')
+  第 35 行: (47865, 'Mokelumne River', "Mokelumne River above Benson's Ferry", 'B2D81531267', 'Surface Water', 38.254939, -121.445419, 'San Joaquin', 28, '02/04/2019 12:25', '12/10/2021 12:15')
+  第 36 行: (48008, 'Frenchman-subsurface', 'Frenchman LK NR DM below surface sample', 'FR991000', 'Surface Water', 39.89439, -119.8075, 'Plumas', 9, '05/25/2022 12:54', '10/25/2023 10:45')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: period_of_record
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'parameter']
+表内容:
+  第 1 行: (46608, 'Permethrin')
+  第 2 行: (14011, 'Dissolved Calcium')
+  第 3 行: (15769, 'Dissolved Magnesium')
+  第 4 行: (17448, 'Dissolved Sulfate')
+  第 5 行: (19813, 'pH')
+  第 6 行: (30704, 'Dissolved Sulfate')
+  第 7 行: (41307, 'Dissolved Boron')
+  第 8 行: (42289, 'pH')
+  第 9 行: (916, 'Dissolved Boron')
+  第 10 行: (2388, 'Total Selenium')
+  第 11 行: (48008, 'Dissolved Manganese')
+  第 12 行: (45644, 'Dissolved ortho-Phosphate')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: field_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'anl_data_type', 'parameter', 'fdr_result', 'fdr_text_result', 'fdr_date_result', 'fdr_reporting_limit', 'uns_name', 'mth_name', 'fdr_footnote']
+表内容:
+  第 1 行: (6041, 'Public, Review Status Unknown', 'WDIS_0976622', '1975-03-20 06:45:00', None, 'Feet', None, 'DissolvedOxygen', 7.2, '*See Units Note', None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+  第 2 行: (2598, 'Public, Review Status Unknown', 'FSA0399A0391', '1999-03-08 10:00:00', 0.3, 'Meters', None, 'AirTemperature', 12.0, None, None, 0.1, '°C', 'Temperature, Air', None)
+  第 3 行: (2202, 'Public, Review Status Unknown', 'WDIS_0882419', '1959-02-26 09:30:00', None, 'Feet', None, 'Flow, channel', 500.0, None, None, 1.0, 'cfs', 'Flow, Channel', None)
+  第 4 行: (583, 'Public, Review Status Unknown', 'C0789A0529', '1989-07-21 06:24:00', 1.0, 'Meters', None, 'WaterTemperature', 22.5, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 5 行: (45914, 'Public, Review Status Unknown', 'CF0908B0061', '2008-09-16 10:40:00', 1.0, 'Meters', None, 'WaterTemperature', 22.6, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 6 行: (45960, 'Public, Review Status Unknown', 'EMP0385A0058', '1985-03-13 12:20:00', 3.0, 'Feet', None, '1% Light Depth', 1.6, None, None, None, 'Meters', 'Light extinction', ',Whitney,LMT-8A,n/p')
+  第 7 行: (47175, 'Public, Review Status Unknown', 'N1116B0929', '2016-11-02 13:00:00', 0.15, 'Meters', None, 'pH', 7.4, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+  第 8 行: (4419, 'Public, Review Status Unknown', 'WDIS_0933756', '1985-12-17 12:10:00', None, 'Feet', None, 'pH', 7.9, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+  第 9 行: (1244, 'Public, Review Status Unknown', 'NA0513B5382', '2013-05-07 11:40:00', 0.15, 'Meters', None, 'DissolvedOxygen', 10.5, None, None, 0.1, 'mg/L', 'EPA 360.1 (Field)', None)
+  第 10 行: (3264, 'Public, Review Status Unknown', 'WDIS_0916133', '1978-03-21 11:45:00', None, 'Feet', None, 'Flow, channel', 1285.0, None, None, 1.0, 'cfs', 'Flow, Channel', None)
+  第 11 行: (10797, 'Public, Review Status Unknown', 'WDIS_0782769', '1959-11-19 00:00:00', None, 'Feet', None, 'WaterTemperature', 65.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+  第 12 行: (1298, 'Public, Review Status Unknown', 'CFD1005B0343', '2005-10-27 08:30:00', 1.0, 'Meters', None, 'Gauge Height', 62.1, None, None, 0.1, 'Feet', 'Flow, Channel', None)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: lab_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'parameter', 'result', 'reporting_limit', 'units', 'method_name']
+表内容:
+  第 1 行: (46685, 'Public, Review Status Unknown', 'CFF0508B0212', '05/14/2008 13:30', 1.0, 'Meters', 'Dissolved Chloride', 39, 1.0, 'mg/L', 'EPA 300.0 28d Hold')
+  第 2 行: (45925, 'Public, Review Status Unknown', 'WDIS_0904543', '05/21/1952 12:00', None, 'Feet', 'Total Hardness', 33, 1.0, 'mg/L as CaCO3', 'UnkH Hardness')
+  第 3 行: (2418, 'Public, Review Status Unknown', 'NA0707B1348', '07/25/2007 09:00', 0.5, 'Meters', 'Dissolved Chloride', 7, 1.0, 'mg/L', 'EPA 300.0 28d Hold')
+  第 4 行: (12552, 'Public, Review Status Unknown', 'WDIS_0796042', '11/08/1963 00:00', None, 'Feet', 'Dissolved Chloride', 1064, 1.0, 'mg/L', 'UnkMod Chloride')
+  第 5 行: (15942, 'Public, Review Status Unknown', 'WDIS_0786415', '11/25/1969 00:00', None, 'Feet', 'Dissolved Chloride', 71, 0.1, 'mg/L', 'Std Method 4500-Cl, B')
+  第 6 行: (17211, 'Public, Review Status Unknown', 'WDIS_0827886', '02/20/1951 00:00', None, 'Feet', 'Dissolved Sulfate', 78, 1.0, 'mg/L', 'UnkH Sulfate')
+  第 7 行: (9800, 'Public, Review Status Unknown', 'WDIS_0842523', '07/07/1961 00:00', None, 'Feet', 'Total Hardness', 215, 1.0, 'mg/L as CaCO3', 'UnkMod Hardness')
+  第 8 行: (357, 'Public, Review Status Unknown', 'OM0684A0230', '06/20/1984 13:45', 1.0, 'Feet', '*No Lab Analyses (Field Measures Only)', None, None, None, 'EPA 353.2 (DWR Modified)')
+  第 9 行: (411, 'Public, Review Status Unknown', 'S1222B0442', '12/20/2022 09:00', 0.3, 'Meters', 'Dissolved Ammonia', 0.22, 0.05, 'mg/L as N', 'EPA 350.1 (D)')
+  第 10 行: (47865, 'Public, Review Status Unknown', 'C1219B1353', '12/06/2019 11:10', 1.0, 'Meters', 'Dissolved ortho-Phosphate', '< R.L.', 0.05, 'mg/L as P', 'EPA 365.1 DWR Modified')
+  第 11 行: (40463, 'Public, Review Status Unknown', 'WDIS_0769641', '10/01/1960 00:00', None, 'Feet', 'Total Alkalinity', 502, 1.0, 'mg/L as CaCO3', 'UnkMod Alkalinity')
+  第 12 行: (1565, 'Public, Review Status Unknown', 'WDIS_0409316', '12/14/1978 12:30', 0.0, 'Feet', 'Total Phosphorus', 0.06, 0.01, 'mg/L as P', 'EPA 365.4 (DWR Modified)')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/water_quality/4.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: stations
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'station_name', 'full_station_name', 'station_number', 'station_type', 'latitude', 'longitude', 'county_name', 'sample_count', 'sample_date_min', 'sample_date_max']
+表内容:
+  第 1 行: (97, 'OR Bl Rock Sl', 'Old River South of Rock Slough (St 5A)', 'B9D75811343', 'Surface Water', 37.9694, -121.5719, 'San Joaquin', 286, '05/04/1972 12:15', '03/01/1991 12:30')
+  第 2 行: (145, 'Toe Drain YB LISBON', 'Yolo Bypass Toe Drain Below Lisbon Weir', 'B9D82851352', 'Surface Water', 38.4749, -121.5883, 'Yolo', 300, '10/18/1991 07:45', '06/04/2024 09:01')
+  第 3 行: (186, 'GLC@Tracy', 'Grant Ln Can @ Tracy Rd Bdg', 'B9D74921269', 'Surface Water', 37.8199, -121.4499, 'San Joaquin', 568, '06/16/1954 15:05', '07/17/2018 12:00')
+  第 4 行: (415, 'Tunnel Island', 'San Luis Reservoir at Tunnel Island', 'SL005000', 'Surface Water', 37.0693, -121.1531, 'Merced', 180, '03/17/1986 10:00', '02/16/2000 05:40')
+  第 5 行: (440, 'Antelope', 'ANTELOPE LK NR DM', 'AN001000', 'Surface Water', 40.1805, -120.6057, 'Plumas', 94, '10/08/1969 08:15', '06/20/2023 10:00')
+  第 6 行: (1158, 'COLUSA BAS DR A HWY', 'COLUSA BAS DR A HWY 20', 'A0297600', 'Surface Water', 39.1957, -122.0605, 'Colusa', 536, '07/09/1952 18:00', '03/28/1991 08:50')
+  第 7 行: (1685, 'MCCLOUD R AB SHASTA', 'MCCLOUD R AB SHASTA LK', 'A2215000', 'Surface Water', 40.9582, -122.2203, 'Shasta', 419, '04/10/1951 15:00', '11/07/2023 08:30')
+  第 8 行: (2419, 'CLEAR LK 24 LO ARM', 'CLEAR LK 24 LO ARM', 'A8L90072444', 'Surface Water', 39.0116, -122.7411, 'Lake', 60, '05/22/1964 00:00', '06/08/1965 00:00')
+  第 9 行: (2595, 'SJR@PattersonBr', 'San Joaquin River @ Patterson Bridge', 'B0720000', 'Surface Water', 37.4983, -121.0827, 'Stanislaus', 404, '10/20/1936 00:00', '08/13/1991 12:45')
+  第 10 行: (3119, 'SAN JOAQUIN R NR SAN', 'SAN JOAQUIN R NR SAN ANDREAS LDG', 'B9D80591352', 'Surface Water', 38.1033, -121.5913, 'Sacramento', 133, '01/28/1957 10:20', '02/05/1975 14:40')
+  第 11 行: (3253, 'TD BVS8003', 'TILE DRAIN BVS8003', 'BVS8003', 'Other', None, None, 'Fresno', 292, '05/13/1959 11:00', '03/15/2011 00:00')
+  第 12 行: (3264, 'KAWEAH R BL TERMINUS', 'KAWEAH R BL TERMINUS DM', 'C0218500', 'Surface Water', 36.4133, -119.0126, 'Tulare', 170, '01/04/1961 14:00', '04/10/1991 08:10')
+  第 13 行: (4805, 'EEL R MF A DOS RIOS', 'EEL R MF A DOS RIOS', 'F6300901', 'Surface Water', 39.711, -123.3475, 'Mendocino', 400, '04/16/1958 10:00', '10/13/2022 09:35')
+  第 14 行: (4819, 'EEL R MF AB BLACK BU', 'EEL R MF AB BLACK BUTTE R', 'F6312001', 'Surface Water', 39.8274, -123.0856, 'Mendocino', 110, '07/16/1959 14:45', '02/07/1991 11:05')
+  第 15 行: (5049, 'RUSSIAN R, EF, A POT', 'RUSSIAN R, EF, A POTTER VLY PH', 'F9490000', 'Surface Water', 39.3616, -123.1283, 'Mendocino', 271, '05/16/1951 15:45', '10/28/2021 09:01')
+  第 16 行: (5186, 'WILLOW C A RD A-27 N', 'WILLOW C A RD A-27 NR LITCHFIELD', 'G4200100', 'Surface Water', 40.3999, -120.4519, 'Lassen', 129, '05/11/1965 13:00', '09/10/2012 14:00')
+  第 17 行: (5800, 'SANTA ANA R A E ST B', 'SANTA ANA R A E ST BR NR SAN BERN', 'Y5110000', 'Surface Water', 34.0678, -117.2942, 'San Bernardino', 290, '01/10/1966 00:00', '01/30/2002 09:00')
+  第 18 行: (6049, 'LOS ANGELES R A WILL', 'LOS ANGELES R A WILLOW ST', 'Z6112010', 'Surface Water', 33.8042, -118.2051, 'Los Angeles', 344, '04/11/1951 09:45', '04/07/1982 08:40')
+  第 19 行: (9060, '01S10W03K003S', '01S10W03K003S', '01S10W03K003S', 'Groundwater', 34.1115, -117.9132, 'Los Angeles', 10, '11/01/1957 00:00', '11/08/1967 00:00')
+  第 20 行: (16992, '04S08E06C001M', '04S08E06C001M', '04S08E06C001M', 'Groundwater', 37.6216, -121.1352, 'Stanislaus', 4, '08/10/1953 00:00', '08/10/1966 00:00')
+  第 21 行: (17712, '04S13W15C001S', '04S13W15C001S', '04S13W15C001S', 'Groundwater', 33.8291, -118.232, 'Los Angeles', 13, '12/02/1953 00:00', '05/03/1972 00:00')
+  第 22 行: (19544, '05S10W13B007S', '05S10W13B007S', '05S10W13B007S', 'Groundwater', 33.745, -117.8756, 'Orange', 13, '04/02/1951 00:00', '04/01/1982 00:00')
+  第 23 行: (21001, '06S01W15H001M', '06S01W15H001M', '06S01W15H001M', 'Groundwater', 37.4135, -121.9552, 'Santa Clara', 96, '06/06/1961 00:00', '10/08/1980 09:05')
+  第 24 行: (25169, '09S03W21F002S', '09S03W21F002S', '09S03W21F002S', 'Groundwater', 33.3814, -117.2023, 'San Diego', 1, '02/27/1963 00:00', '02/27/1963 00:00')
+  第 25 行: (30362, '13S19E26N002M', '13S19E26N002M', '13S19E26N002M', 'Groundwater', 36.7622, -119.8866, 'Fresno', 1, '12/31/1979 09:30', '12/31/1979 09:30')
+  第 26 行: (32746, '16N02W13E001H', '16N02W13E001H', '16N02W13E001H', 'Groundwater', 41.7794, -124.249, 'Del Norte', 9, '09/23/1953 00:00', '06/03/1986 07:15')
+  第 27 行: (34494, '18N03W10K002M', '18N03W10K002M', '18N03W10K002M', 'Groundwater', 39.4302, -122.1819, 'Glenn', 6, '07/27/1976 10:35', '09/13/2006 09:50')
+  第 28 行: (39361, '27S24E12H002M', '27S24E12H002M', '27S24E12H002M', 'Groundwater', 35.5967, -119.3416, 'Kern', 1, '08/24/1979 00:00', '08/24/1979 00:00')
+  第 29 行: (41500, '30S27E11B001M', '30S27E11B001M', '30S27E11B001M', 'Groundwater', 35.3372, -119.0466, 'Kern', 10, '09/12/1973 00:00', '01/12/1989 00:00')
+  第 30 行: (42813, '32S13E01H001M', '32S13E01H001M', '32S13E01H001M', 'Groundwater', 35.1747, -120.5246, 'San Luis Obispo', 1, '06/03/1964 00:00', '06/03/1964 00:00')
+  第 31 行: (45850, 'FR SF BL P DM', 'Feather R SF DS Ponderosa RES', 'A5605050', 'Surface Water', 39.55, -121.304444, 'Butte', 91, '07/09/1963 11:15', '04/13/2004 08:00')
+  第 32 行: (45913, 'C10 - Vernalis', 'San Joaquin River near Vernalis - C10', 'B9D74051159', 'Surface Water', 37.6758, -121.265, 'San Joaquin', 1525, '04/11/1951 13:15', '03/22/2005 12:35')
+  第 33 行: (45919, 'C9', 'C9 - West Canal @ Clifton Court Intake', 'B9C74981333', 'Surface Water', 37.830954, -121.552983, 'Contra Costa', 230, '03/06/1973 15:10', '08/03/1984 13:45')
+  第 34 行: (46081, '48N04E28D001M', '48N04E28D001M', '48N04E28D001M', 'Groundwater', 41.9757, -121.5208, 'Siskiyou', 1, '09/12/2001 07:00', '09/12/2001 07:00')
+  第 35 行: (47724, 'Deer C S MN CA S', 'Deer Creek South Main Canal South', 'A0C95771597', 'Surface Water', 39.96092, -121.99488, 'Tehama', 3, '08/26/2009 08:45', '05/28/2015 12:50')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: period_of_record
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'parameter']
+表内容:
+  第 1 行: (16992, 'Dissolved Boron')
+  第 2 行: (17712, 'Dissolved Fluoride')
+  第 3 行: (25169, 'Dissolved Chloride')
+  第 4 行: (30362, 'Dissolved Potassium')
+  第 5 行: (32746, 'Dissolved Boron')
+  第 6 行: (34494, 'Dissolved Lead')
+  第 7 行: (39361, 'Total Silver')
+  第 8 行: (41500, 'Total Copper')
+  第 9 行: (42813, 'Dissolved Calcium')
+  第 10 行: (46081, 'Methylene chloride')
+  第 11 行: (3253, 'Dissolved Arsenic')
+  第 12 行: (5186, 'Oxamyl')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: field_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'anl_data_type', 'parameter', 'fdr_result', 'fdr_text_result', 'fdr_date_result', 'fdr_reporting_limit', 'uns_name', 'mth_name', 'fdr_footnote']
+表内容:
+  第 1 行: (1158, 'Public, Review Status Unknown', 'WDIS_0863984', '1952-11-19 16:00:00', None, 'Feet', None, 'pH', 8.1, None, None, 0.1, 'pH Units', 'UnkH pH', None)
+  第 2 行: (45919, 'Public, Review Status Unknown', 'EMP1181A0491', '1981-11-17 14:00:00', 3.0, 'Feet', None, 'AirTemperature', 15.0, None, None, 0.1, '°C', 'Temperature, Air', None)
+  第 3 行: (2419, 'Public, Review Status Unknown', 'WDIS_0883925', '1965-04-20 12:30:00', None, 'Feet', None, 'WaterTemperature', 59.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+  第 4 行: (4819, 'Public, Review Status Unknown', 'WDIS_0942573', '1990-02-08 10:30:00', None, 'Feet', None, 'DissolvedOxygen', 12.8, '*See Units Note', None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+  第 5 行: (5049, 'Public, Review Status Unknown', 'WDIS_0947176', '1953-01-12 16:00:00', None, 'Feet', None, 'Flow, channel', 7.4, None, None, 1.0, 'cfs', 'Flow, Channel', None)
+  第 6 行: (415, 'Public, Review Status Unknown', 'OM0292A0056', '1992-02-18 09:40:00', 2.0, 'Feet', None, 'WaterTemperature', 11.3, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 7 行: (5800, 'Public, Review Status Unknown', 'WDIS_0971170', '1990-02-07 12:00:00', None, 'Feet', None, 'Flow, channel', 30.0, None, None, 1.0, 'cfs', 'Flow, Channel', None)
+  第 8 行: (186, 'Public, Review Status Unknown', 'WDIS_0007771', '1959-09-11 07:00:00', None, 'Feet', None, 'Gauge Height', 6.02, None, None, 0.1, 'Feet', 'Flow, Channel', None)
+  第 9 行: (45913, 'Public, Review Status Unknown', 'C1296A2347', '1996-12-12 10:48:00', 1.0, 'Meters', None, 'SpecificConductance', 207.0, None, None, 1.0, 'uS/cm@25 °C', 'EPA 120.1 (Field)', None)
+  第 10 行: (2595, 'Public, Review Status Unknown', 'WDIS_0893553', '1982-02-09 13:45:00', None, 'Feet', None, 'Flow, channel', 900.0, None, None, 1.0, 'cfs', 'Flow, Channel', None)
+  第 11 行: (3264, 'Public, Review Status Unknown', 'WDIS_0916133', '1978-03-21 11:45:00', None, 'Feet', None, 'Flow, channel', 1285.0, None, None, 1.0, 'cfs', 'Flow, Channel', None)
+  第 12 行: (145, 'Public, Review Status Unknown', 'EL0818B0134', '2018-08-08 12:06:00', 1.0, 'Meters', None, 'Turbidity', 31.3, None, None, 0.1, 'N.T.U.', 'EPA 180.1 (Field)', None)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: lab_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'parameter', 'result', 'reporting_limit', 'units', 'method_name']
+表内容:
+  第 1 行: (45850, 'Public, Review Status Unknown', 'NA0103B3809', '01/09/2003 15:00', 0.15, 'Meters', 'Dissolved ortho-Phosphate', '< R.L.', 0.01, 'mg/L as P', 'EPA 365.1 DWR Modified')
+  第 2 行: (9060, 'Public, Review Status Unknown', 'WDIS_0808300', '01/13/1965 00:00', None, 'Feet', 'Dissolved Boron', 0.18, 0.1, 'mg/L', 'UnkMod Boron')
+  第 3 行: (6049, 'Public, Review Status Unknown', 'WDIS_0977672', '11/07/1979 07:55', None, 'Feet', '5-Day Biochemical Oxygen Demand', 6, 1.0, 'mg/L', 'EPA 405.1')
+  第 4 行: (4805, 'Public, Review Status Unknown', 'WDIS_0010490', '09/12/1968 08:30', None, 'Feet', 'Dissolved Zinc', '< R.L.', 0.01, 'mg/L', 'UnkMod Zinc')
+  第 5 行: (19544, 'Public, Review Status Unknown', 'WDIS_0828934', '09/18/1979 00:00', None, 'Feet', 'Dissolved Potassium', 0.9, 0.1, 'mg/L', 'UnkMod Potassium')
+  第 6 行: (440, 'Public, Review Status Unknown', 'OMA0504B1220', '05/20/2004 11:05', 0.3, 'Meters', 'Total Kjeldahl Nitrogen', 0.1, 0.1, 'mg/L as N', 'EPA 351.2 (DWR Modified)')
+  第 7 行: (3119, 'Public, Review Status Unknown', 'WDIS_0909611', '05/13/1963 11:40', None, 'Feet', 'Dissolved Calcium', 10, 1.0, 'mg/L', 'UnkMod Calcium')
+  第 8 行: (45913, 'Public, Review Status Unknown', 'WDIS_0892237', '03/05/1979 15:10', 3.0, 'Feet', 'Total Alkalinity', 51, 1.0, 'mg/L as CaCO3', 'EPA 310.1')
+  第 9 行: (97, 'Public, Review Status Unknown', 'WDIS_0902380', '10/22/1979 09:15', None, 'Feet', 'Dissolved Chloride', 58, 0.1, 'mg/L', 'Std Method 4500-Cl, B')
+  第 10 行: (21001, 'Public, Review Status Unknown', 'WDIS_0748692', '11/19/1975 13:50', None, 'Feet', 'Dissolved Chloride', 35, 1.0, 'mg/L', 'UnkMod Chloride')
+  第 11 行: (1685, 'Public, Review Status Unknown', 'NB0213B5135', '02/05/2013 10:20', 0.15, 'Meters', 'Total Calcium', 15, 1.0, 'mg/L', 'EPA 200.7 (T)')
+  第 12 行: (47724, 'Public, Review Status Unknown', 'N0515B0395', '05/28/2015 12:50', 0.15, 'Meters', 'Dissolved Arsenic', 2.75, 0.1, 'ug/L', 'EPA 1638 (D)')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/water_quality/5.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: stations
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'station_name', 'full_station_name', 'station_number', 'station_type', 'latitude', 'longitude', 'county_name', 'sample_count', 'sample_date_min', 'sample_date_max']
+表内容:
+  第 1 行: (378, 'SBA@Santa Clara Term', 'South Bay Aqueduct at Santa Clara Terminal', 'KB004207', 'Surface Water', 37.4072, -121.84, 'Santa Clara', 453, '07/01/1965 14:45', '05/19/2014 11:00')
+  第 2 行: (405, 'Pyramid TU Outlet', 'PYRAMID LK A ANGELES Tunnel INtake Outlet', 'PY001000', 'Surface Water', 34.6449, -118.7642, 'Los Angeles', 769, '01/19/1972 09:30', '05/14/2024 08:40')
+  第 3 行: (426, 'TFB Power Canal', 'THERMALITO POWER CA A CHICO RD BR', 'TF001000', 'Surface Water', 39.5312, -121.5793, 'Butte', 196, '03/17/1971 10:00', '05/19/2004 09:20')
+  第 4 行: (440, 'Antelope', 'ANTELOPE LK NR DM', 'AN001000', 'Surface Water', 40.1805, -120.6057, 'Plumas', 94, '10/08/1969 08:15', '06/20/2023 10:00')
+  第 5 行: (1045, 'ANDERSON C A ASH C R', 'ANDERSON C A ASH C RD', 'A0071000', 'Surface Water', 40.4179, -122.2136, 'Shasta', 31, '06/24/1957 13:15', '01/25/2006 08:10')
+  第 6 行: (1065, 'SACRAMENTO R A SACTO', 'SACRAMENTO R A SACTO', 'A0210000', 'Surface Water', 38.5888, -121.5052, 'Sacramento', 123, '04/12/1951 09:35', '06/20/1984 10:45')
+  第 7 行: (1158, 'COLUSA BAS DR A HWY', 'COLUSA BAS DR A HWY 20', 'A0297600', 'Surface Water', 39.1957, -122.0605, 'Colusa', 536, '07/09/1952 18:00', '03/28/1991 08:50')
+  第 8 行: (1631, 'SACRAMENTO R A KESWI', 'SACRAMENTO R A KESWICK', 'A2101000', 'Surface Water', 40.601, -122.4442, 'Shasta', 553, '04/09/1951 14:25', '08/05/2008 10:30')
+  第 9 行: (2594, 'SAN JOAQUIN R NR GRA', 'SAN JOAQUIN R NR GRAY A LAIR SLU', 'B0708000', 'Surface Water', 37.5633, -121.1527, 'Stanislaus', 509, '05/26/1932 00:00', '08/13/1991 13:45')
+  第 10 行: (3086, 'OLD R A MANDEVILLE I', 'OLD R A MANDEVILLE ISL', 'B9D80391345', 'Surface Water', 38.0649, -121.5766, 'San Joaquin', 143, '12/14/1954 13:00', '09/01/1966 12:45')
+  第 11 行: (3422, 'BRANCIFORTE C A SANT', 'BRANCIFORTE C A SANTA CRUZ', 'D0110000', 'Surface Water', 36.9861, -122.0141, 'Santa Cruz', 46, '08/23/1963 12:40', '09/08/1988 06:45')
+  第 12 行: (4760, 'EEL R A SCOTIA', 'EEL R A SCOTIA', 'F6110000', 'Surface Water', 40.4915, -124.0998, 'Humboldt', 485, '10/24/1950 11:15', '10/12/2022 15:00')
+  第 13 行: (5049, 'RUSSIAN R, EF, A POT', 'RUSSIAN R, EF, A POTTER VLY PH', 'F9490000', 'Surface Water', 39.3616, -123.1283, 'Mendocino', 271, '05/16/1951 15:45', '10/28/2021 09:01')
+  第 14 行: (5178, 'SUSAN R A LASSEN ST', 'SUSAN R A LASSEN ST BR', 'G4160001', 'Surface Water', 40.4138, -120.6655, 'Lassen', 354, '04/11/1951 07:45', '09/10/2012 12:30')
+  第 15 行: (5887, 'SANTA PAULA C NR SAN', 'SANTA PAULA C NR SANTA PAULA', 'Z2130000', 'Surface Water', 34.3967, -119.0759, 'Ventura', 344, '07/10/1917 00:00', '05/06/2002 11:20')
+  第 16 行: (7479, '01N22W09C001S', '01N22W09C001S', '01N22W09C001S', 'Groundwater', 34.1911, -119.1929, 'Ventura', 1, '01/22/1934 00:00', '01/22/1934 00:00')
+  第 17 行: (8331, '01S04W22L008S', '01S04W22L008S', '01S04W22L008S', 'Groundwater', 34.0678, -117.2898, 'San Bernardino', 2, '11/07/1961 00:00', '07/02/1962 10:05')
+  第 18 行: (10097, '02N14W05A002S', '02N14W05A002S', '02N14W05A002S', 'Groundwater', 34.2924, -118.363, 'Los Angeles', 4, '10/10/1973 14:30', '10/26/1977 09:13')
+  第 19 行: (16668, '04S01W31D002S', '04S01W31D002S', '04S01W31D002S', 'Groundwater', 33.7864, -117.0306, 'Riverside', 10, '08/11/1959 00:00', '09/21/1966 00:00')
+  第 20 行: (18527, '05N07W20N002M', '05N07W20N002M', '05N07W20N002M', 'Groundwater', 38.2589, -122.6644, 'Sonoma', 1, '10/03/1979 11:20', '10/03/1979 11:20')
+  第 21 行: (18819, '05N13W25C003S', '05N13W25C003S', '05N13W25C003S', 'Groundwater', 34.4928, -118.1979, 'Los Angeles', 4, '04/21/1970 10:00', '03/22/1973 00:00')
+  第 22 行: (20914, '06S01W02G002M', '06S01W02G002M', '06S01W02G002M', 'Groundwater', 37.4424, -121.9414, 'Santa Clara', 1, '07/16/1951 00:00', '07/16/1951 00:00')
+  第 23 行: (21106, '06S01W32D002M', '06S01W32D002M', '06S01W32D002M', 'Groundwater', 37.3738, -122.0054, 'Santa Clara', 1, '11/19/1984 10:45', '11/19/1984 10:45')
+  第 24 行: (28468, '12N08W32P001M', '12N08W32P001M', '12N08W32P001M', 'Groundwater', 38.8404, -122.7757, 'Lake', 19, '06/08/1988 10:45', '10/10/1991 13:00')
+  第 25 行: (28700, '12S01E25B003M', '12S01E25B003M', '12S01E25B003M', 'Groundwater', 36.8653, -121.8071, 'Santa Cruz', 1, '08/04/1971 11:30', '08/04/1971 11:30')
+  第 26 行: (30645, '14N01W12A001M', '14N01W12A001M', '14N01W12A001M', 'Groundwater', 39.0824, -121.9158, 'Colusa', 14, '07/21/1958 00:00', '06/01/1989 14:05')
+  第 27 行: (32099, '15S03W09K001S', '15S03W09K001S', '15S03W09K001S', 'Groundwater', 32.8788, -117.1963, 'San Diego', 1, '08/30/1962 14:00', '08/30/1962 14:00')
+  第 28 行: (36048, '20S25E22B001M', '20S25E22B001M', '20S25E22B001M', 'Groundwater', 36.179, -119.2517, 'Tulare', 1, '05/12/1982 14:00', '05/12/1982 14:00')
+  第 29 行: (36847, '22N01W19J002M', '22N01W19J002M', '22N01W19J002M', 'Groundwater', 39.7478, -122.0075, 'Glenn', 7, '04/02/1976 00:00', '07/08/1986 10:05')
+  第 30 行: (39697, '28N14E08J001M', '28N14E08J001M', '28N14E08J001M', 'Groundwater', 40.2977, -120.4247, 'Lassen', 5, '10/02/1980 00:00', '09/14/2012 09:30')
+  第 31 行: (39796, '28S13E30N001M', '28S13E30N001M', '28S13E30N001M', 'Groundwater', 35.4582, -120.6204, 'San Luis Obispo', 2, '07/15/1964 00:00', '05/05/1965 00:00')
+  第 32 行: (40636, '29S26E01T080M', '29S26E01T080M', '29S26E01T080M', 'Groundwater', 35.433, -119.1381, 'Kern', 1, '06/05/1980 00:00', '06/05/1980 00:00')
+  第 33 行: (45944, 'D8', 'D8 - Suisun Bay off Middle Point nr. Nichols', 'E3B80361594', 'Surface Water', 38.0599, -121.99, 'Solano', 353, '01/26/1968 10:43', '08/07/1984 14:00')
+  第 34 行: (46953, 'M3 Lft Sta', 'M3 Lift Station', 'B9D74831181', 'Surface Water', 37.805, -121.3012, 'San Joaquin', 13, '11/08/2010 10:10', '03/25/2012 08:21')
+  第 35 行: (47520, 'Cache Sl nr. Ryer Is', 'Cache Slough nr. Ryer Island gaging station', 'B9D81281401', 'Surface Water', 38.213358, -121.668558, 'Solano', 232, '09/04/2013 10:16', '12/08/2021 11:22')
+  第 36 行: (47659, 'SF Pit R US MNWR Div', 'SF Pit R US MNWR Diversion', 'A1400901', 'Surface Water', 41.416328, -120.544475, 'Modoc', 13, '09/16/2014 12:25', '10/24/2017 07:40')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: period_of_record
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'parameter']
+表内容:
+  第 1 行: (16668, 'pH')
+  第 2 行: (18527, 'Conductance')
+  第 3 行: (18819, 'Dissolved Silica (SiO2)')
+  第 4 行: (20914, 'Total Hardness')
+  第 5 行: (28700, 'Dissolved Sodium')
+  第 6 行: (32099, 'Dissolved Nitrate')
+  第 7 行: (36048, 'Total Alkalinity')
+  第 8 行: (39697, 'Total Cadmium')
+  第 9 行: (39796, 'Total Alkalinity')
+  第 10 行: (40636, 'Total Arsenic')
+  第 11 行: (46953, 'PCB-1221')
+  第 12 行: (5178, '1,3,5-Trimethylbenzene')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: field_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'anl_data_type', 'parameter', 'fdr_result', 'fdr_text_result', 'fdr_date_result', 'fdr_reporting_limit', 'uns_name', 'mth_name', 'fdr_footnote']
+表内容:
+  第 1 行: (426, 'Public, Review Status Unknown', 'OM0477A0210', '1977-04-20 09:25:00', 1.0, 'Feet', None, 'Flow, channel', 6000.0, None, None, 1.0, 'cfs', 'Flow, Channel', None)
+  第 2 行: (1158, 'Public, Review Status Unknown', 'WDIS_0864381', '1979-09-26 15:20:00', None, 'Feet', None, 'WaterTemperature', 20.5, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 3 行: (30645, 'Public, Review Status Unknown', 'WDIS_0705235', '1989-06-01 14:05:00', None, 'Feet', None, 'Conductance', 645.0, None, None, 1.0, 'uS/cm', 'Std Method 2510-B (Field)', None)
+  第 4 行: (5049, 'Public, Review Status Unknown', 'WDIS_0947281', '1961-11-10 11:00:00', None, 'Feet', None, 'WaterTemperature', 52.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+  第 5 行: (3086, 'Public, Review Status Unknown', 'WDIS_0908052', '1961-05-11 09:00:00', None, 'Feet', None, 'WaterTemperature', 65.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+  第 6 行: (378, 'Public, Review Status Unknown', 'OM0674A0216', '1974-06-19 07:30:00', 9.0, 'Feet', None, 'PhenolphthaleinAlkalinity', 50.0, None, None, 2.0, 'mg/L as CaCO3', '(Field) Alkalinity', None)
+  第 7 行: (3422, 'Public, Review Status Unknown', 'WDIS_0919245', '1963-11-06 07:35:00', None, 'Feet', None, 'Flow, channel', 15.0, None, None, 1.0, 'cfs', 'Flow, Channel', None)
+  第 8 行: (1045, 'Public, Review Status Unknown', 'NA0501B1119', '2001-05-08 10:00:00', 0.15, 'Meters', None, 'SpecificConductance', 144.0, None, None, 1.0, 'uS/cm@25 °C', 'EPA 120.1 (Field)', None)
+  第 9 行: (1631, 'Public, Review Status Unknown', 'WDIS_0874647', '1983-11-15 12:05:00', None, 'Feet', 'Memo', 'Field Notes', None, None, None, None, None, 'Notes (Field)', 'DO Units Note - mg/L: WDIS DO Units not specified but assumed to be mg/L if Result <= 120% O2 Saturation - estimated using Field Temp.  Above 120% units changed to % Saturation.  This Sample = 84% - therefore assigned mg/L.  Possible units include ml/L; mg/L;  %Saturation')
+  第 10 行: (45944, 'Public, Review Status Unknown', 'EMP1188A0489', '1988-11-03 12:25:00', 3.0, 'Feet', None, 'DissolvedOxygen', 8.8, None, None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+  第 11 行: (47520, 'Public, Review Status Unknown', 'C0921B0450', '2021-09-09 09:52:00', 1.0, 'Meters', None, 'SpecificConductance', 219.6, None, None, None, 'uS/cm@25 °C', 'EPA 120.1 (Field)', None)
+  第 12 行: (5887, 'Public, Review Status Unknown', 'LRA1198A2552', '1998-11-16 11:00:00', 0.5, 'Meters', None, 'pH', 8.4, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: lab_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'parameter', 'result', 'reporting_limit', 'units', 'method_name']
+表内容:
+  第 1 行: (36847, 'Public, Review Status Unknown', 'WDIS_0000863', '07/17/1979 08:30', None, 'Feet', 'Total ortho-Phosphate', 0.11, 0.01, 'mg/L as P', 'UnkMod Orthophosphate')
+  第 2 行: (4760, 'Public, Review Status Unknown', 'WDIS_0010379', '10/03/1972 12:45', None, 'Feet', 'Dissolved Magnesium', 10, 0.1, 'mg/L', 'UnkMod Magnesium')
+  第 3 行: (28468, 'Public, Review Status Unknown', 'WDIS_0702768', '07/06/1989 10:30', None, 'Feet', 'Total Aluminum', 1, 0.01, 'mg/L', 'EPA 202.2 (T)')
+  第 4 行: (10097, 'Public, Review Status Unknown', 'WDIS_0806280', '10/10/1973 14:30', None, 'Feet', 'Dissolved Magnesium', 31, 0.1, 'mg/L', 'UnkMod Magnesium')
+  第 5 行: (405, 'Public, Review Status Unknown', 'OM0482A0100', '04/13/1982 12:00', 3.0, 'Feet', 'Total Phosphorus', 0.07, 0.01, 'mg/L as P', 'EPA 365.4 (DWR Modified)')
+  第 6 行: (47659, 'Public, Review Status Unknown', 'N0914B0675', '09/16/2014 12:25', 0.1, 'Meters', 'Total Aluminum', 1680, 0.1, 'ug/L', 'EPA 1638 (T)')
+  第 7 行: (440, 'Public, Review Status Unknown', 'OM0584A0186', '05/18/1984 08:50', 1.0, 'Feet', 'Dissolved Ammonia', 0.05, 0.01, 'mg/L as N', 'EPA 350.1 (DWR Modified)')
+  第 8 行: (1065, 'Public, Review Status Unknown', 'WDIS_0857557', '11/19/1954 09:00', None, 'Feet', 'Dissolved Sodium', 8.4, 1.0, 'mg/L', 'UnkH Sodium')
+  第 9 行: (8331, 'Public, Review Status Unknown', 'WDIS_0843863', '11/07/1961 00:00', None, 'Feet', 'Conductance', 716, 1.0, 'uS/cm', 'EPA 120.1')
+  第 10 行: (21106, 'Public, Review Status Unknown', 'WDIS_0750110', '11/19/1984 10:45', None, 'Feet', 'Dissolved Chloride', 59, 1.0, 'mg/L', 'UnkMod Chloride')
+  第 11 行: (2594, 'Public, Review Status Unknown', 'WDIS_0893101', '03/08/1963 16:40', None, 'Feet', 'Dissolved Chloride', 210, 1.0, 'mg/L', 'UnkMod Chloride')
+  第 12 行: (7479, 'Public, Review Status Unknown', 'WDIS_0777248', '01/22/1934 00:00', None, 'Feet', 'Dissolved Magnesium', 39, 0.1, 'mg/L', 'UnkH Magnesium')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/water_quality/6.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: stations
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'station_name', 'full_station_name', 'station_number', 'station_type', 'latitude', 'longitude', 'county_name', 'sample_count', 'sample_date_min', 'sample_date_max']
+表内容:
+  第 1 行: (107, 'TURNERCUT', 'Turner Cut at McDonald Island Ferry (Sample from B', 'B9D75881285', 'Surface Water', 37.9796, -121.4752, 'San Joaquin', 43, '03/25/1974 10:10', '07/20/1994 14:05')
+  第 2 行: (217, 'CA001000', 'Castaic Lake at Inlet', 'CA001000', 'Surface Water', 34.5588, -118.6289, 'Los Angeles', 311, '01/29/1973 14:00', '03/19/1990 10:30')
+  第 3 行: (267, 'FR002000', 'FRENCHMAN LK NR RECREATION AREA', 'FR002000', 'Surface Water', 39.9152, -120.1822, 'Plumas', 34, '10/07/1969 08:30', '05/26/1982 08:20')
+  第 4 行: (384, 'Barker Sl. Pump Plnt', 'North Bay Aqueduct at Barker Slough Pumping Plant', 'KG000000', 'Surface Water', 38.2759, -121.7965, 'Solano', 872, '10/08/1987 07:35', '05/14/2024 11:10')
+  第 5 行: (2056, 'LK ALMANOR E ARM CEN', 'LK ALMANOR E ARM CENTER', 'A5L01431065', 'Surface Water', 40.2382, -121.1094, 'Plumas', 120, '04/17/1973 14:15', '11/07/2017 11:15')
+  第 6 行: (3499, 'PAJARO R A CHITTENDE', 'PAJARO R A CHITTENDEN', 'D1125000', 'Surface Water', 36.9, -121.5994, 'Santa Cruz', 239, '12/20/1951 08:45', '05/20/1980 10:45')
+  第 7 行: (3559, 'SALINAS R A DAVIS RD', 'SALINAS R A DAVIS RD', 'D2116020', 'Surface Water', 36.6416, -121.7011, 'Monterey', 10, '11/04/1971 08:20', '03/12/1985 09:45')
+  第 8 行: (3787, 'SF BAY A TREASURE IS', 'SF BAY A TREASURE ISL', 'E0B74922224', 'Surface Water', 37.8208, -122.375, 'San Francisco', 118, '10/19/1966 07:45', '01/31/1979 08:50')
+  第 9 行: (4588, 'SALMON R A SOMESBAR', 'SALMON R A SOMESBAR', 'F3410000', 'Surface Water', 41.3776, -122.4775, 'Siskiyou', 252, '10/12/1950 12:25', '10/11/2022 11:50')
+  第 10 行: (5572, 'WHITEWATER R A WHITE', 'WHITEWATER R A WHITEWATER', 'W3145000', 'Surface Water', 33.9467, -116.6408, 'Riverside', 253, '02/23/1951 14:00', '06/14/1991 10:30')
+  第 11 行: (5796, 'WARM C NR COLTON', 'WARM C NR COLTON', 'Y4110000', 'Surface Water', 34.0683, -117.3084, 'San Bernardino', 236, '11/04/1948 00:00', '02/01/1973 10:40')
+  第 12 行: (6195, '01N03W22M001S', '01N03W22M001S', '01N03W22M001S', 'Groundwater', 34.1549, -117.1882, 'San Bernardino', 1, '09/28/1954 00:00', '09/28/1954 00:00')
+  第 13 行: (6744, '01N10W27K002S', '01N10W27K002S', '01N10W27K002S', 'Groundwater', 34.1404, -117.9132, 'Los Angeles', 2, '04/24/1956 00:00', '06/21/1957 00:00')
+  第 14 行: (7706, '01N22W23N002S', '01N22W23N002S', '01N22W23N002S', 'Groundwater', 34.1513, -119.1623, 'Ventura', 18, '09/19/1958 00:00', '07/27/1982 00:01')
+  第 15 行: (8054, '01S03W22F001S', '01S03W22F001S', '01S03W22F001S', 'Groundwater', 34.0716, -117.1838, 'San Bernardino', 2, '07/11/1950 00:00', '11/10/1953 00:00')
+  第 16 行: (9550, '02N01W09D001M', '02N01W09D001M', '02N01W09D001M', 'Groundwater', 38.0385, -121.9872, 'Contra Costa', 9, '08/02/1973 14:30', '09/14/1989 15:15')
+  第 17 行: (10145, '02N16W27P002S', '02N16W27P002S', '02N16W27P002S', 'Groundwater', 34.2237, -118.5465, 'Los Angeles', 4, '08/05/1959 00:00', '09/26/1973 00:00')
+  第 18 行: (10359, '02N18W24K001S', '02N18W24K001S', '02N18W24K001S', 'Groundwater', 34.2418, -118.7168, 'Ventura', 1, '03/02/1955 00:00', '03/02/1955 00:00')
+  第 19 行: (16190, '04N21W07C002S', '04N21W07C002S', '04N21W07C002S', 'Groundwater', 34.4517, -119.123, 'Ventura', 1, '03/04/1975 14:45', '03/04/1975 14:45')
+  第 20 行: (18380, '05N04W14C001M', '05N04W14C001M', '05N04W14C001M', 'Groundwater', 38.2863, -122.275, 'Napa', 20, '12/02/1949 00:00', '07/25/1968 10:30')
+  第 21 行: (29315, '12S14E10N001M', '12S14E10N001M', '12S14E10N001M', 'Groundwater', 36.8977, -120.4379, 'Madera', 5, '07/25/1961 11:30', '03/12/1984 00:00')
+  第 22 行: (30449, '13S20E09Q001M', '13S20E09Q001M', '13S20E09Q001M', 'Groundwater', 36.8053, -119.8054, 'Fresno', 2, '05/28/1963 00:00', '05/28/1963 11:30')
+  第 23 行: (30645, '14N01W12A001M', '14N01W12A001M', '14N01W12A001M', 'Groundwater', 39.0824, -121.9158, 'Colusa', 14, '07/21/1958 00:00', '06/01/1989 14:05')
+  第 24 行: (31536, '14S20E34R002M', '14S20E34R002M', '14S20E34R002M', 'Groundwater', 36.6617, -119.7829, 'Fresno', 3, '08/22/1963 00:00', '04/16/1976 09:40')
+  第 25 行: (34857, '18S18E24N001M', '18S18E24N001M', '18S18E24N001M', 'Groundwater', 36.3427, -119.9765, 'Fresno', 2, '08/16/1951 00:00', '08/05/1959 14:30')
+  第 26 行: (36293, '21N15E03M002M', '21N15E03M002M', '21N15E03M002M', 'Groundwater', 39.7029, -120.2942, 'Sierra', 5, '07/09/1985 16:30', '10/30/2007 17:15')
+  第 27 行: (39605, '27S40E04B002M', '27S40E04B002M', '27S40E04B002M', 'Groundwater', 35.6222, -117.6745, 'Kern', 1, '06/01/1953 00:00', '06/01/1953 00:00')
+  第 28 行: (45147, 'GLC-6', 'Grant Line Canal Station 6', 'B9D74921246', 'Surface Water', 37.820278, -121.409444, 'San Joaquin', 1, '06/10/1998 03:20', '06/10/1998 03:20')
+  第 29 行: (45160, 'UCD F1 or grab nr F', 'UCD F1 or grab nr F', 'B9D81611492F1', 'Surface Water', 38.270278, -121.824722, 'Solano', 7, '01/19/2000 12:10', '03/08/2000 12:20')
+  第 30 行: (45676, 'A5524020', 'A5524020', 'A5524020', 'Surface Water', None, None, '(Unknown)', 9, '12/06/1990 14:00', '08/14/1991 12:45')
+  第 31 行: (45933, 'D24A', 'D24A - Sacramento River @ Rio Vista', 'B9D80951412', 'Surface Water', 38.158917, -121.687194, 'Solano', 1, '06/02/1971 08:15', '06/02/1971 08:15')
+  第 32 行: (45935, 'D28A', 'D28A - Old River @ Rancho Del Rio', 'B9D75821344', 'Surface Water', 37.9705, -121.573, 'Contra Costa', 233, '07/06/1973 11:40', '06/07/2019 08:35')
+  第 33 行: (45941, 'D6', 'D6 - Suisun Bay @ Bulls Head nr. Martinez', 'E3B80272071', 'Surface Water', 38.0444, -122.1178, 'Solano', 418, '03/29/1968 09:45', '05/18/1998 13:20')
+  第 34 行: (45943, 'D7', 'D7 - Grizzly Bay @ Dolphin nr. Suisun Slough', 'E0B80702024', 'Surface Water', 38.1171, -122.0397, 'Solano', 289, '03/20/1968 19:00', '08/06/1984 12:20')
+  第 35 行: (47175, 'Clear C NR MO NR Red', 'Clear Creek near Mouth near Redding', 'A3601000', 'Surface Water', 40.5092, -122.38, 'Shasta', 108, '09/15/1998 13:15', '11/08/2023 12:15')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: period_of_record
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'parameter']
+表内容:
+  第 1 行: (6744, 'Total Hardness')
+  第 2 行: (8054, 'Dissolved Fluoride')
+  第 3 行: (10359, 'Dissolved Sulfate')
+  第 4 行: (16190, 'Dissolved Boron')
+  第 5 行: (29315, 'Dissolved Potassium')
+  第 6 行: (30449, 'Conductance')
+  第 7 行: (31536, 'Total Hardness')
+  第 8 行: (34857, 'Dissolved Sodium')
+  第 9 行: (36293, 'Total Kjeldahl Nitrogen')
+  第 10 行: (39605, 'Dissolved Calcium')
+  第 11 行: (45676, '*No Lab Analyses (Field Measures Only)')
+  第 12 行: (3559, 'Total Hardness')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: field_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'anl_data_type', 'parameter', 'fdr_result', 'fdr_text_result', 'fdr_date_result', 'fdr_reporting_limit', 'uns_name', 'mth_name', 'fdr_footnote']
+表内容:
+  第 1 行: (30645, 'Public, Review Status Unknown', 'WDIS_0705235', '1989-06-01 14:05:00', None, 'Feet', None, 'Conductance', 645.0, None, None, 1.0, 'uS/cm', 'Std Method 2510-B (Field)', None)
+  第 2 行: (45935, 'Public, Review Status Unknown', 'EMP0188A0009', '1988-01-12 14:30:00', 3.0, 'Feet', None, 'Wind Velocity', 2.0, None, None, 1.0, 'Miles/hr', 'Wind Velocity', None)
+  第 3 行: (217, 'Public, Review Status Unknown', 'OM0675A0213', '1975-06-09 08:30:00', 1.0, 'Feet', None, 'DissolvedOxygen', 12.8, None, None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+  第 4 行: (2056, 'Public, Review Status Unknown', 'N0714B0459', '2014-07-21 10:20:00', 0.5, 'Meters', None, 'Secchi Depth', 4.6, None, None, 0.1, 'Meters', 'Secchi Depth', None)
+  第 5 行: (5796, 'Public, Review Status Unknown', 'WDIS_0970574', '1955-11-11 00:00:00', None, 'Feet', None, 'pH', 7.4, None, None, 0.1, 'pH Units', 'UnkH pH', None)
+  第 6 行: (6195, 'Public, Review Status Unknown', 'WDIS_0841644', '1954-09-28 00:00:00', None, 'Feet', None, 'WaterTemperature', 74.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+  第 7 行: (3499, 'Public, Review Status Unknown', 'WDIS_0920331', '1953-11-10 10:30:00', None, 'Feet', None, 'WaterTemperature', 56.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+  第 8 行: (47175, 'Public, Review Status Unknown', 'N1116B0929', '2016-11-02 13:00:00', 0.15, 'Meters', None, 'pH', 7.4, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+  第 9 行: (4588, 'Public, Review Status Unknown', 'WDIS_0219958', '1964-05-11 13:15:00', None, 'Feet', None, 'WaterTemperature', 13.9, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 10 行: (45933, 'Public, Review Status Unknown', 'ED1121B0139', '2021-11-09 11:00:00', 1.0, 'Meters', None, 'pH', 7.55, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+  第 11 行: (45941, 'Public, Review Status Unknown', 'WDIS_0328440', '1977-01-27 09:22:00', 3.0, 'Feet', None, 'Conductance', 33700.0, None, None, 1.0, 'uS/cm', 'Std Method 2510-B (Field)', None)
+  第 12 行: (45943, 'Public, Review Status Unknown', 'WDIS_0926792', '1982-06-29 09:05:00', 3.0, 'Feet', None, 'Conductance', 1310.0, None, None, 1.0, 'uS/cm', 'Std Method 2510-B (Field)', None)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: lab_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'parameter', 'result', 'reporting_limit', 'units', 'method_name']
+表内容:
+  第 1 行: (9550, 'Public, Review Status Unknown', 'WDIS_0753659', '08/04/1981 13:00', None, 'Feet', 'Dissolved Sulfate', 181, 1.0, 'mg/L', 'EPA 375.3')
+  第 2 行: (10145, 'Public, Review Status Unknown', 'WDIS_0201876', '11/04/1971 00:00', None, 'Feet', 'Turbidity', 1, 1.0, 'N.T.U.', 'Turbidity, Hach')
+  第 3 行: (18380, 'Public, Review Status Unknown', 'WDIS_0753033', '09/27/1960 11:00', None, 'Feet', 'Dissolved Calcium', 13, 1.0, 'mg/L', 'UnkMod Calcium')
+  第 4 行: (267, 'Public, Review Status Unknown', 'OM0473A0130', '04/17/1973 09:05', 1.0, 'Feet', 'Total Kjeldahl Nitrogen', 0.32, 0.1, 'mg/L as N', 'EPA 351.3')
+  第 5 行: (5572, 'Public, Review Status Unknown', 'WDIS_0226093', '06/07/1984 10:00', None, 'Feet', 'Dissolved Magnesium', 12, 0.1, 'mg/L', 'EPA 242.1')
+  第 6 行: (3787, 'Public, Review Status Unknown', 'WDIS_0216294', '01/12/1978 09:20', None, 'Feet', 'Dissolved Chloride', 16700, 0.1, 'mg/L', 'Std Method 4500-Cl, B')
+  第 7 行: (45147, 'Public, Review Status Unknown', 'CB0698A1228', '06/10/1998 03:20', 1.0, 'Meters', 'Total Selenium', 0.001, 0.001, 'mg/L', 'EPA 270.3 (T)')
+  第 8 行: (107, 'Public, Review Status Unknown', 'C0892A0679', '08/19/1992 11:20', 1.0, 'Meters', 'Color', 30, 5.0, 'Color Units', 'EPA 110.2')
+  第 9 行: (45160, 'Public, Review Status Unknown', 'CB0100B0630', '01/19/2000 12:10', 0.0, 'Meters', 'Total Organic Carbon', 5.4, 0.1, 'mg/L as C', 'EPA 415.1 (T) Ox')
+  第 10 行: (384, 'Public, Review Status Unknown', 'D0414B0055', '04/16/2014 12:30', 1.0, 'Meters', 'Styrene', '< R.L.', 0.5, 'ug/L', 'EPA 524.2')
+  第 11 行: (384, 'Public, Review Status Unknown', 'DA0698A0156', '06/17/1998 12:55', 1.0, 'Meters', 'Dissolved Arsenic', 0.003, 0.001, 'mg/L', 'EPA 200.8 (D)')
+  第 12 行: (7706, 'Public, Review Status Unknown', 'WDIS_0778801', '02/26/1963 00:00', None, 'Feet', 'Total Hardness', 474, 1.0, 'mg/L as CaCO3', 'EPA 130.2')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/water_quality/7.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: stations
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'station_name', 'full_station_name', 'station_number', 'station_type', 'latitude', 'longitude', 'county_name', 'sample_count', 'sample_date_min', 'sample_date_max']
+表内容:
+  第 1 行: (352, 'Check 41', 'CALIFORNIA AQUEDUCT AT CHECK 41', 'KA030341', 'Surface Water', 34.834, -118.7119, 'Kern', 505, '02/18/1987 12:00', '05/15/2024 08:40')
+  第 2 行: (425, 'TE001000', 'TEHACHAPI AFTERBAY', 'TE001000', 'Surface Water', 34.8314, -118.7112, 'Los Angeles', 306, '01/19/1972 10:15', '04/18/1990 07:45')
+  第 3 行: (426, 'TFB Power Canal', 'THERMALITO POWER CA A CHICO RD BR', 'TF001000', 'Surface Water', 39.5312, -121.5793, 'Butte', 196, '03/17/1971 10:00', '05/19/2004 09:20')
+  第 4 行: (1317, 'AMERICAN R A SACTO', 'AMERICAN R A SACTO', 'A0714000', 'Surface Water', 38.568, -121.4233, 'Sacramento', 222, '04/13/1951 10:40', '05/08/1969 11:00')
+  第 5 行: (1631, 'SACRAMENTO R A KESWI', 'SACRAMENTO R A KESWICK', 'A2101000', 'Surface Water', 40.601, -122.4442, 'Shasta', 553, '04/09/1951 14:25', '08/05/2008 10:30')
+  第 6 行: (1724, 'MCCLOUD RES A DM', 'MCCLOUD RES A DM', 'A2R10792042', 'Surface Water', 41.1313, -122.0711, 'Shasta', 25, '08/08/1973 12:00', '08/16/1990 09:00')
+  第 7 行: (2416, 'CLEAR LK 10-UP ARM', 'CLEAR LK 10-UP ARM', 'A8L90052475', 'Surface Water', 39.0082, -122.7928, 'Lake', 28, '05/21/1964 00:00', '06/23/1965 11:20')
+  第 8 行: (2595, 'SJR@PattersonBr', 'San Joaquin River @ Patterson Bridge', 'B0720000', 'Surface Water', 37.4983, -121.0827, 'Stanislaus', 404, '10/20/1936 00:00', '08/13/1991 12:45')
+  第 9 行: (2953, 'OLD R BL HEAD', 'Old River below Headwaters', 'B9D74851200', 'Surface Water', 37.807595, -121.331218, 'San Joaquin', 472, '09/16/1970 07:10', '06/05/2024 10:50')
+  第 10 行: (4824, 'EEL R SF NR MIRANDA', 'EEL R SF NR MIRANDA', 'F6410000', 'Surface Water', 40.1818, -123.7761, 'Humboldt', 468, '04/09/1951 15:00', '10/13/2022 07:35')
+  第 11 行: (5029, 'RUSSIAN R A UKIAH', 'RUSSIAN R A UKIAH', 'F9183001', 'Surface Water', 39.1343, -123.1861, 'Mendocino', 104, '05/10/1951 16:15', '10/07/1958 15:25')
+  第 12 行: (5787, 'SANTA ANA R BL PRADO', 'SANTA ANA R BL PRADO DM', 'Y1155000', 'Surface Water', 33.8842, -117.6459, 'Riverside', 562, '03/02/1950 00:00', '08/07/1991 08:15')
+  第 13 行: (8172, '01S04W05N003S', '01S04W05N003S', '01S04W05N003S', 'Groundwater', 34.1079, -117.3279, 'San Bernardino', 1, '05/31/1962 00:00', '05/31/1962 00:00')
+  第 14 行: (9423, '01S17W29P001S', '01S17W29P001S', '01S17W29P001S', 'Groundwater', 34.05, -118.6863, 'Los Angeles', 10, '07/22/1960 00:00', '10/01/1968 00:00')
+  第 15 行: (13498, '03S02E08H001M', '03S02E08H001M', '03S02E08H001M', 'Groundwater', 37.6881, -121.7721, 'Alameda', 7, '07/18/1967 17:10', '08/08/1976 00:00')
+  第 16 行: (16274, '04N22W12R003S', '04N22W12R003S', '04N22W12R003S', 'Groundwater', 34.4409, -119.1317, 'Ventura', 3, '06/05/1951 00:00', '08/22/1956 00:00')
+  第 17 行: (18400, '05N04W27H002M', '05N04W27H002M', '05N04W27H002M', 'Groundwater', 38.2517, -122.2846, 'Napa', 4, '07/23/1949 00:00', '08/17/1954 00:00')
+  第 18 行: (22244, '07N34W19L002S', '07N34W19L002S', '07N34W19L002S', 'Groundwater', 34.6714, -120.5032, 'Santa Barbara', 14, '12/11/1959 00:00', '11/17/1966 13:40')
+  第 19 行: (27826, '11S04W03H004S', '11S04W03H004S', '11S04W03H004S', 'Groundwater', 33.2498, -117.2809, 'San Diego', 2, '10/15/1963 00:00', '10/18/1965 16:45')
+  第 20 行: (29906, '13S03E20B002M', '13S03E20B002M', '13S03E20B002M', 'Groundwater', 36.7875, -121.6617, 'Monterey', 8, '07/12/1961 16:00', '10/02/1986 00:00')
+  第 21 行: (31567, '14S21E30N001M', '14S21E30N001M', '14S21E30N001M', 'Groundwater', 36.6761, -119.7424, 'Fresno', 1, '06/13/1963 10:00', '06/13/1963 10:00')
+  第 22 行: (32194, '15S12E12Q001M', '15S12E12Q001M', '15S12E12Q001M', 'Groundwater', 36.6341, -120.6132, 'Fresno', 1, '08/15/1951 00:00', '08/15/1951 00:00')
+  第 23 行: (32286, '15S14E36Q002M', '15S14E36Q002M', '15S14E36Q002M', 'Groundwater', 36.5744, -120.3968, 'Fresno', 15, '08/14/1951 00:00', '07/15/1968 00:00')
+  第 24 行: (36719, '22N01E09G002M', '22N01E09G002M', '22N01E09G002M', 'Groundwater', 39.7802, -121.8633, 'Butte', 2, '02/17/1983 00:00', '11/18/1983 00:00')
+  第 25 行: (37730, '24S40E24J001M', '24S40E24J001M', '24S40E24J001M', 'Groundwater', 35.8318, -117.6033, 'Inyo', 1, '05/15/1953 00:00', '05/15/1953 00:00')
+  第 26 行: (39793, '28S13E04K002M', '28S13E04K002M', '28S13E04K002M', 'Groundwater', 35.5202, -120.5759, 'San Luis Obispo', 2, '10/23/1953 00:00', '06/07/1967 10:45')
+  第 27 行: (42061, '30S42E18Z003M', '30S42E18Z003M', '30S42E18Z003M', 'Groundwater', 35.3238, -117.5185, 'San Bernardino', 1, '10/06/1971 00:00', '10/06/1971 00:00')
+  第 28 行: (45914, 'C10A', 'C10A - San Joaquin River near Vernalis @ SJR Club', 'B9D74081159', 'Surface Water', 37.67934, -121.2647, 'San Joaquin', 715, '04/06/2005 14:30', '06/12/2024 10:20')
+  第 29 行: (45922, 'D10A - Mallard', 'Sacramento River @ Mallard Island - D10A', 'B9D80261551', 'Surface Water', 38.042889, -121.920111, 'Contra Costa', 646, '08/10/1961 13:30', '01/15/2019 11:30')
+  第 30 行: (45928, 'D16 - Twitchell', 'D16 - San Joaquin River @ Twitchell Island', 'B9D80581401', 'Surface Water', 38.0969, -121.6691, 'Sacramento', 272, '02/08/1968 11:02', '05/19/1998 13:15')
+  第 31 行: (45934, 'D26', 'D26 - San Joaquin River @ Potato Point', 'B9D80461340', 'Surface Water', 38.0766, -121.5669, 'San Joaquin', 274, '12/10/1914 15:50', '08/06/1984 17:00')
+  第 32 行: (46586, 'DCMW-1', 'Diamond Creek Monitoring Well No. 1', '11N06E17E001M', 'Groundwater', 38.8058, -121.3354, 'Placer', 59, '05/05/2004 14:55', '03/26/2008 12:32')
+  第 33 行: (46953, 'M3 Lft Sta', 'M3 Lift Station', 'B9D74831181', 'Surface Water', 37.805, -121.3012, 'San Joaquin', 13, '11/08/2010 10:10', '03/25/2012 08:21')
+  第 34 行: (47843, 'WQ #4B -Div Ab DivDm', 'Diversion Pool just above Diversion Dam (WQ #4B)', 'A5R93171328', 'Surface Water', 39.52859, -121.54594, 'Butte', 82, '02/17/2017 14:35', '03/19/2017 16:40')
+  第 35 行: (47927, 'LkOro MF-subsurface', 'Lake Oroville at Middle Fork below surface sample', 'OR996000', 'Surface Water', 39.5756, -121.387, 'Butte', 24, '03/16/2022 11:29', '10/19/2023 10:50')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: period_of_record
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'parameter']
+表内容:
+  第 1 行: (8172, 'Dissolved Silica (SiO2)')
+  第 2 行: (13498, 'Dissolved Fluoride')
+  第 3 行: (16274, 'Total Hardness')
+  第 4 行: (18400, 'Dissolved Magnesium')
+  第 5 行: (27826, 'Dissolved Chloride')
+  第 6 行: (31567, 'Dissolved Magnesium')
+  第 7 行: (32194, 'Dissolved Boron')
+  第 8 行: (37730, 'Total Hardness')
+  第 9 行: (39793, 'Dissolved Potassium')
+  第 10 行: (1724, 'Total Selenium')
+  第 11 行: (47843, 'Total Suspended Solids')
+  第 12 行: (46953, 'PCB-1221')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: field_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'anl_data_type', 'parameter', 'fdr_result', 'fdr_text_result', 'fdr_date_result', 'fdr_reporting_limit', 'uns_name', 'mth_name', 'fdr_footnote']
+表内容:
+  第 1 行: (426, 'Public, Review Status Unknown', 'OM0477A0210', '1977-04-20 09:25:00', 1.0, 'Feet', None, 'Flow, channel', 6000.0, None, None, 1.0, 'cfs', 'Flow, Channel', None)
+  第 2 行: (36719, 'Public, Review Status Unknown', 'WDIS_0710800', '1983-11-18 00:00:00', None, 'Feet', None, 'Conductance', 608.0, None, None, 1.0, 'uS/cm', 'Std Method 2510-B (Field)', None)
+  第 3 行: (4824, 'Public, Review Status Unknown', 'WDIS_0942893', '1953-12-08 08:55:00', None, 'Feet', 'Memo', 'Field Notes', None, None, None, None, None, 'Notes (Field)', 'DO Units Note - mg/L: WDIS DO Units not specified but assumed to be mg/L if Result <= 120% O2 Saturation - estimated using Field Temp.  Above 120% units changed to % Saturation.  This Sample = 99% - therefore assigned mg/L.  Possible units include ml/L; mg/L;  %Saturation')
+  第 4 行: (2416, 'Public, Review Status Unknown', 'WDIS_0883674', '1964-08-14 12:11:00', 12.0, 'Feet', None, 'DissolvedOxygen', 3.4, '*See Units Note', None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+  第 5 行: (425, 'Public, Review Status Unknown', 'OM1177A0930', '1977-11-10 10:00:00', 1.0, 'Feet', None, 'DissolvedOxygen', 11.7, None, None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+  第 6 行: (46586, 'Public, Review Status Unknown', 'CHE1207B0214', '2007-12-12 14:07:00', 320.0, 'Feet', None, 'pH', 7.16, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+  第 7 行: (5787, 'Public, Review Status Unknown', 'WDIS_0969869', '1960-07-05 00:00:00', None, 'Feet', 'Memo', 'Field Notes', None, None, None, None, None, 'Notes (Field)', 'DO Units Note - mg/L: WDIS DO Units not specified but assumed to be mg/L if Result <= 120% O2 Saturation - estimated using Field Temp.  Above 120% units changed to % Saturation.  This Sample = 88% - therefore assigned mg/L.  Possible units include ml/L; mg/L;  %Saturation')
+  第 8 行: (1317, 'Public, Review Status Unknown', 'WDIS_0871222', '1957-03-18 07:40:00', None, 'Feet', None, 'pH', 7.3, None, None, 0.1, 'pH Units', 'UnkH pH', None)
+  第 9 行: (45928, 'Public, Review Status Unknown', 'WDIS_0909456', '1979-12-11 13:10:00', 3.0, 'Feet', None, 'WaterTemperature', 10.0, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 10 行: (2953, 'Public, Review Status Unknown', 'CFD0805B0290', '2005-08-16 05:49:00', 1.0, 'Meters', None, 'Gauge Height', 6.24, None, None, 0.1, 'Feet', 'Flow, Channel', None)
+  第 11 行: (45914, 'Public, Review Status Unknown', 'CF0908B0061', '2008-09-16 10:40:00', 1.0, 'Meters', None, 'WaterTemperature', 22.6, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 12 行: (45934, 'Public, Review Status Unknown', 'EMP0176A0008', '1976-01-13 16:00:00', 3.0, 'Feet', None, 'pH', 7.3, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: lab_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'parameter', 'result', 'reporting_limit', 'units', 'method_name']
+表内容:
+  第 1 行: (47927, 'Public, Review Status Unknown', 'OR1023B0115', '10/19/2023 10:50', None, 'Feet', 'Dissolved Bromide', '< R.L.', 0.1, 'mg/L', 'EPA 300.0')
+  第 2 行: (45922, 'Public, Review Status Unknown', 'C0794A1382', '07/20/1994 08:15', 1.0, 'Meters', 'Dissolved Sulfate', 470, 1.0, 'mg/L', 'EPA 375.2')
+  第 3 行: (32286, 'Public, Review Status Unknown', 'WDIS_0728337', '07/15/1968 00:00', None, 'Feet', 'Total Hardness', 130, 1.0, 'mg/L as CaCO3', 'UnkMod Hardness')
+  第 4 行: (352, 'Public, Review Status Unknown', 'S0319B0099', '03/20/2019 08:00', 0.3, 'Meters', 'Parathion, Methyl', '< R.L.', 0.01, 'ug/L', 'EPA 614')
+  第 5 行: (9423, 'Public, Review Status Unknown', 'WDIS_0788440', '07/22/1964 00:00', None, 'Feet', 'Dissolved Potassium', 2, 0.1, 'mg/L', 'UnkMod Potassium')
+  第 6 行: (5029, 'Public, Review Status Unknown', 'WDIS_0946850', '08/01/1955 13:00', None, 'Feet', 'Dissolved Potassium', 1, 0.1, 'mg/L', 'UnkH Potassium')
+  第 7 行: (29906, 'Public, Review Status Unknown', 'WDIS_0765213', '09/11/1981 00:00', None, 'Feet', 'Dissolved Calcium', 15, 1.0, 'mg/L', 'UnkMod Calcium')
+  第 8 行: (42061, 'Public, Review Status Unknown', 'WDIS_0816928', '10/06/1971 00:00', None, 'Feet', 'Dissolved Nitrate', 7.8, 0.1, 'mg/L', 'UnkMod Nitrate')
+  第 9 行: (45914, 'Public, Review Status Unknown', 'C0815B0880', '08/17/2015 08:45', 1.0, 'Meters', 'Dissolved Ammonia', 0.01, 0.01, 'mg/L as N', 'EPA 350.1 (DWR Modified)')
+  第 10 行: (22244, 'Public, Review Status Unknown', 'WDIS_0773374', '11/17/1966 13:40', None, 'Feet', 'Total Alkalinity', 227, 1.0, 'mg/L as CaCO3', 'EPA 310.1')
+  第 11 行: (1631, 'Public, Review Status Unknown', 'WDIS_0874521', '10/11/1973 10:05', None, 'Feet', 'Turbidity', 2, 1.0, 'N.T.U.', 'Turbidity, Hach')
+  第 12 行: (2595, 'Public, Review Status Unknown', 'WDIS_0893373', '06/25/1959 15:40', None, 'Feet', 'Dissolved Potassium', 4.4, 0.1, 'mg/L', 'UnkMod Potassium')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/water_quality/8.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: stations
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'station_name', 'full_station_name', 'station_number', 'station_type', 'latitude', 'longitude', 'county_name', 'sample_count', 'sample_date_min', 'sample_date_max']
+表内容:
+  第 1 行: (440, 'Antelope', 'ANTELOPE LK NR DM', 'AN001000', 'Surface Water', 40.1805, -120.6057, 'Plumas', 94, '10/08/1969 08:15', '06/20/2023 10:00')
+  第 2 行: (670, 'Sac R nr Parrotts', 'Sacramento River nr Parrotts Landing', 'A0256010', 'Surface Water', 39.6124, -121.9773, 'Glenn', 2, '06/29/2004 07:40', '07/13/2004 07:40')
+  第 3 行: (1065, 'SACRAMENTO R A SACTO', 'SACRAMENTO R A SACTO', 'A0210000', 'Surface Water', 38.5888, -121.5052, 'Sacramento', 123, '04/12/1951 09:35', '06/20/1984 10:45')
+  第 4 行: (1141, 'SUTTER BP A R-D 1500', 'SUTTER BP A R-D 1500 PP A KARNAK', 'A0292700', 'Surface Water', 38.7849, -121.6544, 'Sutter', 346, '06/15/1951 12:30', '05/11/2022 09:10')
+  第 5 行: (1516, 'HAT C NR CASSEL', 'HAT C NR CASSEL', 'A1610000', 'Surface Water', 40.9777, -121.56, 'Shasta', 103, '08/13/1953 16:15', '05/13/2008 10:05')
+  第 6 行: (3165, 'SACRAMENTO R A WALNU', 'SACRAMENTO R A WALNUT GROVE', 'B9D81441310', 'Surface Water', 38.2394, -121.5169, 'Sacramento', 48, '06/21/1982 13:30', '03/02/1991 14:30')
+  第 7 行: (3448, 'BEAR C A BOULDER C', 'BEAR C A BOULDER C', 'D0160000', 'Surface Water', 37.1277, -122.1216, 'Santa Cruz', 13, '08/29/1963 09:10', '09/23/1964 10:10')
+  第 8 行: (3977, 'WHITE C TRIB A MONTE', 'WHITE C TRIB A MONTECELLO', 'E3259101', 'Surface Water', 38.4166, -122.1997, 'Napa', 10, '12/18/1973 13:00', '01/09/1975 11:30')
+  第 9 行: (4022, 'MONTEZUMA SLU A GRIZ', 'MONTEZUMA SLU A GRIZZLY ISL RD', 'E3S81121585', 'Surface Water', 38.1871, -121.9766, 'Solano', 64, '09/02/1954 13:20', '01/15/1974 13:40')
+  第 10 行: (4441, 'SCOTT R NR FORT JONE', 'SCOTT R NR FORT JONES', 'F2525000', 'Surface Water', 41.641, -123.0161, 'Siskiyou', 257, '10/12/1950 16:10', '03/20/1991 11:45')
+  第 11 行: (4501, 'KLAMATH R NR SEIAD V', 'KLAMATH R NR SEIAD VLY', 'F3143000', 'Surface Water', 41.854, -123.2317, 'Siskiyou', 457, '06/10/1958 10:55', '07/24/2013 10:50')
+  第 12 行: (4805, 'EEL R MF A DOS RIOS', 'EEL R MF A DOS RIOS', 'F6300901', 'Surface Water', 39.711, -123.3475, 'Mendocino', 400, '04/16/1958 10:00', '10/13/2022 09:35')
+  第 13 行: (5780, 'COTTONWOOD C A BARRE', 'COTTONWOOD C A BARRETT DM', 'X8221000', 'Surface Water', 32.6784, -116.6709, 'San Diego', 55, '11/30/1950 00:00', '08/28/1981 00:00')
+  第 14 行: (6750, '01N10W29K001S', '01N10W29K001S', '01N10W29K001S', 'Groundwater', 34.1404, -117.9481, 'Los Angeles', 40, '08/21/1931 00:00', '08/20/1990 10:00')
+  第 15 行: (9058, '01S10W03H001S', '01S10W03H001S', '01S10W03H001S', 'Groundwater', 34.1151, -117.9089, 'Los Angeles', 2, '07/16/1957 00:00', '04/13/1960 11:30')
+  第 16 行: (9550, '02N01W09D001M', '02N01W09D001M', '02N01W09D001M', 'Groundwater', 38.0385, -121.9872, 'Contra Costa', 9, '08/02/1973 14:30', '09/14/1989 15:15')
+  第 17 行: (13510, '03S02E16C001M', '03S02E16C001M', '03S02E16C001M', 'Groundwater', 37.6773, -121.763, 'Alameda', 9, '09/09/1974 00:00', '06/03/1988 13:35')
+  第 18 行: (13590, '03S03W29M001S', '03S03W29M001S', '03S03W29M001S', 'Groundwater', 33.8798, -117.2231, 'Riverside', 20, '12/17/1953 00:00', '06/07/1983 11:30')
+  第 19 行: (14672, '03S12W10G003S', '03S12W10G003S', '03S12W10G003S', 'Groundwater', 33.9269, -118.1228, 'Los Angeles', 1, '11/12/1970 00:00', '11/12/1970 00:00')
+  第 20 行: (17502, '04S12W14B001S', '04S12W14B001S', '04S12W14B001S', 'Groundwater', 33.8291, -118.1053, 'Los Angeles', 101, '01/05/1954 00:00', '06/28/1990 10:00')
+  第 21 行: (19284, '05S06E17P001S', '05S06E17P001S', '05S06E17P001S', 'Groundwater', 33.7319, -116.3809, 'Riverside', 1, '02/26/1962 00:00', '02/26/1962 00:00')
+  第 22 行: (19616, '05S10W31A002S', '05S10W31A002S', '05S10W31A002S', 'Groundwater', 33.7, -117.96, 'Orange', 4, '04/08/1957 00:00', '03/20/1963 00:00')
+  第 23 行: (21316, '06S03W03L001M', '06S03W03L001M', '06S03W03L001M', 'Groundwater', 37.4388, -122.1839, 'Santa Clara', 5, '05/18/1949 15:40', '06/28/1951 00:00')
+  第 24 行: (24816, '09N09W02Q001S', '09N09W02Q001S', '09N09W02Q001S', 'Groundwater', 34.8966, -117.8003, 'Kern', 1, '04/24/1953 00:00', '04/24/1953 00:00')
+  第 25 行: (29825, '13S02E29R001M', '13S02E29R001M', '13S02E29R001M', 'Groundwater', 36.7623, -121.7653, 'Monterey', 5, '08/04/1971 14:15', '08/07/1984 00:00')
+  第 26 行: (31800, '15S01E07L001S', '15S01E07L001S', '15S01E07L001S', 'Groundwater', 32.8788, -116.9225, 'San Diego', 3, '08/20/1953 00:00', '04/21/1955 00:00')
+  第 27 行: (33374, '16S05E28D001M', '16S05E28D001M', '16S05E28D001M', 'Groundwater', 36.5146, -121.4363, 'Monterey', 2, '04/21/1972 09:10', '07/29/1983 00:00')
+  第 28 行: (34630, '18S02W32Q001S', '18S02W32Q001S', '18S02W32Q001S', 'Groundwater', 32.5567, -117.1086, 'San Diego', 14, '08/10/1953 00:00', '06/22/1973 09:30')
+  第 29 行: (35610, '19S26E03K002M', '19S26E03K002M', '19S26E03K002M', 'Groundwater', 36.3025, -119.1436, 'Tulare', 7, '02/13/1957 10:30', '06/12/1963 00:00')
+  第 30 行: (37411, '23S27E26F001M', '23S27E26F001M', '23S27E26F001M', 'Groundwater', 35.9009, -119.032, 'Tulare', 1, '05/14/1957 00:00', '05/14/1957 00:00')
+  第 31 行: (40272, '29N12E09E002M', '29N12E09E002M', '29N12E09E002M', 'Groundwater', 40.3871, -120.6363, 'Lassen', 1, '06/11/1958 14:00', '06/11/1958 14:00')
+  第 32 行: (45914, 'C10A', 'C10A - San Joaquin River near Vernalis @ SJR Club', 'B9D74081159', 'Surface Water', 37.67934, -121.2647, 'San Joaquin', 715, '04/06/2005 14:30', '06/12/2024 10:20')
+  第 33 行: (45933, 'D24A', 'D24A - Sacramento River @ Rio Vista', 'B9D80951412', 'Surface Water', 38.158917, -121.687194, 'Solano', 1, '06/02/1971 08:15', '06/02/1971 08:15')
+  第 34 行: (45935, 'D28A', 'D28A - Old River @ Rancho Del Rio', 'B9D75821344', 'Surface Water', 37.9705, -121.573, 'Contra Costa', 233, '07/06/1973 11:40', '06/07/2019 08:35')
+  第 35 行: (45960, 'P12 - OR@TracyRdBr', 'Old River @ Tracy Road Bridge - P12', 'B9D74831270', 'Surface Water', 37.8047, -121.4499, 'San Joaquin', 602, '05/02/1966 11:45', '04/29/2015 12:56')
+  第 36 行: (46586, 'DCMW-1', 'Diamond Creek Monitoring Well No. 1', '11N06E17E001M', 'Groundwater', 38.8058, -121.3354, 'Placer', 59, '05/05/2004 14:55', '03/26/2008 12:32')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: period_of_record
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'parameter']
+表内容:
+  第 1 行: (9058, 'Conductance')
+  第 2 行: (14672, 'Dissolved Sodium')
+  第 3 行: (19284, 'Dissolved Sodium')
+  第 4 行: (21316, 'Conductance')
+  第 5 行: (24816, 'Dissolved Magnesium')
+  第 6 行: (46586, 'Dichlorodifluoromethane')
+  第 7 行: (29825, 'Dissolved Fluoride')
+  第 8 行: (31800, 'Dissolved Nitrate')
+  第 9 行: (33374, 'Dissolved Nitrate')
+  第 10 行: (37411, 'Dissolved Sodium')
+  第 11 行: (40272, 'Dissolved Calcium')
+  第 12 行: (670, 'Total Selenium')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: field_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'anl_data_type', 'parameter', 'fdr_result', 'fdr_text_result', 'fdr_date_result', 'fdr_reporting_limit', 'uns_name', 'mth_name', 'fdr_footnote']
+表内容:
+  第 1 行: (45935, 'Public, Review Status Unknown', 'EA0199A0017', '1999-01-07 14:15:00', 3.0, 'Feet', None, 'DissolvedOxygen', 10.9, None, None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+  第 2 行: (17502, 'Public, Review Status Unknown', 'WDIS_0802107', '1960-10-04 00:00:00', None, 'Feet', None, 'WaterTemperature', 75.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+  第 3 行: (4805, 'Public, Review Status Unknown', 'NA0208B0121', '2008-02-27 10:15:00', 0.15, 'Meters', None, 'SpecificConductance', 141.6, None, None, 1.0, 'uS/cm@25 °C', 'EPA 120.1 (Field)', None)
+  第 4 行: (3977, 'Public, Review Status Unknown', 'WDIS_0928588', '1974-03-07 13:30:00', None, 'Feet', None, 'Conductance', 264.0, None, None, 1.0, 'uS/cm', 'Std Method 2510-B (Field)', None)
+  第 5 行: (45914, 'Public, Review Status Unknown', 'CF0908B0061', '2008-09-16 10:40:00', 1.0, 'Meters', None, 'WaterTemperature', 22.6, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 6 行: (45960, 'Public, Review Status Unknown', 'EMP0385A0058', '1985-03-13 12:20:00', 3.0, 'Feet', None, '1% Light Depth', 1.6, None, None, None, 'Meters', 'Light extinction', ',Whitney,LMT-8A,n/p')
+  第 7 行: (3448, 'Public, Review Status Unknown', 'WDIS_0919867', '1964-06-24 10:15:00', None, 'Feet', None, 'Flow, channel', 2.0, None, None, 1.0, 'cfs', 'Flow, Channel', None)
+  第 8 行: (4441, 'Public, Review Status Unknown', 'WDIS_0934242', '1986-09-10 13:30:00', None, 'Feet', None, 'DissolvedOxygen', 10.7, '*See Units Note', None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+  第 9 行: (4022, 'Public, Review Status Unknown', 'WDIS_0927948', '1970-02-02 14:00:00', 3.0, 'Feet', None, 'WaterTemperature', 10.0, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 10 行: (45933, 'Public, Review Status Unknown', 'ED1121B0139', '2021-11-09 11:00:00', 1.0, 'Meters', None, 'pH', 7.55, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+  第 11 行: (1141, 'Public, Review Status Unknown', 'WDIS_0862053', '1988-10-31 12:15:00', None, 'Feet', None, 'DissolvedOxygen', 8.6, '*See Units Note', None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+  第 12 行: (35610, 'Public, Review Status Unknown', 'WDIS_0733142', '1957-02-13 10:30:00', None, 'Feet', None, 'WaterTemperature', 72.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: lab_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'parameter', 'result', 'reporting_limit', 'units', 'method_name']
+表内容:
+  第 1 行: (13510, 'Public, Review Status Unknown', 'WDIS_0309140', '05/08/1986 14:00', None, 'Feet', 'Total Alkalinity', 281, 1.0, 'mg/L as CaCO3', 'UnkMod Alkalinity')
+  第 2 行: (9550, 'Public, Review Status Unknown', 'WDIS_0753659', '08/04/1981 13:00', None, 'Feet', 'Dissolved Sulfate', 181, 1.0, 'mg/L', 'EPA 375.3')
+  第 3 行: (6750, 'Public, Review Status Unknown', 'WDIS_0316343', '08/22/1978 14:52', None, 'Feet', 'Total ortho-Phosphate', '< R.L.', 0.01, 'mg/L as P', 'UnkMod Orthophosphate')
+  第 4 行: (19616, 'Public, Review Status Unknown', 'WDIS_0829204', '03/20/1963 00:00', None, 'Feet', 'Dissolved Chloride', 57, 1.0, 'mg/L', 'UnkMod Chloride')
+  第 5 行: (440, 'Public, Review Status Unknown', 'OM0584A0186', '05/18/1984 08:50', 1.0, 'Feet', 'Dissolved Ammonia', 0.05, 0.01, 'mg/L as N', 'EPA 350.1 (DWR Modified)')
+  第 6 行: (13590, 'Public, Review Status Unknown', 'WDIS_0845596', '10/29/1969 12:40', None, 'Feet', 'Dissolved Sulfate', 24, 1.0, 'mg/L', 'EPA 375.3')
+  第 7 行: (1065, 'Public, Review Status Unknown', 'WDIS_0857557', '11/19/1954 09:00', None, 'Feet', 'Dissolved Sodium', 8.4, 1.0, 'mg/L', 'UnkH Sodium')
+  第 8 行: (3165, 'Public, Review Status Unknown', 'WDIS_0911394', '03/16/1984 09:15', None, 'Feet', 'Dissolved Sodium', 10, 1.0, 'mg/L', 'EPA 273.1')
+  第 9 行: (34630, 'Public, Review Status Unknown', 'WDIS_0855569', '03/03/1964 09:50', None, 'Feet', 'Dissolved Potassium', 17, 0.1, 'mg/L', 'Std Method 3500-K, D')
+  第 10 行: (5780, 'Public, Review Status Unknown', 'WDIS_0969613', '11/30/1950 00:00', None, 'Feet', 'Dissolved Sodium', 118, 1.0, 'mg/L', 'UnkH Sodium')
+  第 11 行: (1516, 'Public, Review Status Unknown', 'WDIS_0873682', '08/23/1978 15:00', None, 'Feet', 'Dissolved Calcium', 8.4, 1.0, 'mg/L', 'EPA 215.1')
+  第 12 行: (4501, 'Public, Review Status Unknown', 'NA0508B0311', '05/12/2008 15:50', 0.15, 'Meters', 'Total Cadmium', '< R.L.', 0.1, 'ug/L', 'EPA 1638 (T)')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/water_quality/9.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: stations
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'station_name', 'full_station_name', 'station_number', 'station_type', 'latitude', 'longitude', 'county_name', 'sample_count', 'sample_date_min', 'sample_date_max']
+表内容:
+  第 1 行: (12, 'H.O. Banks Headworks', 'Delta P.P. Headworks at H.O. Banks PP', 'KA000331', 'Surface Water', 37.8019, -121.6203, 'Alameda', 1693, '10/16/1960 07:25', '05/14/2024 07:45')
+  第 2 行: (80, 'CHECK 13', "CA Aqueduct, Ck 13, O'Neill Outlet", 'KA007089', 'Surface Water', 37.0742, -121.0151, 'Merced', 876, '01/13/1967 12:00', '05/21/2024 12:20')
+  第 3 行: (87, 'Del Valle Reservoir', 'Lake Del Valle at Glory Hole', 'DV001000', 'Surface Water', 37.6147, -121.7458, 'Alameda', 615, '03/08/1971 10:00', '06/21/2023 13:45')
+  第 4 行: (267, 'FR002000', 'FRENCHMAN LK NR RECREATION AREA', 'FR002000', 'Surface Water', 39.9152, -120.1822, 'Plumas', 34, '10/07/1969 08:30', '05/26/1982 08:20')
+  第 5 行: (1246, 'MILL C A LO DM', 'MILL C A LO DM', 'A0442300', 'Surface Water', 40.0532, -122.0772, 'Tehama', 80, '07/13/1962 14:00', '03/17/1983 11:35')
+  第 6 行: (2056, 'LK ALMANOR E ARM CEN', 'LK ALMANOR E ARM CENTER', 'A5L01431065', 'Surface Water', 40.2382, -121.1094, 'Plumas', 120, '04/17/1973 14:15', '11/07/2017 11:15')
+  第 7 行: (2183, 'YUBA R(SOUTH) NR WAS', 'YUBA R(SOUTH) NR WASHINGTON', 'A6435000', 'Surface Water', 39.3605, -120.7716, 'Nevada', 15, '05/23/1958 11:00', '05/15/1971 14:20')
+  第 8 行: (2364, 'CACHE C A RUMSEY', 'CACHE C A RUMSEY', 'A8113500', 'Surface Water', 38.8899, -122.2383, 'Yolo', 115, '05/14/1958 09:55', '10/27/2021 08:50')
+  第 9 行: (2377, 'CACHE C NF NR LOWER', 'CACHE C NF NR LOWER LAKE', 'A8205000', 'Surface Water', 39.0191, -122.5686, 'Lake', 431, '12/26/1951 13:00', '07/27/2022 07:30')
+  第 10 行: (2419, 'CLEAR LK 24 LO ARM', 'CLEAR LK 24 LO ARM', 'A8L90072444', 'Surface Water', 39.0116, -122.7411, 'Lake', 60, '05/22/1964 00:00', '06/08/1965 00:00')
+  第 11 行: (2972, 'SAN JOAQUIN R A BRAN', 'SAN JOAQUIN R A BRANDT BR', 'B9D75191193', 'Surface Water', 37.8646, -121.323, 'San Joaquin', 202, '09/06/1950 00:00', '02/26/2010 12:00')
+  第 12 行: (4501, 'KLAMATH R NR SEIAD V', 'KLAMATH R NR SEIAD VLY', 'F3143000', 'Surface Water', 41.854, -123.2317, 'Siskiyou', 457, '06/10/1958 10:55', '07/24/2013 10:50')
+  第 13 行: (4824, 'EEL R SF NR MIRANDA', 'EEL R SF NR MIRANDA', 'F6410000', 'Surface Water', 40.1818, -123.7761, 'Humboldt', 468, '04/09/1951 15:00', '10/13/2022 07:35')
+  第 14 行: (5234, 'TruckeeR@Farad', 'Truckee River @ Farad', 'G7119500', 'Surface Water', 39.427687, -120.034064, 'Nevada', 457, '04/18/1951 10:45', '06/12/2024 10:28')
+  第 15 行: (6933, '01N14W09H001S', '01N14W09H001S', '01N14W09H001S', 'Groundwater', 34.1875, -118.3455, 'Los Angeles', 4, '09/14/1971 15:00', '10/06/1975 10:50')
+  第 16 行: (9530, '02N01E17F001S', '02N01E17F001S', '02N01E17F001S', 'Groundwater', 34.2599, -116.9043, 'San Bernardino', 10, '05/19/1971 00:00', '05/04/1976 00:00')
+  第 17 行: (14359, '03S10W28G001S', '03S10W28G001S', '03S10W28G001S', 'Groundwater', 33.8834, -117.9306, 'Orange', 1, '10/27/1961 00:00', '10/27/1961 00:00')
+  第 18 行: (14527, '03S11W29E004S', '03S11W29E004S', '03S11W29E004S', 'Groundwater', 33.8834, -118.0616, 'Los Angeles', 1, '07/05/1957 00:00', '07/05/1957 00:00')
+  第 19 行: (17650, '04S13W05M001S', '04S13W05M001S', '04S13W05M001S', 'Groundwater', 33.8509, -118.2713, 'Los Angeles', 17, '05/11/1954 00:00', '04/05/1960 10:15')
+  第 20 行: (18506, '05N06W30D001M', '05N06W30D001M', '05N06W30D001M', 'Groundwater', 38.2553, -122.5729, 'Sonoma', 8, '07/27/1973 12:00', '08/14/1990 11:00')
+  第 21 行: (24034, '08S03W13Q001S', '08S03W13Q001S', '08S03W13Q001S', 'Groundwater', 33.4757, -117.1443, 'Riverside', 1, '11/02/1971 13:10', '11/02/1971 13:10')
+  第 22 行: (26210, '10S03E02F005M', '10S03E02F005M', '10S03E02F005M', 'Groundwater', 37.0924, -121.6122, 'Santa Clara', 12, '09/18/1973 08:30', '10/08/1975 10:00')
+  第 23 行: (26945, '11N07E13B001M', '11N07E13B001M', '11N07E13B001M', 'Groundwater', 38.8084, -121.1394, 'Placer', 1, '09/15/1982 00:00', '09/15/1982 00:00')
+  第 24 行: (29532, '13N02E06P005M', '13N02E06P005M', '13N02E06P005M', 'Groundwater', 39.0001, -121.7927, 'Sutter', 1, '08/10/1976 00:00', '08/10/1976 00:00')
+  第 25 行: (31536, '14S20E34R002M', '14S20E34R002M', '14S20E34R002M', 'Groundwater', 36.6617, -119.7829, 'Fresno', 3, '08/22/1963 00:00', '04/16/1976 09:40')
+  第 26 行: (32178, '15S11E29E001M', '15S11E29E001M', '15S11E29E001M', 'Groundwater', 36.5961, -120.7955, 'San Benito', 2, '05/23/1973 14:45', '09/30/1987 10:00')
+  第 27 行: (32759, '16N03E24M002M', '16N03E24M002M', '16N03E24M002M', 'Groundwater', 39.2236, -121.5944, 'Yuba', 10, '08/17/1970 12:00', '07/20/1988 13:00')
+  第 28 行: (39587, '27S29E06K001M', '27S29E06K001M', '27S29E06K001M', 'Groundwater', 35.6083, -118.8979, 'Kern', 2, '11/03/1958 00:00', '11/03/1958 00:00')
+  第 29 行: (40289, '29N12E20H001M', '29N12E20H001M', '29N12E20H001M', 'Groundwater', 40.358, -120.6409, 'Lassen', 1, '06/11/1958 10:10', '06/11/1958 10:10')
+  第 30 行: (45550, 'SMITH R A HIOUCHI', 'SMITH R A HIOUCHI', 'F0129950', 'Surface Water', 41.79163, -124.07707, 'Del Norte', 50, '08/15/2000 06:45', '10/12/2022 07:30')
+  第 31 行: (45644, 'Travis Surge Tank', 'Travis Surge Tank', 'KG000843', 'Surface Water', 38.2995, -121.9331, 'Solano', 1, '11/08/2000 10:20', '11/08/2000 10:20')
+  第 32 行: (45935, 'D28A', 'D28A - Old River @ Rancho Del Rio', 'B9D75821344', 'Surface Water', 37.9705, -121.573, 'Contra Costa', 233, '07/06/1973 11:40', '06/07/2019 08:35')
+  第 33 行: (45938, 'D41', 'D41 - San Pablo Bay near Pinole Point', 'E0B80182224', 'Surface Water', 38.0302, -122.3729, 'Contra Costa', 113, '03/24/1971 11:30', '05/18/1998 11:05')
+  第 34 行: (46682, 'MR n. Tracy Rd.', 'Middle River near Tracy Road', 'B9D75291280', 'Surface Water', 37.8814, -121.4674, 'San Joaquin', 263, '02/15/2006 10:30', '05/30/2024 10:56')
+  第 35 行: (47198, '29N04W03R005M', '29N04W03R005M', '29N04W03R005M', 'Groundwater', 40.3928, -122.2944, 'Shasta', 2, '08/24/2010 13:10', '12/16/2015 09:25')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: period_of_record
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'parameter']
+表内容:
+  第 1 行: (6933, 'Dissolved Silica (SiO2)')
+  第 2 行: (9530, 'pH')
+  第 3 行: (14527, 'pH')
+  第 4 行: (26945, 'Dissolved Potassium')
+  第 5 行: (29532, 'Total Alkalinity')
+  第 6 行: (31536, 'Total Hardness')
+  第 7 行: (32178, 'Dissolved Chromium')
+  第 8 行: (39587, 'Conductance')
+  第 9 行: (40289, 'Dissolved Potassium')
+  第 10 行: (2972, 'Dissolved Boron')
+  第 11 行: (4824, 'Total Kjeldahl Nitrogen')
+  第 12 行: (45644, 'Dissolved ortho-Phosphate')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: field_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'anl_data_type', 'parameter', 'fdr_result', 'fdr_text_result', 'fdr_date_result', 'fdr_reporting_limit', 'uns_name', 'mth_name', 'fdr_footnote']
+表内容:
+  第 1 行: (12, 'Public, Review Status Unknown', 'OM0770A0124', '1970-07-07 15:30:00', 1.0, 'Feet', None, 'WaterTemperature', 24.4, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 2 行: (45935, 'Public, Review Status Unknown', 'E0414B0108', '2014-04-07 12:05:00', 3.0, 'Feet', None, 'WaterTemperature', 17.1, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 3 行: (45938, 'Public, Review Status Unknown', 'E0622B1378', '2022-06-28 14:10:00', 3.0, 'Feet', None, '(Bottom)Turbidity', 14.3, None, None, 0.1, 'F.N.U.', 'EPA 180.1 (Field)', None)
+  第 4 行: (2419, 'Public, Review Status Unknown', 'WDIS_0883925', '1965-04-20 12:30:00', None, 'Feet', None, 'WaterTemperature', 59.0, None, None, 0.1, '°F', 'EPA 170.1 (Field)', None)
+  第 5 行: (80, 'Public, Review Status Unknown', 'OM0590A0195', '1990-05-16 07:43:00', 1.0, 'Feet', None, 'pH', 7.8, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+  第 6 行: (80, 'Public, Review Status Unknown', 'SLA1003B0245', '2003-10-14 08:26:00', 1.0, 'Meters', None, 'WaterTemperature', 19.4, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 7 行: (5234, 'Public, Review Status Unknown', 'WDIS_0951511', '1962-11-09 11:15:00', None, 'Feet', 'Memo', 'Field Notes', None, None, None, None, None, 'Notes (Field)', 'DO Units Note - mg/L: WDIS DO Units not specified but assumed to be mg/L if Result <= 120% O2 Saturation - estimated using Field Temp.  Above 120% units changed to % Saturation.  This Sample = 82% - therefore assigned mg/L.  Possible units include ml/L; mg/L;  %Saturation')
+  第 8 行: (2056, 'Public, Review Status Unknown', 'N0714B0459', '2014-07-21 10:20:00', 0.5, 'Meters', None, 'Secchi Depth', 4.6, None, None, 0.1, 'Meters', 'Secchi Depth', None)
+  第 9 行: (46682, 'Public, Review Status Unknown', 'CF0822B0881', '2022-08-16 07:45:00', 1.0, 'Meters', None, 'WaterTemperature', 24.784, None, None, 0.1, '°C', 'EPA 170.1 (Field)', None)
+  第 10 行: (47198, 'Public, Review Status Unknown', 'N1215B0928', '2015-12-16 09:25:00', None, 'Meters', None, 'pH', 6.8, None, None, 0.1, 'pH Units', 'EPA 150.1 (Field)', None)
+  第 11 行: (4501, 'Public, Review Status Unknown', 'WDIS_0935994', '1978-01-05 10:15:00', None, 'Feet', None, 'Conductance', 183.0, None, None, 1.0, 'uS/cm', 'Std Method 2510-B (Field)', None)
+  第 12 行: (1246, 'Public, Review Status Unknown', 'WDIS_0867984', '1981-05-26 14:05:00', None, 'Feet', None, 'DissolvedOxygen', 9.6, '*See Units Note', None, 0.2, 'mg/L', 'EPA 360.2 (Field)', None)
+--------------------------------------------------------------------------------
+
+📋 第 4 个表 - 表名: lab_results
+--------------------------------------------------------------------------------
+表头（列名）: ['station_id', 'status', 'sample_code', 'sample_date', 'sample_depth', 'sample_depth_units', 'parameter', 'result', 'reporting_limit', 'units', 'method_name']
+表内容:
+  第 1 行: (87, 'Public, Review Status Unknown', 'DA0204B0017', '02/17/2004 12:05', 4.0, 'Meters', 'Dibromochloromethane', '< R.L.', 0.5, 'ug/L', 'EPA 502.2')
+  第 2 行: (45550, 'Public, Review Status Unknown', 'NA0506B0705', '05/31/2006 06:25', 0.15, 'Meters', 'Total Selenium', '< R.L.', 0.2, 'ug/L', 'EPA 1638 (T)')
+  第 3 行: (2377, 'Public, Review Status Unknown', 'WDIS_0886540', '02/04/1971 11:15', None, 'Feet', 'Turbidity', 6, 0.1, 'Turbidity as SiO2', 'USGS WSP 1454')
+  第 4 行: (17650, 'Public, Review Status Unknown', 'WDIS_0790615', '05/11/1954 00:00', None, 'Feet', 'Conductance', 40300, 1.0, 'uS/cm', 'UnkH Conductance')
+  第 5 行: (2183, 'Public, Review Status Unknown', 'WDIS_0882299', '08/28/1958 12:30', None, 'Feet', 'Dissolved Calcium', 11, 1.0, 'mg/L', 'EPA 215.2')
+  第 6 行: (14359, 'Public, Review Status Unknown', 'WDIS_0811317', '10/27/1961 00:00', None, 'Feet', 'Total Hardness', 216, 1.0, 'mg/L as CaCO3', 'UnkMod Hardness')
+  第 7 行: (267, 'Public, Review Status Unknown', 'OM0473A0130', '04/17/1973 09:05', 1.0, 'Feet', 'Total Kjeldahl Nitrogen', 0.32, 0.1, 'mg/L as N', 'EPA 351.3')
+  第 8 行: (24034, 'Public, Review Status Unknown', 'WDIS_0850856', '11/02/1971 13:10', None, 'Feet', 'Dissolved Nitrate', 3.5, 0.1, 'mg/L', 'EPA 352.1 (DWR Modified)')
+  第 9 行: (26210, 'Public, Review Status Unknown', 'WDIS_0763873', '11/20/1974 11:00', None, 'Feet', 'pH', 8, 0.1, 'pH Units', 'EPA 150.1')
+  第 10 行: (18506, 'Public, Review Status Unknown', 'WDIS_0752325', '08/14/1990 11:00', None, 'Feet', 'Dissolved Hardness', 303, 1.0, 'mg/L as CaCO3', 'Std Method 2340 B (D)')
+  第 11 行: (2364, 'Public, Review Status Unknown', 'WDIS_0885508', '02/10/1977 10:00', None, 'Feet', 'Dissolved Boron', 8.8, 0.1, 'mg/L', 'Std Method 4500-B, C')
+  第 12 行: (32759, 'Public, Review Status Unknown', 'WDIS_0708936', '08/17/1970 12:00', None, 'Feet', 'Dissolved Sodium', 18, 1.0, 'mg/L', 'Std Method 3500-Na, D')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+

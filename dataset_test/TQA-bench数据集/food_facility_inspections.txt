@@ -1,0 +1,950 @@
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/food_facility_inspections/0.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Geocoded-Food-Facilities
+--------------------------------------------------------------------------------
+表头（列名）: ['id', 'facility_name', 'num', 'street', 'city', 'state', 'zip', 'municipal', 'category_cd', 'description', 'p_code', 'fdo', 'bus_st_date', 'bus_cl_date', 'seat_count', 'noroom', 'sq_feet', 'status', 'placard_st', 'x', 'y', 'address']
+表内容:
+  第 1 行: (38687, 'Sewickley Pizza Roma', '426', 'Beaver Street', 'Sewickley', 'PA', 15143, 'Sewickley', 202, 'Chain Restaurant with Liquor', 0, '1984-10-24', '1984-10-24', '2023-02-22', '76', None, None, 7, '1', -80.180973, 40.540446, '426 Beaver Street PA 15143')
+  第 2 行: (39307, 'Norbert Residential Care Facility', '2413', 'St Norbert Street', 'Pittsburgh', 'PA', 15234, 'Pittsburgh-132', 304, 'Personal Care Boarding Home', 0, '1985-01-01', '1985-01-01', None, None, '78', None, 1, '1', -79.9942725, 40.382415, '2413 St Norbert Street PA 15234')
+  第 3 行: (42339, "Monte Cello's", '10441', 'Perry Highway', 'Wexford', 'PA', 15090, 'McCandless', 202, 'Chain Restaurant with Liquor', 0, '1987-06-18', '1987-06-18', None, '96', None, None, 1, '1', -80.052516, 40.606821, '10441 Perry Highway PA 15090')
+  第 4 行: (200312240002, 'The Homeville Trolley Stop', '3704', 'Greensprings Ave', 'West Mifflin', 'PA', 15122, 'West Mifflin', 201, 'Restaurant with Liquor', 1, '2003-12-17', '2003-12-17', None, '30', None, None, 1, '1', -79.884909, 40.391712, '3704 Greensprings Ave PA 15122')
+  第 5 行: (200702210006, 'El Campesino Restaurante Mexicano', '460', 'Home Drive', 'Pittsburgh', 'PA', 15275, 'North Fayette', 202, 'Chain Restaurant with Liquor', 1, '2007-02-21', '2007-02-21', None, '132', None, None, 1, '1', -80.183538, 40.451211, '460 Home Drive PA 15275')
+  第 6 行: (201402240007, 'Butcher On Butler', '5143', 'Butler Street', 'Pittsburgh', 'PA', 15201, 'Pittsburgh-110', 113, 'Retail/Convenience Store', 0, '2014-02-20', '2014-02-20', '2017-11-20', None, None, '1600', 7, '1', -79.961515053, 40.469534192, '5143 Butler Street PA 15201')
+  第 7 行: (201501090004, 'Jodha Exxon', '2200', 'Babcock  Boulevard', 'Pittsburgh', 'PA', 15237, 'Ross', 114, 'Chain Retail/Convenience Store', 2, '2014-12-25', '2014-12-25', '2019-12-10', None, None, '50', 7, '1', -79.9943895, 40.51125, '2200 Babcock  Boulevard PA 15237')
+  第 8 行: (201510050006, 'Acrisure Stadium / 2.03.01 Burgatory + 2.54.01 Tenders #147S', '500', 'Art Rooney Avenue', 'Pittsburgh', 'PA', 15212, 'Pittsburgh-122', 202, 'Chain Restaurant with Liquor', 1, '2015-11-01', '2015-11-01', None, '0', None, None, 1, '1', -80.01574, 40.4467, '500 Art Rooney Avenue PA 15212')
+  第 9 行: (201602260003, "Wendy's Old Fashioned Hamburgers #527", '5422', 'Baum Boulevard', 'Pittsburgh', 'PA', 15224, 'Pittsburgh-108', 212, 'Chain Restaurant without Liquor', 1, '2016-02-24', '2016-02-24', '2024-04-01', '122', None, None, 7, '1', -79.93746, 40.45698, '5422 Baum Boulevard PA 15224')
+  第 10 行: (201602290007, 'Jmart International Market', '1435', 'Potomac  Avenue', 'Pittsburgh', 'PA', 15216, 'Dormont', 113, 'Retail/Convenience Store', 1, '2016-02-17', '2016-02-17', None, None, None, '3744', 1, '1', -80.0350875, 40.395879, '1435 Potomac  Avenue PA 15216')
+  第 11 行: (201604130001, "Duke's 8th & Hays Wine Bar", '122', '8th Avenue', 'Homestead', 'PA', 15120, 'Homestead', 202, 'Chain Restaurant with Liquor', 1, '2016-04-12', '2016-04-12', None, '66', None, None, 1, '1', -79.9114185, 40.406382, '122 8th Avenue PA 15120')
+  第 12 行: (201605270007, 'The Pub @ 333', '333', 'Allegheny  Avenue', 'Oakmont', 'PA', 15139, 'Oakmont', 201, 'Restaurant with Liquor', 0, '2016-05-27', '2016-05-27', None, '46', None, None, 1, '1', -79.8438375, 40.515903, '333 Allegheny  Avenue PA 15139')
+  第 13 行: (201608100002, 'Asian Fusion Bowl', '2767', 'Carson Street', 'Pittsburgh', 'PA', 15203, 'Pittsburgh-116', 211, 'Restaurant without Liquor', 0, '2016-08-10', '2016-08-10', '2017-12-13', '0', None, None, 7, '1', -79.965864, 40.426533, '2767 Carson Street PA 15203')
+  第 14 行: (201608190005, "Honest John's", '216', '8th Avenue', 'Homestead', 'PA', 15120, 'Homestead', 201, 'Restaurant with Liquor', 1, '2016-08-16', '2016-08-16', '2021-12-20', '54', None, None, 7, '1', -79.910055, 40.407147, '216 8th Avenue PA 15120')
+  第 15 行: (201609300001, 'Panera Bread #4003024', '3401', 'Blvd Of The Allies', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 212, 'Chain Restaurant without Liquor', 1, '2016-07-24', '2016-07-24', None, '193', None, None, 1, '1', -79.957908, 40.436289, '3401 Blvd Of The Allies PA 15213')
+  第 16 行: (201701040001, 'Piada Italian Street Food', '3600', 'Forbes Avenue', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 212, 'Chain Restaurant without Liquor', 1, '2017-01-03', '2017-01-03', None, '87', None, None, 1, '1', -79.95744, 40.440267, '3600 Forbes Avenue PA 15213')
+  第 17 行: (201701170012, 'Pittsburgh Juice Company - Commissary', '3101', 'Penn Avenue', 'Pittsburgh', 'PA', 15201, 'Pittsburgh-106', 172, 'Food Processor', 1, '2017-01-11', '2017-01-11', '2023-08-30', None, None, '671', 7, '1', -79.9713765, 40.460022, '3101 Penn Avenue PA 15201')
+  第 18 行: (201707260003, 'Pizza Station', '501', 'Lincoln Avenue', 'Pittsburgh', 'PA', 15202, 'Bellevue', 211, 'Restaurant without Liquor', 1, '2017-07-20', '2017-07-20', '2020-08-21', '30', None, None, 7, '1', -80.0558595, 40.495482, '501 Lincoln Avenue PA 15202')
+  第 19 行: (201803300004, "C & D's Kitchen", '5009', '2nd  Avenue', 'Pittsburgh', 'PA', 15207, 'Pittsburgh-115', 211, 'Restaurant without Liquor', 1, '2018-03-28', '2018-03-28', '2019-09-17', '0', None, None, 7, '1', -79.9433865, 40.408245, '5009 2nd  Avenue PA 15207')
+  第 20 行: (201806220006, 'Cinnamon Glazed Nuts', '1000', 'Ross Park Mall Drive', 'Pittsburgh', 'PA', 15237, 'Ross', 211, 'Restaurant without Liquor', 1, '2018-06-06', '2018-06-06', None, '0', None, None, 1, '1', -80.00847, 40.542894, '1000 Ross Park Mall Drive PA 15237')
+  第 21 行: (201907220002, 'New Katana', '3229', 'West Liberty Avenue', 'Pittsburgh', 'PA', 15216, 'Dormont', 201, 'Restaurant with Liquor', 1, '2019-06-03', '2019-06-03', None, '90', None, None, 1, '1', -80.0406315, 40.389966, '3229 West Liberty Avenue PA 15216')
+  第 22 行: (202004100001, 'Halcyon Senior Living', '528', 'Dewey Avenue', 'Bridgeville', 'PA', 15017, 'Bridgeville', 304, 'Personal Care Boarding Home', 1, '2020-04-10', '2020-04-10', None, None, '58', None, 1, '1', -80.1108765, 40.356918, '528 Dewey Avenue PA 15017')
+  第 23 行: (202301240001, "Michael's Table PGH / MaestroChef's Products", '2601', 'Norwood Avenue', 'Pittsburgh', 'PA', 15214, 'Pittsburgh-126', 101, 'Transient Caterer', 0, '2023-01-24', '2023-01-24', None, None, None, '1300', 1, '1', -80.0131275, 40.4703, '2601 Norwood Avenue PA 15214')
+  第 24 行: (202310160002, 'Layali Pizza, Fish and Chicken', '2147B', 'Ardmore Boulevard', 'Pittsburgh', 'PA', 15221, 'Forest Hills', 211, 'Restaurant without Liquor', 1, '2023-10-16', '2023-10-16', None, '0', None, '1500', 1, '1', -79.8485445, 40.418181, '2147B Ardmore Boulevard PA 15221')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Food-Facility-Restaurant-Inspections
+--------------------------------------------------------------------------------
+表头（列名）: ['encounter', 'id', 'placard_desc', 'inspect_dt', 'start_time', 'end_time', 'ispt_purpose', 'abrv', 'purpose', 'reispt_cd', 'reispt_dt']
+表内容:
+  第 1 行: (201503050026, 200702210006, 'Inspected & Permitted', '2015-03-05', '15:05:00', '16:50:00', 2, 'Reispt', 'Reinspection', 1, '2015-03-19')
+  第 2 行: (201607260025, 201605270007, 'Inspected & Permitted', '2016-07-26', '10:40:00', '13:35:00', 1, 'Ini', 'Initial', 1, '2016-07-27')
+  第 3 行: (201609060048, 201510050006, 'Inspected & Permitted', '2016-09-03', '15:06:00', '15:30:00', 1, 'Ini', 'Initial', 1, '2016-10-09')
+  第 4 行: (201609130059, 201608100002, 'Inspected & Permitted', '2016-09-13', '13:40:00', '15:20:00', 1, 'Ini', 'Initial', 1, '2016-09-27')
+  第 5 行: (201610030001, 201609300001, 'Inspected & Permitted', '2016-09-26', '10:15:00', '11:30:00', 9, 'Ini,Srv Req', 'Initial, Service Request', 2, None)
+  第 6 行: (201611070034, 42339, 'Inspected & Permitted', '2016-11-07', '13:00:00', '14:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 7 行: (201705110046, 201602290007, 'Inspected & Permitted', '2017-05-11', '13:55:00', '15:45:00', 1, 'Ini', 'Initial', 2, None)
+  第 8 行: (201706010050, 201402240007, 'Inspected & Permitted', '2017-06-01', '15:25:00', '15:45:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 9 行: (201709140003, 200312240002, 'Inspected & Permitted', '2017-09-12', '14:05:00', '15:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 10 行: (201709190038, 201608190005, 'Inspected & Permitted', '2017-09-19', '13:15:00', '14:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 11 行: (201709200059, 201701040001, 'Inspected & Permitted', '2017-09-20', '14:15:00', '16:00:00', 1, 'Ini', 'Initial', 1, '2017-10-13')
+  第 12 行: (201801020007, 201602260003, 'Inspected & Permitted', '2018-01-02', '10:50:00', '11:55:00', 1, 'Ini', 'Initial', 2, None)
+  第 13 行: (201804050020, 201803300004, 'Inspected & Permitted', '2018-03-28', '12:15:00', '13:35:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 14 行: (201902260050, 201501090004, 'Inspected & Permitted', '2019-02-26', '15:30:00', '16:00:00', 1, 'Ini', 'Initial', 2, None)
+  第 15 行: (201904260010, 201701170012, 'Inspected & Permitted', '2019-05-01', '11:10:00', '11:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 16 行: (201907290044, 201907220002, 'Inspected & Permitted', '2019-06-13', '15:15:00', '16:45:00', 4, 'New Fac', 'New Facility', 1, '2019-06-27')
+  第 17 行: (201910030025, 39307, 'Inspected & Permitted', '2019-10-03', '12:10:00', '13:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 18 行: (201911210035, 38687, 'Inspected & Permitted', '2019-11-21', '14:50:00', '17:15:00', 1, 'Ini', 'Initial', 0, None)
+  第 19 行: (202001160017, 201707260003, 'Inspected & Permitted', '2020-01-16', '11:25:00', '12:50:00', 1, 'Ini', 'Initial', 2, None)
+  第 20 行: (202211180021, 201604130001, 'Inspected & Permitted', '2022-11-18', '15:00:00', '15:45:00', 1, 'Ini', 'Initial', 2, None)
+  第 21 行: (202306140016, 202004100001, 'Inspected & Permitted', '2023-06-14', '12:45:00', '13:55:00', 1, 'Ini', 'Initial', 2, None)
+  第 22 行: (202312200021, 202310160002, 'Inspected & Permitted', '2023-12-20', '14:45:00', '16:20:00', 1, 'Ini', 'Initial', 2, None)
+  第 23 行: (202402080005, 202301240001, 'Inspected & Permitted', '2024-02-08', '09:35:00', '11:30:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 24 行: (202407240019, 201806220006, 'Inspected & Permitted', '2024-07-25', '15:35:00', '17:05:00', 1, 'Ini', 'Initial', 2, None)
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Food-Facility-Restaurant-Inspection-Violations
+--------------------------------------------------------------------------------
+表头（列名）: ['violation_id', 'encounter', 'id', 'description_new', 'rating', 'low', 'medium', 'high']
+表内容:
+  第 1 行: (147934563, 201503050026, 200702210006, 'Toilet Room', 'V', 'T', 'F', 'F')
+  第 2 行: (148002853, 201607260025, 201605270007, 'Cleaning and Sanitization', 'V', 'T', 'T', 'F')
+  第 3 行: (148005598, 201609060048, 201510050006, 'Ventilation', 'V', 'T', None, None)
+  第 4 行: (148006756, 201611070034, 42339, 'Walls and ceilings', 'V', 'T', None, None)
+  第 5 行: (148009063, 201609130059, 201608100002, 'Cross-Contamination Prevention', 'V', 'F', 'F', 'T')
+  第 6 行: (148015809, 201610030001, 201609300001, 'Cold Holding Temperatures', 'V', 'F', 'F', 'T')
+  第 7 行: (148036849, 201705110046, 201602290007, 'General Premises', 'V', 'T', None, None)
+  第 8 行: (148041856, 201709190038, 201608190005, 'Cross-Contamination Prevention', 'V', 'F', 'T', 'F')
+  第 9 行: (148042843, 201709140003, 200312240002, 'Pest Management', 'V', 'T', 'F', 'F')
+  第 10 行: (148046123, 201709200059, 201701040001, 'Cleaning and Sanitization', 'V', 'T', 'F', 'T')
+  第 11 行: (148063052, 201804050020, 201803300004, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 12 行: (148063096, 201706010050, 201402240007, 'General Premises', 'V', 'T', None, None)
+  第 13 行: (148066954, 201801020007, 201602260003, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 14 行: (148091614, 201907290044, 201907220002, 'Cold Holding Temperatures', 'V', 'F', 'F', 'T')
+  第 15 行: (148095455, 201911210035, 38687, 'Cooling Food', 'V', 'T', 'F', 'F')
+  第 16 行: (148114193, 201910030025, 39307, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 17 行: (148153020, 201902260050, 201501090004, 'Facilities to Maintain Temperature', 'V', 'T', 'F', 'F')
+  第 18 行: (148157181, 201904260010, 201701170012, 'Contamination Prevention - Food, Utensils and Equipment', 'N', 'T', 'F', 'F')
+  第 19 行: (148170183, 202001160017, 201707260003, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 20 行: (148205479, 202312200021, 202310160002, 'Plumbing', 'V', 'T', 'F', 'F')
+  第 21 行: (148214559, 202211180021, 201604130001, 'Handwashing Facilities', 'V', 'T', 'F', 'F')
+  第 22 行: (148222007, 202402080005, 202301240001, 'Walls and ceilings', 'V', 'T', None, None)
+  第 23 行: (148224612, 202306140016, 202004100001, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 24 行: (148225449, 202407240019, 201806220006, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/food_facility_inspections/1.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Geocoded-Food-Facilities
+--------------------------------------------------------------------------------
+表头（列名）: ['id', 'facility_name', 'num', 'street', 'city', 'state', 'zip', 'municipal', 'category_cd', 'description', 'p_code', 'fdo', 'bus_st_date', 'bus_cl_date', 'seat_count', 'noroom', 'sq_feet', 'status', 'placard_st', 'x', 'y', 'address']
+表内容:
+  第 1 行: (31598, 'Sacred Heart Elementary School Cafeteria', '325', 'Emerson St', 'Pittsburgh', 'PA', 15206, 'Pittsburgh-107', 651, 'School Full Service Kitchen', 9, '1979-01-01', '1979-01-01', None, None, None, '1500', 1, '1', -79.923663, 40.455684, '325 Emerson St PA 15206')
+  第 2 行: (38715, "John Anthony's Restaurant Lounge", '115', 'Center New Texas Rd', 'Pittsburgh', 'PA', 15239, 'Plum', 201, 'Restaurant with Liquor', 1, '1984-12-12', '1984-12-12', None, '133', None, None, 1, '1', -79.758702, 40.478526, '115 Center New Texas Rd PA 15239')
+  第 3 行: (40294, 'Bob Evans Restaurant #141', '7412', 'McKnight Road', 'Pittsburgh', 'PA', 15237, 'Ross', 212, 'Chain Restaurant without Liquor', 1, '1985-12-09', '1985-12-09', None, '149', None, None, 1, '1', -80.012088, 40.541769, '7412 McKnight Road PA 15237')
+  第 4 行: (41813, 'Big Lots #1140', '1701', 'Lincoln  Highway', 'North Versailles', 'PA', 15137, 'North Versailles', 116, 'Chain Packaged Food Only', 2, '1987-01-05', '1987-01-05', None, None, None, '1500', 1, '1', -79.785126, 40.372425, '1701  Lincoln  Highway PA 15137')
+  第 5 行: (44428, "Don's Pizzeria", '7936', 'Steubenville Pike', 'Oakdale', 'PA', 15071, 'North Fayette', 211, 'Restaurant without Liquor', 1, '1989-01-27', '1989-01-27', None, '0', None, None, 1, '1', -80.232597, 40.44114, '7936 Steubenville Pike PA 15071')
+  第 6 行: (199901250011, 'Pizza Milano', '1304', '5th Avenue', 'Pittsburgh', 'PA', 15219, 'Pittsburgh-101', 201, 'Restaurant with Liquor', 0, '1999-01-21', '1999-01-21', None, '122', None, None, 1, '1', -79.987977, 40.438548, '1304 5th Avenue PA 15219')
+  第 7 行: (200106290005, 'Baldwin Backdraft', '3049', 'Churchview Ave', 'Pittsburgh', 'PA', 15227, 'Baldwin Boro', 201, 'Restaurant with Liquor', 1, '2001-06-11', '2001-06-11', '2019-09-30', '100', None, None, 7, '1', -79.967475, 40.386096, '3049 Churchview Ave PA 15227')
+  第 8 行: (200209240004, 'DuBois  BP II', '4731', 'Buttermilk Hollow Rd', 'West Mifflin', 'PA', 15122, 'West Mifflin', 114, 'Chain Retail/Convenience Store', 1, '2002-09-17', '2002-09-17', '2019-12-18', None, None, '300', 7, '1', -79.907832, 40.359276, '4731 Buttermilk Hollow Rd PA 15122')
+  第 9 行: (200901200003, 'Sonic Drive-In #6036', '120', 'Towne Centre Boulevard', 'Wexford', 'PA', 15090, 'Pine', 212, 'Chain Restaurant without Liquor', 1, '2008-12-10', '2008-12-10', '2022-01-13', '0', None, None, 7, '1', -80.0567415, 40.631769, '120 Towne Centre Boulevard PA 15090')
+  第 10 行: (200903100007, 'Little Caesars Pizza #141', '1742', 'Greensburg Pike', 'North Versailles', 'PA', 15137, 'North Versailles', 212, 'Chain Restaurant without Liquor', 1, '2009-02-09', '2009-02-09', '2023-11-13', '0', None, None, 7, '1', -79.821558, 40.387104, '1742 Greensburg Pike PA 15137')
+  第 11 行: (201312090007, 'Market on Broadway IGA / Las Palmas', '1616', 'Broadway Avenue', 'Pittsburgh', 'PA', 15216, 'Pittsburgh-119', 112, 'Chain Supermarket', 0, '2013-07-15', '2013-07-15', None, None, None, '7431', 1, '1', -80.0249445, 40.410117, '1616 Broadway Avenue PA 15216')
+  第 12 行: (201312090010, 'Speedway #6503', '2325', '5th Avenue', 'Mc Keesport', 'PA', 15132, 'McKeesport', 114, 'Chain Retail/Convenience Store', 1, '2013-12-03', '2013-12-03', None, '30', None, '2000', 1, '1', -79.8375285, 40.353957, '2325 5th Ave PA 15132')
+  第 13 行: (201411130005, "McDonald's", '505', 'Lincoln Highway', 'North Versailles', 'PA', 15137, 'North Versailles', 212, 'Chain Restaurant without Liquor', 1, '2014-11-05', '2014-11-05', '2023-12-03', '72', None, None, 7, '1', -79.8243615, 40.384287, '505 Lincoln Highway PA 15137')
+  第 14 行: (201503200002, "Bob's Diner - Castle Shannon", '1230', 'Grove  Road', 'Pittsburgh', 'PA', 15234, 'Castle Shannon', 212, 'Chain Restaurant without Liquor', 1, '2015-03-13', '2015-03-13', '2023-03-31', '87', None, None, 7, '1', -80.013915, 40.365927, '1230 Grove  Road PA 15234')
+  第 15 行: (201504020001, 'Vicino', '4616', 'Allegheny River Boulevard', 'Verona', 'PA', 15147, 'Penn Hills', 201, 'Restaurant with Liquor', 1, '2015-03-24', '2015-03-24', '2016-03-28', '83', None, None, 7, '1', -79.8450537749999, 40.4977788460001, '4616 Allegheny River Boulevard PA 15147')
+  第 16 行: (201508130005, 'Chevron Appalachian Michigan Business Unit (AMBU) Cafe', '700', 'Cherrington Parkway', 'Coraopolis', 'PA', 15108, 'Moon', 211, 'Restaurant without Liquor', 1, '2015-08-07', '2015-08-07', '2020-12-14', '55', None, None, 7, '1', -80.2025595, 40.493466, '700 Cherrington Parkway PA 15108')
+  第 17 行: (201512110001, 'Tan Izakaya', '815', 'Aiken Avenue', 'Pittsburgh', 'PA', 15232, 'Pittsburgh-107', 201, 'Restaurant with Liquor', 0, '2015-12-08', '2015-12-08', '2018-03-31', '30', None, None, 7, '1', -79.9351785, 40.450482, '815 Aiken Avenue PA 15232')
+  第 18 行: (201705230007, 'PAM Health Specialty Hospital of Pittsburgh', '7777', 'Steubenville Pike', 'Oakdale', 'PA', 15071, 'North Fayette', 411, 'Hospital/Other Institution', 1, '2017-05-15', '2017-05-15', None, None, None, '4600', 1, '1', -80.2086885, 40.43862, '7777 Steubenville Pike PA 15071')
+  第 19 行: (201810250002, 'Market C @ Walgreens East Wing', '130', 'Enterprise  Drive', 'Pittsburgh', 'PA', 15275, 'Findlay', 114, 'Chain Retail/Convenience Store', 1, '2018-10-19', '2018-10-19', '2022-09-21', None, None, '305', 7, '1', -80.199702, 40.46202, '130 Enterprise  Drive PA 15275')
+  第 20 行: (201910010003, 'Quick Pizza & Hoagies ( Citgo )', '3565', 'Harts Run  Road', 'Pittsburgh', 'PA', 15238, 'Indiana', 211, 'Restaurant without Liquor', 1, '2019-08-01', '2019-08-01', None, '0', None, None, 1, '1', -79.902027, 40.545756, '3565 Harts Run  Road PA 15238')
+  第 21 行: (202002100005, 'La Bella Pizza & Gyro', '3906A', 'Saw Mill Run Boulevard', 'Pittsburgh', 'PA', 15227, 'Brentwood', 211, 'Restaurant without Liquor', 1, '2020-02-10', '2020-02-10', None, '8', None, None, 1, '1', None, None, '3906A Saw Mill Run Boulevard PA 15227')
+  第 22 行: (202003060003, 'Suds & Subs', '704', 'Chartiers Avenue', 'Mc Kees Rocks', 'PA', 15136, 'McKees Rocks', 201, 'Restaurant with Liquor', 1, '2020-03-03', '2020-03-03', None, '30', None, None, 1, '1', -80.0615025, 40.465818, '704 Chartiers Avenue PA 15136')
+  第 23 行: (202109270004, 'Seoul Korean BBQ', '525', 'Main Street', 'Carnegie', 'PA', 15106, 'Carnegie', 211, 'Restaurant without Liquor', 1, '2021-09-27', '2021-09-27', None, '13', None, None, 1, '1', -80.08074, 40.411494, '525 Main Street PA 15106')
+  第 24 行: (202304030001, 'B P O E / Booker T. Washington Lodge #218', '1127', 'Walnut Street', 'Mc Keesport', 'PA', 15132, 'McKeesport', 250, 'Social Club-Bar Only', 1, '2023-04-03', '2023-04-03', None, '30', None, None, 1, '1', -79.8631785, 40.343976, '1127 Walnut Street PA 15132')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Food-Facility-Restaurant-Inspections
+--------------------------------------------------------------------------------
+表头（列名）: ['encounter', 'id', 'placard_desc', 'inspect_dt', 'start_time', 'end_time', 'ispt_purpose', 'abrv', 'purpose', 'reispt_cd', 'reispt_dt']
+表内容:
+  第 1 行: (201407180045, 44428, 'Inspected & Permitted', '2014-07-18', '15:40:00', '16:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 2 行: (201504240106, 201504020001, 'Inspected & Permitted', '2015-04-24', '15:30:00', '17:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 3 行: (201607130016, 200106290005, 'Inspected & Permitted', '2016-07-13', '10:45:00', '12:00:00', 1, 'Ini', 'Initial', 1, '2016-07-27')
+  第 4 行: (201609230023, 201512110001, 'Inspected & Permitted', '2016-09-23', '11:00:00', '12:45:00', 1, 'Ini', 'Initial', 1, '2016-09-29')
+  第 5 行: (201610040063, 201411130005, 'Inspected & Permitted', '2016-10-04', '15:00:00', '16:25:00', 1, 'Ini', 'Initial', 1, '2016-10-18')
+  第 6 行: (201701100033, 200903100007, 'Inspected & Permitted', '2017-01-10', '13:00:00', '14:00:00', 1, 'Ini', 'Initial', 2, None)
+  第 7 行: (201706060038, 200209240004, 'Inspected & Permitted', '2017-06-06', '13:30:00', '14:15:00', 1, 'Ini', 'Initial', 2, None)
+  第 8 行: (201709250017, 200901200003, 'Inspected & Permitted', '2017-09-25', '13:00:00', '13:45:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 9 行: (201803210004, 201503200002, 'Inspected & Permitted', '2018-03-21', '10:15:00', '12:20:00', 1, 'Ini', 'Initial', 1, '2018-03-28')
+  第 10 行: (201803230026, 201312090007, 'Inspected & Permitted', '2018-03-23', '12:45:00', '13:42:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 11 行: (201808220005, 201508130005, 'Inspected & Permitted', '2018-08-22', '10:10:00', '11:05:00', 1, 'Ini', 'Initial', 2, None)
+  第 12 行: (201901300024, 41813, 'Inspected & Permitted', '2019-01-30', '15:00:00', '15:45:00', 1, 'Ini', 'Initial', 2, None)
+  第 13 行: (201903070016, 40294, 'Inspected & Permitted', '2019-03-07', '13:45:00', '15:00:00', 1, 'Ini', 'Initial', 2, None)
+  第 14 行: (201909230043, 201810250002, 'Inspected & Permitted', '2018-10-19', '12:40:00', '13:20:00', 5, 'Ini, New Fac', 'Initial, New Facility', 1, '2019-01-01')
+  第 15 行: (201910040018, 201910010003, 'Inspected & Permitted', '2019-10-04', '15:00:00', '16:45:00', 9, 'Ini,Srv Req', 'Initial, Service Request', 2, None)
+  第 16 行: (201912040010, 38715, 'Inspected & Permitted', '2019-12-04', '11:00:00', '11:50:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 17 行: (202003120051, 202002100005, 'Inspected & Permitted', '2020-03-12', '15:40:00', '16:45:00', 1, 'Ini', 'Initial', 2, None)
+  第 18 行: (202011050005, 31598, 'Inspected & Permitted', '2020-11-05', '10:55:00', '11:55:00', 1, 'Ini', 'Initial', 2, None)
+  第 19 行: (202202070026, 201312090010, 'Inspected & Permitted', '2022-02-07', '14:30:00', '15:55:00', 1, 'Ini', 'Initial', 2, None)
+  第 20 行: (202301300022, 199901250011, 'Inspected & Permitted', '2023-01-30', '13:00:00', '15:15:00', 52, 'Ini, Comp', 'Initial, Complaint', 1, '2023-02-13')
+  第 21 行: (202304120002, 202304030001, 'Inspected & Permitted', '2023-04-12', '09:50:00', '10:50:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 22 行: (202305190023, 202109270004, 'Inspected & Permitted', '2023-05-19', '16:45:00', '17:55:00', 1, 'Ini', 'Initial', 2, None)
+  第 23 行: (202402140023, 202003060003, 'Inspected & Permitted', '2024-02-14', '15:00:00', '15:55:00', 1, 'Ini', 'Initial', 2, None)
+  第 24 行: (202403130038, 201705230007, 'Inspected & Permitted', '2024-03-13', '14:30:00', '16:00:00', 1, 'Ini', 'Initial', 2, None)
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Food-Facility-Restaurant-Inspection-Violations
+--------------------------------------------------------------------------------
+表头（列名）: ['violation_id', 'encounter', 'id', 'description_new', 'rating', 'low', 'medium', 'high']
+表内容:
+  第 1 行: (147914267, 201407180045, 44428, 'Toilet Room', 'V', 'T', 'F', 'F')
+  第 2 行: (147931571, 201504240106, 201504020001, 'Lighting', 'V', 'T', None, None)
+  第 3 行: (147995317, 201607130016, 200106290005, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 4 行: (148006854, 201610040063, 201411130005, 'Facilities to Maintain Temperature', 'V', 'T', 'T', 'F')
+  第 5 行: (148009412, 201609230023, 201512110001, 'Handwashing Facilities', 'V', 'F', 'T', 'F')
+  第 6 行: (148021716, 201701100033, 200903100007, 'Handwashing Facilities', 'V', 'T', 'F', 'F')
+  第 7 行: (148040315, 201706060038, 200209240004, 'Date Marking of Food', 'V', 'F', 'T', 'F')
+  第 8 行: (148048477, 201803210004, 201503200002, 'Date Marking of Food', 'V', 'F', 'T', 'F')
+  第 9 行: (148050825, 201709250017, 200901200003, 'Waste Water Disposal', 'V', 'T', 'F', 'F')
+  第 10 行: (148067088, 201803230026, 201312090007, 'Garbage and Refuse', 'V', 'T', None, None)
+  第 11 行: (148101378, 202011050005, 31598, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 12 行: (148131408, 201808220005, 201508130005, 'Cold Holding Temperatures', 'V', 'F', 'T', 'F')
+  第 13 行: (148131629, 201910040018, 201910010003, 'Hot Holding Temperatures', 'V', 'F', 'T', 'F')
+  第 14 行: (148150280, 201901300024, 41813, 'Food Source/Condition', 'V', 'T', 'F', 'F')
+  第 15 行: (148160866, 201903070016, 40294, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 16 行: (148162372, 202003120051, 202002100005, 'Date Marking of Food', 'V', 'T', 'F', 'F')
+  第 17 行: (148180456, 201909230043, 201810250002, 'Facilities to Maintain Temperature', 'V', 'T', 'F', 'F')
+  第 18 行: (148181099, 201912040010, 38715, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 19 行: (148189646, 202403130038, 201705230007, 'Floors', 'V', 'T', None, None)
+  第 20 行: (148203556, 202304120002, 202304030001, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 21 行: (148206705, 202402140023, 202003060003, 'Administrative', 'V', None, None, None)
+  第 22 行: (148235106, 202305190023, 202109270004, 'Toxic Items', 'V', 'T', 'T', 'F')
+  第 23 行: (148235931, 202301300022, 199901250011, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 24 行: (148244013, 202202070026, 201312090010, 'Walls and ceilings', 'V', 'T', None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/food_facility_inspections/2.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Geocoded-Food-Facilities
+--------------------------------------------------------------------------------
+表头（列名）: ['id', 'facility_name', 'num', 'street', 'city', 'state', 'zip', 'municipal', 'category_cd', 'description', 'p_code', 'fdo', 'bus_st_date', 'bus_cl_date', 'seat_count', 'noroom', 'sq_feet', 'status', 'placard_st', 'x', 'y', 'address']
+表内容:
+  第 1 行: (4116, 'Allegheny Valley Hospital', '1301', 'Carlisle Street', 'Natrona Heights', 'PA', 15065, 'Harrison', 411, 'Hospital/Other Institution', 1, '1980-01-01', '1980-01-01', None, None, None, '4200', 1, '1', -79.736922, 40.61826, '1301 Carlisle Street PA 15065')
+  第 2 行: (7051, 'Pittsburgh Athletic Assoc Restaurant', '4215', '5th  Avenue', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 201, 'Restaurant with Liquor', 0, '1912-01-01', '1912-01-01', '2018-03-02', '400', None, None, 7, '1', -79.954587, 40.444938, '4215 5th  Avenue PA 15213')
+  第 3 行: (33460, 'Love & Learn Children Center', '1300', 'Brinton Road', 'Pittsburgh', 'PA', 15221, 'Braddock Hills', 403, 'Child Food Service', 2, '1982-03-01', '1982-03-01', None, None, None, '0', 1, '1', -79.863462, 40.421898, '1300 Brinton Road PA 15221')
+  第 4 行: (37868, "Shop 'n Save #1076 Mt. Washington", '125', 'Virginia Avenue', 'Pittsburgh', 'PA', 15211, 'Pittsburgh-119', 112, 'Chain Supermarket', 1, '1984-05-13', '1984-05-13', None, None, None, '14108', 1, '1', -80.0079705, 40.429422, '125 Virginia Avenue PA 15211')
+  第 5 行: (45266, "Delallo's Fort Couch Cafe", '91', 'Fort Couch  Road', 'Pittsburgh', 'PA', 15241, 'Bethel Park', 201, 'Restaurant with Liquor', 1, '1989-10-26', '1989-10-26', '2018-08-18', '92', None, None, 7, '1', -80.0521785, 40.338981, '91 Fort Couch  Road PA 15241')
+  第 6 行: (54797, 'McGinnis Sisters Market', '3825', 'Saw Mill Run Blvd', 'Pittsburgh', 'PA', 15227, 'Brentwood', 112, 'Chain Supermarket', 1, '1996-02-29', '1996-02-29', '2018-08-31', None, None, '9000', 7, '1', -79.9821495, 40.369671, '3825 Saw Mill Run Blvd PA 15227')
+  第 7 行: (55956, 'Udipi', '4141', 'Old Wm Penn Hwy', 'Monroeville', 'PA', 15146, 'Monroeville', 211, 'Restaurant without Liquor', 0, '1996-11-05', '1996-11-05', None, '32', None, None, 1, '1', -79.7903958898615, 40.443408423877, '4141 Old Wm Penn Hwy PA 15146')
+  第 8 行: (200008240001, "Monte Cello's", '2198', 'Babcock Boulevard', 'Pittsburgh', 'PA', 15237, 'Ross', 202, 'Chain Restaurant with Liquor', 0, '2000-08-22', '2000-08-22', None, '210', None, None, 1, '1', -79.993332, 40.511097, '2198 Babcock Boulevard PA 15237')
+  第 9 行: (200106220006, 'Chatham University / Anderson Dining Hall', '105', 'Woodland Road', 'Pittsburgh', 'PA', 15232, 'Pittsburgh-114', 405, 'University Food Service', 1, '2001-06-18', '2001-06-18', None, '326', None, '6116', 1, '1', -79.923825, 40.447494, '105 Woodland Road PA 15232')
+  第 10 行: (200208280007, 'A S Wee Care III', '2809', 'Brighton Rd', 'Pittsburgh', 'PA', 15212, 'Pittsburgh-127', 403, 'Child Food Service', 1, '2002-08-22', '2002-08-22', None, None, None, '165', 1, '1', -80.0261235, 40.471056, '2809 Brighton Rd PA 15212')
+  第 11 行: (200312080002, 'Hong Kong Taste', '366', 'Butler Street', 'Pittsburgh', 'PA', 15223, 'Etna', 211, 'Restaurant without Liquor', 0, '2003-12-04', '2003-12-04', None, '6', None, None, 1, '1', -79.9438095, 40.49676, '366 Butler Street PA 15223')
+  第 12 行: (200402120004, 'Vocelli Pizza #1', '1687', 'Washington Road', 'Pittsburgh', 'PA', 15228, 'Mt Lebanon', 212, 'Chain Restaurant without Liquor', 1, '2004-02-09', '2004-02-09', None, '0', None, None, 1, '1', -80.050329, 40.351878, '1687 Washington Road PA 15228')
+  第 13 行: (200803070012, 'Chick-Fil-A #01477', '480', 'Waterfront  Drive', 'Homestead', 'PA', 15120, 'Homestead', 212, 'Chain Restaurant without Liquor', 1, '2008-03-01', '2008-03-01', None, '138', None, None, 1, '1', -79.907886, 40.412691, '480 Waterfront  Drive PA 15120')
+  第 14 行: (200909140008, "Max N Odi's", '500', 'Monongahela Ave', 'Glassport', 'PA', 15045, 'Glassport', 201, 'Restaurant with Liquor', 1, '2009-09-11', '2009-09-11', None, '72', None, None, 1, '1', -79.8927435, 40.327533, '500 Monongahela Ave PA 15045')
+  第 15 行: (201002120003, "Portofino's  Pizza", '231', 'Main Street', 'Carnegie', 'PA', 15106, 'Carnegie', 212, 'Chain Restaurant without Liquor', 1, '2010-02-04', '2010-02-04', '2019-06-03', '30', None, None, 7, '1', -80.084862, 40.408848, '231 Main Street PA 15106')
+  第 16 行: (201109150002, 'S & D Cafe', '1425', 'Forbes Avenue', 'Pittsburgh', 'PA', 15219, 'Pittsburgh-101', 211, 'Restaurant without Liquor', 1, '2011-09-12', '2011-09-12', '2016-10-19', '0', None, None, 7, '1', -79.9853715, 40.437927, '1425 Forbes Avenue PA 15219')
+  第 17 行: (201301150004, 'Fortune Star', '4100', 'Wm Penn Highway', 'Monroeville', 'PA', 15146, 'Monroeville', 211, 'Restaurant without Liquor', 1, '2013-01-04', '2013-01-04', None, '240', None, None, 1, '1', -79.7652261037833, 40.4374877013123, '4100 Wm Penn Highway PA 15146')
+  第 18 行: (201406040008, 'Disilvas Pizzeria', '3600', 'Brownsville Road', 'Pittsburgh', 'PA', 15227, 'Brentwood', 211, 'Restaurant without Liquor', 0, '2014-05-30', '2014-05-30', '2017-01-13', '30', None, None, 7, '1', -79.975728, 40.374027, '3600 Brownsville Road PA 15227')
+  第 19 行: (201412150001, 'Staghorn Home & Garden Cafe', '517', 'Greenfield Avenue', 'Pittsburgh', 'PA', 15217, 'Pittsburgh-115', 211, 'Restaurant without Liquor', 1, '2014-12-15', '2014-12-15', '2021-01-11', '30', None, None, 7, '1', -79.941861, 40.425831, '517 Greenfield Avenue PA 15217')
+  第 20 行: (201507270008, 'Aldi #93', '7221', 'McKnight Road', 'Pittsburgh', 'PA', 15237, 'Ross', 116, 'Chain Packaged Food Only', 1, '2015-07-29', '2015-07-29', None, None, None, '19672', 1, '1', -80.0128215, 40.537008, '7221 McKnight Road PA 15237')
+  第 21 行: (201607080007, 'St John Vianney Manor Kitchen', '2600', 'Morange  Road', 'Pittsburgh', 'PA', 15205, 'Pittsburgh-128', 401, 'Adult Food Service', 1, '2016-06-22', '2016-06-22', None, None, None, '790', 1, '1', -80.0694225, 40.422456, '2600 Morange  Road PA 15205')
+  第 22 行: (201610140008, "Big Shot Bob's House Of Wings", '2102-A', 'Broadway  Avenue', 'Pittsburgh', 'PA', 15216, 'Pittsburgh-119', 212, 'Chain Restaurant without Liquor', 1, '2016-09-29', '2016-09-29', '2022-01-21', '0', None, None, 7, '1', -80.0301105, 40.405374, '2102-A Broadway  Avenue PA 15216')
+  第 23 行: (201703060010, 'La Gourmandine', '5011', '2nd  Avenue', 'Pittsburgh', 'PA', 15207, 'Pittsburgh-115', 118, 'Chain Bakery', 1, '2017-02-28', '2017-02-28', None, None, None, '5000', 1, '1', -79.9433685, 40.408164, '5011 2nd  Avenue PA 15207')
+  第 24 行: (201706160001, 'Yuzu Kitchen', '409', 'Wood Street', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-101', 201, 'Restaurant with Liquor', 0, '2017-06-15', '2017-06-15', None, '90', None, None, 1, '1', -80.001306, 40.439709, '409 Wood Street PA 15222')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Food-Facility-Restaurant-Inspections
+--------------------------------------------------------------------------------
+表头（列名）: ['encounter', 'id', 'placard_desc', 'inspect_dt', 'start_time', 'end_time', 'ispt_purpose', 'abrv', 'purpose', 'reispt_cd', 'reispt_dt']
+表内容:
+  第 1 行: (201405070026, 200909140008, 'Inspected & Permitted', '2014-05-07', '10:15:00', '13:00:00', 1, 'Ini', 'Initial', 1, '2014-05-14')
+  第 2 行: (201407100021, 200312080002, 'Inspected & Permitted', '2014-07-10', '11:15:00', '13:15:00', 1, 'Ini', 'Initial', 1, '2014-07-17')
+  第 3 行: (201412080043, 200402120004, 'Inspected & Permitted', '2014-12-08', '15:30:00', '16:00:00', 1, 'Ini', 'Initial', 2, None)
+  第 4 行: (201508130031, 7051, 'Ordered To Close', '2015-08-13', '15:00:00', '16:30:00', 2, 'Reispt', 'Reinspection', 3, None)
+  第 5 行: (201601060022, 54797, 'Inspected & Permitted', '2016-01-06', '10:15:00', '00:10:00', 1, 'Ini', 'Initial', 1, '2016-01-13')
+  第 6 行: (201601280041, 201412150001, 'Inspected & Permitted', '2016-01-28', '12:45:00', '15:00:00', 1, 'Ini', 'Initial', 0, None)
+  第 7 行: (201602040029, 45266, 'Inspected & Permitted', '2016-02-04', '11:00:00', '13:45:00', 1, 'Ini', 'Initial', 2, None)
+  第 8 行: (201605030031, 201109150002, 'Inspected & Permitted', '2016-05-03', '13:35:00', '14:25:00', 1, 'Ini', 'Initial', 3, None)
+  第 9 行: (201607200031, 201406040008, 'Inspected & Permitted', '2016-07-20', '13:00:00', '14:25:00', 1, 'Ini', 'Initial', 1, '2016-07-29')
+  第 10 行: (201609270064, 200008240001, 'Inspected & Permitted', '2016-09-27', '15:35:00', '16:30:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 11 行: (201610120005, 200208280007, 'Inspected & Permitted', '2016-10-12', '10:20:00', '11:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 12 行: (201610140035, 201002120003, 'Inspected & Permitted', '2016-10-14', '14:30:00', '16:05:00', 1, 'Ini', 'Initial', 2, None)
+  第 13 行: (201611010024, 201610140008, 'Inspected & Permitted', '2016-11-01', '13:20:00', '14:25:00', 1, 'Ini', 'Initial', 2, None)
+  第 14 行: (201704240025, 201703060010, 'Inspected & Permitted', '2017-04-24', '12:15:00', '13:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 15 行: (201705310006, 200803070012, 'Inspected & Permitted', '2017-05-31', '10:45:00', '12:15:00', 1, 'Ini', 'Initial', 2, None)
+  第 16 行: (201707030021, 201507270008, 'Inspected & Permitted', '2017-07-03', '13:20:00', '14:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 17 行: (201707310066, 55956, 'Inspected & Permitted', '2017-07-31', '13:30:00', '16:00:00', 52, 'Ini, Comp', 'Initial, Complaint', 1, '2017-08-14')
+  第 18 行: (201903260031, 201301150004, 'Inspected & Permitted', '2019-03-26', '13:45:00', '16:00:00', 52, 'Ini, Comp', 'Initial, Complaint', 1, '2019-04-09')
+  第 19 行: (201905090043, 33460, 'Inspected & Permitted', '2019-05-09', '14:55:00', '15:40:00', 1, 'Ini', 'Initial', 2, None)
+  第 20 行: (201906140039, 201706160001, 'Inspected & Permitted', '2019-06-14', '13:15:00', '15:15:00', 1, 'Ini', 'Initial', 1, '2019-06-26')
+  第 21 行: (202012150097, 4116, 'Inspected & Permitted', '2020-12-15', '10:15:00', '12:30:00', 59, 'Covid-19, Ini', 'COVID-19, Initial Inspection', 2, None)
+  第 22 行: (202208050029, 200106220006, 'Inspected & Permitted', '2022-08-05', '14:40:00', '16:45:00', 32, 'Remod', 'Remodel', 2, None)
+  第 23 行: (202303010009, 201607080007, 'Inspected & Permitted', '2023-03-01', '10:50:00', '11:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 24 行: (202406050001, 37868, 'Inspected & Permitted', '2024-06-05', '08:30:00', '09:10:00', 2, 'Reispt', 'Reinspection', 2, None)
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Food-Facility-Restaurant-Inspection-Violations
+--------------------------------------------------------------------------------
+表头（列名）: ['violation_id', 'encounter', 'id', 'description_new', 'rating', 'low', 'medium', 'high']
+表内容:
+  第 1 行: (147908296, 201407100021, 200312080002, 'Cross-Contamination Prevention', 'V', 'F', 'F', 'T')
+  第 2 行: (147908509, 201405070026, 200909140008, 'Probe-Type Thermometers', 'V', 'F', 'F', 'F')
+  第 3 行: (147926249, 201412080043, 200402120004, 'Waste Water Disposal', 'V', 'T', 'F', 'F')
+  第 4 行: (147950829, 201508130031, 7051, 'Cross-Contamination Prevention', 'V', 'F', 'T', 'F')
+  第 5 行: (147962288, 201601060022, 54797, 'Floors', 'V', 'T', None, None)
+  第 6 行: (147977119, 201601280041, 201412150001, 'Administrative', 'V', None, None, None)
+  第 7 行: (147982855, 201602040029, 45266, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 8 行: (147989470, 201605030031, 201109150002, 'Demonstration of Knowledge', 'V', 'F', 'T', 'F')
+  第 9 行: (148002836, 201607200031, 201406040008, 'Plumbing', 'V', 'T', 'F', 'F')
+  第 10 行: (148007005, 201611010024, 201610140008, 'Toxic Items', 'V', 'T', 'F', 'F')
+  第 11 行: (148009168, 201610120005, 200208280007, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 12 行: (148010432, 201609270064, 200008240001, 'Toxic Items', 'V', 'F', 'T', 'F')
+  第 13 行: (148013519, 201610140035, 201002120003, 'Cooling Food', 'V', 'T', 'F', 'F')
+  第 14 行: (148033022, 201704240025, 201703060010, 'Date Marking of Food', 'V', 'T', 'F', 'F')
+  第 15 行: (148053440, 201707310066, 55956, 'Garbage and Refuse', 'V', 'T', None, None)
+  第 16 行: (148053849, 201707030021, 201507270008, 'Cross-Contamination Prevention', 'V', 'T', 'F', 'F')
+  第 17 行: (148063075, 201705310006, 200803070012, 'Handwashing Facilities', 'V', 'F', 'T', 'F')
+  第 18 行: (148087394, 201903260031, 201301150004, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 19 行: (148127411, 201905090043, 33460, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 20 行: (148129950, 202012150097, 4116, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 21 行: (148138430, 201906140039, 201706160001, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 22 行: (148201999, 202303010009, 201607080007, 'Walls and ceilings', 'V', 'T', None, None)
+  第 23 行: (148205848, 202406050001, 37868, 'Floors', 'V', 'T', None, None)
+  第 24 行: (148213340, 202208050029, 200106220006, 'Walls and ceilings', 'V', 'T', None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/food_facility_inspections/3.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Geocoded-Food-Facilities
+--------------------------------------------------------------------------------
+表头（列名）: ['id', 'facility_name', 'num', 'street', 'city', 'state', 'zip', 'municipal', 'category_cd', 'description', 'p_code', 'fdo', 'bus_st_date', 'bus_cl_date', 'seat_count', 'noroom', 'sq_feet', 'status', 'placard_st', 'x', 'y', 'address']
+表内容:
+  第 1 行: (3295, 'Guardian Angels Parish - Most Blessed Sacrament / St. Joseph High School', '800', 'Montana Avenue', 'Natrona Heights', 'PA', 15065, 'Harrison', 651, 'School Full Service Kitchen', 9, '1957-01-01', '1957-01-01', None, None, None, '1000', 1, '1', -79.7271255, 40.6206, '800 Montana Avenue PA 15065')
+  第 2 行: (39321, 'Kentucky Fried Chicken #51', '5130', 'Clairton Blvd', 'Pittsburgh', 'PA', 15236, 'Baldwin Boro', 212, 'Chain Restaurant without Liquor', 1, '1985-04-25', '1985-04-25', None, '41', None, None, 1, '1', -79.973289, 40.345218, '5130 Clairton Blvd PA 15236')
+  第 3 行: (40773, 'Pitcairn Hose Co #1', '100', 'S Center Ave', 'Pitcairn', 'PA', 15140, 'Pitcairn', 211, 'Restaurant without Liquor', 1, '1986-04-30', '1986-04-30', None, '30', None, None, 1, '1', -79.777638, 40.400847, '100 S Center Ave PA 15140')
+  第 4 行: (41531, "Massart's Restaurant", '310', '6th Avenue', 'Tarentum', 'PA', 15084, 'Tarentum', 211, 'Restaurant without Liquor', 0, '1986-09-27', '1986-09-27', None, '72', None, None, 1, '1', -79.7624415, 40.59855, '310 6th Avenue PA 15084')
+  第 5 行: (47115, "Carbonara's Ristorante", '250', 'Mt Lebanon  Boulevard', 'Pittsburgh', 'PA', 15234, 'Castle Shannon', 201, 'Restaurant with Liquor', 0, '1991-06-25', '1991-06-25', None, '92', None, None, 1, '1', -80.0369685, 40.36797, '250 Mt Lebanon  Boulevard PA 15234')
+  第 6 行: (52845, 'Sunoco #8154', '5204', 'Interboro Avenue', 'Pittsburgh', 'PA', 15207, 'Pittsburgh-131', 114, 'Chain Retail/Convenience Store', 1, '1994-10-25', '1994-10-25', None, None, None, '2500', 1, '1', -79.913214, 40.370274, '5204 Interboro Avenue PA 15207')
+  第 7 行: (56045, 'Fuel & Fuddle', '212-214', 'Oakland  Avenue', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 201, 'Restaurant with Liquor', 1, '1996-11-29', '1996-11-29', '2023-05-26', '75', None, None, 7, '1', -79.9566975, 40.441194, '212-214 Oakland  Avenue PA 15213')
+  第 8 行: (56660, 'Moonlite Cafe', '530', 'Brookline Boulevard', 'Pittsburgh', 'PA', 15226, 'Pittsburgh-119', 201, 'Restaurant with Liquor', 1, '1997-07-28', '1997-07-28', None, '75', None, None, 1, '1', -80.022816, 40.395537, '530 Brookline Boulevard PA 15226')
+  第 9 行: (199901140003, 'Western Psychiatric Institute & Clinic', '3811', "O'Hara  Street", 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 411, 'Hospital/Other Institution', 1, '1999-01-06', '1999-01-06', None, None, None, '1500', 1, '1', -79.959897, 40.443714, "3811 O'Hara  Street PA 15213")
+  第 10 行: (199910120004, 'Kentucky Fried Chicken #65', '804', 'West View Park Drive', 'Pittsburgh', 'PA', 15229, 'West View', 212, 'Chain Restaurant without Liquor', 1, '1999-10-07', '1999-10-07', None, '40', None, None, 1, '1', -80.0326935, 40.51746, '804 West View Park Drive PA 15229')
+  第 11 行: (200703210003, "McFadden's Pittsburgh", '211', 'North Shore  Drive', 'Pittsburgh', 'PA', 15212, 'Pittsburgh-122', 201, 'Restaurant with Liquor', 0, '2007-03-20', '2007-03-20', '2021-03-20', '146', None, None, 7, '1', -80.0075565, 40.44636, '211 North Shore  Drive PA 15212')
+  第 12 行: (201005120001, 'Patron Mexican Grill', '245', 'Mall Boulevard', 'Monroeville', 'PA', 15146, 'Monroeville', 202, 'Chain Restaurant with Liquor', 0, '2010-05-11', '2010-05-11', None, '154', None, None, 1, '1', -79.7874255, 40.434777, '245 Mall Boulevard PA 15146')
+  第 13 行: (201208290007, 'The Bagel Factory', '420', 'Craig Street', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 212, 'Chain Restaurant without Liquor', 0, '2012-08-23', '2012-08-23', '2019-07-14', '63', None, None, 7, '1', -79.953408, 40.454676, '420 Craig Street PA 15213')
+  第 14 行: (201302080009, "Redbeard's On Sixth", '144', '6th Street', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-102', 202, 'Chain Restaurant with Liquor', 1, '2013-02-01', '2013-02-01', None, '112', None, None, 1, '1', -80.0025435, 40.442868, '144 6th Street PA 15222')
+  第 15 行: (201406120015, 'Pink Box Bakery Cafe', '2104', 'Murray Avenue', 'Pittsburgh', 'PA', 15217, 'Pittsburgh-114', 117, 'Bakery', 1, '2014-06-09', '2014-06-09', '2017-05-26', None, None, '950', 7, '1', -79.9232085, 40.433436, '2104 Murray Avenue PA 15217')
+  第 16 行: (201409100001, 'Bea Taco Town #1', '633', 'Smithfield Street', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-102', 212, 'Chain Restaurant without Liquor', 1, '2014-09-05', '2014-09-05', '2021-06-28', '48', None, None, 7, '1', -79.9973325, 40.442391, '633 Smithfield Street PA 15222')
+  第 17 行: (201508200001, "Bak'n Carnegie", '335', 'Main Street', 'Carnegie', 'PA', 15106, 'Carnegie', 202, 'Chain Restaurant with Liquor', 0, '2015-08-14', '2015-08-14', '2021-12-29', '24', None, None, 7, '1', -80.08362, 40.409748, '335 Main Street PA 15106')
+  第 18 行: (201511040005, 'EZ Energy #303/7Eleven #36183H', '209', 'Ohio River  Boulevard', 'Sewickley', 'PA', 15143, 'Edgeworth', 114, 'Chain Retail/Convenience Store', 1, '2015-10-26', '2015-10-26', None, None, None, '2000', 1, '1', -80.194473, 40.545288, '209 Ohio River  Boulevard PA 15143')
+  第 19 行: (201602090007, 'Riverview United Presbyterian Church', '3505', 'Perrysville Avenue', 'Pittsburgh', 'PA', 15214, 'Pittsburgh-126', 407, 'Religious Institution Kitchen', 1, '2016-02-09', '2016-02-09', '2017-10-18', None, None, '500', 7, '1', -80.014374, 40.484124, '3505 Perrysville Avenue PA 15214')
+  第 20 行: (201608100002, 'Asian Fusion Bowl', '2767', 'Carson Street', 'Pittsburgh', 'PA', 15203, 'Pittsburgh-116', 211, 'Restaurant without Liquor', 0, '2016-08-10', '2016-08-10', '2017-12-13', '0', None, None, 7, '1', -79.965864, 40.426533, '2767 Carson Street PA 15203')
+  第 21 行: (201608190006, 'Panera Bread #4003019', '210', 'Bridge Street', 'Homestead', 'PA', 15120, 'West Homestead', 212, 'Chain Restaurant without Liquor', 1, '2016-07-24', '2016-07-24', None, '99', None, None, 1, '1', -79.9165665, 40.407156, '210 Bridge Street PA 15120')
+  第 22 行: (201806280002, "Froggy's Bar", '4602', 'Liberty Avenue', 'Pittsburgh', 'PA', 15224, 'Pittsburgh-108', 201, 'Restaurant with Liquor', 1, '2018-06-25', '2018-06-25', None, '4', None, None, 1, '1', -79.9508565, 40.462326, '4602 Liberty Avenue PA 15224')
+  第 23 行: (202005040002, 'Kung Fu Tea', '2107', 'Murray Avenue', 'Pittsburgh', 'PA', 15217, 'Pittsburgh-114', 211, 'Restaurant without Liquor', 1, '2020-05-27', '2020-05-27', None, '26', None, None, 1, '1', -79.923011926, 40.4361779610001, '2107 Murray Avenue PA 15217')
+  第 24 行: (202012290001, 'Braddock Hills Mini Mart', '1050', 'Brinton Road', 'Pittsburgh', 'PA', 15221, 'Braddock Hills', 113, 'Retail/Convenience Store', 1, '2020-12-29', '2020-12-29', None, None, None, '2400', 1, '1', -79.8747615, 40.429053, '1050 Brinton Road PA 15221')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Food-Facility-Restaurant-Inspections
+--------------------------------------------------------------------------------
+表头（列名）: ['encounter', 'id', 'placard_desc', 'inspect_dt', 'start_time', 'end_time', 'ispt_purpose', 'abrv', 'purpose', 'reispt_cd', 'reispt_dt']
+表内容:
+  第 1 行: (201407160052, 201406120015, 'Inspected & Permitted', '2014-07-16', '15:00:00', '16:30:00', 1, 'Ini', 'Initial', 1, '2014-07-28')
+  第 2 行: (201410210017, 52845, 'Inspected & Permitted', '2014-10-21', '12:50:00', '14:15:00', 1, 'Ini', 'Initial', 1, '2014-10-27')
+  第 3 行: (201507090050, 47115, 'Inspected & Permitted', '2015-07-09', '13:55:00', '16:25:00', 1, 'Ini', 'Initial', 1, '2015-07-14')
+  第 4 行: (201608240018, 201602090007, 'Inspected & Permitted', '2016-08-24', '12:40:00', '13:05:00', 1, 'Ini', 'Initial', 2, None)
+  第 5 行: (201609130059, 201608100002, 'Inspected & Permitted', '2016-09-13', '13:40:00', '15:20:00', 1, 'Ini', 'Initial', 1, '2016-09-27')
+  第 6 行: (201609160040, 201508200001, 'Inspected & Permitted', '2016-09-16', '14:30:00', '15:20:00', 1, 'Ini', 'Initial', 2, None)
+  第 7 行: (201610110053, 199901140003, 'Inspected & Permitted', '2016-10-11', '11:50:00', '12:45:00', 2, 'Reispt', 'Reinspection', 3, None)
+  第 8 行: (201701310035, 201302080009, 'Inspected & Permitted', '2017-01-31', '12:40:00', '14:45:00', 1, 'Ini', 'Initial', 2, None)
+  第 9 行: (201710160038, 56045, 'Inspected & Permitted', '2017-10-16', '11:10:00', '12:05:00', 53, 'Admin,Reispt', 'Administrative Action, Reinspection', 2, None)
+  第 10 行: (201802060039, 56660, 'Inspected & Permitted', '2018-02-06', '13:30:00', '14:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 11 行: (201807090011, 201806280002, 'Inspected & Permitted', '2018-06-25', '10:30:00', '23:30:00', 9, 'Ini,Srv Req', 'Initial, Service Request', 2, None)
+  第 12 行: (201809200075, 201208290007, 'Inspected & Permitted', '2018-09-20', '14:40:00', '16:00:00', 2, 'Reispt', 'Reinspection', 1, '2018-09-24')
+  第 13 行: (201810240028, 201511040005, 'Inspected & Permitted', '2018-10-24', '13:40:00', '14:55:00', 1, 'Ini', 'Initial', 1, '2018-10-31')
+  第 14 行: (201901090015, 201005120001, 'Inspected & Permitted', '2019-01-09', '11:00:00', '13:30:00', 52, 'Ini, Comp', 'Initial, Complaint', 1, '2019-01-23')
+  第 15 行: (201905080017, 3295, 'Inspected & Permitted', '2019-05-08', '12:05:00', '12:15:00', 1, 'Ini', 'Initial', 2, None)
+  第 16 行: (201906030023, 201409100001, 'Inspected & Permitted', '2019-06-01', '10:30:00', '10:55:00', 7, 'Srv Req', 'Service Request', 0, None)
+  第 17 行: (201906120038, 199910120004, 'Inspected & Permitted', '2019-06-12', '15:20:00', '16:15:00', 52, 'Ini, Comp', 'Initial, Complaint', 2, None)
+  第 18 行: (201908190061, 39321, 'Inspected & Permitted', '2019-08-19', '15:05:00', '15:50:00', 1, 'Ini', 'Initial', 2, None)
+  第 19 行: (202001140038, 200703210003, 'Inspected & Permitted', '2020-01-14', '01:55:00', '15:00:00', 1, 'Ini', 'Initial', 2, None)
+  第 20 行: (202107220045, 202005040002, 'Inspected & Permitted', '2021-07-22', '14:50:00', '16:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 21 行: (202205020033, 201608190006, 'Inspected & Permitted', '2022-05-02', '14:00:00', '15:15:00', 52, 'Ini, Comp', 'Initial, Complaint', 2, None)
+  第 22 行: (202303240010, 40773, 'Inspected & Permitted', '2023-03-24', '15:30:00', '16:00:00', 65, 'Fish Fry Inspection', 'Fish Fry Inspection', 2, None)
+  第 23 行: (202311140002, 202012290001, 'Inspected & Permitted', '2023-11-14', '08:30:00', '09:30:00', 1, 'Ini', 'Initial', 1, '2023-11-21')
+  第 24 行: (202406040009, 41531, 'Inspected & Permitted', '2024-06-04', '10:45:00', '12:35:00', 1, 'Ini', 'Initial', 2, None)
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Food-Facility-Restaurant-Inspection-Violations
+--------------------------------------------------------------------------------
+表头（列名）: ['violation_id', 'encounter', 'id', 'description_new', 'rating', 'low', 'medium', 'high']
+表内容:
+  第 1 行: (147914848, 201407160052, 201406120015, 'Walls and ceilings', 'V', 'T', 'F', 'F')
+  第 2 行: (147921476, 201410210017, 52845, 'Toxic Items', 'V', 'F', 'T', 'F')
+  第 3 行: (147949475, 201507090050, 47115, 'Date Marking of Food', 'V', 'T', 'F', 'F')
+  第 4 行: (148002451, 201608240018, 201602090007, 'Facilities to Maintain Temperature', 'V', 'T', 'F', 'F')
+  第 5 行: (148009063, 201609130059, 201608100002, 'Cross-Contamination Prevention', 'V', 'F', 'F', 'T')
+  第 6 行: (148010600, 201610110053, 199901140003, 'Hot Holding Temperatures', 'V', 'F', 'F', 'T')
+  第 7 行: (148015753, 201609160040, 201508200001, 'Cooling Food', 'V', 'T', 'F', 'F')
+  第 8 行: (148026353, 201701310035, 201302080009, 'Food Source/Condition', 'V', 'F', 'T', 'T')
+  第 9 行: (148040693, 201710160038, 56045, 'Cold Holding Temperatures', 'V', 'F', 'F', 'T')
+  第 10 行: (148072689, 201802060039, 56660, 'Handwashing Facilities', 'V', 'T', 'T', 'F')
+  第 11 行: (148083888, 201905080017, 3295, 'Food Source/Condition', 'V', 'F', 'T', 'F')
+  第 12 行: (148087613, 202001140038, 200703210003, 'Lighting', 'V', 'T', None, None)
+  第 13 行: (148102828, 201807090011, 201806280002, 'Garbage and Refuse', 'V', 'T', None, None)
+  第 14 行: (148106035, 201809200075, 201208290007, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 15 行: (148115607, 201901090015, 201005120001, 'Hot Holding Temperatures', 'V', 'F', 'F', 'T')
+  第 16 行: (148129885, 201908190061, 39321, 'Handwashing Facilities', 'V', 'T', 'F', 'F')
+  第 17 行: (148163990, 201906120038, 199910120004, 'Ventilation', 'V', 'T', None, None)
+  第 18 行: (148173186, 201906030023, 201409100001, 'Cold Holding Temperatures', 'V', 'F', 'F', 'T')
+  第 19 行: (148183024, 202107220045, 202005040002, 'Facilities to Maintain Temperature', 'N', 'F', 'F', 'F')
+  第 20 行: (148188061, 201810240028, 201511040005, 'Facilities to Maintain Temperature', 'V', 'T', 'F', 'F')
+  第 21 行: (148217114, 202303240010, 40773, 'Ventilation', 'V', 'T', None, None)
+  第 22 行: (148244890, 202205020033, 201608190006, 'Toxic Items', 'V', 'F', 'T', 'F')
+  第 23 行: (148250811, 202311140002, 202012290001, 'Administrative', 'V', None, None, None)
+  第 24 行: (148261188, 202406040009, 41531, 'Floors', 'V', 'T', None, None)
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/food_facility_inspections/4.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Geocoded-Food-Facilities
+--------------------------------------------------------------------------------
+表头（列名）: ['id', 'facility_name', 'num', 'street', 'city', 'state', 'zip', 'municipal', 'category_cd', 'description', 'p_code', 'fdo', 'bus_st_date', 'bus_cl_date', 'seat_count', 'noroom', 'sq_feet', 'status', 'placard_st', 'x', 'y', 'address']
+表内容:
+  第 1 行: (3384, 'Myrtle Elementary School Cafeteria', '3724', 'Myrtle Avenue', 'Pittsburgh', 'PA', 15234, 'Castle Shannon', 651, 'School Full Service Kitchen', 9, '1984-06-17', '1984-06-17', None, None, None, '225', 1, '1', -80.024301, 40.367457, '3724 Myrtle Avenue PA 15234')
+  第 2 行: (7157, 'Edison Hotel', '135', '9th Street', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-102', 201, 'Restaurant with Liquor', 1, '1955-06-01', '1955-06-01', '2016-05-25', '20', None, None, 7, '1', -79.998345, 40.444191, '135 9th Street PA 15222')
+  第 3 行: (40513, 'Parkway West Culinary Tech', '7101', 'Steubenville Pike', 'Oakdale', 'PA', 15071, 'North Fayette', 651, 'School Full Service Kitchen', 9, '1986-01-02', '1986-01-02', None, None, None, '2650', 1, '1', -80.1775845, 40.442859, '7101 Steubenville Pike PA 15071')
+  第 4 行: (41959, 'GetGo Cafe + Market #3064', '4924', 'Baum Boulevard', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-108', 114, 'Chain Retail/Convenience Store', 1, '1987-02-13', '1987-02-13', None, '30', None, '5451', 1, '1', -79.9457985, 40.454577, '4924 Baum Boulevard PA 15213')
+  第 5 行: (52445, "Cal's Cantina", '617', 'Eden Park Blvd', 'Mc Keesport', 'PA', 15132, 'McKeesport', 201, 'Restaurant with Liquor', 1, '1994-08-16', '1994-08-16', None, '26', None, None, 1, '1', -79.8336135, 40.329783, '617 Eden Park Blvd PA 15132')
+  第 6 行: (200207190009, 'Rivertowne Inn', '500', 'Jones Street', 'Verona', 'PA', 15147, 'Verona', 202, 'Chain Restaurant with Liquor', 0, '2002-07-16', '2002-07-16', '2019-01-02', '64', None, None, 7, '1', -79.843797, 40.501998, '500 Jones Street PA 15147')
+  第 7 行: (200404260006, "Adrian's Pizza Express", '7824', 'Perry Highway', 'Pittsburgh', 'PA', 15237, 'Ross', 212, 'Chain Restaurant without Liquor', 1, '2004-04-22', '2004-04-22', None, '0', None, None, 1, '1', -80.0371935, 40.551399, '7824 Perry Highway PA 15237')
+  第 8 行: (200507140001, 'Lighthouse Pointe at Chapel Harbor', '500', 'Chapel Harbor Drive', 'Pittsburgh', 'PA', 15238, "O'Hara", 306, 'Traditional Boarding Home', 0, '2005-07-05', '2005-07-05', '2024-03-01', None, '132', None, 7, '1', -79.887375, 40.485708, '500 Chapel Harbor Drive PA 15238')
+  第 9 行: (200507150019, 'Villa Italian Kitchen', '449', 'Pittsburgh Mills Circle', 'Tarentum', 'PA', 15084, 'Frazer', 212, 'Chain Restaurant without Liquor', 1, '2005-07-01', '2005-07-01', '2020-08-19', '0', None, None, 7, '1', -79.797834216, 40.5729477880001, '449 Pittsburgh Mills Circle PA 15084')
+  第 10 行: (200510250001, 'Sushi & Rolls', '301', 'Grant Street', 'Pittsburgh', 'PA', 15219, 'Pittsburgh-101', 211, 'Restaurant without Liquor', 1, '2005-10-21', '2005-10-21', None, '20', None, None, 1, '1', -79.998606, 40.437999, '301 Grant Street PA 15219')
+  第 11 行: (200908100001, 'Mamma Lucia Pizza', '11978', 'Perry Highway', 'Wexford', 'PA', 15090, 'Pine', 201, 'Restaurant with Liquor', 1, '2009-07-30', '2009-07-30', None, '30', None, '2200', 1, '1', -80.0584875, 40.632696, '11978 Perry Highway PA 15090')
+  第 12 行: (201008100012, "Lenny's", '4118', 'Bakerstown-Culmerville Road', 'Gibsonia', 'PA', 15044, 'West Deer', 201, 'Restaurant with Liquor', 1, '2010-08-03', '2010-08-03', None, '20', None, None, 1, '1', -79.9165665, 40.651884, '4118 Bakerstown-Culmerville Road PA 15044')
+  第 13 行: (201106210003, 'Las Palmas #2', '326', 'Atwood Street', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 113, 'Retail/Convenience Store', 0, '2011-06-09', '2011-06-09', None, None, None, '2000', 1, '1', -79.9552395, 40.438962, '326 Atwood Street PA 15213')
+  第 14 行: (201107280001, 'Workday Cafe', '1', 'Penn Center West', 'Pittsburgh', 'PA', 15276, 'Robinson', 211, 'Restaurant without Liquor', 0, '2011-07-20', '2011-07-20', '2018-12-18', '44', None, None, 7, '1', -80.123895, 40.427721, '1 Penn Center West PA 15276')
+  第 15 行: (201211050007, 'Dunkin Donuts #350871', '2525', '5th Avenue', 'Mc Keesport', 'PA', 15132, 'McKeesport', 212, 'Chain Restaurant without Liquor', 1, '2012-10-29', '2012-10-29', None, '30', None, None, 1, '1', -79.8344325, 40.356171, '2525 5th Avenue PA 15132')
+  第 16 行: (201308050002, 'Tramps', '412', 'Greentree Road', 'Pittsburgh', 'PA', 15220, 'Pittsburgh-120', 201, 'Restaurant with Liquor', 1, '2013-07-29', '2013-07-29', None, '68', None, None, 1, '1', -80.034021, 40.435659, '412 Greentree Road PA 15220')
+  第 17 行: (201510290005, "The Crack'd Egg", '4131', 'Brownsville Road', 'Pittsburgh', 'PA', 15227, 'Brentwood', 211, 'Restaurant without Liquor', 0, '2015-10-05', '2015-10-05', None, '114', None, None, 1, '1', -79.981965, 40.365711, '4131 Brownsville Road PA 15227')
+  第 18 行: (201610240007, "McDonald's #2842", '4235', 'Walnut  Street', 'Mc Keesport', 'PA', 15132, 'Versailles', 212, 'Chain Restaurant without Liquor', 1, '2016-10-05', '2016-10-05', None, '82', None, None, 1, '1', -79.835733, 40.320954, '4235 Walnut  Street PA 15132')
+  第 19 行: (201810240004, 'Bella’s On Fort Couch', '91', 'Fort Couch  Road', 'Pittsburgh', 'PA', 15241, 'Bethel Park', 201, 'Restaurant with Liquor', 0, '2018-10-18', '2018-10-18', None, '155', None, None, 1, '1', -80.0521785, 40.338981, '91 Fort Couch  Road PA 15241')
+  第 20 行: (201907230006, 'American Natural #17', '4100', 'Grandview  Drive', 'Gibsonia', 'PA', 15044, 'Richland', 114, 'Chain Retail/Convenience Store', 1, '2019-07-22', '2019-07-22', '2024-01-05', None, None, '4690', 7, '1', -79.9378965, 40.64175, '4100 Grandview  Drive PA 15044')
+  第 21 行: (202101290004, 'Chick-Fil-A #04067', '1175', 'Freeport Road', 'Pittsburgh', 'PA', 15238, "O'Hara", 212, 'Chain Restaurant without Liquor', 0, '2021-01-29', '2021-01-29', None, '102', None, None, 1, '1', -79.879671, 40.488273, '1175 Freeport Road PA 15238')
+  第 22 行: (202109100001, "Loafer's Bread Co. Fox Chapel", '1153', 'Freeport Road', 'Pittsburgh', 'PA', 15238, "O'Hara", 212, 'Chain Restaurant without Liquor', 0, '2021-09-10', '2021-09-10', None, '0', None, None, 1, '1', -79.880562, 40.488399, '1153 Freeport Road PA 15238')
+  第 23 行: (202205120004, 'Chan An Restaurant', '37', 'Walsh Road', 'Pittsburgh', 'PA', 15205, 'Crafton', 212, 'Chain Restaurant without Liquor', 1, '2022-05-12', '2022-05-12', None, '18', None, None, 1, '1', -80.0709885, 40.44015, '37 Walsh Road PA 15205')
+  第 24 行: (202301250002, 'Nautical Bowls', '1597', 'Washington Pike', 'Bridgeville', 'PA', 15017, 'Collier', 212, 'Chain Restaurant without Liquor', 1, '2023-01-25', '2023-01-25', None, '16', None, '1332', 1, '1', -80.095545, 40.382451, '1597 Washington Pike PA 15017')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Food-Facility-Restaurant-Inspections
+--------------------------------------------------------------------------------
+表头（列名）: ['encounter', 'id', 'placard_desc', 'inspect_dt', 'start_time', 'end_time', 'ispt_purpose', 'abrv', 'purpose', 'reispt_cd', 'reispt_dt']
+表内容:
+  第 1 行: (201401140004, 200507150019, 'Inspected & Permitted', '2014-01-13', '13:00:00', '14:00:00', 2, 'Reispt', 'Reinspection', 1, '2014-01-20')
+  第 2 行: (201503260001, 201008100012, 'Inspected & Permitted', '2015-03-25', '11:45:00', '01:05:00', 1, 'Ini', 'Initial', 2, None)
+  第 3 行: (201504170046, 41959, 'Inspected & Permitted', '2015-04-17', '14:10:00', '15:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 4 行: (201505060029, 40513, 'Inspected & Permitted', '2015-05-06', '11:40:00', '14:25:00', 1, 'Ini', 'Initial', 1, '2015-05-19')
+  第 5 行: (201510080016, 200507140001, 'Inspected & Permitted', '2015-10-06', '13:40:00', '15:20:00', 1, 'Ini', 'Initial', 1, '2015-11-06')
+  第 6 行: (201511030050, 201510290005, 'Inspected & Permitted', '2015-11-03', '14:10:00', '15:15:00', 1, 'Ini', 'Initial', 1, '2015-11-10')
+  第 7 行: (201603110013, 3384, 'Inspected & Permitted', '2016-03-11', '11:00:00', '12:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 8 行: (201604120035, 52445, 'Inspected & Permitted', '2016-04-12', '13:55:00', '14:40:00', 1, 'Ini', 'Initial', 2, None)
+  第 9 行: (201605240058, 7157, 'Inspected & Permitted', '2016-05-24', '15:45:00', '16:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 10 行: (201608030037, 201106210003, 'Inspected & Permitted', '2016-08-03', '13:10:00', '15:00:00', 1, 'Ini', 'Initial', 1, '2016-08-09')
+  第 11 行: (201612050007, 200207190009, 'Inspected & Permitted', '2016-12-05', '10:00:00', '00:15:00', 1, 'Ini', 'Initial', 1, '2017-01-05')
+  第 12 行: (201805310011, 201107280001, 'Inspected & Permitted', '2018-05-31', '11:20:00', '12:30:00', 1, 'Ini', 'Initial', 1, '2018-06-14')
+  第 13 行: (201806130029, 201308050002, 'Inspected & Permitted', '2018-06-13', '14:20:00', '15:15:00', 1, 'Ini', 'Initial', 2, None)
+  第 14 行: (201908060001, 201907230006, 'Inspected & Permitted', '2019-07-10', '15:30:00', '16:30:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 15 行: (202001070013, 201211050007, 'Inspected & Permitted', '2020-01-07', '11:45:00', '00:35:00', 1, 'Ini', 'Initial', 2, None)
+  第 16 行: (202002190017, 201810240004, 'Inspected & Permitted', '2020-02-19', '11:00:00', '13:00:00', 1, 'Ini', 'Initial', 1, '2020-02-26')
+  第 17 行: (202003110037, 200908100001, 'Inspected & Permitted', '2020-03-11', '14:05:00', '15:05:00', 1, 'Ini', 'Initial', 2, None)
+  第 18 行: (202010200021, 200404260006, 'Inspected & Permitted', '2020-10-20', '13:05:00', '14:30:00', 1, 'Ini', 'Initial', 1, '2020-10-22')
+  第 19 行: (202101290069, 202101290004, 'Inspected & Permitted', '2021-01-29', '14:10:00', '15:45:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 20 行: (202108040030, 201610240007, 'Inspected & Permitted', '2021-08-04', '14:15:00', '14:55:00', 8, 'Comp', 'Complaint', 2, None)
+  第 21 行: (202201260003, 200510250001, 'Inspected & Permitted', '2022-01-26', '11:00:00', '23:50:00', 1, 'Ini', 'Initial', 2, None)
+  第 22 行: (202301250004, 202301250002, 'Inspected & Permitted', '2023-01-25', '10:25:00', '11:35:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 23 行: (202301300032, 202109100001, 'Inspected & Permitted', '2023-01-30', '14:55:00', '15:50:00', 1, 'Ini', 'Initial', 2, None)
+  第 24 行: (202304270025, 202205120004, 'Inspected & Permitted', '2023-04-27', '14:00:00', '15:20:00', 52, 'Ini, Comp', 'Initial, Complaint', 2, None)
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Food-Facility-Restaurant-Inspection-Violations
+--------------------------------------------------------------------------------
+表头（列名）: ['violation_id', 'encounter', 'id', 'description_new', 'rating', 'low', 'medium', 'high']
+表内容:
+  第 1 行: (147902468, 201401140004, 200507150019, 'Certified Food Protection Manager', 'V', 'F', 'F', 'F')
+  第 2 行: (147928954, 201505060029, 40513, 'Facilities to Maintain Temperature', 'V', 'F', 'F', 'F')
+  第 3 行: (147930964, 201504170046, 41959, 'Handwashing Facilities', 'V', 'T', 'F', 'F')
+  第 4 行: (147932311, 201503260001, 201008100012, 'Garbage and Refuse', 'V', 'T', None, None)
+  第 5 行: (147957937, 201510080016, 200507140001, 'Cleaning and Sanitization', 'V', 'F', 'T', 'F')
+  第 6 行: (147966497, 201511030050, 201510290005, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 7 行: (147976070, 201603110013, 3384, 'Walls and ceilings', 'V', 'T', None, None)
+  第 8 行: (147983786, 201605240058, 7157, 'Floors', 'V', 'T', None, None)
+  第 9 行: (147993194, 201604120035, 52445, 'Handwashing Facilities', 'V', 'T', 'F', 'F')
+  第 10 行: (148001790, 201608030037, 201106210003, 'Handwashing Facilities', 'V', 'T', 'F', 'F')
+  第 11 行: (148021088, 201612050007, 200207190009, 'Food Source/Condition', 'V', 'F', 'T', 'F')
+  第 12 行: (148083180, 201806130029, 201308050002, 'Facilities to Maintain Temperature', 'V', 'T', 'F', 'F')
+  第 13 行: (148096916, 201805310011, 201107280001, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 14 行: (148117227, 202001070013, 201211050007, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 15 行: (148126314, 202003110037, 200908100001, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 16 行: (148148224, 202101290069, 202101290004, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 17 行: (148160592, 202108040030, 201610240007, 'Pest Management', 'V', 'T', 'F', 'F')
+  第 18 行: (148175139, 202010200021, 200404260006, 'Certified Food Protection Manager', 'V', 'F', 'T', 'F')
+  第 19 行: (148175448, 201908060001, 201907230006, 'Facilities to Maintain Temperature', 'V', 'F', 'F', 'F')
+  第 20 行: (148184643, 202002190017, 201810240004, 'Handwashing Facilities', 'V', 'T', 'F', 'F')
+  第 21 行: (148191060, 202301300032, 202109100001, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 22 行: (148225591, 202201260003, 200510250001, 'Administrative', 'V', None, None, None)
+  第 23 行: (148252529, 202304270025, 202205120004, 'Cross-Contamination Prevention', 'V', 'F', 'T', 'F')
+  第 24 行: (148261933, 202301250004, 202301250002, 'Pest Management', 'V', 'F', 'F', 'F')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/food_facility_inspections/5.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Geocoded-Food-Facilities
+--------------------------------------------------------------------------------
+表头（列名）: ['id', 'facility_name', 'num', 'street', 'city', 'state', 'zip', 'municipal', 'category_cd', 'description', 'p_code', 'fdo', 'bus_st_date', 'bus_cl_date', 'seat_count', 'noroom', 'sq_feet', 'status', 'placard_st', 'x', 'y', 'address']
+表内容:
+  第 1 行: (3181, 'Sto-Rox Sr High School', '1105', 'Valley  Street', 'Mc Kees Rocks', 'PA', 15136, 'Stowe', 651, 'School Full Service Kitchen', 9, '1984-06-17', '1984-06-17', None, None, None, '4000', 1, '1', -80.074431, 40.470453, '1105 Valley  Street PA 15136')
+  第 2 行: (4026, 'The Western Pennsylvania Hospital Kitchen & Cafe', '4800', 'Friendship Avenue', 'Pittsburgh', 'PA', 15224, 'Pittsburgh-108', 411, 'Hospital/Other Institution', 0, '1984-06-17', '1984-06-17', None, '200', None, '3705', 1, '1', -79.9462575, 40.462128, '4800 Friendship Avenue PA 15224')
+  第 3 行: (31927, "Alexander's Italian Bistro", '5104', 'Liberty  Avenue', 'Pittsburgh', 'PA', 15224, 'Pittsburgh-108', 201, 'Restaurant with Liquor', 0, '1976-01-01', '1976-01-01', '2020-05-04', '70', None, None, 7, '1', -79.943679, 40.458447, '5104 Liberty  Avenue PA 15224')
+  第 4 行: (36516, 'The Rivers Club', '301', 'Grant Street', 'Pittsburgh', 'PA', 15219, 'Pittsburgh-101', 201, 'Restaurant with Liquor', 1, '1983-06-06', '1983-06-06', None, '188', None, None, 1, '1', -79.998606, 40.437999, '301 Grant Street PA 15219')
+  第 5 行: (39246, "Roland's Seafood Grill", '1904', 'Penn Avenue', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-102', 201, 'Restaurant with Liquor', 1, '1985-04-15', '1985-04-15', None, '200', None, None, 1, '1', -79.9843095, 40.450653, '1904 Penn Avenue PA 15222')
+  第 6 行: (39757, 'Manor Care Health Services Pittsburgh', '550', 'Negley  Avenue', 'Pittsburgh', 'PA', 15232, 'Pittsburgh-107', 308, 'Nursing Home', 0, '1985-07-22', '1985-07-22', '2022-08-24', None, '120', None, 7, '1', -79.933248, 40.455216, '550 Negley  Avenue PA 15232')
+  第 7 行: (44428, "Don's Pizzeria", '7936', 'Steubenville Pike', 'Oakdale', 'PA', 15071, 'North Fayette', 211, 'Restaurant without Liquor', 1, '1989-01-27', '1989-01-27', None, '0', None, None, 1, '1', -80.232597, 40.44114, '7936 Steubenville Pike PA 15071')
+  第 8 行: (46771, "Frisch's", '5301', 'Grove  Road', 'Pittsburgh', 'PA', 15236, 'Whitehall', 201, 'Restaurant with Liquor', 0, '1991-02-12', '1991-02-12', None, '92', None, None, 1, '1', -80.001792, 40.358232, '5301 Grove  Road PA 15236')
+  第 9 行: (200301140001, 'Subway Sandwiches & Salads #6338', '700', 'Forbes Ave', 'Pittsburgh', 'PA', 15219, 'Pittsburgh-101', 212, 'Chain Restaurant without Liquor', 1, '2003-01-10', '2003-01-10', None, '26', None, None, 1, '1', -79.9931025, 40.437441, '700 Forbes Ave PA 15219')
+  第 10 行: (200508230010, 'Orient Express', '4609', 'Forbes Ave', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 211, 'Restaurant without Liquor', 1, '2005-08-18', '2005-08-18', '2024-05-12', '68', None, None, 7, '1', -79.948197, 40.444632, '4609 Forbes Ave PA 15213')
+  第 11 行: (200512220003, 'The Pizza Stop', '1315', 'Mifflin Rd', 'Pittsburgh', 'PA', 15207, 'Pittsburgh-131', 211, 'Restaurant without Liquor', 1, '2005-12-09', '2005-12-09', None, '18', None, None, 1, '1', -79.9124535, 40.369716, '1315 Mifflin Rd PA 15207')
+  第 12 行: (200901220002, 'Puff Discount Tobacco', '3808', "O'Neil Blvd", 'Mc Keesport', 'PA', 15132, 'McKeesport', 115, 'Packaged Food Only', 2, '2009-01-20', '2009-01-20', None, None, None, '312', 1, '1', -79.8316785, 40.347162, "3808 O'Neil Blvd PA 15132")
+  第 13 行: (201202070001, "Jergel's Rhythm Grille", '103', 'Slade Lane', 'Warrendale', 'PA', 15086, 'Marshall', 201, 'Restaurant with Liquor', 1, '2012-02-06', '2012-02-06', None, '300', None, None, 1, '1', -80.082153, 40.65471, '103 Slade Lane PA 15086')
+  第 14 行: (201205150004, 'Tavern in the Wall', '211', 'Commercial  Avenue', 'Pittsburgh', 'PA', 15215, 'Aspinwall', 201, 'Restaurant with Liquor', 0, '2012-05-04', '2012-05-04', None, '50', None, None, 1, '1', -79.9046235, 40.490406, '211 Commercial  Avenue PA 15215')
+  第 15 行: (201401310007, 'TWELVE Whiskey BBQ', '1224', 'Carson Street', 'Pittsburgh', 'PA', 15203, 'Pittsburgh-117', 201, 'Restaurant with Liquor', 1, '2014-01-28', '2014-01-28', '2019-11-25', '44', None, None, 7, '1', -79.9854705, 40.428567, '1224 Carson Street PA 15203')
+  第 16 行: (201403050004, "Fellini's Pizzeria", '6028', 'Saltsburg Road', 'Verona', 'PA', 15147, 'Penn Hills', 212, 'Chain Restaurant without Liquor', 1, '2014-02-21', '2014-02-21', '2018-12-21', '0', None, None, 7, '1', -79.8202305, 40.48371, '6028 Saltsburg Road PA 15147')
+  第 17 行: (201411130004, "Mama Meatball's Pizzeria", '623', 'Brown Avenue', 'Turtle Creek', 'PA', 15145, 'Wilkins', 211, 'Restaurant without Liquor', 1, '2014-11-04', '2014-11-04', None, '0', None, None, 1, '1', -79.834752, 40.423968, '623 Brown Avenue PA 15145')
+  第 18 行: (201501210001, "Wendy's Old Fashioned Hamburgers #509", '3990', 'Wm Penn  Highway', 'Monroeville', 'PA', 15146, 'Monroeville', 212, 'Chain Restaurant without Liquor', 1, '2015-01-20', '2015-01-20', '2024-04-04', '74', None, None, 7, '1', -79.7718346165349, 40.4380946650444, '3990 Wm Penn  Highway PA 15146')
+  第 19 行: (201508270008, 'Sienna on the Square', '22', 'Graeme (aka Market Square) Street', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-101', 201, 'Restaurant with Liquor', 1, '2015-07-31', '2015-07-31', '2021-03-31', '48', None, None, 7, '1', -80.002809, 40.441221, '22 Graeme (aka Market Square) Street PA 15222')
+  第 20 行: (201707260003, 'Pizza Station', '501', 'Lincoln Avenue', 'Pittsburgh', 'PA', 15202, 'Bellevue', 211, 'Restaurant without Liquor', 1, '2017-07-20', '2017-07-20', '2020-08-21', '30', None, None, 7, '1', -80.0558595, 40.495482, '501 Lincoln Avenue PA 15202')
+  第 21 行: (202010060001, 'Bocadillos Bar', '2827', 'California Avenue', 'Pittsburgh', 'PA', 15212, 'Pittsburgh-127', 201, 'Restaurant with Liquor', 1, '2022-06-22', '2022-06-22', None, '15', None, None, 1, '1', -80.036037, 40.469517, '2827 California Avenue PA 15212')
+  第 22 行: (202201070004, 'McKeesport Fish & Chicken', '2314', 'Bailie  Avenue', 'Mc Keesport', 'PA', 15132, 'McKeesport', 211, 'Restaurant without Liquor', 0, '2022-01-07', '2022-01-07', None, '0', None, '500', 7, '1', -79.848738, 40.341105, '2314 Bailie  Avenue PA 15132')
+  第 23 行: (202301250002, 'Nautical Bowls', '1597', 'Washington Pike', 'Bridgeville', 'PA', 15017, 'Collier', 212, 'Chain Restaurant without Liquor', 1, '2023-01-25', '2023-01-25', None, '16', None, '1332', 1, '1', -80.095545, 40.382451, '1597 Washington Pike PA 15017')
+  第 24 行: (202403190001, 'Bunsen Bakers', '250', 'Pacific Avenue', 'Pittsburgh', 'PA', 15224, 'Pittsburgh-108', 102, 'Transient Retail Food Processor', 1, '2024-03-19', '2024-03-19', None, None, None, '1000', 1, '1', -79.940691, 40.462371, '250 Pacific Avenue PA 15224')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Food-Facility-Restaurant-Inspections
+--------------------------------------------------------------------------------
+表头（列名）: ['encounter', 'id', 'placard_desc', 'inspect_dt', 'start_time', 'end_time', 'ispt_purpose', 'abrv', 'purpose', 'reispt_cd', 'reispt_dt']
+表内容:
+  第 1 行: (201403190044, 201403050004, 'Inspected & Permitted', '2014-02-21', '13:55:00', '14:35:00', 4, 'New Fac', 'New Facility', 1, '2014-03-21')
+  第 2 行: (201505290025, 201205150004, 'Inspected & Permitted', '2015-05-29', '10:35:00', '12:05:00', 9, 'Ini,Srv Req', 'Initial, Service Request', 1, '2015-06-29')
+  第 3 行: (201509280046, 201411130004, 'Inspected & Permitted', '2015-09-28', '13:30:00', '15:15:00', 1, 'Ini', 'Initial', 2, None)
+  第 4 行: (201510010039, 200508230010, 'Inspected & Permitted', '2015-10-01', '13:20:00', '14:00:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 5 行: (201510050033, 39246, 'Inspected & Permitted', '2015-10-05', '11:15:00', '12:00:00', 2, 'Reispt', 'Reinspection', 1, '2015-10-13')
+  第 6 行: (201511190036, 39757, 'Inspected & Permitted', '2015-11-19', '15:00:00', '16:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 7 行: (201602170032, 3181, 'Inspected & Permitted', '2016-02-17', '11:00:00', '12:20:00', 1, 'Ini', 'Initial', 1, '2016-02-24')
+  第 8 行: (201603140067, 200901220002, 'Inspected & Permitted', '2016-03-14', '15:00:00', '15:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 9 行: (201608250015, 201401310007, 'Inspected & Permitted', '2016-08-25', '11:15:00', '12:35:00', 1, 'Ini', 'Initial', 2, None)
+  第 10 行: (201611160050, 46771, 'Inspected & Permitted', '2016-11-16', '13:40:00', '15:00:00', 53, 'Admin,Reispt', 'Administrative Action, Reinspection', 2, None)
+  第 11 行: (201701310032, 4026, 'Inspected & Permitted', '2017-01-31', '11:00:00', '15:00:00', 1, 'Ini', 'Initial', 1, '2017-02-02')
+  第 12 行: (201708040006, 200512220003, 'Inspected & Permitted', '2017-08-03', '15:00:00', '16:00:00', 1, 'Ini', 'Initial', 2, None)
+  第 13 行: (201901290040, 31927, 'Inspected & Permitted', '2019-01-29', '14:20:00', '15:15:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 14 行: (201902190009, 201508270008, 'Inspected & Permitted', '2019-02-19', '11:15:00', '12:20:00', 1, 'Ini', 'Initial', 2, None)
+  第 15 行: (201905230011, 201501210001, 'Inspected & Permitted', '2019-05-23', '13:30:00', '14:50:00', 52, 'Ini, Comp', 'Initial, Complaint', 2, None)
+  第 16 行: (201905300016, 36516, 'Inspected & Permitted', '2019-05-30', '11:25:00', '14:35:00', 1, 'Ini', 'Initial', 2, None)
+  第 17 行: (202001160017, 201707260003, 'Inspected & Permitted', '2020-01-16', '11:25:00', '12:50:00', 1, 'Ini', 'Initial', 2, None)
+  第 18 行: (202110050008, 200301140001, 'Inspected & Permitted', '2021-10-05', '11:00:00', '12:35:00', 1, 'Ini', 'Initial', 1, '2021-10-12')
+  第 19 行: (202201070023, 202201070004, 'Inspected & Permitted', '2022-01-07', '13:20:00', '16:00:00', 4, 'New Fac', 'New Facility', 3, '2022-01-17')
+  第 20 行: (202206220026, 202010060001, 'Inspected & Permitted', '2022-06-22', '17:50:00', '19:40:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 21 行: (202209220031, 201202070001, 'Inspected & Permitted', '2022-09-22', '17:15:00', '18:55:00', 52, 'Ini, Comp', 'Initial, Complaint', 1, '2022-10-06')
+  第 22 行: (202301250004, 202301250002, 'Inspected & Permitted', '2023-01-25', '10:25:00', '11:35:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 23 行: (202312130011, 44428, 'Inspected & Permitted', '2023-12-13', '13:05:00', '14:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 24 行: (202403190003, 202403190001, 'Inspected & Permitted', '2024-03-19', '23:10:00', '12:10:00', 4, 'New Fac', 'New Facility', 2, None)
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Food-Facility-Restaurant-Inspection-Violations
+--------------------------------------------------------------------------------
+表头（列名）: ['violation_id', 'encounter', 'id', 'description_new', 'rating', 'low', 'medium', 'high']
+表内容:
+  第 1 行: (147916769, 201403190044, 201403050004, 'Probe-Type Thermometers', 'V', 'F', 'F', 'F')
+  第 2 行: (147947803, 201505290025, 201205150004, 'Pest Management', 'V', 'T', 'F', 'F')
+  第 3 行: (147953794, 201509280046, 201411130004, 'Pest Management', 'V', 'T', 'F', 'F')
+  第 4 行: (147954571, 201510050033, 39246, 'Floors', 'V', 'T', None, None)
+  第 5 行: (147956380, 201510010039, 200508230010, 'Cooling Food', 'V', 'T', 'F', 'F')
+  第 6 行: (147964948, 201511190036, 39757, 'Walls and ceilings', 'V', 'T', None, None)
+  第 7 行: (147980044, 201602170032, 3181, 'Toilet Room', 'V', 'T', 'F', 'F')
+  第 8 行: (147981299, 201603140067, 200901220002, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 9 行: (147999805, 201608250015, 201401310007, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 10 行: (148015704, 201611160050, 46771, 'Certified Food Protection Manager', 'V', 'F', 'T', 'F')
+  第 11 行: (148022553, 201701310032, 4026, 'Toxic Items', 'V', 'T', 'T', 'F')
+  第 12 行: (148076432, 201708040006, 200512220003, 'Toxic Items', 'V', 'F', 'T', 'F')
+  第 13 行: (148103281, 201902190009, 201508270008, 'Cold Holding Temperatures', 'V', 'F', 'T', 'F')
+  第 14 行: (148118197, 201901290040, 31927, 'Pest Management', 'V', 'T', 'F', 'F')
+  第 15 行: (148137796, 201905300016, 36516, 'Handwashing Facilities', 'V', 'T', 'F', 'F')
+  第 16 行: (148155543, 201905230011, 201501210001, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 17 行: (148170183, 202001160017, 201707260003, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 18 行: (148209794, 202312130011, 44428, 'General Premises', 'V', 'T', None, None)
+  第 19 行: (148215164, 202110050008, 200301140001, 'Plumbing', 'V', 'F', 'T', 'F')
+  第 20 行: (148217691, 202201070023, 202201070004, 'Waste Water Disposal', 'V', 'F', 'T', 'F')
+  第 21 行: (148232644, 202209220031, 201202070001, 'Pest Management', 'V', 'T', 'F', 'F')
+  第 22 行: (148241605, 202403190003, 202403190001, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 23 行: (148244909, 202206220026, 202010060001, 'Date Marking of Food', 'V', 'T', 'F', 'F')
+  第 24 行: (148261933, 202301250004, 202301250002, 'Pest Management', 'V', 'F', 'F', 'F')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/food_facility_inspections/6.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Geocoded-Food-Facilities
+--------------------------------------------------------------------------------
+表头（列名）: ['id', 'facility_name', 'num', 'street', 'city', 'state', 'zip', 'municipal', 'category_cd', 'description', 'p_code', 'fdo', 'bus_st_date', 'bus_cl_date', 'seat_count', 'noroom', 'sq_feet', 'status', 'placard_st', 'x', 'y', 'address']
+表内容:
+  第 1 行: (873, 'Lincoln Bakery', '543-545', 'Lincoln  Avenue', 'Pittsburgh', 'PA', 15202, 'Bellevue', 117, 'Bakery', 0, '1991-06-18', '1991-06-18', '2023-10-23', None, None, '2445', 7, '1', -80.0571465, 40.496121, '543-545 Lincoln  Avenue PA 15202')
+  第 2 行: (11839, 'Dari-Villa Restaurant', '559', 'Lincoln  Avenue', 'Pittsburgh', 'PA', 15202, 'Bellevue', 211, 'Restaurant without Liquor', 1, '1984-06-17', '1984-06-17', None, '51', None, None, 1, '1', -80.0575605, 40.496427, '559 Lincoln  Avenue PA 15202')
+  第 3 行: (35536, 'Portofino Pizzaria', '28', 'W Steuben St', 'Pittsburgh', 'PA', 15205, 'Crafton', 212, 'Chain Restaurant without Liquor', 1, '1984-06-17', '1984-06-17', None, '18', None, None, 1, '1', -80.0682255, 40.438251, '28 W Steuben St PA 15205')
+  第 4 行: (44428, "Don's Pizzeria", '7936', 'Steubenville Pike', 'Oakdale', 'PA', 15071, 'North Fayette', 211, 'Restaurant without Liquor', 1, '1989-01-27', '1989-01-27', None, '0', None, None, 1, '1', -80.232597, 40.44114, '7936 Steubenville Pike PA 15071')
+  第 5 行: (47649, "Moio's Italian Pastry Shop", '4209', 'Wm Penn  Highway', 'Monroeville', 'PA', 15146, 'Monroeville', 117, 'Bakery', 1, '1991-09-27', '1991-09-27', None, None, None, '4600', 1, '1', -79.7615274233802, 40.4395661230826, '4209 Wm Penn  Highway PA 15146')
+  第 6 行: (200012200003, 'Howard Levin Clubhouse / Adult Food Service', '2621', 'Murray Ave', 'Pittsburgh', 'PA', 15217, 'Pittsburgh-114', 401, 'Adult Food Service', 1, '2000-12-15', '2000-12-15', '2019-02-06', None, None, '1000', 7, '1', -79.9236495, 40.429062, '2621 Murray Ave PA 15217')
+  第 7 行: (200405180001, 'Rose Tea Cafe', '5874', 'Forbes Avenue', 'Pittsburgh', 'PA', 15217, 'Pittsburgh-114', 212, 'Chain Restaurant without Liquor', 0, '2004-05-07', '2004-05-07', '2021-05-17', '50', None, None, 7, '1', -79.9200945, 40.437801, '5874    Forbes Avenue PA 15217')
+  第 8 行: (201003310001, 'Red Robin Gourmet Burgers #472', '1230', 'Settlers Ridge Center Drive', 'Pittsburgh', 'PA', 15205, 'Robinson', 202, 'Chain Restaurant with Liquor', 1, '2010-03-26', '2010-03-26', None, '255', None, None, 1, '1', -80.1481815, 40.439169, '1230 Settlers Ridge Center Drive PA 15205')
+  第 9 行: (201111100006, 'Days Inn Rooms', '6', 'Landings Drive', 'Pittsburgh', 'PA', 15238, 'Harmar', 303, 'Rooming House with Guest food Service', 1, '2011-10-27', '2011-10-27', None, None, '102', None, 1, '1', -79.8296175, 40.540158, '6 Landings Drive PA 15238')
+  第 10 行: (201210250003, 'Park Pizza & Cream', '7600', 'Forbes Avenue', 'Pittsburgh', 'PA', 15221, 'Pittsburgh-114', 211, 'Restaurant without Liquor', 0, '2012-10-22', '2012-10-22', None, '12', None, None, 1, '1', -79.8973965, 40.439574, '7600 Forbes Avenue PA 15221')
+  第 11 行: (201309190001, 'Pizza Palermo', '7343', 'Saltsburg Road', 'Pittsburgh', 'PA', 15235, 'Penn Hills', 212, 'Chain Restaurant without Liquor', 1, '2013-09-12', '2013-09-12', None, '12', None, None, 1, '1', -79.7859, 40.478139, '7343 Saltsburg Road PA 15235')
+  第 12 行: (201403210001, 'Mount Troy Inn', '2021', 'Mt Troy Road', 'Pittsburgh', 'PA', 15212, 'Reserve', 201, 'Restaurant with Liquor', 1, '2014-03-20', '2014-03-20', '2023-09-13', '38', None, None, 7, '1', -79.982415, 40.469796, '2021 Mt Troy Road PA 15212')
+  第 13 行: (201406040008, 'Disilvas Pizzeria', '3600', 'Brownsville Road', 'Pittsburgh', 'PA', 15227, 'Brentwood', 211, 'Restaurant without Liquor', 0, '2014-05-30', '2014-05-30', '2017-01-13', '30', None, None, 7, '1', -79.975728, 40.374027, '3600 Brownsville Road PA 15227')
+  第 14 行: (201503160008, 'Turkish Kebab House', '5819', 'Forbes Avenue', 'Pittsburgh', 'PA', 15217, 'Pittsburgh-114', 212, 'Chain Restaurant without Liquor', 0, '2015-03-13', '2015-03-13', None, '59', None, None, 1, '1', -79.9221915, 40.438233, '5819 Forbes Avenue PA 15217')
+  第 15 行: (201504020001, 'Vicino', '4616', 'Allegheny River Boulevard', 'Verona', 'PA', 15147, 'Penn Hills', 201, 'Restaurant with Liquor', 1, '2015-03-24', '2015-03-24', '2016-03-28', '83', None, None, 7, '1', -79.8450537749999, 40.4977788460001, '4616 Allegheny River Boulevard PA 15147')
+  第 16 行: (201506220001, 'China Wok Brentwood', '4060', 'Brownsville Road', 'Pittsburgh', 'PA', 15227, 'Brentwood', 212, 'Chain Restaurant without Liquor', 1, '2015-06-11', '2015-06-11', None, '2', None, None, 1, '1', -79.981533, 40.366503, '4060 Brownsville Road PA 15227')
+  第 17 行: (201510290016, 'Fire Side Public House', '6290', 'Broad  Street', 'Pittsburgh', 'PA', 15206, 'Pittsburgh-111', 201, 'Restaurant with Liquor', 0, '2015-10-29', '2015-10-29', None, '52', None, None, 1, '1', -79.9193835, 40.460427, '6290 Broad  Street PA 15206')
+  第 18 行: (201611150001, 'El Paisano', '1542', 'Beechview Avenue', 'Pittsburgh', 'PA', 15216, 'Pittsburgh-119', 211, 'Restaurant without Liquor', 0, '2016-11-08', '2016-11-08', '2024-08-01', '50', None, None, 7, '3', -80.0249985, 40.411089, '1542 Beechview Avenue PA 15216')
+  第 19 行: (201612210001, 'Alphabet City', '40', 'North  Avenue', 'Pittsburgh', 'PA', 15212, 'Pittsburgh-122', 201, 'Restaurant with Liquor', 1, '2016-12-16', '2016-12-16', '2018-02-27', '60', None, None, 7, '1', -80.007498, 40.455522, '40 North  Avenue PA 15212')
+  第 20 行: (201806220006, 'Cinnamon Glazed Nuts', '1000', 'Ross Park Mall Drive', 'Pittsburgh', 'PA', 15237, 'Ross', 211, 'Restaurant without Liquor', 1, '2018-06-06', '2018-06-06', None, '0', None, None, 1, '1', -80.00847, 40.542894, '1000 Ross Park Mall Drive PA 15237')
+  第 21 行: (201806270012, 'CMU / Cohon Center / Main & Catering Kitchen', '5032', 'Forbes Avenue', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-114', 405, 'University Food Service', 1, '2018-07-01', '2018-07-01', None, None, None, '7500', 1, '1', -79.941645, 40.443489, '5032 Forbes Avenue PA 15213')
+  第 22 行: (202103010002, 'Halal Gyro Guys Trailer (#75-137) MFF4', '2880', 'Banksville Road', 'Pittsburgh', 'PA', 15216, 'Pittsburgh-120', 123, 'Mobile - Tier II ( Prepared Foods)', 1, '2021-03-01', '2021-03-01', None, '0', None, '1', 1, '1', -80.0404425, 40.404114, '2880 Banksville Road PA 15216')
+  第 23 行: (202201210007, "Hoffstot's", '533', 'Allegheny  Avenue', 'Oakmont', 'PA', 15139, 'Oakmont', 201, 'Restaurant with Liquor', 1, '2022-01-21', '2022-01-21', None, '180', None, None, 1, '1', -79.84341, 40.518648, '533 Allegheny  Avenue PA 15139')
+  第 24 行: (202305180002, 'Poco Loco Taco @ Dormont Pool', '1801', 'Dormont Avenue', 'Pittsburgh', 'PA', 15216, 'Dormont', 211, 'Restaurant without Liquor', 1, '2023-05-22', '2023-05-22', '2024-04-30', '0', None, None, 7, '1', -80.045145, 40.397139, '1801 Dormont Avenue PA 15216')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Food-Facility-Restaurant-Inspections
+--------------------------------------------------------------------------------
+表头（列名）: ['encounter', 'id', 'placard_desc', 'inspect_dt', 'start_time', 'end_time', 'ispt_purpose', 'abrv', 'purpose', 'reispt_cd', 'reispt_dt']
+表内容:
+  第 1 行: (201406040045, 201403210001, 'Inspected & Permitted', '2014-06-02', '15:30:00', '17:30:00', 2, 'Reispt', 'Reinspection', 3, None)
+  第 2 行: (201407180045, 44428, 'Inspected & Permitted', '2014-07-18', '15:40:00', '16:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 3 行: (201502230033, 201003310001, 'Inspected & Permitted', '2015-02-23', '13:05:00', '14:05:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 4 行: (201504240106, 201504020001, 'Inspected & Permitted', '2015-04-24', '15:30:00', '17:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 5 行: (201509090011, 201506220001, 'Inspected & Permitted', '2015-09-08', '14:30:00', '15:45:00', 1, 'Ini', 'Initial', 1, '2015-09-15')
+  第 6 行: (201605190005, 11839, 'Inspected & Permitted', '2016-05-19', '11:10:00', '12:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 7 行: (201607200031, 201406040008, 'Inspected & Permitted', '2016-07-20', '13:00:00', '14:25:00', 1, 'Ini', 'Initial', 1, '2016-07-29')
+  第 8 行: (201701030017, 201612210001, 'Inspected & Permitted', '2016-12-16', '14:00:00', '16:30:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 9 行: (201705300036, 200012200003, 'Inspected & Permitted', '2017-05-30', '10:50:00', '12:55:00', 1, 'Ini', 'Initial', 2, None)
+  第 10 行: (201707240045, 35536, 'Inspected & Permitted', '2017-07-24', '13:55:00', '14:35:00', 2, 'Reispt', 'Reinspection', 1, '2017-07-28')
+  第 11 行: (201709050013, 201111100006, 'Inspected & Permitted', '2017-09-05', '11:15:00', '12:00:00', 1, 'Ini', 'Initial', 2, None)
+  第 12 行: (201809120001, 200405180001, 'Inspected & Permitted', '2018-09-11', '15:05:00', '16:00:00', 32, 'Remod', 'Remodel', 2, None)
+  第 13 行: (201810010058, 873, 'Inspected & Permitted', '2018-10-01', '15:50:00', '16:25:00', 1, 'Ini', 'Initial', 2, None)
+  第 14 行: (201908090012, 201806270012, 'Inspected & Permitted', '2019-08-09', '10:10:00', '11:15:00', 32, 'Remod', 'Remodel', 2, None)
+  第 15 行: (201909180010, 201611150001, 'Inspected & Permitted', '2019-09-18', '09:45:00', '11:45:00', 1, 'Ini', 'Initial', 2, None)
+  第 16 行: (202010290033, 201510290016, 'Inspected & Permitted', '2020-10-29', '13:50:00', '15:40:00', 1, 'Ini', 'Initial', 1, '2020-11-12')
+  第 17 行: (202103010007, 202103010002, 'Inspected & Permitted', '2021-03-01', '11:15:00', '12:00:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 18 行: (202202150010, 201309190001, 'Inspected & Permitted', '2022-02-14', '15:30:00', '16:15:00', 52, 'Ini, Comp', 'Initial, Complaint', 2, None)
+  第 19 行: (202305220007, 202305180002, 'Inspected & Permitted', '2023-05-22', '12:15:00', '13:10:00', 4, 'New Fac', 'New Facility', 1, '2023-06-22')
+  第 20 行: (202308040012, 201210250003, 'Inspected & Permitted', '2023-08-04', '13:05:00', '15:00:00', 1, 'Ini', 'Initial', 1, None)
+  第 21 行: (202311070011, 201503160008, 'Ordered To Close', '2023-11-07', '10:30:00', '15:30:00', 52, 'Ini, Comp', 'Initial, Complaint', 3, None)
+  第 22 行: (202312040012, 47649, 'Inspected & Permitted', '2023-12-04', '12:30:00', '14:00:00', 52, 'Ini, Comp', 'Initial, Complaint', 2, None)
+  第 23 行: (202407180009, 202201210007, 'Inspected & Permitted', '2024-07-18', '09:50:00', '13:15:00', 1, 'Ini', 'Initial', 1, '2024-07-22')
+  第 24 行: (202407240019, 201806220006, 'Inspected & Permitted', '2024-07-25', '15:35:00', '17:05:00', 1, 'Ini', 'Initial', 2, None)
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Food-Facility-Restaurant-Inspection-Violations
+--------------------------------------------------------------------------------
+表头（列名）: ['violation_id', 'encounter', 'id', 'description_new', 'rating', 'low', 'medium', 'high']
+表内容:
+  第 1 行: (147903090, 201406040045, 201403210001, 'Cross-Contamination Prevention', 'V', 'F', 'F', 'F')
+  第 2 行: (147914267, 201407180045, 44428, 'Toilet Room', 'V', 'T', 'F', 'F')
+  第 3 行: (147931571, 201504240106, 201504020001, 'Lighting', 'V', 'T', None, None)
+  第 4 行: (147933876, 201502230033, 201003310001, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 5 行: (147956239, 201509090011, 201506220001, 'Toxic Items', 'V', 'F', 'T', 'F')
+  第 6 行: (147988867, 201605190005, 11839, 'Cleaning and Sanitization', 'V', 'F', 'T', 'F')
+  第 7 行: (148002836, 201607200031, 201406040008, 'Plumbing', 'V', 'T', 'F', 'F')
+  第 8 行: (148016980, 201701030017, 201612210001, 'Handwashing Facilities', 'V', 'T', 'F', 'F')
+  第 9 行: (148060171, 201709050013, 201111100006, 'Cold Holding Temperatures', 'V', 'F', 'T', 'F')
+  第 10 行: (148065449, 201707240045, 35536, 'Date Marking of Food', 'V', 'T', 'F', 'F')
+  第 11 行: (148072741, 201705300036, 200012200003, 'General Premises', 'V', 'T', None, None)
+  第 12 行: (148086116, 201810010058, 873, 'Certified Food Protection Manager', 'V', 'F', 'T', 'F')
+  第 13 行: (148119319, 201909180010, 201611150001, 'Handwashing Facilities', 'V', 'F', 'T', 'F')
+  第 14 行: (148156441, 202010290033, 201510290016, 'Cooling Food', 'V', 'T', 'F', 'F')
+  第 15 行: (148158925, 201809120001, 200405180001, 'Lighting', 'V', 'T', None, None)
+  第 16 行: (148175471, 201908090012, 201806270012, 'Administrative', 'V', None, None, None)
+  第 17 行: (148188966, 202103010007, 202103010002, 'Facilities to Maintain Temperature', 'V', 'F', 'F', 'F')
+  第 18 行: (148192793, 202311070011, 201503160008, 'Walls and ceilings', 'V', 'T', None, None)
+  第 19 行: (148206890, 202305220007, 202305180002, 'Toilet Room', 'V', 'T', 'F', 'F')
+  第 20 行: (148218775, 202312040012, 47649, 'Facilities to Maintain Temperature', 'V', 'T', 'T', 'F')
+  第 21 行: (148225449, 202407240019, 201806220006, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 22 行: (148231542, 202308040012, 201210250003, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 23 行: (148253714, 202407180009, 202201210007, 'Pest Management', 'V', 'T', 'F', 'F')
+  第 24 行: (148256654, 202202150010, 201309190001, 'Probe-Type Thermometers', 'V', 'F', 'T', 'F')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/food_facility_inspections/7.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Geocoded-Food-Facilities
+--------------------------------------------------------------------------------
+表头（列名）: ['id', 'facility_name', 'num', 'street', 'city', 'state', 'zip', 'municipal', 'category_cd', 'description', 'p_code', 'fdo', 'bus_st_date', 'bus_cl_date', 'seat_count', 'noroom', 'sq_feet', 'status', 'placard_st', 'x', 'y', 'address']
+表内容:
+  第 1 行: (18110, 'Bernice Crawley Manor / Glen Hazel Senior Center', '945', 'Roselle  Court', 'Pittsburgh', 'PA', 15207, 'Pittsburgh-115', 401, 'Adult Food Service', 1, '1984-06-17', '1984-06-17', None, None, None, '100', 1, '1', -79.9331085, 40.406733, '945 Roselle  Court PA 15207')
+  第 2 行: (35283, "Grieco's Carefree Inn", '903', 'Route 910', 'Indianola', 'PA', 15051, 'Indiana', 201, 'Restaurant with Liquor', 1, '1970-01-01', '1970-01-01', None, '70', None, None, 1, '1', -79.859349, 40.567779, '903 Route 910 PA 15051')
+  第 3 行: (40773, 'Pitcairn Hose Co #1', '100', 'S Center Ave', 'Pitcairn', 'PA', 15140, 'Pitcairn', 211, 'Restaurant without Liquor', 1, '1986-04-30', '1986-04-30', None, '30', None, None, 1, '1', -79.777638, 40.400847, '100 S Center Ave PA 15140')
+  第 4 行: (42632, "Engineers' Society Of West Pa", '337', '4th  Avenue', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-101', 201, 'Restaurant with Liquor', 0, '1987-08-13', '1987-08-13', None, '155', None, None, 1, '1', -79.999929, 40.439115, '337 4th  Avenue PA 15222')
+  第 5 行: (43562, 'South Hills Catering', '247', 'Spencer  Avenue', 'Pittsburgh', 'PA', 15227, 'Pittsburgh-129', 100, 'Caterer', 1, '1988-05-23', '1988-05-23', '2020-05-13', None, None, '684', 7, '1', -79.976421, 40.389804, '247 Spencer  Avenue PA 15227')
+  第 6 行: (54961, 'Encompass Health Rehabilitation Hospital Kitchen', '320', 'Guys Run Road', 'Pittsburgh', 'PA', 15238, 'Indiana', 411, 'Hospital/Other Institution', 1, '1996-04-29', '1996-04-29', None, None, None, '5200', 1, '0', -79.871067, 40.549995, '320 Guys Run Road PA 15238')
+  第 7 行: (200001120020, 'The No Name Cafe', '536', 'Brookline Boulevard', 'Pittsburgh', 'PA', 15226, 'Pittsburgh-119', 211, 'Restaurant without Liquor', 1, '1999-12-29', '1999-12-29', '2024-07-31', '10', None, None, 7, '1', -80.022681, 40.395474, '536 Brookline Boulevard PA 15226')
+  第 8 行: (200305010004, 'Edgewood Country Club Pool Snack Shop', '100', 'Churchill Road', 'Pittsburgh', 'PA', 15235, 'Churchill', 708, 'Pool Snack Bar/With Liquor', 1, '2003-05-15', '2003-05-15', None, '0', None, None, 1, '1', -79.8334695, 40.434057, '100 Churchill Road PA 15235')
+  第 9 行: (200906230001, 'Community Preschool & Nursery', '608', 'Chartiers Ave', 'Mc Kees Rocks', 'PA', 15136, 'McKees Rocks', 403, 'Child Food Service', 1, '2009-06-16', '2009-06-16', None, None, None, '500', 1, '1', -80.0606205, 40.46544, '608 Chartiers Ave PA 15136')
+  第 10 行: (201304250004, 'Texas de Brazil Churrascaria', '240', 'Station Square Drive', 'Pittsburgh', 'PA', 15219, 'Pittsburgh-119', 202, 'Chain Restaurant with Liquor', 0, '2013-05-01', '2013-05-01', None, '162', None, None, 1, '1', -80.005257, 40.43412, '240 Station Square Drive PA 15219')
+  第 11 行: (201401230008, 'Cardello Pizza', '261', 'Moon Clinton Road', 'Coraopolis', 'PA', 15108, 'Moon', 211, 'Restaurant without Liquor', 1, '2014-01-10', '2014-01-10', '2017-08-08', '0', None, None, 7, '1', -80.22924, 40.512672, '261 Moon Clinton Road PA 15108')
+  第 12 行: (201403240003, 'One Thirty One East', '131', 'Main Street', 'Carnegie', 'PA', 15106, 'Carnegie', 201, 'Restaurant with Liquor', 1, '2014-03-18', '2014-03-18', '2022-12-03', '60', None, None, 7, '1', -80.086158, 40.40802, '131 Main Street PA 15106')
+  第 13 行: (201501270001, 'Spoonwood Brewing Co', '5981', 'Baptist  Road', 'Pittsburgh', 'PA', 15236, 'Bethel Park', 201, 'Restaurant with Liquor', 0, '2015-01-23', '2015-01-23', None, '120', None, None, 1, '1', -80.0140095, 40.345389, '5981 Baptist  Road PA 15236')
+  第 14 行: (201502030002, "Jet's Pizza #399", '1810', 'Dormont Avenue', 'Pittsburgh', 'PA', 15216, 'Dormont', 212, 'Chain Restaurant without Liquor', 1, '2015-01-29', '2015-01-29', None, '0', None, None, 1, '1', -80.044308, 40.398471, '1810 Dormont Avenue PA 15216')
+  第 15 行: (201508200001, "Bak'n Carnegie", '335', 'Main Street', 'Carnegie', 'PA', 15106, 'Carnegie', 202, 'Chain Restaurant with Liquor', 0, '2015-08-14', '2015-08-14', '2021-12-29', '24', None, None, 7, '1', -80.08362, 40.409748, '335 Main Street PA 15106')
+  第 16 行: (201509040001, 'Pitt Dining Salk Pavilion / RxPresso', '335', 'Sutherland  Drive', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 413, 'Hospital, Gov, University (limited)', 1, '2015-09-01', '2015-09-01', '2020-07-01', '10', None, None, 7, '1', -79.9632945, 40.443183, '335 Sutherland  Drive PA 15213')
+  第 17 行: (201510150006, 'Long John Silvers', '2100', 'Washington Avenue', 'Carnegie', 'PA', 15106, 'Scott', 212, 'Chain Restaurant without Liquor', 1, '2015-10-09', '2015-10-09', None, '60', None, None, 1, '1', -80.0931015, 40.386267, '2100 Washington Avenue PA 15106')
+  第 18 行: (201703090002, 'Thai Noodle Outlet', '5813', 'Forbes Avenue', 'Pittsburgh', 'PA', 15217, 'Pittsburgh-114', 211, 'Restaurant without Liquor', 0, '2017-03-02', '2017-03-02', '2019-04-01', '20', None, None, 7, '1', -79.9223715, 40.438233, '5813 Forbes Avenue PA 15217')
+  第 19 行: (201706160001, 'Yuzu Kitchen', '409', 'Wood Street', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-101', 201, 'Restaurant with Liquor', 0, '2017-06-15', '2017-06-15', None, '90', None, None, 1, '1', -80.001306, 40.439709, '409 Wood Street PA 15222')
+  第 20 行: (201708230001, "Emiliano's McCandless", '9070', 'Saint Simon Way', 'Pittsburgh', 'PA', 15237, 'McCandless', 202, 'Chain Restaurant with Liquor', 0, '2017-08-22', '2017-08-22', None, '160', None, None, 1, '1', -80.024193, 40.571694, '9070 Saint Simon Way PA 15237')
+  第 21 行: (201803260001, 'Crave-A-Bowl', '3712', 'Forbes  Avenue', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 211, 'Restaurant without Liquor', 1, '2018-04-02', '2018-04-02', '2018-05-31', '50', None, None, 7, '1', -79.957026, 40.44123, '3712 Forbes  Avenue PA 15213')
+  第 22 行: (201805290010, 'Dragon Chinese Restaurant', '140', 'Allegheny River Boulevard', 'Verona', 'PA', 15147, 'Verona', 211, 'Restaurant without Liquor', 0, '2018-05-23', '2018-05-23', None, '0', None, None, 1, '1', -79.844967, 40.498605, '140 Allegheny River Boulevard PA 15147')
+  第 23 行: (201907080008, 'BP Carnegie', '365', 'Main  Street', 'Carnegie', 'PA', 15106, 'Carnegie', 116, 'Chain Packaged Food Only', 1, '2019-07-01', '2019-07-01', None, None, None, '400', 1, '1', -80.0829405, 40.410153, '365 Main  Street PA 15106')
+  第 24 行: (202102220002, 'Audrina’s Mexican Grille', '4371', 'Murray Avenue', 'Pittsburgh', 'PA', 15217, 'Pittsburgh-115', 211, 'Restaurant without Liquor', 1, '2021-02-22', '2021-02-22', '2023-02-10', '52', None, None, 7, '1', -79.928154, 40.420035, '4371 Murray Avenue PA 15217')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Food-Facility-Restaurant-Inspections
+--------------------------------------------------------------------------------
+表头（列名）: ['encounter', 'id', 'placard_desc', 'inspect_dt', 'start_time', 'end_time', 'ispt_purpose', 'abrv', 'purpose', 'reispt_cd', 'reispt_dt']
+表内容:
+  第 1 行: (201402240046, 201401230008, 'Inspected & Permitted', '2014-02-10', '11:00:00', '13:00:00', 2, 'Reispt', 'Reinspection', 6, '2014-03-10')
+  第 2 行: (201407290025, 42632, 'Inspected & Permitted', '2014-07-29', '09:30:00', '12:00:00', 1, 'Ini', 'Initial', 2, None)
+  第 3 行: (201504220032, 43562, 'Inspected & Permitted', '2015-04-22', '13:00:00', '14:05:00', 1, 'Ini', 'Initial', 2, None)
+  第 4 行: (201504280031, 201403240003, 'Inspected & Permitted', '2015-04-28', '13:00:00', '14:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 5 行: (201507230056, 200906230001, 'Inspected & Permitted', '2015-07-23', '14:35:00', '15:45:00', 1, 'Ini', 'Initial', 2, None)
+  第 6 行: (201606090021, 200305010004, 'Inspected & Permitted', '2016-06-09', '11:30:00', '12:15:00', 1, 'Ini', 'Initial', 2, None)
+  第 7 行: (201608090012, 200001120020, 'Inspected & Permitted', '2016-08-09', '12:40:00', '13:50:00', 1, 'Ini', 'Initial', 2, None)
+  第 8 行: (201609160040, 201508200001, 'Inspected & Permitted', '2016-09-16', '14:30:00', '15:20:00', 1, 'Ini', 'Initial', 2, None)
+  第 9 行: (201611070049, 201509040001, 'Inspected & Permitted', '2016-11-07', '15:30:00', '16:20:00', 1, 'Ini', 'Initial', 2, None)
+  第 10 行: (201703310021, 201510150006, 'Consumer Alert', '2017-03-31', '13:35:00', '15:50:00', 8, 'Comp', 'Complaint', 3, '2017-04-10')
+  第 11 行: (201803280001, 201803260001, 'Inspected & Permitted', '2018-03-22', '11:00:00', '12:30:00', 7, 'Srv Req', 'Service Request', 2, None)
+  第 12 行: (201804120043, 201703090002, 'Inspected & Permitted', '2018-04-12', '14:00:00', '15:10:00', 1, 'Ini', 'Initial', 1, '2018-04-26')
+  第 13 行: (201806250043, 201708230001, 'Inspected & Permitted', '2018-06-25', '13:40:00', '16:30:00', 16, 'FIL', 'Foodborne Illness', 3, None)
+  第 14 行: (201809130052, 35283, 'Inspected & Permitted', '2018-09-13', '13:30:00', '15:20:00', 1, 'Ini', 'Initial', 2, None)
+  第 15 行: (201902120027, 201304250004, 'Inspected & Permitted', '2019-02-12', '15:15:00', '16:00:00', 2, 'Reispt', 'Reinspection', 3, None)
+  第 16 行: (201904020016, 54961, 'Inspected & Permitted', '2019-04-02', '10:45:00', '12:20:00', 1, 'Ini', 'Initial', 2, None)
+  第 17 行: (201906140039, 201706160001, 'Inspected & Permitted', '2019-06-14', '13:15:00', '15:15:00', 1, 'Ini', 'Initial', 1, '2019-06-26')
+  第 18 行: (202104130021, 202102220002, 'Inspected & Permitted', '2021-04-13', '12:10:00', '14:00:00', 1, 'Ini', 'Initial', 1, '2021-05-04')
+  第 19 行: (202108200016, 201805290010, 'Inspected & Permitted', '2021-08-20', '12:45:00', '13:45:00', 1, 'Ini', 'Initial', 1, '2021-09-10')
+  第 20 行: (202111150019, 18110, 'Inspected & Permitted', '2021-11-15', '11:35:00', '12:05:00', 1, 'Ini', 'Initial', 2, None)
+  第 21 行: (202303240010, 40773, 'Inspected & Permitted', '2023-03-24', '15:30:00', '16:00:00', 65, 'Fish Fry Inspection', 'Fish Fry Inspection', 2, None)
+  第 22 行: (202306050009, 201907080008, 'Inspected & Permitted', '2023-06-05', '12:40:00', '13:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 23 行: (202404300015, 201502030002, 'Inspected & Permitted', '2024-04-30', '13:00:00', '14:00:00', 1, 'Ini', 'Initial', 2, None)
+  第 24 行: (202407260041, 201501270001, 'Inspected & Permitted', '2024-07-26', '14:30:00', '15:50:00', 1, 'Ini', 'Initial', 2, None)
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Food-Facility-Restaurant-Inspection-Violations
+--------------------------------------------------------------------------------
+表头（列名）: ['violation_id', 'encounter', 'id', 'description_new', 'rating', 'low', 'medium', 'high']
+表内容:
+  第 1 行: (147902877, 201402240046, 201401230008, 'Cold Holding Temperatures', 'V', 'F', 'F', 'T')
+  第 2 行: (147916321, 201407290025, 42632, 'Cross-Contamination Prevention', 'V', 'T', 'F', 'F')
+  第 3 行: (147931528, 201504220032, 43562, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 4 行: (147936679, 201504280031, 201403240003, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 5 行: (147947519, 201507230056, 200906230001, 'Toxic Items', 'V', 'T', 'F', 'F')
+  第 6 行: (147997752, 201608090012, 200001120020, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 7 行: (148001038, 201606090021, 200305010004, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 8 行: (148011518, 201611070049, 201509040001, 'Probe-Type Thermometers', 'V', 'F', 'T', 'F')
+  第 9 行: (148015753, 201609160040, 201508200001, 'Cooling Food', 'V', 'T', 'F', 'F')
+  第 10 行: (148034569, 201703310021, 201510150006, 'Plumbing', 'V', 'T', 'F', 'F')
+  第 11 行: (148071195, 201804120043, 201703090002, 'Employee Personal Hygiene', 'V', 'F', 'F', 'T')
+  第 12 行: (148073947, 201803280001, 201803260001, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 13 行: (148095345, 201902120027, 201304250004, 'Floors', 'V', 'T', None, None)
+  第 14 行: (148111773, 202108200016, 201805290010, 'General Premises', 'V', 'T', None, None)
+  第 15 行: (148116949, 201809130052, 35283, 'Food Source/Condition', 'V', 'F', 'T', 'F')
+  第 16 行: (148125587, 201904020016, 54961, 'General Premises', 'V', 'T', None, None)
+  第 17 行: (148136479, 201806250043, 201708230001, 'Cooling Food', 'V', 'F', 'F', 'T')
+  第 18 行: (148138430, 201906140039, 201706160001, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 19 行: (148143012, 202104130021, 202102220002, 'Certified Food Protection Manager', 'N', 'T', 'F', 'F')
+  第 20 行: (148205825, 202404300015, 201502030002, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 21 行: (148211520, 202306050009, 201907080008, 'Cleaning and Sanitization', 'V', 'T', 'F', 'F')
+  第 22 行: (148212514, 202407260041, 201501270001, 'Pest Management', 'V', 'F', 'T', 'F')
+  第 23 行: (148217114, 202303240010, 40773, 'Ventilation', 'V', 'T', None, None)
+  第 24 行: (148252799, 202111150019, 18110, 'Certified Food Protection Manager', 'V', 'T', 'F', 'F')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/food_facility_inspections/8.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Geocoded-Food-Facilities
+--------------------------------------------------------------------------------
+表头（列名）: ['id', 'facility_name', 'num', 'street', 'city', 'state', 'zip', 'municipal', 'category_cd', 'description', 'p_code', 'fdo', 'bus_st_date', 'bus_cl_date', 'seat_count', 'noroom', 'sq_feet', 'status', 'placard_st', 'x', 'y', 'address']
+表内容:
+  第 1 行: (3520, 'Avonworth Elementary School Cafeteria', '1320', 'Roosevelt Road', 'Pittsburgh', 'PA', 15237, 'Ohio', 653, 'School Satellite Kitchen', 1, '1984-06-17', '1984-06-17', None, None, None, '250', 1, '1', -80.0943075, 40.542237, '1320 Roosevelt Road PA 15237')
+  第 2 行: (7157, 'Edison Hotel', '135', '9th Street', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-102', 201, 'Restaurant with Liquor', 1, '1955-06-01', '1955-06-01', '2016-05-25', '20', None, None, 7, '1', -79.998345, 40.444191, '135 9th Street PA 15222')
+  第 3 行: (45072, "Cole's Pub", '527', 'U.S. Route 30', 'Imperial', 'PA', 15126, 'Findlay', 201, 'Restaurant with Liquor', 1, '1989-07-20', '1989-07-20', None, '50', None, None, 1, '1', -80.2516365, 40.451229, '527 U.S. Route 30 PA 15126')
+  第 4 行: (48135, 'Holy Trinity Ukrainian Catholic Church', '726', 'Washington Ave', 'Carnegie', 'PA', 15106, 'Carnegie', 407, 'Religious Institution Kitchen', 1, '1992-02-24', '1992-02-24', None, None, None, '230', 1, '1', -80.0843985779999, 40.398072943, '726 Washington Ave PA 15106')
+  第 5 行: (200106220006, 'Chatham University / Anderson Dining Hall', '105', 'Woodland Road', 'Pittsburgh', 'PA', 15232, 'Pittsburgh-114', 405, 'University Food Service', 1, '2001-06-18', '2001-06-18', None, '326', None, '6116', 1, '1', -79.923825, 40.447494, '105 Woodland Road PA 15232')
+  第 6 行: (200609180007, 'Pittzarella', '5832', 'Library  Road', 'Bethel Park', 'PA', 15102, 'Bethel Park', 211, 'Restaurant without Liquor', 1, '2006-09-11', '2006-09-11', '2023-11-21', '4', None, None, 7, '1', -80.033355, 40.309128, '5832 Library  Road PA 15102')
+  第 7 行: (200702260004, 'Subway Sandwiches & Salads #41022', '219', 'Shiloh Street', 'Pittsburgh', 'PA', 15211, 'Pittsburgh-119', 212, 'Chain Restaurant without Liquor', 1, '2007-02-21', '2007-02-21', None, '46', None, None, 7, '0', -80.007255, 40.43007, '219 Shiloh Street PA 15211')
+  第 8 行: (200805010001, 'New York Original', '224', 'W Station Square  Drive', 'Pittsburgh', 'PA', 15219, 'Pittsburgh-119', 211, 'Restaurant without Liquor', 1, '2008-04-25', '2008-04-25', '2018-03-20', '0', None, None, 7, '1', -80.004609, 40.433733, '224  W Station Square  Drive PA 15219')
+  第 9 行: (200909140008, "Max N Odi's", '500', 'Monongahela Ave', 'Glassport', 'PA', 15045, 'Glassport', 201, 'Restaurant with Liquor', 1, '2009-09-11', '2009-09-11', None, '72', None, None, 1, '1', -79.8927435, 40.327533, '500 Monongahela Ave PA 15045')
+  第 10 行: (201010080001, 'California Pizza Kitchen', '1000', 'Ross Park Mall Drive', 'Pittsburgh', 'PA', 15237, 'Ross', 202, 'Chain Restaurant with Liquor', 1, '2010-10-07', '2010-10-07', '2020-08-17', '130', None, None, 7, '1', -80.00847, 40.542894, '1000 Ross Park Mall Drive PA 15237')
+  第 11 行: (201102110003, 'Boulevard Restaurant', '605', 'Mt Royal  Boulevard', 'Pittsburgh', 'PA', 15223, 'Shaler', 201, 'Restaurant with Liquor', 0, '2011-01-21', '2011-01-21', '2016-12-09', '38', None, None, 7, '1', -79.9583445, 40.512429, '605 Mt Royal  Boulevard PA 15223')
+  第 12 行: (201106150004, 'Wyndham Grand / Three Rivers Restaurant', '600', 'Commonwealth Place', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-102', 202, 'Chain Restaurant with Liquor', 1, '2011-06-08', '2011-06-08', None, '120', None, None, 1, '1', -80.0064045, 40.441734, '600 Commonwealth Place PA 15222')
+  第 13 行: (201307160011, 'New York Life Employee Cafe / Aramark', '2000', 'Park Lane', 'Pittsburgh', 'PA', 15275, 'North Fayette', 212, 'Chain Restaurant without Liquor', 1, '2013-06-26', '2013-06-26', None, '185', None, None, 1, '1', -80.1886725, 40.453542, '2000 Park Lane PA 15275')
+  第 14 行: (201505150001, 'Bnai Emunoh Chabad', '4315', 'Murray Avenue', 'Pittsburgh', 'PA', 15217, 'Pittsburgh-115', 407, 'Religious Institution Kitchen', 1, '2015-05-12', '2015-05-12', None, None, None, '600', 1, '1', -79.9284645, 40.421538, '4315 Murray Avenue PA 15217')
+  第 15 行: (201510070015, "Shark's, Fish & Chicken", '1000', 'Chartiers Avenue', 'Pittsburgh', 'PA', 15220, 'Pittsburgh-120', 212, 'Chain Restaurant without Liquor', 0, '2015-10-12', '2015-10-12', '2021-06-23', '0', None, None, 7, '1', -80.040645, 40.444227, '1000 Chartiers Avenue PA 15220')
+  第 16 行: (201610240007, "McDonald's #2842", '4235', 'Walnut  Street', 'Mc Keesport', 'PA', 15132, 'Versailles', 212, 'Chain Restaurant without Liquor', 1, '2016-10-05', '2016-10-05', None, '82', None, None, 1, '1', -79.835733, 40.320954, '4235 Walnut  Street PA 15132')
+  第 17 行: (201703300004, 'Riverfront Deli', '413', 'Grant  Avenue', 'Pittsburgh', 'PA', 15209, 'Millvale', 211, 'Restaurant without Liquor', 1, '2016-10-24', '2016-10-24', '2018-05-18', '0', None, None, 7, '1', -79.9736355, 40.480002, '413 Grant  Avenue PA 15209')
+  第 18 行: (201704100009, "Margaret's Tea Store & More", '1451', 'Collier  Avenue', 'Carnegie', 'PA', 15106, 'Heidelberg', 115, 'Packaged Food Only', 2, '2017-03-31', '2017-03-31', '2019-03-31', None, None, '68', 7, '1', -80.09037, 40.388283, '1451 Collier  Avenue PA 15106')
+  第 19 行: (201705050001, 'Primanti Brothers - The Waterfront', '152', 'Bridge  Street', 'Homestead', 'PA', 15120, 'Homestead', 202, 'Chain Restaurant with Liquor', 1, '2017-05-04', '2017-05-04', None, '136', None, None, 1, '1', -79.9153065, 40.408704, '152 Bridge  Street PA 15120')
+  第 20 行: (201808300007, 'Duncan Street Sandwich Shop', '543', 'North Avenue', 'Pittsburgh', 'PA', 15209, 'Millvale', 211, 'Restaurant without Liquor', 1, '2018-08-27', '2018-08-27', '2023-06-01', '0', None, None, 7, '1', -79.973181, 40.484943, '543 North Avenue PA 15209')
+  第 21 行: (201902070003, "Dave & Buster's", '6260', 'Northway Drive', 'Pittsburgh', 'PA', 15237, 'Ross', 202, 'Chain Restaurant with Liquor', 0, '2019-02-18', '2019-02-18', None, '440', None, None, 1, '1', -80.020638, 40.55049, '6260 Northway Drive PA 15237')
+  第 22 行: (202009210002, 'Makkah One Market', '1100', 'Washington Avenue', 'Carnegie', 'PA', 15106, 'Scott', 113, 'Retail/Convenience Store', 1, '2020-09-21', '2020-09-21', None, None, None, '2500', 1, '1', -80.0843985, 40.398075, '1100 Washington Avenue PA 15106')
+  第 23 行: (202106070004, 'Five Iron Golf', '2', 'PPG Place', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-101', 202, 'Chain Restaurant with Liquor', 1, '2021-06-07', '2021-06-07', None, '90', None, None, 1, '1', -80.0033355, 40.440465, '2 PPG Place PA 15222')
+  第 24 行: (202207010008, "Shiner's (ZTR-9035) MFF4", '611', 'Old Clairton Road', 'Pittsburgh', 'PA', 15236, 'Pleasant Hills', 123, 'Mobile - Tier II ( Prepared Foods)', 1, '2022-07-07', '2022-07-07', None, None, None, '1', 1, '1', -79.956315, 40.325364, '611 Old Clairton Road PA 15236')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Food-Facility-Restaurant-Inspections
+--------------------------------------------------------------------------------
+表头（列名）: ['encounter', 'id', 'placard_desc', 'inspect_dt', 'start_time', 'end_time', 'ispt_purpose', 'abrv', 'purpose', 'reispt_cd', 'reispt_dt']
+表内容:
+  第 1 行: (201405070026, 200909140008, 'Inspected & Permitted', '2014-05-07', '10:15:00', '13:00:00', 1, 'Ini', 'Initial', 1, '2014-05-14')
+  第 2 行: (201406180028, 200805010001, 'Inspected & Permitted', '2014-06-18', '11:40:00', '12:50:00', 1, 'Ini', 'Initial', 1, '2014-06-20')
+  第 3 行: (201501060016, 201010080001, 'Inspected & Permitted', '2015-01-06', '13:20:00', '14:15:00', 2, 'Reispt', 'Reinspection', 3, None)
+  第 4 行: (201509230034, 201307160011, 'Inspected & Permitted', '2015-09-23', '11:10:00', '13:00:00', 1, 'Ini', 'Initial', 1, '2015-10-07')
+  第 5 行: (201605240058, 7157, 'Inspected & Permitted', '2016-05-24', '15:45:00', '16:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 6 行: (201607260051, 201106150004, 'Inspected & Permitted', '2016-07-26', '13:40:00', '14:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 7 行: (201608040007, 201505150001, 'Inspected & Permitted', '2016-08-04', '08:30:00', '09:00:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 8 行: (201610190022, 201102110003, 'Inspected & Permitted', '2016-10-19', '13:30:00', '16:50:00', 1, 'Ini', 'Initial', 3, None)
+  第 9 行: (201703100018, 48135, 'Inspected & Permitted', '2017-03-10', '12:55:00', '14:00:00', 1, 'Ini', 'Initial', 2, None)
+  第 10 行: (201704030004, 201703300004, 'Inspected & Permitted', '2017-02-21', '11:15:00', '13:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 11 行: (201704170059, 201704100009, 'Inspected & Permitted', '2017-03-31', '16:15:00', '16:45:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 12 行: (201709060019, 200702260004, 'Inspected & Permitted', '2017-09-06', '11:50:00', '12:45:00', 1, 'Ini', 'Initial', 2, None)
+  第 13 行: (201807250029, 201510070015, 'Inspected & Permitted', '2018-07-25', '13:10:00', '14:05:00', 1, 'Ini', 'Initial', 1, '2018-08-06')
+  第 14 行: (201810030040, 201808300007, 'Inspected & Permitted', '2018-10-03', '14:30:00', '15:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 15 行: (201904020043, 201705050001, 'Inspected & Permitted', '2019-04-02', '14:00:00', '15:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 16 行: (202009210017, 202009210002, 'Inspected & Permitted', '2020-09-21', '10:00:00', '11:00:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 17 行: (202106070039, 202106070004, 'Inspected & Permitted', '2021-06-07', '14:30:00', '16:40:00', 4, 'New Fac', 'New Facility', 2, None)
+  第 18 行: (202108040030, 201610240007, 'Inspected & Permitted', '2021-08-04', '14:15:00', '14:55:00', 8, 'Comp', 'Complaint', 2, None)
+  第 19 行: (202207010027, 202207010008, 'Inspected/Permit denied', '2022-07-01', '14:30:00', '16:00:00', 50, 'Cnslt', 'Consultation', 1, '2022-07-05')
+  第 20 行: (202207140016, 200609180007, 'Inspected & Permitted', '2022-07-14', '13:20:00', '14:30:00', 57, 'Part. Reinsp', 'Partial ReInspection', 1, '2022-07-25')
+  第 21 行: (202208050029, 200106220006, 'Inspected & Permitted', '2022-08-05', '14:40:00', '16:45:00', 32, 'Remod', 'Remodel', 2, None)
+  第 22 行: (202210180015, 3520, 'Inspected & Permitted', '2022-10-18', '11:40:00', '12:15:00', 1, 'Ini', 'Initial', 2, None)
+  第 23 行: (202303070018, 201902070003, 'Inspected & Permitted', '2023-03-07', '12:20:00', '14:05:00', 1, 'Ini', 'Initial', 2, None)
+  第 24 行: (202403250023, 45072, 'Inspected & Permitted', '2024-03-25', '13:45:00', '15:30:00', 1, 'Ini', 'Initial', 2, None)
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Food-Facility-Restaurant-Inspection-Violations
+--------------------------------------------------------------------------------
+表头（列名）: ['violation_id', 'encounter', 'id', 'description_new', 'rating', 'low', 'medium', 'high']
+表内容:
+  第 1 行: (147908509, 201405070026, 200909140008, 'Probe-Type Thermometers', 'V', 'F', 'F', 'F')
+  第 2 行: (147912057, 201406180028, 200805010001, 'Facilities to Maintain Temperature', 'V', 'F', 'F', 'F')
+  第 3 行: (147924518, 201501060016, 201010080001, 'Facilities to Maintain Temperature', 'V', 'F', 'F', 'F')
+  第 4 行: (147956747, 201509230034, 201307160011, 'Cold Holding Temperatures', 'V', 'F', 'T', 'T')
+  第 5 行: (147983786, 201605240058, 7157, 'Floors', 'V', 'T', None, None)
+  第 6 行: (147998449, 201607260051, 201106150004, 'Cold Holding Temperatures', 'V', 'F', 'T', 'F')
+  第 7 行: (147999051, 201608040007, 201505150001, 'Pest Management', 'V', 'T', 'F', 'F')
+  第 8 行: (148010361, 201610190022, 201102110003, 'Cold Holding Temperatures', 'N', 'F', 'F', 'T')
+  第 9 行: (148031470, 201703100018, 48135, 'Date Marking of Food', 'V', 'F', 'T', 'F')
+  第 10 行: (148031621, 201704030004, 201703300004, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 11 行: (148034914, 201704170059, 201704100009, 'Garbage and Refuse', 'V', 'T', None, None)
+  第 12 行: (148074349, 201709060019, 200702260004, 'Floors', 'V', 'T', None, None)
+  第 13 行: (148082152, 201904020043, 201705050001, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 14 行: (148100243, 202009210017, 202009210002, 'Floors', 'V', 'T', None, None)
+  第 15 行: (148118791, 201810030040, 201808300007, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 16 行: (148133998, 201807250029, 201510070015, 'Toxic Items', 'V', 'F', 'T', 'F')
+  第 17 行: (148160592, 202108040030, 201610240007, 'Pest Management', 'V', 'T', 'F', 'F')
+  第 18 行: (148188995, 202106070039, 202106070004, 'Waste Water Disposal', 'V', 'F', 'F', 'F')
+  第 19 行: (148191457, 202210180015, 3520, 'Plumbing', 'V', 'T', 'F', 'F')
+  第 20 行: (148213340, 202208050029, 200106220006, 'Walls and ceilings', 'V', 'T', None, None)
+  第 21 行: (148233599, 202207010027, 202207010008, 'Facilities to Maintain Temperature', 'V', 'F', 'F', 'F')
+  第 22 行: (148233618, 202207140016, 200609180007, 'General Premises', 'V', 'T', None, None)
+  第 23 行: (148237262, 202403250023, 45072, 'Cross-Contamination Prevention', 'V', 'F', 'T', 'T')
+  第 24 行: (148249024, 202303070018, 201902070003, 'Water Supply', 'V', 'T', 'F', 'F')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
+数据库名称: /mnt/home/zlbb/dsy/TQA-Bench-main/symDataset/scaledDB/8k/food_facility_inspections/9.sqlite
+--------------------------------------------------------------------------------
+
+📋 第 1 个表 - 表名: Geocoded-Food-Facilities
+--------------------------------------------------------------------------------
+表头（列名）: ['id', 'facility_name', 'num', 'street', 'city', 'state', 'zip', 'municipal', 'category_cd', 'description', 'p_code', 'fdo', 'bus_st_date', 'bus_cl_date', 'seat_count', 'noroom', 'sq_feet', 'status', 'placard_st', 'x', 'y', 'address']
+表内容:
+  第 1 行: (41959, 'GetGo Cafe + Market #3064', '4924', 'Baum Boulevard', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-108', 114, 'Chain Retail/Convenience Store', 1, '1987-02-13', '1987-02-13', None, '30', None, '5451', 1, '1', -79.9457985, 40.454577, '4924 Baum Boulevard PA 15213')
+  第 2 行: (44518, 'UPMC Seneca Place', '5360', 'Saltsburg  Road', 'Verona', 'PA', 15147, 'Penn Hills', 308, 'Nursing Home', 1, '1985-01-01', '1985-01-01', '2024-03-01', None, '101', None, 7, '1', -79.8361695, 40.479957, '5360 Saltsburg  Road PA 15147')
+  第 3 行: (45266, "Delallo's Fort Couch Cafe", '91', 'Fort Couch  Road', 'Pittsburgh', 'PA', 15241, 'Bethel Park', 201, 'Restaurant with Liquor', 1, '1989-10-26', '1989-10-26', '2018-08-18', '92', None, None, 7, '1', -80.0521785, 40.338981, '91 Fort Couch  Road PA 15241')
+  第 4 行: (53239, 'St Barnabas Nursing Home', '5827', 'Meridian Road', 'Gibsonia', 'PA', 15044, 'Richland', 314, 'Nursing Home/Personal Care Comb./Fee Exempt', 1, '1985-01-01', '1985-01-01', None, None, '75', None, 1, '1', -79.960311, 40.650327, '5827 Meridian Road PA 15044')
+  第 5 行: (56328, 'Carlow University Dining Hall', '3333', '5th  Avenue', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 405, 'University Food Service', 0, '1997-03-17', '1997-03-17', '2019-07-10', '280', None, '3480', 7, '1', -79.9634115, 40.439286, '3333 5th  Avenue PA 15213')
+  第 6 行: (200103010002, "Lidia's", '1400', 'Smallman Street', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-102', 201, 'Restaurant with Liquor', 0, '2001-03-01', '2001-03-01', '2019-11-18', '254', None, None, 7, '1', -79.984803971, 40.4519820360001, '1400 Smallman Street PA 15222')
+  第 7 行: (200401130003, 'All The Best Catering / Pittsburgh BBQ', '1000', 'Banksville Avenue', 'Pittsburgh', 'PA', 15216, 'Pittsburgh-120', 100, 'Caterer', 0, '2004-01-08', '2004-01-08', '2024-04-19', None, None, '6000', 7, '1', -80.030727, 40.420377, '1000 Banksville Avenue PA 15216')
+  第 8 行: (200612120002, 'UPMC Montefiore 7th Floor / Brick Side Eatery', '3459', '5th Avenue', 'Pittsburgh', 'PA', 15213, 'Pittsburgh-104', 211, 'Restaurant without Liquor', 1, '2006-12-18', '2006-12-18', None, '52', None, None, 1, '1', -79.9614225, 40.440348, '3459 5th Avenue PA 15213')
+  第 9 行: (200702210006, 'El Campesino Restaurante Mexicano', '460', 'Home Drive', 'Pittsburgh', 'PA', 15275, 'North Fayette', 202, 'Chain Restaurant with Liquor', 1, '2007-02-21', '2007-02-21', None, '132', None, None, 1, '1', -80.183538, 40.451211, '460 Home Drive PA 15275')
+  第 10 行: (201003080001, 'Pitcairn Fire Company 2', '480', 'Broadway Avenue', 'Pitcairn', 'PA', 15140, 'Pitcairn', 250, 'Social Club-Bar Only', 1, '2010-03-05', '2010-03-05', None, '30', None, None, 1, '1', -79.778205, 40.401855, '480 Broadway Avenue PA 15140')
+  第 11 行: (201004150010, 'Tavern 245', '245', '4th Avenue', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-101', 201, 'Restaurant with Liquor', 0, '2010-03-25', '2010-03-25', '2016-11-14', '135', None, None, 7, '1', -80.001567, 40.439655, '245 4th Avenue PA 15222')
+  第 12 行: (201202070001, "Jergel's Rhythm Grille", '103', 'Slade Lane', 'Warrendale', 'PA', 15086, 'Marshall', 201, 'Restaurant with Liquor', 1, '2012-02-06', '2012-02-06', None, '300', None, None, 1, '1', -80.082153, 40.65471, '103 Slade Lane PA 15086')
+  第 13 行: (201202210003, 'Gia Visto', '4366', 'Old William Penn Highway', 'Monroeville', 'PA', 15146, 'Monroeville', 211, 'Restaurant without Liquor', 1, '2012-02-10', '2012-02-10', '2023-03-01', '60', None, None, 7, '1', -79.7704515, 40.442823, '4366 Old William Penn Highway PA 15146')
+  第 14 行: (201401100002, 'Bluebird Kitchen', '11', 'Stanwix  Street', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-101', 211, 'Restaurant without Liquor', 0, '2014-01-02', '2014-01-02', None, '50', None, None, 1, '1', -80.006337, 40.439106, '11 Stanwix  Street PA 15222')
+  第 15 行: (201401230008, 'Cardello Pizza', '261', 'Moon Clinton Road', 'Coraopolis', 'PA', 15108, 'Moon', 211, 'Restaurant without Liquor', 1, '2014-01-10', '2014-01-10', '2017-08-08', '0', None, None, 7, '1', -80.22924, 40.512672, '261 Moon Clinton Road PA 15108')
+  第 16 行: (201404100004, 'Cash & Carry', '1021', 'Perry Highway', 'Pittsburgh', 'PA', 15237, 'Ross', 114, 'Chain Retail/Convenience Store', 1, '2014-04-09', '2014-04-09', None, None, None, '1880', 1, '1', -80.03655, 40.540563, '1021 Perry Highway PA 15237')
+  第 17 行: (201410310004, 'Vespucci Pizza', '1710', 'Forbes Avenue', 'Pittsburgh', 'PA', 15219, 'Pittsburgh-101', 211, 'Restaurant without Liquor', 1, '2014-10-22', '2014-10-22', '2018-01-08', '16', None, None, 7, '1', -79.9822755, 40.437378, '1710 Forbes Avenue PA 15219')
+  第 18 行: (201411210003, 'Wing Fat Hong / WFH Oriental Food Market', '2306', 'Penn Avenue', 'Pittsburgh', 'PA', 15222, 'Pittsburgh-102', 111, 'Supermarket', 1, '2014-11-20', '2014-11-20', None, None, None, '12000', 1, '1', -79.981083, 40.452804, '2306 Penn Avenue PA 15222')
+  第 19 行: (201501200001, 'Le Thai Cafe', '2909', 'Mt Royal Boulevard', 'Glenshaw', 'PA', 15116, 'Shaler', 211, 'Restaurant without Liquor', 1, '2015-01-15', '2015-01-15', None, '53', None, None, 1, '1', -79.97265, 40.544811, '2909 Mt Royal Boulevard PA 15116')
+  第 20 行: (201503160008, 'Turkish Kebab House', '5819', 'Forbes Avenue', 'Pittsburgh', 'PA', 15217, 'Pittsburgh-114', 212, 'Chain Restaurant without Liquor', 0, '2015-03-13', '2015-03-13', None, '59', None, None, 1, '1', -79.9221915, 40.438233, '5819 Forbes Avenue PA 15217')
+  第 21 行: (201510290005, "The Crack'd Egg", '4131', 'Brownsville Road', 'Pittsburgh', 'PA', 15227, 'Brentwood', 211, 'Restaurant without Liquor', 0, '2015-10-05', '2015-10-05', None, '114', None, None, 1, '1', -79.981965, 40.365711, '4131 Brownsville Road PA 15227')
+  第 22 行: (201608190005, "Honest John's", '216', '8th Avenue', 'Homestead', 'PA', 15120, 'Homestead', 201, 'Restaurant with Liquor', 1, '2016-08-16', '2016-08-16', '2021-12-20', '54', None, None, 7, '1', -79.910055, 40.407147, '216 8th Avenue PA 15120')
+  第 23 行: (201611080007, "Eat'n Park #2", '1002', 'Ohio River Boulevard', 'Pittsburgh', 'PA', 15202, 'Avalon', 212, 'Chain Restaurant without Liquor', 1, '2016-11-03', '2016-11-03', None, '250', None, None, 1, '1', -80.0649495, 40.494177, '1002 Ohio River Boulevard PA 15202')
+  第 24 行: (202310160002, 'Layali Pizza, Fish and Chicken', '2147B', 'Ardmore Boulevard', 'Pittsburgh', 'PA', 15221, 'Forest Hills', 211, 'Restaurant without Liquor', 1, '2023-10-16', '2023-10-16', None, '0', None, '1500', 1, '1', -79.8485445, 40.418181, '2147B Ardmore Boulevard PA 15221')
+--------------------------------------------------------------------------------
+
+📋 第 2 个表 - 表名: Food-Facility-Restaurant-Inspections
+--------------------------------------------------------------------------------
+表头（列名）: ['encounter', 'id', 'placard_desc', 'inspect_dt', 'start_time', 'end_time', 'ispt_purpose', 'abrv', 'purpose', 'reispt_cd', 'reispt_dt']
+表内容:
+  第 1 行: (201402050031, 200612120002, 'Inspected & Permitted', '2014-02-05', '14:35:00', '15:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 2 行: (201402240046, 201401230008, 'Inspected & Permitted', '2014-02-10', '11:00:00', '13:00:00', 2, 'Reispt', 'Reinspection', 6, '2014-03-10')
+  第 3 行: (201503050026, 200702210006, 'Inspected & Permitted', '2015-03-05', '15:05:00', '16:50:00', 2, 'Reispt', 'Reinspection', 1, '2015-03-19')
+  第 4 行: (201504170046, 41959, 'Inspected & Permitted', '2015-04-17', '14:10:00', '15:10:00', 1, 'Ini', 'Initial', 2, None)
+  第 5 行: (201506230023, 201004150010, 'Inspected & Permitted', '2015-06-23', '11:30:00', '13:50:00', 1, 'Ini', 'Initial', 1, '2015-06-26')
+  第 6 行: (201509180034, 56328, 'Inspected & Permitted', '2015-09-18', '13:00:00', '14:00:00', 1, 'Ini', 'Initial', 2, None)
+  第 7 行: (201511030050, 201510290005, 'Inspected & Permitted', '2015-11-03', '14:10:00', '15:15:00', 1, 'Ini', 'Initial', 1, '2015-11-10')
+  第 8 行: (201602040029, 45266, 'Inspected & Permitted', '2016-02-04', '11:00:00', '13:45:00', 1, 'Ini', 'Initial', 2, None)
+  第 9 行: (201604010082, 201503160008, 'Inspected & Permitted', '2016-04-01', '15:40:00', '16:35:00', 1, 'Ini', 'Initial', 2, None)
+  第 10 行: (201605120060, 201404100004, 'Inspected & Permitted', '2016-05-12', '15:45:00', '16:30:00', 1, 'Ini', 'Initial', 1, '2016-05-24')
+  第 11 行: (201607210031, 200103010002, 'Inspected & Permitted', '2016-07-21', '14:35:00', '15:10:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 12 行: (201608300029, 201410310004, 'Inspected & Permitted', '2016-08-30', '11:50:00', '13:10:00', 52, 'Ini, Comp', 'Initial, Complaint', 2, None)
+  第 13 行: (201704140017, 201003080001, 'Inspected & Permitted', '2017-04-14', '11:00:00', '11:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 14 行: (201709120036, 201501200001, 'Inspected & Permitted', '2017-09-12', '13:15:00', '13:50:00', 2, 'Reispt', 'Reinspection', 2, None)
+  第 15 行: (201709190038, 201608190005, 'Inspected & Permitted', '2017-09-19', '13:15:00', '14:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 16 行: (201801030011, 201611080007, 'Inspected & Permitted', '2018-01-03', '10:45:00', '12:20:00', 1, 'Ini', 'Initial', 1, '2018-01-10')
+  第 17 行: (201806290025, 44518, 'Inspected & Permitted', '2018-06-29', '12:30:00', '13:50:00', 1, 'Ini', 'Initial', 2, None)
+  第 18 行: (201909170062, 201202210003, 'Inspected & Permitted', '2019-09-17', '15:00:00', '16:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 19 行: (202206070020, 201411210003, 'Inspected & Permitted', '2022-06-07', '13:10:00', '15:05:00', 1, 'Ini', 'Initial', 1, '2022-06-10')
+  第 20 行: (202209220031, 201202070001, 'Inspected & Permitted', '2022-09-22', '17:15:00', '18:55:00', 52, 'Ini, Comp', 'Initial, Complaint', 1, '2022-10-06')
+  第 21 行: (202308090011, 200401130003, 'Inspected & Permitted', '2023-08-09', '12:15:00', '14:15:00', 1, 'Ini', 'Initial', 2, None)
+  第 22 行: (202312200021, 202310160002, 'Inspected & Permitted', '2023-12-20', '14:45:00', '16:20:00', 1, 'Ini', 'Initial', 2, None)
+  第 23 行: (202403270005, 53239, 'Inspected & Permitted', '2024-03-27', '10:30:00', '12:30:00', 1, 'Ini', 'Initial', 2, None)
+  第 24 行: (202404110005, 201401100002, 'Inspected & Permitted', '2024-04-11', '10:30:00', '01:15:00', 1, 'Ini', 'Initial', 3, '2024-04-25')
+--------------------------------------------------------------------------------
+
+📋 第 3 个表 - 表名: Food-Facility-Restaurant-Inspection-Violations
+--------------------------------------------------------------------------------
+表头（列名）: ['violation_id', 'encounter', 'id', 'description_new', 'rating', 'low', 'medium', 'high']
+表内容:
+  第 1 行: (147902755, 201402050031, 200612120002, 'Probe-Type Thermometers', 'V', 'F', 'F', 'F')
+  第 2 行: (147902877, 201402240046, 201401230008, 'Cold Holding Temperatures', 'V', 'F', 'F', 'T')
+  第 3 行: (147930964, 201504170046, 41959, 'Handwashing Facilities', 'V', 'T', 'F', 'F')
+  第 4 行: (147934563, 201503050026, 200702210006, 'Toilet Room', 'V', 'T', 'F', 'F')
+  第 5 行: (147945269, 201506230023, 201004150010, 'General Premises', 'V', 'T', None, None)
+  第 6 行: (147956070, 201509180034, 56328, 'Hot Holding Temperatures', 'V', 'F', 'F', 'T')
+  第 7 行: (147966497, 201511030050, 201510290005, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 8 行: (147982851, 201602040029, 45266, 'Facilities to Maintain Temperature', 'V', 'F', 'F', 'F')
+  第 9 行: (147986891, 201605120060, 201404100004, 'General Premises', 'V', 'T', None, None)
+  第 10 行: (147987279, 201604010082, 201503160008, 'Walls and ceilings', 'V', 'T', None, None)
+  第 11 行: (147999320, 201607210031, 200103010002, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 12 行: (148004668, 201608300029, 201410310004, 'Certified Food Protection Manager', 'V', 'T', 'F', 'F')
+  第 13 行: (148037183, 201704140017, 201003080001, 'Walls and ceilings', 'V', 'T', None, None)
+  第 14 行: (148041856, 201709190038, 201608190005, 'Cross-Contamination Prevention', 'V', 'F', 'T', 'F')
+  第 15 行: (148044988, 201709120036, 201501200001, 'Walls and ceilings', 'V', 'T', None, None)
+  第 16 行: (148055591, 201801030011, 201611080007, 'Contamination Prevention - Food, Utensils and Equipment', 'V', 'T', 'F', 'F')
+  第 17 行: (148127836, 201806290025, 44518, 'Fabrication, Design, Installation and Maintenance', 'V', 'T', 'F', 'F')
+  第 18 行: (148166993, 201909170062, 201202210003, 'Hot Holding Temperatures', 'V', 'F', 'F', 'T')
+  第 19 行: (148205479, 202312200021, 202310160002, 'Plumbing', 'V', 'T', 'F', 'F')
+  第 20 行: (148219722, 202403270005, 53239, 'Plumbing', 'V', 'T', 'F', 'F')
+  第 21 行: (148224097, 202404110005, 201401100002, 'Plumbing', 'V', 'T', 'F', 'F')
+  第 22 行: (148231471, 202206070020, 201411210003, 'Toilet Room', 'V', 'T', 'F', 'F')
+  第 23 行: (148231572, 202308090011, 200401130003, 'Toxic Items', 'V', 'F', 'T', 'F')
+  第 24 行: (148232644, 202209220031, 201202070001, 'Pest Management', 'V', 'T', 'F', 'F')
+--------------------------------------------------------------------------------
+
+====================================================================================================
+
