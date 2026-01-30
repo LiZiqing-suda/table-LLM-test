@@ -8,11 +8,11 @@
     
     （2）每个数据集里面有若干个目录，以arxiv号命名，每个目录对应一篇论文的提取结果。
     
-    （3）每个以arxiv号命名的目录下有一个captions.txt文件，记录表格的标题名称。然后有多个csv文件，是表格的内容。表格的编号是按html里
+    （3）每个以arxiv号命名的目录下有一个captions.txt文件，记录表格的标题名称。然后有多个csv文件，是表格的内容。表格的编号是按html里面的先后顺序进行
     
-    面的先后顺序进行的编号，正常情况下也就是pdf文件当中的先后顺序。还有多个txt文件，除了captions.txt以外均为论文中引用到这些表格的语
+    的编号，正常情况下也就是pdf文件当中的先后顺序。还有多个txt文件，除了captions.txt以外均为论文中引用到这些表格的语句，一行一句。如Table_1.txt为所
     
-    句，一行一句。如Table_1.txt为所有引用到Table 1的句子。还有个多表引用句子的txt，为Multi-table.txt。每个句子只会在一个txt文件中出现。
+    有引用到Table 1的句子。还有个多表引用句子的txt，为Multi-table.txt。每个句子只会在一个txt文件中出现。
 
     （4）csv的命名方式是Table_num.csv（如Table_2.csv、Table_14.csv），
 
