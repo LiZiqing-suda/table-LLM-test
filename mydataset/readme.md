@@ -16,9 +16,9 @@
 
     （4）csv的命名方式是Table_num.csv（如Table_2.csv、Table_14.csv），
 
-v1：初步进行了提取，还没有做验证和整理，仅提取了表格内容及其对应的标题。表格内容可能有因为html渲染语法的原因出现少数提取错误的情况，后续需人工筛选验证。暂未对文章引用这些表格的语句进行提取。
+**v1：** 初步进行了提取，还没有做验证和整理，仅提取了表格内容及其对应的标题。表格内容可能有因为html渲染语法的原因出现少数提取错误的情况，后续需人工筛选验证。暂未对文章引用这些表格的语句进行提取。
 
-v2：对html内所有引用到这些表格的语句进行了提取。具体提取的内容是：从提到该表格的句子开始，到这一段结束，均归类到该表格对应语句的txt内。如果提到多表格，则优先放在Multi-table.txt。每个句子只会在一个txt文件中出现。
+**v2：** 对html内所有引用到这些表格的语句进行了提取。具体提取的内容是：从提到该表格的句子开始，到这一段结束，均归类到该表格对应语句的txt内。如果提到多表格，则优先放在Multi-table.txt。每个句子只会在一个txt文件中出现。
 
 如It is difficult for non-expert users to assess the accuracy of the generated code, we automatically utilize the Example information to verify the accuracy of the CoNN model - checking whether the output result of the input sequence is exactly consistent with the Example. The results shown in **Table 4** demonstrate that generally 2 Examples are sufficient to select an accurate CoNN model, which means it is very easy for users to use and demonstrate. However, considering the varying difficulty of different tasks, we still suggest non-expert users provide more Examples to ensure the accuracy of the generated CoNN.
 
@@ -62,3 +62,10 @@ v2：对html内所有引用到这些表格的语句进行了提取。具体提�
           11-15个单词：644句（占比6.28%）
           16-20个单词：539句（占比5.26%）
           21以上个单词：8527句（占比83.18%）
+
+## **引用句子分级**
+
+        1. S级（优质）：直接聚焦表格内容，包含对比/数值/趋势/结论，可直接作为事实验证句/QA问题原型（如：Model A 比 Model B 准确率高 3.2%）。所有需要修改内容和清理无关括号或分句才能用作事实验证和QA问题素材的都不能是S级。
+        2. A级（有效）：聚焦表格内容，无无关信息，但无具体对比/数值（如：LoRA+RLHF 是所有微调策略中效果最好的）
+        3. B级（弱相关）：核心内容与表格相关，但夹杂无关信息（如结合论文其他实验、方法描述），或表述模糊（如：Table 2 展示了我们的实验结果，该结果支撑了本文的核心论点）
+        4. C级（无效）：仅提及表格编号，无任何与表格内容相关的信息（如：Table 2 的结果见下文分析、我们在 Table 2 中报告了相关数据）
