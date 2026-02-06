@@ -72,4 +72,9 @@
 
 调用gpt-5-mini模型（这一步并不涉及表格精确定位和多步推理的任务，mini版足够）的api对引用的句子进行分级，输入的表格格式为markdown格式，更方便模型对表格进行理解。结果为table_citation_grade.jsonl。
 
+统计信息如下：
+
+<img width="1443" height="602" alt="image" src="https://github.com/user-attachments/assets/41215085-8c3b-4456-8183-eaf0a837c38b" />
+
+
 再使用开源模型计算困惑度，对分级结果进行验证。
