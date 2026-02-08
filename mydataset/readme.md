@@ -132,10 +132,9 @@ You are an expert academic paper analysis assistant.
 
 统计信息如下：
 
-<img width="1443" height="602" alt="image" src="https://github.com/user-attachments/assets/41215085-8c3b-4456-8183-eaf0a837c38b" />
-
+<img width="1439" height="652" alt="image" src="https://github.com/user-attachments/assets/b605f00a-bb9d-4e43-a9ec-52278d9bc591" />
 
 
 再使用开源模型计算困惑度，对分级结果进行验证。
 
-首先使用8bit量化的qwen3-72B-Instruct模型。
+首先使用8bit量化的qwen2.5-72B-Instruct模型。
