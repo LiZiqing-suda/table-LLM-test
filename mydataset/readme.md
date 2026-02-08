@@ -18,7 +18,9 @@
 
 **v1：** 初步进行了提取，还没有做验证和整理，仅提取了表格内容及其对应的标题。表格内容可能有因为html渲染语法的原因出现少数提取错误的情况，后续需人工筛选验证。暂未对文章引用这些表格的语句进行提取。
 
-**v2：** 对html内所有引用到这些表格的语句进行了提取。具体提取的内容是：从提到该表格的句子开始，到这一段结束，均归类到该表格对应语句的txt内。如果提到多表格，则优先放在Multi-table.txt。每个句子只会在一个txt文件中出现。且表格新增了markdown格式。
+**v2：** 表格提取有错，忽略。
+
+**v3：** 对html内所有引用到这些表格的语句进行了提取。具体提取的内容是：从提到该表格的句子开始，到这一段结束，均归类到该表格对应语句的txt内。如果提到多表格，则优先放在Multi-table.txt。每个句子只会在一个txt文件中出现。且表格新增了markdown格式。
 
 如It is difficult for non-expert users to assess the accuracy of the generated code, we automatically utilize the Example information to verify the accuracy of the CoNN model - checking whether the output result of the input sequence is exactly consistent with the Example. The results shown in **Table 4** demonstrate that generally 2 Examples are sufficient to select an accurate CoNN model, which means it is very easy for users to use and demonstrate. However, considering the varying difficulty of different tasks, we still suggest non-expert users provide more Examples to ensure the accuracy of the generated CoNN.
 
@@ -70,7 +72,63 @@
         3. B级（弱相关）：核心内容与表格相关，但夹杂无关信息（如结合论文其他实验、方法描述），或表述模糊（如：Table 2 展示了我们的实验结果，该结果支撑了本文的核心论点）
         4. C级（无效）：仅提及表格编号，无任何与表格内容相关的信息（如：Table 2 的结果见下文分析、我们在 Table 2 中报告了相关数据）
 
+
 调用gpt-5-mini模型（这一步并不涉及表格精确定位和多步推理的任务，mini版足够）的api对引用的句子进行分级，输入的表格格式为markdown格式，更方便模型对表格进行理解。结果为table_citation_grade.jsonl。
+
+调用大模型的提示词为：
+
+You are an expert academic paper analysis assistant.
+
+        ### Context
+        The user extracts text segments from research papers. 
+        **Crucial Definition**: Each input string is a **Citation Segment**. 
+        1. The segment **begins with the sentence** that cites the target table (e.g., "Table 1"). 
+        2. **Note**: The keyword "Table X" may appear **anywhere** within this first sentence (not necessarily at the very start).
+        3. The segment extends to the end of the paragraph, so it usually contains multiple sentences.
+        
+        ### Task
+        Analyze the **Table Caption**, **Markdown Table Content**, and the **Citation Segment**. 
+        Grade the **entire segment** based on the **most informative sentence** found within it regarding the **Target Table**.
+        
+        ### Grading Logic: The "Highest Priority" Rule (S > A > B > C)
+        Scan the whole segment and apply the highest applicable grade:
+        1. **Priority 1 (Grade S)**: If *any* part of the segment contains specific numerical data, exact comparisons, or trends visible in the Target Table, grade as **S**.
+        2. **Priority 2 (Grade A)**: If no S is found, but the segment contains qualitative conclusions or ranking summaries derived from the Target Table, grade as **A**.
+        3. **Priority 3 (Grade B)**: If no S or A, but contains mixed info (hyperparameters, setup) or structural descriptions, grade as **B**.
+        4. **Priority 4 (Grade C)**: Only grade **C** if the *entire* segment contains nothing but navigational pointers (e.g., "See Table 1 for details").
+        
+        ### Grading Rubric (Strict)
+        
+        **1. Grade S (Substantiated Fact)**
+        *   **Criteria**: Explicit citation of **specific numbers**, **comparisons** (e.g., "2.5% improvement"), or **verifiable trends** from the table.
+        *   **Anti-Hallucination**: Do not grade S if the numbers come from *other* tables mentions in the same paragraph. Focus ONLY on the Target Table.
+        *   *Example*: "As seen in Table 1, our method achieves 95% accuracy." (S)
+        
+        **2. Grade A (Valid Conclusion)**
+        *   **Criteria**: Qualitative conclusions (e.g., "best performance", "outperforms baseline") derived from the table **without** quoting specific numbers.
+        *   *Example*: "The results in Table 1 demonstrate the robustness of our approach." (A)
+        
+        **3. Grade B (Weak/Contextual)**
+        *   **Criteria**: Descriptions of experimental setup, hyperparameters, or table structure.
+        *   *Example*: "Table 1 lists the datasets and learning rates used." (B)
+        
+        **4. Grade C (Navigational)**
+        *   **Criteria**: Pure pointers with no semantic information.
+        *   *Example*: "Please refer to Table 1." (C)
+        
+        ### Input Format
+        The user will provide three parts separated by XML tags:
+        1. <caption_info>: The target table number and title.
+        2. <table_content>: The raw Markdown table.
+        3. <segments_to_grade>: A list of "Index: Text Segment".
+        
+        ### Output Requirements
+        1. Output **ONLY** a valid JSON array. No markdown formatting.
+        2. Keys: "index" (integer) and "grade" (string: "S", "A", "B", "C").
+        3. **CRITICAL**: Preserve original indices. Output order must match input.
+        
+        ### Output Example
+        [{"index": 0, "grade": "C"}, {"index": 2, "grade": "S"}]
 
 统计信息如下：
 
