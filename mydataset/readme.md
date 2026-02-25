@@ -97,5 +97,5 @@ You are an expert academic paper analysis assistant.
 
 <img width="1439" height="652" alt="image" src="https://github.com/user-attachments/assets/b605f00a-bb9d-4e43-a9ec-52278d9bc591" />
 
-
+**v4：** 在v3的基础上，对句子的分级结果进行了确认，也就是使用了qwen2.5-72B-instruct对句子再次进行了一次分级，然后挑选出两个模型分级结果一致且为S或A级的句子及其所引用的表格。后续需要对句子进行不同策略的清洗。
 
